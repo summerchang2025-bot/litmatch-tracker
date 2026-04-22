@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Litmatch 情报跟踪站</title>
+  <style>
+    :root {
+      --bg: #0f0f23;
+      --bg-card: #16162a;
+      --bg-card-hover: #1e1e3a;
+      --border: #2a2a50;
+      --text: #e0e0f0;
+      --text-dim: #8a8ab5;
+      --accent: #ff6b6b;
+      --accent2: #4ecdc4;
+      --accent3: #ffe66d;
+      --law: #e74c3c;
+      --policy: #3498db;
+      --industry: #9b59b6;
+      --enforcement: #e67e22;
+      --store: #2ecc71;
+      --impact-critical: #ff4757;
+      --impact-high: #ff6348;
+      --impact-medium: #ffa502;
+      --impact-low: #7bed9f;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    /* 顶部导航 */
+    .navbar {
+      background: rgba(15, 15, 35, 0.95);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(10px);
+    }
+
+    .navbar-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .brand-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--text), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .brand-sub {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      margin-top: -2px;
+    }
+
+    /* 控制区 */
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .refresh-btn {
+      background: linear-gradient(135deg, var(--accent), #ff8e8e);
+      color: #fff;
+      border: none;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .refresh-btn:hover:not(:disabled) {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    }
+
+    .refresh-btn:disabled {
+      opacity: 0.7;
+      cursor: wait;
+    }
+
+    .time-info {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      text-align: right;
+    }
+
+    .time-info .refresh-time {
+      color: var(--accent2);
+      font-weight: 600;
+    }
+
+    .time-info .time-range {
+      color: var(--accent3);
+    }
+
+    /* 主容器 */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    /* 筛选栏 */
+    .filter-bar {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .filter-section {
+      margin-bottom: 1rem;
+    }
+
+    .filter-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .filter-label {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
+    /* 分类标签 */
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tag {
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      cursor: pointer;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: var(--text-dim);
+      transition: all 0.2s;
+      user-select: none;
+    }
+
+    .tag:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text);
+    }
+
+    .tag.active {
+      background: var(--accent);
+      color: #fff;
+      border-color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* 地区选择 */
+    .region-select {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      font-size: 0.9rem;
+      cursor: pointer;
+      outline: none;
+    }
+
+    .region-select option {
+      background: var(--bg-card);
+      color: var(--text);
+    }
+
+    /* 结果计数 */
+    .results-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1rem;
+    }
+
+    .results-count {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+    }
+
+    /* 情报卡片 */
+    .card-container {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .intel-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      transition: all 0.2s;
+    }
+
+    .intel-card:hover {
+      background: var(--bg-card-hover);
+      border-color: #3a3a6a;
+      transform: translateX(3px);
+    }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 0.75rem;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .meta {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .country {
+      font-weight: 600;
+      color: var(--accent2);
+      font-size: 0.9rem;
+    }
+
+    .date {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+    }
+
+    .badges {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .badge.category-law { background: rgba(231, 76, 60, 0.15); color: var(--law); }
+    .badge.category-policy { background: rgba(52, 152, 219, 0.15); color: var(--policy); }
+    .badge.category-industry { background: rgba(155, 89, 182, 0.15); color: var(--industry); }
+    .badge.category-enforcement { background: rgba(230, 126, 34, 0.15); color: var(--enforcement); }
+    .badge.category-store { background: rgba(46, 204, 113, 0.15); color: var(--store); }
+    .badge.type { background: rgba(255, 255, 255, 0.06); color: var(--text-dim); border: 1px solid var(--border); }
+
+    .badge.impact-critical { background: rgba(255, 71, 87, 0.15); color: var(--impact-critical); }
+    .badge.impact-high { background: rgba(255, 99, 72, 0.15); color: var(--impact-high); }
+    .badge.impact-medium { background: rgba(255, 165, 2, 0.15); color: var(--impact-medium); }
+    .badge.impact-low { background: rgba(123, 237, 159, 0.15); color: var(--impact-low); }
+
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+      line-height: 1.4;
+    }
+
+    .card-summary {
+      font-size: 0.9rem;
+      color: var(--text-dim);
+      line-height: 1.7;
+      margin-bottom: 0.75rem;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      padding-top: 0.75rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .keywords {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .keyword {
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 0.15rem 0.5rem;
+      border-radius: 4px;
+    }
+
+    .source {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+
+    .source-link {
+      color: var(--accent2);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .source-link:hover {
+      text-decoration: underline;
+    }
+
+    /* 空状态 */
+    .no-results {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-dim);
+      display: none;
+    }
+
+    .no-results-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      opacity: 0.5;
+    }
+
+    .no-results h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+
+    /* 页脚 */
+    .footer {
+      text-align: center;
+      padding: 3rem 2rem;
+      color: var(--text-dim);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    .footer a {
+      color: var(--accent2);
+      text-decoration: none;
+    }
+
+    /* 响应式 */
+    @media (max-width: 768px) {
+      .navbar-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .controls {
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      .time-info {
+        text-align: left;
+        width: 100%;
+      }
+
+      .container {
+        padding: 1rem;
+      }
+
+      .card-header {
+        flex-direction: column;
+      }
+
+      .badges {
+        width: 100%;
+      }
+
+      .card-footer {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* 滚动条 */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #3a3a6a;
+    }
+
+    /* 小提示 */
+    .hint-bar {
+      background: rgba(78, 205, 196, 0.08);
+      border: 1px solid rgba(78, 205, 196, 0.2);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      margin-bottom: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .hint-bar strong {
+      color: var(--accent2);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 导航栏 -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <div class="brand">
+        <div class="brand-icon">🔥</div>
+        <div>
+          <div class="brand-title">Litmatch 情报跟踪站</div>
+          <div class="brand-sub">东南亚 & 拉美社交应用监管动态监测</div>
+        </div>
+      </div>
+      <div class="controls">
+        <button id="refresh-btn" class="refresh-btn">🔄 手动刷新</button>
+        <div class="time-info">
+          <div>上次刷新：<span class="refresh-time" id="refresh-time">--</span></div>
+          <div class="time-range" id="time-range">--</div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 主内容 -->
+  <div class="container">
+
+    <!-- 提示 -->
+    <div class="hint-bar">
+      💡 <strong>使用说明：</strong>点击「手动刷新」更新数据窗口。系统默认显示<strong>刷新时刻往前推两周</strong>内的情报。支持按分类和地区筛选。
+    </div>
+
+    <!-- 筛选栏 -->
+    <div class="filter-bar">
+      <div class="filter-section">
+        <div class="filter-label">信息分类</div>
+        <div class="tags" id="category-tags">
+          <span class="tag active" data-category="全部">全部</span>
+          <span class="tag" data-category="法律法规">法律法规</span>
+          <span class="tag" data-category="政府政策">政府政策</span>
+          <span class="tag" data-category="同业信息">同业信息</span>
+          <span class="tag" data-category="执法行动">执法行动</span>
+          <span class="tag" data-category="应用市场政策">应用市场政策</span>
+        </div>
+      </div>
+      <div class="filter-section">
+        <div class="filter-label">地区 / 市场</div>
+        <select class="region-select" id="region-select">
+          <option value="ALL">全部地区</option>
+          <option value="PH">🇵🇭 菲律宾</option>
+          <option value="ID">🇮🇩 印度尼西亚</option>
+          <option value="TH">🇹🇭 泰国</option>
+          <option value="MY">🇲🇾 马来西亚</option>
+          <option value="VN">🇻🇳 越南</option>
+          <option value="BR">🇧🇷 巴西</option>
+          <option value="GP">🤖 Google Play</option>
+          <option value="AS">🍎 App Store</option>
+          <option value="GL">🌍 全球</option>
+          <option value="SEA">🌏 东南亚</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- 结果头部 -->
+    <div class="results-header">
+      <span class="results-count" id="results-count">加载中...</span>
+    </div>
+
+    <!-- 卡片容器 -->
+    <div class="card-container" id="card-container"></div>
+
+    <!-- 空状态 -->
+    <div class="no-results" id="no-results">
+      <div class="no-results-icon">📭</div>
+      <h3>该时间窗口内暂无情报</h3>
+      <p>请尝试点击「手动刷新」或调整筛选条件</p>
+    </div>
+
+  </div>
+
+  <!-- 页脚 -->
+  <footer class="footer">
+    <p>Litmatch 情报跟踪站 · 数据来源：各国政府官网、律所公告、应用市场政策中心</p>
+    <p style="margin-top:0.3rem;">⚠️ 本页信息基于公开资料整理，仅供参考，不构成法律意见</p>
+  </footer>
+
+  <!-- 脚本 -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
