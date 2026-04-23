@@ -216,12 +216,16 @@
   }
 
   function getCategorySlug(cat) {
-    const map = {
+    var map = {
       '法律法规': 'law',
       '政府政策': 'policy',
       '同业信息': 'industry',
       '执法行动': 'enforcement',
-      '应用市场政策': 'store'
+      '应用市场政策': 'store',
+      '内容合规': 'content',
+      '未成年合规': 'minor',
+      '反洗钱': 'aml',
+      '税务合规': 'tax'
     };
     return map[cat] || 'other';
   }
