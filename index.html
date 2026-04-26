@@ -586,7 +586,298 @@
   </footer>
 
   <!-- 脚本 -->
-  <script src="data.js?v=3"></script>
-  <script src="app.js?v=3"></script>
+  <script>
+// ===== DATA.JS 内联 =====
+var TRACKER_DATA = [
+  {
+    id: "VN-002",
+    title: "越南修订互联网服务与在线信息管理法令（第 116/2026/NĐ-CP 号）",
+    date: "2026-04-08",
+    country: "越南",
+    countryCode: "VN",
+    category: "法律法规",
+    type: "法律修订",
+    summary: "政府于 2026 年 4 月 2 日发布第 116/2026/NĐ-CP 号法令，修订第 147/2024/NĐ-CP 号法令中关于互联网服务和在线信息管理的条款，2026 年 4 月 8 日生效。核心变化：1）域名注册实名制；2）域名管理机构须为越南组织/企业；3）社交媒体必须在 24 小时内删除违规内容；4）16 岁以下禁止创建社交媒体账户；5）社交平台须向用户公开内容分发算法；6）用户须通过手机号或身份证号实名验证后才能发帖、评论、直播；7）平台必须向主管部门提供用户信息用于调查。",
+    source: "LuatVietnam.vn / 越南法律网",
+    sourceUrl: "https://luatvietnam.vn/doanh-nghiep/nghi-dinh-116-2026-nd-cp-sua-doi-thu-tuc-hanh-chinh-trong-san-xuat-kinh-doanh-431035-d1.html",
+    impact: "高",
+    tags: ["社交媒体", "实名验证", "算法透明", "儿童保护", "内容审核"]
+  },
+  {
+    id: "PH-001",
+    title: "菲律宾 SIM 卡实名注册法（RA 11934）持续执行",
+    date: "2022-10-10",
+    country: "菲律宾",
+    countryCode: "PH",
+    category: "法律法规",
+    type: "法律生效",
+    summary: "《SIM 卡注册法》(Republic Act No. 11934) 于 2022 年 10 月 10 日由总统签署生效，2023 年 7 月完成未注册 SIM 停用执行。该法要求所有 SIM 卡（含预付卡）实名注册后方可激活，外国用户须提交护照及菲律宾住址证明。所有社交/约会应用依赖的短信验证系统均须适配该实名制环境。",
+    source: "Official Gazette of the Philippines / NTC",
+    sourceUrl: "https://www.officialgazette.gov.ph",
+    impact: "高",
+    tags: ["SIM 注册", "实名认证", "短信验证", "RA 11934"]
+  },
+  {
+    id: "PH-004",
+    title: "菲律宾《第 12023 号共和国法案》对外国数字服务征收 12% VAT",
+    date: "2025-06-02",
+    country: "菲律宾",
+    countryCode: "PH",
+    category: "税务合规",
+    type: "税法生效",
+    summary: "菲律宾《第 12023 号共和国法案》（Republic Act No. 12023，即《数字服务增值税法》）于 2024 年 10 月 2 日由总统签署，2025 年 6 月 2 日正式生效。该法对外国非居民数字服务提供商（NDSP）在菲律宾境内消费的数字服务征收 12% 增值税（VAT）。年销售额超过 300 万比索的非居民企业需在菲律宾税务局（BIR）注册并缴纳 VAT。",
+    source: "菲律宾税务局 (BIR) / 第 12023 号共和国法案",
+    sourceUrl: "https://www.bir.gov.ph",
+    impact: "高",
+    tags: ["数字服务税", "VAT", "NDSP", "12%", "RA 12023"]
+  },
+  {
+    id: "ID-001",
+    title: "印尼 DPI 法（Penyelenggara Sistem Elektronik 注册制度）",
+    date: "2022-10-17",
+    country: "印度尼西亚",
+    countryCode: "ID",
+    category: "政府政策",
+    type: "法律生效",
+    summary: "印尼《信息与电子交易法》（UU ITE）修正案及 PM Kominfo No. 5/2020 确立了私营电子系统提供商（PSE）注册制度。所有在印尼运营的在线平台必须在通信与数字事务部（Kemkomdigi，原 Kominfo）数据库中注册，未注册平台面临被封锁风险（Pasal 7）。平台还须配合执法部门的数据调取请求（Pasal 21），否则可被暂停或撤销 PSE 证书（Pasal 45）。",
+    source: "印尼通信与数字事务部 (Kemkomdigi)",
+    sourceUrl: "https://komdigi.go.id",
+    impact: "高",
+    tags: ["PSE 注册", "平台注册", "数据调取", "DPI"]
+  },
+  {
+    id: "MY-001",
+    title: "马来西亚社交媒体牌照制度生效",
+    date: "2025-01-01",
+    country: "马来西亚",
+    countryCode: "MY",
+    category: "法律法规",
+    type: "新法生效",
+    summary: "马来西亚《1998 年通信与多媒体法》修正案及 MCMC 监管框架于 2025 年 1 月 1 日生效。在马来西亚拥有至少 800 万用户的互联网消息服务和社交媒体服务提供商必须向马来西亚通信与多媒体委员会（MCMC）申请 A 级应用服务提供商（ASP）牌照。Facebook、Instagram、TikTok、X 等主流平台已获牌照。未持牌运营属违法行为。",
+    source: "马来西亚通信与多媒体委员会 (MCMC)",
+    sourceUrl: "https://www.mcmc.gov.my",
+    impact: "高",
+    tags: ["牌照制度", "ASP", "平台注册", "800万用户"]
+  },
+  {
+    id: "MY-002",
+    title: "马来西亚《2025年网络安全法》正式生效",
+    date: "2026-01-01",
+    country: "马来西亚",
+    countryCode: "MY",
+    category: "法律法规",
+    type: "新法生效",
+    summary: "马来西亚《2025年网络安全法》（Online Safety Act 2025，Act 866）于 2025 年 5 月 6 日获皇家批准，2026 年 1 月 1 日正式生效。该法要求持牌应用服务提供商（ASP）和内容应用服务提供商（CASP）采取措施降低用户接触有害内容的风险、建立有害内容举报机制、保护儿童用户网络安全、制定网络安全计划等。未遵守法定义务的提供商面临最高 1000 万林吉特罚款。",
+    source: "马来西亚国家网络安全局 (NACSA) / Allen & Gledhill 律所",
+    sourceUrl: "https://www.allenandgledhill.com",
+    impact: "高",
+    tags: ["网络安全法", "有害内容", "儿童保护", "罚款"]
+  },
+  {
+    id: "TR-001",
+    title: "土耳其《社交媒体法》（第 7253 号法）要求本地代表和数据存储",
+    date: "2020-07-31",
+    country: "土耳其",
+    countryCode: "TR",
+    category: "法律法规",
+    type: "法律执行",
+    summary: "土耳其第 7253 号法（Law No. 7253）于 2020 年 7 月 31 日通过，修订第 5651 号《互联网法》。该法要求日访问量超过 100 万的社交网络提供商必须在土耳其任命至少一名本地代表（自然人须为土耳其公民），并将从土耳其用户收集的数据存储在土耳其境内。平台须在 48 小时内响应内容移除申请，并每半年向信息技术和通信管理局（BTK）提交报告。未遵守的平台面临从 1000 万土耳其里拉起罚、广告禁令和最高 90% 带宽限制。",
+    source: "土耳其信息技术和通信管理局 (BTK)",
+    sourceUrl: "https://www.btk.gov.tr",
+    impact: "高",
+    tags: ["本地代表", "数据本地化", "带宽限制", "7253号法"]
+  },
+  {
+    id: "AE-001",
+    title: "阿联酋加强 AML/CFT 执法，虚拟资产为重点领域",
+    date: "2025-01-01",
+    country: "阿联酋",
+    countryCode: "AE",
+    category: "反洗钱",
+    type: "执法加强",
+    summary: "阿联酋在 2024 年 2 月被 FATF 移出灰名单后，继续加速 AML/CFT 改革。2024 年 8 月修订反洗钱法，将关键机构提升至内阁和总统府级别。2024-2027 年国家 AML/CFT 战略明确将虚拟资产和新型网络犯罪列为重点风险领域。迪拜虚拟资产监管局（VARA）要求所有虚拟资产服务提供商（VASP）实施客户尽职调查、持续监控、可疑活动报告及旅行规则合规。",
+    source: "阿联酋央行 (CBUAE) / FATF / VARA",
+    sourceUrl: "https://www.cbuae.gov.ae",
+    impact: "中",
+    tags: ["AML", "FATF", "虚拟资产", "VARA", "灰名单"]
+  },
+  {
+    id: "GP-001",
+    title: "Google Play 2026年4月重大政策更新",
+    date: "2026-04-15",
+    country: "Google Play",
+    countryCode: "GP",
+    category: "应用市场政策",
+    type: "政策更新",
+    summary: "Google Play 于 2026 年 4 月 15 日发布重大政策更新。核心变化：1）联系人权限 — 非核心功能应用必须使用 Android Contact Picker 而非请求完整 READ_CONTACTS 权限（最早执行 2026-05-15）；2）位置权限 — 必须采用位置按钮（location button）作为一次性精确位置访问的推荐方式（最早执行 2026-05-15）；3）账户转移 — 必须通过 Play Console 官方'Transfer ownership'流程进行，含 7 天安全延迟期（截止 2026-05-27）；4）预测市场试点 — 允许真实货币交易的预测市场应用须于 2026-06-01 前注册试点计划。",
+    source: "Google Play Policy Center / ASOWorld",
+    sourceUrl: "https://asoworld.com/blog/april-2026-google-play-policy-updates/",
+    impact: "极高",
+    tags: ["联系人权限", "位置按钮", "账户转移", "预测市场"]
+  }
+];
+
+// ===== APP.JS 内联 =====
+(function () {
+  'use strict';
+
+  const CATEGORIES = ['全部', '法律法规', '政府政策', '同业信息', '执法行动', '应用市场政策'];
+  let state = { currentCategory: '全部', currentRegion: 'ALL', refreshTime: null, twoWeeksAgo: null };
+  let $refreshBtn, $refreshTime, $timeRange, $categoryTags, $regionSelect, $resultsCount, $cardContainer, $noResults;
+
+  function init() {
+    cacheElements();
+    bindEvents();
+    doRefresh();
+  }
+
+  function cacheElements() {
+    $refreshBtn = document.getElementById('refresh-btn');
+    $refreshTime = document.getElementById('refresh-time');
+    $timeRange = document.getElementById('time-range');
+    $categoryTags = document.getElementById('category-tags');
+    $regionSelect = document.getElementById('region-select');
+    $resultsCount = document.getElementById('results-count');
+    $cardContainer = document.getElementById('card-container');
+    $noResults = document.getElementById('no-results');
+  }
+
+  function bindEvents() {
+    if ($refreshBtn) {
+      $refreshBtn.addEventListener('click', function () {
+        $refreshBtn.disabled = true;
+        $refreshBtn.textContent = '刷新中...';
+        setTimeout(function () {
+          doRefresh();
+          $refreshBtn.disabled = false;
+          $refreshBtn.textContent = '🔄 手动刷新';
+        }, 600);
+      });
+    }
+    if ($categoryTags) {
+      $categoryTags.addEventListener('click', function (e) {
+        if (e.target.classList.contains('tag')) {
+          state.currentCategory = e.target.dataset.category;
+          renderCategoryTags();
+          renderCards();
+        }
+      });
+    }
+    if ($regionSelect) {
+      $regionSelect.addEventListener('change', function () {
+        state.currentRegion = this.value;
+        renderCards();
+      });
+    }
+  }
+
+  function doRefresh() {
+    const now = new Date();
+    state.refreshTime = now;
+    state.twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+    if ($refreshTime) { $refreshTime.textContent = formatDateTimeCN(now); }
+    if ($timeRange) { $timeRange.textContent = '显示全部情报 · 两周内更新标记为 🆕 新'; }
+    renderCategoryTags();
+    renderCards();
+  }
+
+  function formatDateTimeCN(date) {
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    const h = String(date.getHours()).padStart(2, '0');
+    const min = String(date.getMinutes()).padStart(2, '0');
+    return y + '-' + m + '-' + d + ' ' + h + ':' + min;
+  }
+
+  function getFilteredData() {
+    if (!window.TRACKER_DATA) return [];
+    return window.TRACKER_DATA.filter(function (item) {
+      if (state.currentCategory !== '全部' && item.category !== state.currentCategory) return false;
+      if (state.currentRegion !== 'ALL' && item.countryCode !== state.currentRegion) return false;
+      return true;
+    }).sort(function (a, b) { return b.date.localeCompare(a.date); });
+  }
+
+  function renderCategoryTags() {
+    if (!$categoryTags) return;
+    $categoryTags.innerHTML = CATEGORIES.map(function (cat) {
+      const active = cat === state.currentCategory ? 'active' : '';
+      return '<span class="tag ' + active + '" data-category="' + cat + '">' + cat + '</span>';
+    }).join('');
+  }
+
+  function renderCards() {
+    const data = getFilteredData();
+    if ($resultsCount) { $resultsCount.textContent = '共 ' + data.length + ' 条情报'; }
+    if (data.length === 0) {
+      if ($cardContainer) $cardContainer.innerHTML = '';
+      if ($noResults) $noResults.style.display = 'block';
+      return;
+    }
+    if ($noResults) $noResults.style.display = 'none';
+    if ($cardContainer) $cardContainer.innerHTML = data.map(buildCard).join('');
+  }
+
+  function buildCard(item) {
+    const impactClass = getImpactClass(item.impact);
+    const isNew = isWithinTwoWeeks(item.date);
+    const newBadge = isNew ? '<span class="badge new-badge">🆕 新</span>' : '';
+
+    let html = '<div class="intel-card' + (isNew ? ' card-new' : '') + '" data-id="' + item.id + '">';
+    html += '<div class="card-header">';
+    html += '<div class="meta"><span class="country">' + item.country + '</span><span class="date">' + item.date + '</span></div>';
+    html += '<div class="badges">' + newBadge;
+    html += '<span class="badge category-' + getCategorySlug(item.category) + '">' + item.category + '</span>';
+    html += '<span class="badge type">' + item.type + '</span>';
+    html += '<span class="badge impact ' + impactClass + '">影响：' + item.impact + '</span>';
+    html += '</div></div>';
+    html += '<h3 class="card-title">' + escapeHtml(item.title) + '</h3>';
+    html += '<p class="card-summary">' + escapeHtml(item.summary) + '</p>';
+    html += '<div class="card-footer">';
+    html += '<div class="keywords">';
+    html += (item.tags || []).map(function (k) {
+      return '<span class="keyword">#' + escapeHtml(k) + '</span>';
+    }).join('');
+    html += '</div>';
+    html += '<div class="source"><span>来源：' + escapeHtml(item.source) + '</span>';
+    if (item.sourceUrl) {
+      html += '<a href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener" class="source-link">查看原文 ↗</a>';
+    }
+    html += '</div></div></div>';
+    return html;
+  }
+
+  function getImpactClass(level) {
+    if (level === '极高') return 'impact-critical';
+    if (level === '高') return 'impact-high';
+    if (level === '中') return 'impact-medium';
+    return 'impact-low';
+  }
+
+  function getCategorySlug(cat) {
+    var map = { '法律法规': 'law', '政府政策': 'policy', '同业信息': 'industry', '执法行动': 'enforcement', '应用市场政策': 'store', '内容合规': 'content', '未成年合规': 'minor', '反洗钱': 'aml', '税务合规': 'tax' };
+    return map[cat] || 'other';
+  }
+
+  function isWithinTwoWeeks(dateStr) {
+    const target = new Date(dateStr);
+    const now = state.refreshTime || new Date();
+    const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+    return target >= twoWeeksAgo && target <= now;
+  }
+
+  function escapeHtml(text) {
+    if (!text) return '';
+    return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+  </script>
 </body>
 </html>
