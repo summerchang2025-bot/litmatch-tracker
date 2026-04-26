@@ -128,7 +128,7 @@ var TRACKER_DATA = [
     countryCode: "GP",
     category: "应用市场政策",
     type: "政策更新",
-    summary: "Google Play 于 2026 年 4 月 15 日发布重大政策更新。核心变化：1）联系人权限 — 非核心功能应用必须使用 Android Contact Picker 而非请求完整 READ_CONTACTS 权限（最早执行 2026-05-15）；2）位置权限 — 必须采用位置按钮（location button）作为一次性精确位置访问的推荐方式（最早执行 2026-05-15）；3）账户转移 — 必须通过 Play Console 官方"Transfer ownership"流程进行，含 7 天安全延迟期（截止 2026-05-27）；4）预测市场试点 — 允许真实货币交易的预测市场应用须于 2026-06-01 前注册试点计划。",
+    summary: "Google Play 于 2026 年 4 月 15 日发布重大政策更新。核心变化：1）联系人权限 — 非核心功能应用必须使用 Android Contact Picker 而非请求完整 READ_CONTACTS 权限（最早执行 2026-05-15）；2）位置权限 — 必须采用位置按钮（location button）作为一次性精确位置访问的推荐方式（最早执行 2026-05-15）；3）账户转移 — 必须通过 Play Console 官方'Transfer ownership'流程进行，含 7 天安全延迟期（截止 2026-05-27）；4）预测市场试点 — 允许真实货币交易的预测市场应用须于 2026-06-01 前注册试点计划。",
     source: "Google Play Policy Center / ASOWorld",
     sourceUrl: "https://asoworld.com/blog/april-2026-google-play-policy-updates/",
     impactLevel: "极高",
