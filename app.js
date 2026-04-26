@@ -91,6 +91,7 @@
     state.twoWeeksAgo = twoWeeksAgo;
 
     updateTimeDisplay(now, twoWeeksAgo);
+    renderCategoryTags();
     renderCards();
   }
 
@@ -153,7 +154,39 @@
     const isNew = isWithinTwoWeeks(item.date);
     const newBadge = isNew ? '<span class="badge new-badge">🆕 新</span>' : '';
 
-    return '\n      <div class="intel-card' + (isNew ? ' card-new' : '') + '" data-id="' + item.id + '">\n        <div class="card-header">\n          <div class="meta">\n            <span class="country">' + item.country + '</span>\n            <span class="date">' + item.date + '</span>\n          </div>\n          <div class="badges">\n            ' + newBadge + '\n            <span class="badge category-' + getCategorySlug(item.category) + '">' + item.category + '</span>\n            <span class="badge type">' + item.type + '</span>\n            <span class="badge impact ' + impactClass + '">影响：' + item.impact + '</span>\n          </div>\n        </div>\n        <h3 class="card-title">' + escapeHtml(item.title) + '</h3>\n        <p class="card-summary">' + escapeHtml(item.summary) + '</p>\n        <div class="card-footer">\n          <div class="keywords">' + (item.tags || []).map(function (k) {\n            return '<span class="keyword">#' + escapeHtml(k) + '</span>';\n          }).join('') + '</div>\n          <div class="source">\n            <span>来源：' + escapeHtml(item.source) + '</span>\n            ' + (item.sourceUrl ? '<a href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener" class="source-link">查看原文 ↗</a>' : '') + '\n          </div>\n        </div>\n      </div>\n    ';
+    const parts = [];
+    parts.push('<div class="intel-card' + (isNew ? ' card-new' : '') + '" data-id="' + item.id + '">');
+    parts.push('  <div class="card-header">');
+    parts.push('    <div class="meta">');
+    parts.push('      <span class="country">' + item.country + '</span>');
+    parts.push('      <span class="date">' + item.date + '</span>');
+    parts.push('    </div>');
+    parts.push('    <div class="badges">');
+    parts.push('      ' + newBadge);
+    parts.push('      <span class="badge category-' + getCategorySlug(item.category) + '">' + item.category + '</span>');
+    parts.push('      <span class="badge type">' + item.type + '</span>');
+    parts.push('      <span class="badge impact ' + impactClass + '">影响：' + item.impact + '</span>');
+    parts.push('    </div>');
+    parts.push('  </div>');
+    parts.push('  <h3 class="card-title">' + escapeHtml(item.title) + '</h3>');
+    parts.push('  <p class="card-summary">' + escapeHtml(item.summary) + '</p>');
+    parts.push('  <div class="card-footer">');
+    parts.push('    <div class="keywords">');
+    const tagsHtml = (item.tags || []).map(function (k) {
+      return '<span class="keyword">#' + escapeHtml(k) + '</span>';
+    }).join('');
+    parts.push('      ' + tagsHtml);
+    parts.push('    </div>');
+    parts.push('    <div class="source">');
+    parts.push('      <span>来源：' + escapeHtml(item.source) + '</span>');
+    if (item.sourceUrl) {
+      parts.push('      <a href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener" class="source-link">查看原文 ↗</a>');
+    }
+    parts.push('    </div>');
+    parts.push('  </div>');
+    parts.push('</div>');
+
+    return parts.join('\n');
   }
 
   // ============ 工具函数 ============
