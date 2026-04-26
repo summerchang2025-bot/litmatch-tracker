@@ -11,6 +11,25 @@
  */
 
 var TRACKER_DATA = [
+  // ==================== 越南 Vietnam ====================
+  {
+    id: "VN-002",
+    title: "越南修订互联网服务与在线信息管理法令（第 116/2026/NĐ-CP 号）",
+    date: "2026-04-08",
+    country: "越南",
+    countryCode: "VN",
+    category: "法律法规",
+    type: "法律修订",
+    summary: "政府于 2026 年 4 月 2 日发布第 116/2026/NĐ-CP 号法令，修订第 147/2024/NĐ-CP 号法令中关于互联网服务和在线信息管理的条款，2026 年 4 月 8 日生效。核心变化：1）域名注册实名制 — 须提供电子身份码、企业代码、税号、完整地址；2）域名管理机构须为越南组织/企业，具备信息安全保障能力；3）社交媒体必须在 24 小时内删除违规内容；4）16 岁以下禁止创建社交媒体账户；5）社交平台须向用户公开内容分发算法；6）用户须通过手机号或身份证号实名验证后才能发帖、评论、直播；7）平台必须向主管部门提供用户信息用于调查。",
+    source: "LuatVietnam.vn / 越南法律网",
+    sourceUrl: "https://luatvietnam.vn/doanh-nghiep/nghi-dinh-116-2026-nd-cp-sua-doi-thu-tuc-hanh-chinh-trong-san-xuat-kinh-doanh-431035-d1.html",
+    impact: "高",
+    tags: ["社交媒体", "实名验证", "算法透明", "儿童保护", "内容审核"],
+    verified: true,
+    verificationDate: "2026-04-26",
+    verificationMethod: "越南语原文搜索 + 法律数据库全文核对"
+  },
+
   // ==================== 菲律宾 Philippines ====================
   {
     id: "PH-001",
