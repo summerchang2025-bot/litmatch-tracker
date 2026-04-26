@@ -1,6 +1,6 @@
 /**
  * Litmatch 情报跟踪站 - 应用逻辑
- * 功能：手动刷新、两周时间窗口过滤、分类筛选、地区筛选
+ * 功能：手动刷新、分类筛选、地区筛选、🆕新情报标记
  */
 
 (function () {
@@ -38,7 +38,7 @@
   function init() {
     cacheElements();
     bindEvents();
-    doRefresh(); // 首次加载即执行一次"刷新"
+    doRefresh();
   }
 
   function cacheElements() {
@@ -53,12 +53,10 @@
   }
 
   function bindEvents() {
-    // 刷新按钮
     if ($refreshBtn) {
       $refreshBtn.addEventListener('click', function () {
         $refreshBtn.disabled = true;
         $refreshBtn.textContent = '刷新中...';
-        // 模拟 600ms 刷新动画
         setTimeout(function () {
           doRefresh();
           $refreshBtn.disabled = false;
@@ -67,7 +65,6 @@
       });
     }
 
-    // 分类标签
     if ($categoryTags) {
       $categoryTags.addEventListener('click', function (e) {
         if (e.target.classList.contains('tag')) {
@@ -78,7 +75,6 @@
       });
     }
 
-    // 地区选择
     if ($regionSelect) {
       $regionSelect.addEventListener('change', function () {
         state.currentRegion = this.value;
@@ -91,13 +87,10 @@
   function doRefresh() {
     const now = new Date();
     state.refreshTime = now;
-    // 计算两周前
     const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
     state.twoWeeksAgo = twoWeeksAgo;
 
-    // 更新顶部时间显示
     updateTimeDisplay(now, twoWeeksAgo);
-    // 渲染卡片
     renderCards();
   }
 
@@ -106,7 +99,7 @@
       $refreshTime.textContent = formatDateTimeCN(now);
     }
     if ($timeRange) {
-      $timeRange.textContent = '数据窗口：' + formatDateCN(twoWeeksAgo) + ' 至 ' + formatDateCN(now) + '（共两周）';
+      $timeRange.textContent = '显示全部情报 · 两周内更新标记为 🆕 新';
     }
   }
 
@@ -114,27 +107,15 @@
   function getFilteredData() {
     if (!window.TRACKER_DATA) return [];
 
-    const now = state.refreshTime || new Date();
-    const twoWeeksAgo = state.twoWeeksAgo || new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
-    const twoWeeksAgoStr = formatDateISO(twoWeeksAgo);
-    const nowStr = formatDateISO(now);
-
     return window.TRACKER_DATA.filter(function (item) {
-      // 时间筛选：只显示在 [twoWeeksAgo, today] 范围内的
-      if (item.date < twoWeeksAgoStr || item.date > nowStr) {
-        return false;
-      }
-      // 分类筛选
       if (state.currentCategory !== '全部' && item.category !== state.currentCategory) {
         return false;
       }
-      // 地区筛选
       if (state.currentRegion !== 'ALL' && item.countryCode !== state.currentRegion) {
         return false;
       }
       return true;
     }).sort(function (a, b) {
-      // 按日期降序（新的在前）
       return b.date.localeCompare(a.date);
     });
   }
@@ -151,12 +132,10 @@
   function renderCards() {
     const data = getFilteredData();
 
-    // 更新结果计数
     if ($resultsCount) {
       $resultsCount.textContent = '共 ' + data.length + ' 条情报';
     }
 
-    // 空状态
     if (data.length === 0) {
       $cardContainer.innerHTML = '';
       $noResults.style.display = 'block';
@@ -164,7 +143,6 @@
     }
     $noResults.style.display = 'none';
 
-    // 渲染卡片
     $cardContainer.innerHTML = data.map(function (item) {
       return buildCard(item);
     }).join('');
@@ -172,12 +150,10 @@
 
   function buildCard(item) {
     const impactClass = getImpactClass(item.impactLevel);
-    const daysAgo = getDaysAgo(item.date);
-    const daysLabel = daysAgo === 0 ? '今天' : daysAgo + ' 天前';
+    const isNew = isWithinTwoWeeks(item.date);
+    const newBadge = isNew ? '<span class="badge new-badge">🆕 新</span>' : '';
 
-    return '\n      <div class="intel-card" data-id="' + item.id + '">\n        <div class="card-header">\n          <div class="meta">\n            <span class="country">' + item.country + '</span>\n            <span class="date">' + item.date + '（' + daysLabel + '）</span>\n          </div>\n          <div class="badges">\n            <span class="badge category-' + getCategorySlug(item.category) + '">' + item.category + '</span>\n            <span class="badge type">' + item.type + '</span>\n            <span class="badge impact ' + impactClass + '">影响：' + item.impactLevel + '</span>\n          </div>\n        </div>\n        <h3 class="card-title">' + escapeHtml(item.title) + '</h3>\n        <p class="card-summary">' + escapeHtml(item.summary) + '</p>\n        <div class="card-footer">\n          <div class="keywords">' + item.keywords.map(function (k) {
-            return '<span class="keyword">#' + escapeHtml(k) + '</span>';
-          }).join('') + '</div>\n          <div class="source">\n            <span>来源：' + escapeHtml(item.source) + '</span>\n            ' + (item.sourceUrl ? '<a href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener" class="source-link">查看原文 ↗</a>' : '') + '\n          </div>\n        </div>\n      </div>\n    ';
+    return '\n      <div class="intel-card' + (isNew ? ' card-new' : '') + '" data-id="' + item.id + '">\n        <div class="card-header">\n          <div class="meta">\n            <span class="country">' + item.country + '</span>\n            <span class="date">' + item.date + '</span>\n          </div>\n          <div class="badges">\n            ' + newBadge + '\n            <span class="badge category-' + getCategorySlug(item.category) + '">' + item.category + '</span>\n            <span class="badge type">' + item.type + '</span>\n            <span class="badge impact ' + impactClass + '">影响：' + item.impactLevel + '</span>\n          </div>\n        </div>\n        <h3 class="card-title">' + escapeHtml(item.title) + '</h3>\n        <p class="card-summary">' + escapeHtml(item.summary) + '</p>\n        <div class="card-footer">\n          <div class="keywords">' + item.keywords.map(function (k) {\n            return '<span class="keyword">#' + escapeHtml(k) + '</span>';\n          }).join('') + '</div>\n          <div class="source">\n            <span>来源：' + escapeHtml(item.source) + '</span>\n            ' + (item.sourceUrl ? '<a href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener" class="source-link">查看原文 ↗</a>' : '') + '\n          </div>\n        </div>\n      </div>\n    ';
   }
 
   // ============ 工具函数 ============
@@ -188,13 +164,6 @@
     const h = pad(date.getHours());
     const min = pad(date.getMinutes());
     return y + '-' + m + '-' + d + ' ' + h + ':' + min;
-  }
-
-  function formatDateCN(date) {
-    const y = date.getFullYear();
-    const m = pad(date.getMonth() + 1);
-    const d = pad(date.getDate());
-    return y + '-' + m + '-' + d;
   }
 
   function formatDateISO(date) {
@@ -230,11 +199,11 @@
     return map[cat] || 'other';
   }
 
-  function getDaysAgo(dateStr) {
+  function isWithinTwoWeeks(dateStr) {
     const target = new Date(dateStr);
     const now = state.refreshTime || new Date();
-    const diff = now.getTime() - target.getTime();
-    return Math.floor(diff / (1000 * 60 * 60 * 24));
+    const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+    return target >= twoWeeksAgo && target <= now;
   }
 
   function escapeHtml(text) {

@@ -306,6 +306,23 @@
     .badge.impact-medium { background: rgba(255, 165, 2, 0.15); color: var(--impact-medium); }
     .badge.impact-low { background: rgba(123, 237, 159, 0.15); color: var(--impact-low); }
 
+    .badge.new-badge {
+      background: rgba(255, 107, 107, 0.25);
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.7; }
+    }
+
+    .intel-card.card-new {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 1px rgba(255, 107, 107, 0.2), 0 4px 20px rgba(255, 107, 107, 0.1);
+    }
+
     .card-title {
       font-size: 1.1rem;
       font-weight: 600;
@@ -497,7 +514,7 @@
 
     <!-- 提示 -->
     <div class="hint-bar">
-      💡 <strong>使用说明：</strong>点击「手动刷新」更新数据窗口。系统默认显示<strong>刷新时刻往前推两周</strong>内的情报。支持按分类和地区筛选。
+      💡 <strong>使用说明：</strong>显示<strong>全部情报</strong>（不限时间窗口），按日期从新到旧排序。两周内更新的条目标记 🆕 新。支持按分类和地区筛选。
     </div>
 
     <!-- 筛选栏 -->
