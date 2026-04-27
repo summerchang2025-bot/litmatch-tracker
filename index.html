@@ -514,7 +514,7 @@
 
     <!-- 提示 -->
     <div class="hint-bar">
-      💡 <strong>使用说明：</strong>显示<strong>当月情报</strong>（刷新日期所在月份），按日期从新到旧排序。支持按分类和地区筛选。
+      💡 <strong>使用说明：</strong>显示<strong>全部情报</strong>，两周内更新的条目标记 🆕 新。按日期从新到旧排序。支持按分类和地区筛选。
     </div>
 
     <!-- 筛选栏 -->
@@ -954,13 +954,10 @@ var TRACKER_DATA = [
   function doRefresh() {
     const now = new Date();
     state.refreshTime = now;
-    const year = now.getFullYear();
-    const month = now.getMonth();
-    state.currentYear = year;
-    state.currentMonth = month;
-    const monthNames = ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'];
+    const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+    state.twoWeeksAgo = twoWeeksAgo;
     if ($refreshTime) { $refreshTime.textContent = formatDateTimeCN(now); }
-    if ($timeRange) { $timeRange.textContent = '显示 ' + year + '年' + monthNames[month] + ' 情报（当月范围）'; }
+    if ($timeRange) { $timeRange.textContent = '显示全部情报 · 两周内更新标记为 🆕 新'; }
     renderCategoryTags();
     renderCards();
   }
@@ -977,8 +974,6 @@ var TRACKER_DATA = [
   function getFilteredData() {
     if (!window.TRACKER_DATA) return [];
     return window.TRACKER_DATA.filter(function (item) {
-      const itemDate = new Date(item.date);
-      if (itemDate.getFullYear() !== state.currentYear || itemDate.getMonth() !== state.currentMonth) return false;
       if (state.currentCategory !== '全部' && item.category !== state.currentCategory) return false;
       if (state.currentRegion !== 'ALL' && item.countryCode !== state.currentRegion) return false;
       return true;
@@ -1007,7 +1002,7 @@ var TRACKER_DATA = [
 
   function buildCard(item) {
     const impactClass = getImpactClass(item.impact);
-    const isNew = isWithinCurrentMonth(item.date);
+    const isNew = isWithinTwoWeeks(item.date);
     const newBadge = isNew ? '<span class="badge new-badge">🆕 新</span>' : '';
 
     let html = '<div class="intel-card' + (isNew ? ' card-new' : '') + '" data-id="' + item.id + '">';
@@ -1046,10 +1041,11 @@ var TRACKER_DATA = [
     return map[cat] || 'other';
   }
 
-  function isWithinCurrentMonth(dateStr) {
+  function isWithinTwoWeeks(dateStr) {
     const target = new Date(dateStr);
     const now = state.refreshTime || new Date();
-    return target.getFullYear() === now.getFullYear() && target.getMonth() === now.getMonth();
+    const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+    return target >= twoWeeksAgo && target <= now;
   }
 
   function escapeHtml(text) {
