@@ -199,6 +199,124 @@
 
 ---
 
+## 🇸🇬 新加坡 Singapore
+
+### 监管机构
+| 机构 | 英文/缩写 | 职能 | 官网/搜索关键词 |
+|------|----------|------|---------------|
+| 资讯通信媒体发展局 | IMDA | 电信牌照、互联网内容监管、数字平台 | imda.gov.sg |
+| 金融管理局 | MAS (Monetary Authority of Singapore) | 央行、支付、虚拟资产、AML | mas.gov.sg |
+| 个人数据保护委员会 | PDPC | 数据保护执法、PDPA | pdpc.gov.sg |
+| 贪污调查局 | CPIB | 反腐败、贿赂调查 | cpib.gov.sg |
+| 竞争与消费者委员会 | CCCS | 反垄断、消费者保护 | cccs.gov.sg |
+| 内政部 | MHA | 网络安全、内容审查 | mha.gov.sg |
+| 税务局 | IRAS | 税务 | iras.gov.sg |
+
+### 头部律所
+- Rajah & Tann (rajahtannasia.com)
+- WongPartnership (wongpartnership.com)
+- Allen & Gledhill (allenandgledhill.com)
+- Drew & Napier (drewnapier.com)
+- Baker McKenzie Singapore
+
+### 本地搜索关键词（英语）
+- "IMDA" + "social media" + "regulation"
+- "MAS" + "virtual asset" + "payment"
+- "CPIB" + "corruption" + "investigation"
+- "PDPC" + "data breach" + "fine"
+
+---
+
+## 🇭🇰 香港 Hong Kong
+
+### 监管机构
+| 机构 | 英文/缩写 | 职能 | 官网/搜索关键词 |
+|------|----------|------|---------------|
+| 通讯事务管理局办公室 | OFCA | 电信牌照、内容监管 | ofca.gov.hk |
+| 金融管理局 | HKMA | 央行、支付、虚拟银行 | hkma.gov.hk |
+| 证券及期货事务监察委员会 | SFC | 资本市场、虚拟资产牌照 | sfc.hk |
+| 廉政公署 | ICAC | 反腐败 | icac.org.hk |
+| 个人资料私隐专员公署 | PCPD | 数据保护、PDPO | pcpd.org.hk |
+| 竞争事务委员会 | CompCo | 反垄断 | compcomm.hk |
+| 税务局 | IRD | 税务 | ird.gov.hk |
+
+### 头部律所
+- Deacons (deacons.com.hk)
+- Tanner De Wit S.
+- Johnson Stokes & Master (JSM, Eversheds Sutherland)
+- Mayer Brown JSM
+- Herbert Smith Freehills
+
+### 本地搜索关键词（英语/粤语）
+- "OFCA" + "social media" + "licence"
+- "HKMA" + "virtual bank" + "fintech"
+- "ICAC" + "corruption" + "charge"
+- "SFC" + "virtual asset" + "licensing"
+
+---
+
+## 🇮🇳 印度 India
+
+### 监管机构
+| 机构 | 英文/缩写 | 职能 | 官网/搜索关键词 |
+|------|----------|------|---------------|
+| 电子和信息技术部 | MeitY | 互联网内容、IT规则、数据保护 | meity.gov.in |
+| 储备银行 | RBI | 央行、支付、数字卢比 | rbi.org.in |
+| 执法局 | ED (Enforcement Directorate) | 反洗钱、外汇违法、PMLA | ed.gov.in |
+| 中央调查局 | CBI | 重大腐败、经济犯罪 | cbi.gov.in |
+| 证券交易委员会 | SEBI | 资本市场、金融欺诈 | sebi.gov.in |
+| 网络犯罪协调中心 | I4C | 网络犯罪协调 | — |
+| 竞争委员会 | CCI | 反垄断 | cci.gov.in |
+| 税务总局 | CBDT/CBIC | 直接税/间接税 | incometaxindia.gov.in |
+
+### 头部律所
+- Cyril Amarchand Mangaldas (cam.ac.in)
+- Khaitan & Co (khaitanco.com)
+- AZB & Partners (azbpartners.com)
+- Shardul Amarchand Mangaldas
+- Trilegal (trilegal.com)
+
+### 本地搜索关键词（英语/印地语）
+- "MeitY" + "social media" + "intermediary"
+- "RBI" + "digital payment" + "regulation"
+- "ED" + "crypto" + "PMLA"
+- "SEBI" + "fintech" + "circular"
+
+---
+
+## 🌍 国际组织
+
+| 组织 | 缩写 | 职能 | 官网/搜索关键词 |
+|------|------|------|---------------|
+| 金融行动特别工作组 | FATF | AML/CFT国际标准、灰名单/黑名单 | fatf-gafi.org |
+| 亚太反洗钱组织 | APG | 亚太地区AML/CFT互评估 | apgml.org |
+| 国际刑警组织 | Interpol | 跨境金融犯罪、网络犯罪 | interpol.int |
+| 东盟 | ASEAN | 区域数字政策、跨境数据流动 | asean.org |
+| 国际电信联盟 | ITU | 全球电信标准、频谱 | itu.int |
+
+### 搜索关键词
+- "FATF" + "grey list" + country name
+- "APG" + "mutual evaluation" + country name
+- "Interpol" + "cybercrime" + "social media"
+- "ASEAN" + "digital economy" + "framework"
+
+---
+
+## 📰 行业媒体与数据库
+
+| 媒体/平台 | 类型 | 覆盖区域 | 搜索关键词 |
+|-----------|------|---------|-----------|
+| Tech in Asia | 科技新闻 | 东南亚 | site:techinasia.com + country + regulation |
+| DealStreetAsia | 投资/并购 | 东南亚、印度 | site:dealstreetasia.com + fintech + policy |
+| KrASIA | 科技/创业 | 亚洲 | site:kr-asia.com + social media + law |
+| The Ken | 深度商业 | 东南亚、印度 | subscription，但标题可搜 |
+| Reuters | 国际新闻 | 全球 | site:reuters.com + country + tech regulation |
+| Bloomberg Law | 法律/合规 | 全球 | site:bloomberglaw.com + Asia + fintech |
+| Lexology | 法律分析 | 全球 | site:lexology.com + jurisdiction + topic |
+| International Comparative Legal Guides (ICLG) | 法律指南 | 全球 | site:iclg.com + country + sector |
+
+---
+
 ## 🔍 通用搜索策略
 
 ### 按主题分类的关键词模板
@@ -234,13 +352,13 @@
 
 ---
 
-## 📌 待补充来源
+## ✅ 待补充来源（已完成）
 
-- [ ] 新加坡：IMDA、MAS、PDPC、CPIB（贪污调查局）
-- [ ] 香港：OFCA、HKMA、SFC、ICAC
-- [ ] 印度：MeitY、RBI、ED（执法局）
-- [ ] 国际组织：FATF、APG（亚太反洗钱组织）、Interpol
-- [ ] 行业媒体：Tech in Asia、DealStreetAsia、KrASIA
+- [x] 新加坡：IMDA、MAS、PDPC、CPIB（贪污调查局）
+- [x] 香港：OFCA、HKMA、SFC、ICAC
+- [x] 印度：MeitY、RBI、ED（执法局）
+- [x] 国际组织：FATF、APG（亚太反洗钱组织）、Interpol
+- [x] 行业媒体：Tech in Asia、DealStreetAsia、KrASIA
 
 ---
 

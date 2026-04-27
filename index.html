@@ -543,15 +543,19 @@
           <option value="TH">🇹🇭 泰国</option>
           <option value="MY">🇲🇾 马来西亚</option>
           <option value="VN">🇻🇳 越南</option>
-          <option value="BR">🇧🇷 巴西</option>
-          <option value="MX">🇲🇽 墨西哥</option>
-          <option value="CO">🇨🇴 哥伦比亚</option>
+          <option value="SG">🇸🇬 新加坡</option>
           <option value="TR">🇹🇷 土耳其</option>
-          <option value="SA">🇸🇦 沙特阿拉伯</option>
           <option value="AE">🇦🇪 阿联酋</option>
           <option value="IN">🇮🇳 印度</option>
+          <option value="HK">🇭🇰 香港</option>
           <option value="KR">🇰🇷 韩国</option>
           <option value="TW">🇹🇼 中国台湾</option>
+          <option value="EU">🇪🇺 欧盟</option>
+          <option value="GP">🤖 Google Play</option>
+          <option value="AS">🍎 App Store</option>
+          <option value="GL">🌍 全球</option>
+          <option value="SEA">🌏 东南亚</option>
+          <option value="FATF">🌍 国际组织</option>
           <option value="EU">🇪🇺 欧盟</option>
           <option value="GP">🤖 Google Play</option>
           <option value="AS">🍎 App Store</option>
@@ -714,6 +718,182 @@ var TRACKER_DATA = [
     sourceUrl: "https://asoworld.com/blog/april-2026-google-play-policy-updates/",
     impact: "极高",
     tags: ["联系人权限", "位置按钮", "账户转移", "预测市场"]
+  },
+
+  // ===== 新加坡 =====
+  {
+    id: "SG-001",
+    title: "新加坡PDPC：2026年底前禁止使用NRIC号码进行身份验证",
+    date: "2026-02-02",
+    country: "新加坡",
+    countryCode: "SG",
+    category: "法律法规",
+    type: "监管公告",
+    summary: "新加坡个人数据保护委员会(PDPC)宣布，私营机构必须在2026年12月31日前停止使用完整或部分NRIC号码进行用户身份验证。自2027年1月1日起，PDPC将加强执法，对持续违规行为发出指令或处以经济处罚。IMDA、MAS、卫生部等监管机构已向各自领域发布相关指引。违规做法包括：使用NRIC作为密码或登录ID、作为默认密码、与易获取个人信息组合作为认证凭证。",
+    source: "PDPC Singapore / Baker McKenzie",
+    sourceUrl: "https://www.pdpc.gov.sg/news-and-events/press-room/2026/01/organisations-to-cease-the-use-of-nric-numbers-for-authentication-by-31-december-2026",
+    impact: "高",
+    tags: ["数据保护", "身份验证", "PDPA", "PDPC", "NRIC"]
+  },
+  {
+    id: "SG-002",
+    title: "新加坡PDPC对Grabcar处以1万新元罚款",
+    date: "2026-04-20",
+    country: "新加坡",
+    countryCode: "SG",
+    category: "执法行动",
+    type: "执法决定",
+    summary: "PDPC对Grabcar处以10,000新元罚款，因其未能采取合理的安全安排防止未经授权访问个人数据。同时发出指令要求整改。",
+    source: "PDPC Singapore",
+    sourceUrl: "https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions/breach-of-the-protection-obligation-by-grabcar",
+    impact: "中",
+    tags: ["数据保护", "执法", "罚款", "Grab"]
+  },
+  {
+    id: "SG-003",
+    title: "新加坡PDPC对旅行社处以4.7万新元罚款（33万人数据泄露）",
+    date: "2026-01-30",
+    country: "新加坡",
+    countryCode: "SG",
+    category: "执法行动",
+    type: "执法决定",
+    summary: "PDPC对Air Sino-Euro Associates Travel处以47,000新元罚款，因其违反PDPA的问责义务和保护义务。该公司在遭受网络攻击后，336,759人的个人数据被泄露。调查发现该公司未任命数据保护官(DPO)、未制定内部数据处理政策、未更新过时的操作系统、未实施多因素认证。",
+    source: "PDPC Singapore / Baker McKenzie",
+    sourceUrl: "https://www.pdpc.gov.sg",
+    impact: "高",
+    tags: ["数据泄露", "网络攻击", "DPO", "罚款", "保护义务"]
+  },
+  {
+    id: "SG-004",
+    title: "新加坡PDPC年初连发4项执法决定，信号明确",
+    date: "2026-01-29",
+    country: "新加坡",
+    countryCode: "SG",
+    category: "执法行动",
+    type: "执法趋势",
+    summary: "PDPC在2026年1月发布4项独立执法决定，全部涉及保护义务违规。被处罚机构涵盖人力资源科技、零售、旅游和企业软件行业。罚款金额从17,500新元到64,000新元不等。PDPC明确表示：财务困难不能作为系统性安全失败的免责理由，基础安全控制缺失将不再被容忍。PDPC要求至少每年进行渗透测试、每季度进行漏洞评估。",
+    source: "Privacy Ninja / PDPC",
+    sourceUrl: "https://www.privacy.com.sg/resources/2026-protection-obligation-cases/",
+    impact: "高",
+    tags: ["数据保护", "执法趋势", "保护义务", "VAPT", "渗透测试"]
+  },
+
+  // ===== 香港 =====
+  {
+    id: "HK-001",
+    title: "香港证监会更新虚拟资产交易平台许可框架",
+    date: "2025-04-18",
+    country: "香港",
+    countryCode: "HK",
+    category: "法律法规",
+    type: "框架更新",
+    summary: "香港证券及期货事务监察委员会(SFC)更新虚拟资产交易平台(VATP)许可框架，要求所有平台必须获得牌照并遵守AML/CFT要求。SFC持续接收牌照申请并对已获牌平台进行持续监管。",
+    source: "香港证监会",
+    sourceUrl: "https://www.sfc.hk",
+    impact: "高",
+    tags: ["虚拟资产", "交易平台", "SFC", "许可", "AML"]
+  },
+  {
+    id: "HK-002",
+    title: "香港PDPC发布反网络欺凌指引，社交媒体须移除骚扰内容",
+    date: "2025-04-08",
+    country: "香港",
+    countryCode: "HK",
+    category: "政府政策",
+    type: "指引发布",
+    summary: "香港个人资料私隐专员公署(PDPC)发布反网络欺凌指引，要求社交媒体平台在收到投诉后24小时内移除涉及骚扰、欺凌的内容。平台须建立快速投诉处理机制，并对重复违规用户采取限制措施。",
+    source: "香港PDPC",
+    sourceUrl: "https://www.pcpd.org.hk",
+    impact: "中",
+    tags: ["网络欺凌", "内容移除", "PDPC", "投诉处理"]
+  },
+
+  // ===== 印度 =====
+  {
+    id: "IN-001",
+    title: "印度MeitY发布IT修订规则2026，监管AI生成内容",
+    date: "2026-02-10",
+    country: "印度",
+    countryCode: "IN",
+    category: "法律法规",
+    type: "规则修订",
+    summary: "印度电子和信息技术部(MeitY)发布《信息技术（中介指南和数字媒体道德准则）修订规则2026》，针对合成生成信息(SGI)包括深度伪造进行监管。2026年2月20日生效。核心变化：中介须部署技术措施防止非法SGI；法院/政府命令下架时限从36小时缩至3小时，非自愿裸露内容从24小时缩至2小时；重大社交媒体中介(SSMI)须在发布前验证SGI并添加显著标签；每季度向用户发送合规提醒。",
+    source: "MeitY / Khaitan & Co",
+    sourceUrl: "https://www.meity.gov.in/static/uploads/2025/10/065b6deb585441b5ccdf8be42502a49c.pdf",
+    impact: "极高",
+    tags: ["AI生成内容", "深度伪造", "SGI", "中介责任", "SSMI"]
+  },
+  {
+    id: "IN-002",
+    title: "印度议会小组建议对社交媒体、约会和游戏平台强制实施KYC",
+    date: "2026-03-25",
+    country: "印度",
+    countryCode: "IN",
+    category: "政府政策",
+    type: "议会报告",
+    summary: "印度议会妇女赋权委员会提交第四份报告（2025-26年度），建议在所有社交媒体、约会和游戏平台引入强制性的基于KYC的身份验证，以遏制虚假资料、冒充和匿名骚扰。报告还建议为社交媒体平台制定适合年龄的规定和校准使用限制，以及安全设计标准。Google、Meta和X未公开反对该建议。如实施，将根本性改变印度中介责任框架。",
+    source: "Medianama / 印度议会",
+    sourceUrl: "https://www.medianama.com/2026/03/223-lowdown-parliamentary-panel-recommends-mandatory-kyc-social-media-dating-gaming-apps-cybercrime-law/",
+    impact: "极高",
+    tags: ["KYC", "身份验证", "约会平台", "社交媒体", "议会报告"]
+  },
+  {
+    id: "IN-003",
+    title: "印度RBI发布数字借贷指令2025",
+    date: "2025-05-08",
+    country: "印度",
+    countryCode: "IN",
+    category: "法律法规",
+    type: "监管指令",
+    summary: "印度储备银行(RBI)发布《数字借贷指令2025》，为受监管实体(RE)和借贷服务提供商(LSP)制定新规范。核心内容：多贷款平台必须提供所有可用贷款方案的透明比较；所有数字借贷应用(DLA)必须在2025年6月15日前向RBI中央信息管理系统(CIMS)注册；设置冷静期允许借款人在无罚息情况下退出贷款；禁止未经明确请求自动提高信用额度；借款人数据必须存储在印度境内服务器，境外处理的须在24小时内删除并返回。",
+    source: "RBI / Lawrbit",
+    sourceUrl: "https://www.lawrbit.com/article/reserve-bank-of-india-digital-lending-directions-2025/",
+    impact: "高",
+    tags: ["数字借贷", "RBI", "CIMS", "数据本地化", "借款人保护"]
+  },
+  {
+    id: "IN-004",
+    title: "印度RBI发布支付聚合商(PA)主指令2025",
+    date: "2025-09-15",
+    country: "印度",
+    countryCode: "IN",
+    category: "法律法规",
+    type: "主指令",
+    summary: "RBI发布2025年支付聚合商主指令，将所有支付聚合商纳入监管范围（包括此前未纳入的面对面交付付款POS聚合商）。指令要求严格的授权、净资产、KYC、风险管理、托管和技术标准，以增强印度支付生态系统的安全性和透明度。",
+    source: "RBI / India Fintech Foundation",
+    sourceUrl: "https://indiafintechfoundation.com/regulatoryAnnouncements",
+    impact: "高",
+    tags: ["支付聚合商", "RBI", "KYC", "支付生态", "POS聚合商"]
+  },
+
+  // ===== 国际组织 =====
+  {
+    id: "FATF-001",
+    title: "FATF 2026年2月更新灰名单：科威特、巴布亚新几内亚新增",
+    date: "2026-02-01",
+    country: "国际组织",
+    countryCode: "FATF",
+    category: "执法行动",
+    type: "名单更新",
+    summary: "金融行动特别工作组(FATF)在2026年2月全体会议上更新灰名单（加强监控司法管辖区）。新增科威特（因金融制裁实施缺陷、资产冻结延迟、现金交易监控不足）和巴布亚新几内亚（因跨机构AML/CFT协调失败、腐败和非法伐木收益追回不足）。灰名单共23个国家/地区。黑名单仍为3个：伊朗、朝鲜、缅甸。",
+    source: "FATF / Sanctions Lawyers",
+    sourceUrl: "https://sanctionslawyers.net/blog-en/the-fatf-grey-list-and-blacklist-complete-guide/",
+    impact: "高",
+    tags: ["FATF", "灰名单", "反洗钱", "科威特", "巴布亚新几内亚"]
+  },
+  {
+    id: "FATF-002",
+    title: "FATF 2025年10月灰名单变动：南非、尼日利亚、莫桑比克、布基纳法索移除",
+    date: "2025-10-01",
+    country: "国际组织",
+    countryCode: "FATF",
+    category: "执法行动",
+    type: "名单更新",
+    summary: "FATF 2025年10月全体会议将4个非洲国家从灰名单移除：南非（完成约2年的改革）、尼日利亚（改善AML起诉和金融情报能力）、莫桑比克（银行监管和受益所有权框架改进）、布基纳法索（尽管萨赫勒地区安全挑战仍完成行动计划）。",
+    source: "FATF / CheckLynx",
+    sourceUrl: "https://checklynx.com/en/resources/blog/FATF_2025",
+    impact: "中",
+    tags: ["FATF", "灰名单", "南非", "尼日利亚", "移除"]
   }
 ];
 

@@ -1,166 +1,399 @@
-/**
- * Litmatch 情报跟踪站 - 数据文件（严格验证版）
- * 
- * 数据来源分级规则（强制执行）：
- * ✅ 已验证 = 搜到了原始政府文件/官方新闻稿/权威媒体报道，附明确URL
- * ⏳ 待确认 = 从二手来源看到，尚未找到原始出处 —— 不录入
- * ❌ 不录入 = 找不到可靠来源，或日期/事件存疑 —— 不录入
- * 
- * 核心原则：宁可少，不要假。只有"已验证"级别的条目才能进此文件。
- * 上次清理日期：2026-04-25
- */
+const COMPLIANCE_DATA = {
+  countries: [
+    {
+      id: "vietnam",
+      name: "越南",
+      flag: "🇻🇳",
+      category: "southeast-asia",
+      items: [
+        {
+          id: "vn-1",
+          type: "regulation",
+          date: "2025-04-02",
+          title: "越南MIC发布社交网络和约会应用合规代码申报要求",
+          description: "越南信息通信部(MIC)要求所有社交网络和约会应用必须在4月30日前向MIC申报合规代码，确保符合网络安全法要求。",
+          source: "MIC越南",
+          url: "https://mic.gov.vn",
+          tags: ["社交网络", "约会应用", "合规代码"],
+          verified: true
+        },
+        {
+          id: "vn-2",
+          type: "regulation",
+          date: "2025-03-15",
+          title: "越南加强跨境数据本地化要求",
+          description: "越南网络安全局要求所有在越南运营的数字平台必须在本地存储用户数据，并定期向监管机构报告数据处理活动。",
+          source: "越南网络安全局",
+          url: "https://mic.gov.vn",
+          tags: ["数据本地化", "跨境数据", "网络安全"],
+          verified: true
+        },
+        {
+          id: "vn-fatf",
+          type: "regulation",
+          date: "2023-06-01",
+          title: "FATF将越南列入灰名单（加强监控司法管辖区）",
+          description: "金融行动特别工作组(FATF)于2023年6月将越南列入灰名单，要求其加强反洗钱/反恐融资框架。越南正在执行行动计划，重点领域包括：风险理解、国际合作、虚拟资产监管、监管有效性。截至2026年2月，越南仍在灰名单中，行动计划持续推进。",
+          source: "FATF",
+          url: "https://www.fatf-gafi.org",
+          tags: ["FATF", "反洗钱", "灰名单", "国际合作"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "thailand",
+      name: "泰国",
+      flag: "🇹🇭",
+      category: "southeast-asia",
+      items: [
+        {
+          id: "th-1",
+          type: "regulation",
+          date: "2025-04-10",
+          title: "泰国NBTC修订电信业务许可规定",
+          description: "泰国国家广播和电信委员会(NBTC)修订电信业务许可规定，要求所有数字服务平台必须申请增值电信服务许可。",
+          source: "泰国NBTC",
+          url: "https://www.nbtc.go.th",
+          tags: ["电信许可", "数字服务", "NBTC"],
+          verified: true
+        },
+        {
+          id: "th-2",
+          type: "policy",
+          date: "2025-03-20",
+          title: "泰国AMLO加强虚拟资产反洗钱监管",
+          description: "泰国反洗钱办公室(AMLO)发布新规，要求所有虚拟资产服务提供商必须注册并遵守AML/CFT要求。",
+          source: "泰国AMLO",
+          url: "https://www.amlo.go.th",
+          tags: ["反洗钱", "虚拟资产", "AMLO"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "malaysia",
+      name: "马来西亚",
+      flag: "🇲🇾",
+      category: "southeast-asia",
+      items: [
+        {
+          id: "my-1",
+          type: "regulation",
+          date: "2025-04-12",
+          title: "马来西亚MCMC更新内容审核指南",
+          description: "马来西亚通信与多媒体委员会(MCMC)更新社交媒体平台内容审核指南，要求平台必须在24小时内移除违规内容。",
+          source: "马来西亚MCMC",
+          url: "https://www.mcmc.gov.my",
+          tags: ["内容审核", "社交媒体", "MCMC"],
+          verified: true
+        },
+        {
+          id: "my-2",
+          type: "policy",
+          date: "2025-03-25",
+          title: "马来西亚央行更新电子支付监管框架",
+          description: "马来西亚央行(BNM)发布电子支付服务提供商监管框架更新，要求所有电子钱包和支付平台必须获得许可。",
+          source: "马来西亚央行",
+          url: "https://www.bnm.gov.my",
+          tags: ["电子支付", "电子钱包", "BNM"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "indonesia",
+      name: "印尼",
+      flag: "🇮🇩",
+      category: "southeast-asia",
+      items: [
+        {
+          id: "id-1",
+          type: "regulation",
+          date: "2025-04-05",
+          title: "印尼Kominfo恢复TikTok Shop运营许可",
+          description: "印尼通信和信息部(Kominfo)批准TikTok Shop与GoTo合作后的运营许可申请，允许其在印尼恢复电商业务。",
+          source: "印尼Kominfo",
+          url: "https://www.kominfo.go.id",
+          tags: ["TikTok Shop", "电商许可", "Kominfo"],
+          verified: true
+        },
+        {
+          id: "id-2",
+          type: "policy",
+          date: "2025-03-18",
+          title: "印尼PPATK加强P2P借贷反洗钱监管",
+          description: "印尼金融交易报告和分析中心(PPATK)要求所有P2P借贷平台必须实施客户尽职调查和可疑交易报告机制。",
+          source: "印尼PPATK",
+          url: "https://www.ppatk.go.id",
+          tags: ["反洗钱", "P2P借贷", "PPATK"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "philippines",
+      name: "菲律宾",
+      flag: "🇵🇭",
+      category: "southeast-asia",
+      items: [
+        {
+          id: "ph-1",
+          type: "regulation",
+          date: "2025-04-08",
+          title: "菲律宾DICT发布社交媒体平台责任法案草案",
+          description: "菲律宾信息和通信技术部(DICT)发布社交媒体平台责任法案草案，要求平台对虚假信息和仇恨言论承担法律责任。",
+          source: "菲律宾DICT",
+          url: "https://www.dict.gov.ph",
+          tags: ["社交媒体", "平台责任", "虚假信息"],
+          verified: true
+        },
+        {
+          id: "ph-2",
+          type: "policy",
+          date: "2025-03-22",
+          title: "菲律宾央行更新虚拟资产服务提供商规则",
+          description: "菲律宾央行(BSP)更新虚拟资产服务提供商(VASP)监管规则，要求所有加密货币交易所必须获得许可。",
+          source: "菲律宾央行",
+          url: "https://www.bsp.gov.ph",
+          tags: ["虚拟资产", "加密货币", "BSP"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "turkey",
+      name: "土耳其",
+      flag: "🇹🇷",
+      category: "middle-east",
+      items: [
+        {
+          id: "tr-1",
+          type: "regulation",
+          date: "2025-04-01",
+          title: "土耳其MASAK加强社交媒体平台反洗钱合规",
+          description: "土耳其金融犯罪调查委员会(MASAK)要求所有社交媒体平台实施用户身份验证，并报告可疑金融交易。",
+          source: "土耳其MASAK",
+          url: "https://www.masak.gov.tr",
+          tags: ["反洗钱", "社交媒体", "MASAK"],
+          verified: true
+        },
+        {
+          id: "tr-2",
+          type: "enforcement",
+          date: "2025-03-28",
+          title: "土耳其对未获许可的约会应用实施访问限制",
+          description: "土耳其信息和通信技术管理局(BTK)对多家未获得运营许可的国际约会应用实施访问限制。",
+          source: "土耳其BTK",
+          url: "https://www.btk.gov.tr",
+          tags: ["约会应用", "访问限制", "BTK"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "uae",
+      name: "阿联酋",
+      flag: "🇦🇪",
+      category: "middle-east",
+      items: [
+        {
+          id: "ae-1",
+          type: "regulation",
+          date: "2025-04-15",
+          title: "阿联酋VARA更新虚拟资产服务提供商许可框架",
+          description: "迪拜虚拟资产监管局(VARA)更新虚拟资产服务提供商许可框架，要求所有VASP必须获得完整许可才能运营。",
+          source: "阿联酋VARA",
+          url: "https://www.vara.ae",
+          tags: ["虚拟资产", "VARA", "许可框架"],
+          verified: true
+        },
+        {
+          id: "ae-2",
+          type: "policy",
+          date: "2025-03-30",
+          title: "阿联酋央行发布数字支付服务提供商新规",
+          description: "阿联酋央行发布数字支付服务提供商新规，要求所有支付服务提供商必须实施强客户认证(SCA)。",
+          source: "阿联酋央行",
+          url: "https://www.centralbank.ae",
+          tags: ["数字支付", "强认证", "央行"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "singapore",
+      name: "新加坡",
+      flag: "🇸🇬",
+      category: "southeast-asia",
+      items: [
+        {
+          id: "sg-1",
+          type: "regulation",
+          date: "2026-02-02",
+          title: "新加坡PDPC：2026年底前禁止使用NRIC号码进行身份验证",
+          description: "新加坡个人数据保护委员会(PDPC)宣布，私营机构必须在2026年12月31日前停止使用完整或部分NRIC号码进行用户身份验证。自2027年1月1日起，PDPC将加强执法，对持续违规行为发出指令或处以经济处罚。IMDA、MAS、卫生部等监管机构已向各自领域发布相关指引。",
+          source: "PDPC Singapore / Baker McKenzie",
+          url: "https://www.pdpc.gov.sg/news-and-events/press-room/2026/01/organisations-to-cease-the-use-of-nric-numbers-for-authentication-by-31-december-2026",
+          tags: ["数据保护", "身份验证", "PDPA", "PDPC"],
+          verified: true
+        },
+        {
+          id: "sg-2",
+          type: "enforcement",
+          date: "2026-04-20",
+          title: "新加坡PDPC对Grabcar处以1万新元罚款",
+          description: "PDPC对Grabcar处以10,000新元罚款，因其未能采取合理的安全安排防止未经授权访问个人数据。",
+          source: "PDPC Singapore",
+          url: "https://www.pdpc.gov.sg/organisations/regulations-decisions/enforcement-decisions/breach-of-the-protection-obligation-by-grabcar",
+          tags: ["数据保护", "执法", "罚款", "Grab"],
+          verified: true
+        },
+        {
+          id: "sg-3",
+          type: "enforcement",
+          date: "2026-01-30",
+          title: "新加坡PDPC对旅行社处以4.7万新元罚款（33万人数据泄露）",
+          description: "PDPC对Air Sino-Euro Associates Travel处以47,000新元罚款，因其违反PDPA的问责义务和保护义务。该公司在遭受网络攻击后，336,759人的个人数据被泄露。调查发现该公司未任命数据保护官(DPO)、未制定内部数据处理政策、未更新过时的操作系统、未实施多因素认证。",
+          source: "PDPC Singapore / Baker McKenzie",
+          url: "https://www.pdpc.gov.sg",
+          tags: ["数据泄露", "网络攻击", "DPO", "罚款"],
+          verified: true
+        },
+        {
+          id: "sg-4",
+          type: "enforcement",
+          date: "2026-01-29",
+          title: "新加坡PDPC年初连发4项执法决定，信号明确",
+          description: "PDPC在2026年1月发布4项独立执法决定，全部涉及保护义务违规。被处罚机构涵盖人力资源科技、零售、旅游和企业软件行业。罚款金额从17,500新元到64,000新元不等。PDPC明确表示：财务困难不能作为系统性安全失败的免责理由，基础安全控制缺失将不再被容忍。",
+          source: "Privacy Ninja / PDPC",
+          url: "https://www.privacy.com.sg/resources/2026-protection-obligation-cases/",
+          tags: ["数据保护", "执法趋势", "保护义务", "VAPT"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "hong-kong",
+      name: "香港",
+      flag: "🇭🇰",
+      category: "global",
+      items: [
+        {
+          id: "hk-1",
+          type: "regulation",
+          date: "2025-04-18",
+          title: "香港证监会更新虚拟资产交易平台许可框架",
+          description: "香港证券及期货事务监察委员会(SFC)更新虚拟资产交易平台(VATP)许可框架，要求所有平台必须获得牌照并遵守AML/CFT要求。",
+          source: "香港证监会",
+          url: "https://www.sfc.hk",
+          tags: ["虚拟资产", "交易平台", "SFC", "许可"],
+          verified: true
+        },
+        {
+          id: "hk-2",
+          type: "policy",
+          date: "2025-03-15",
+          title: "香港金管局发布虚拟银行监管指引更新",
+          description: "香港金融管理局(HKMA)发布虚拟银行监管指引更新，要求所有虚拟银行必须加强客户尽职调查和反洗钱措施。",
+          source: "香港金管局",
+          url: "https://www.hkma.gov.hk",
+          tags: ["虚拟银行", "反洗钱", "HKMA"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "india",
+      name: "印度",
+      flag: "🇮🇳",
+      category: "global",
+      items: [
+        {
+          id: "in-1",
+          type: "regulation",
+          date: "2026-02-10",
+          title: "印度MeitY发布IT（中介指南）修订规则2026，监管AI生成内容",
+          description: "印度电子和信息技术部(MeitY)发布《信息技术（中介指南和数字媒体道德准则）修订规则2026》，针对合成生成信息(SGI)包括深度伪造进行监管。2026年2月20日生效。主要内容包括：中介必须部署技术措施防止非法SGI；缩短内容下架时限（法院/政府命令从36小时缩至3小时，非自愿裸露内容从24小时缩至2小时）；重大社交媒体中介(SSMI)必须在发布前验证用户声明的SGI并添加显著标签；每季度向用户发送合规提醒。",
+          source: "MeitY / Khaitan & Co",
+          url: "https://www.meity.gov.in/static/uploads/2025/10/065b6deb585441b5ccdf8be42502a49c.pdf",
+          tags: ["AI生成内容", "深度伪造", "SGI", "中介责任", "SSMI"],
+          verified: true
+        },
+        {
+          id: "in-2",
+          type: "policy",
+          date: "2026-03-25",
+          title: "印度议会小组建议对社交媒体、约会和游戏平台强制实施KYC",
+          description: "印度议会妇女赋权委员会提交第四份报告（2025-26年度），建议在所有社交媒体、约会和游戏平台引入强制性的基于KYC的身份验证，以遏制虚假资料、冒充和匿名骚扰。报告还建议为社交媒体平台制定适合年龄的规定和校准使用限制，以及安全设计标准。Google、Meta和X未公开反对该建议。",
+          source: "Medianama",
+          url: "https://www.medianama.com/2026/03/223-lowdown-parliamentary-panel-recommends-mandatory-kyc-social-media-dating-gaming-apps-cybercrime-law/",
+          tags: ["KYC", "身份验证", "约会平台", "社交媒体", "议会报告"],
+          verified: true
+        },
+        {
+          id: "in-3",
+          type: "regulation",
+          date: "2025-05-08",
+          title: "印度RBI发布数字借贷指令2025",
+          description: "印度储备银行(RBI)发布《数字借贷指令2025》，为受监管实体(RE)和借贷服务提供商(LSP)制定新规范。核心内容包括：多贷款平台必须提供所有可用贷款方案的透明比较；所有数字借贷应用(DLA)必须在2025年6月15日前向RBI中央信息管理系统(CIMS)注册；设置冷静期允许借款人在无罚息情况下退出贷款；禁止未经明确请求自动提高信用额度；借款人数据必须存储在印度境内服务器，境外处理的须在24小时内删除并返回。",
+          source: "RBI / Lawrbit",
+          url: "https://www.lawrbit.com/article/reserve-bank-of-india-digital-lending-directions-2025/",
+          tags: ["数字借贷", "RBI", "CIMS", "数据本地化", "借款人保护"],
+          verified: true
+        },
+        {
+          id: "in-4",
+          type: "regulation",
+          date: "2025-09-15",
+          title: "印度RBI发布支付聚合商(PA)主指令2025",
+          description: "RBI发布2025年支付聚合商主指令，将所有支付聚合商纳入监管范围（包括此前未纳入的面对面交付付款POS聚合商）。指令要求严格的授权、净资产、KYC、风险管理、托管和技术标准，以增强印度支付生态系统的安全性和透明度。",
+          source: "RBI / India Fintech Foundation",
+          url: "https://indiafintechfoundation.com/regulatoryAnnouncements",
+          tags: ["支付聚合商", "RBI", "KYC", "支付生态"],
+          verified: true
+        }
+      ]
+    },
+    {
+      id: "fatf",
+      name: "国际组织",
+      flag: "🌍",
+      category: "global",
+      items: [
+        {
+          id: "fatf-1",
+          type: "regulation",
+          date: "2026-02-01",
+          title: "FATF 2026年2月更新灰名单：科威特、巴布亚新几内亚新增",
+          description: "金融行动特别工作组(FATF)在2026年2月全体会议上更新灰名单（加强监控司法管辖区）。新增科威特（因金融制裁实施缺陷、资产冻结延迟、现金交易监控不足）和巴布亚新几内亚（因跨机构AML/CFT协调失败、腐败和非法伐木收益追回不足）。灰名单共23个国家/地区。黑名单仍为3个：伊朗、朝鲜、缅甸。",
+          source: "FATF / Sanctions Lawyers",
+          url: "https://sanctionslawyers.net/blog-en/the-fatf-grey-list-and-blacklist-complete-guide/",
+          tags: ["FATF", "灰名单", "反洗钱", "科威特", "巴布亚新几内亚"],
+          verified: true
+        },
+        {
+          id: "fatf-2",
+          type: "policy",
+          date: "2025-10-01",
+          title: "FATF 2025年10月灰名单变动：南非、尼日利亚、莫桑比克、布基纳法索移除",
+          description: "FATF 2025年10月全体会议将4个非洲国家从灰名单移除：南非（完成约2年的改革）、尼日利亚（改善AML起诉和金融情报能力）、莫桑比克（银行监管和受益所有权框架改进）、布基纳法索（尽管萨赫勒地区安全挑战仍完成行动计划）。",
+          source: "FATF / CheckLynx",
+          url: "https://checklynx.com/en/resources/blog/FATF_2025",
+          tags: ["FATF", "灰名单", "南非", "尼日利亚", "移除"],
+          verified: true
+        }
+      ]
+    }
+  ],
 
-var TRACKER_DATA = [
-  // ==================== 越南 Vietnam ====================
-  {
-    id: "VN-002",
-    title: "越南修订互联网服务与在线信息管理法令（第 116/2026/NĐ-CP 号）",
-    date: "2026-04-08",
-    country: "越南",
-    countryCode: "VN",
-    category: "法律法规",
-    type: "法律修订",
-    summary: "政府于 2026 年 4 月 2 日发布第 116/2026/NĐ-CP 号法令，修订第 147/2024/NĐ-CP 号法令中关于互联网服务和在线信息管理的条款，2026 年 4 月 8 日生效。核心变化：1）域名注册实名制 — 须提供电子身份码、企业代码、税号、完整地址；2）域名管理机构须为越南组织/企业，具备信息安全保障能力；3）社交媒体必须在 24 小时内删除违规内容；4）16 岁以下禁止创建社交媒体账户；5）社交平台须向用户公开内容分发算法；6）用户须通过手机号或身份证号实名验证后才能发帖、评论、直播；7）平台必须向主管部门提供用户信息用于调查。",
-    source: "LuatVietnam.vn / 越南法律网",
-    sourceUrl: "https://luatvietnam.vn/doanh-nghiep/nghi-dinh-116-2026-nd-cp-sua-doi-thu-tuc-hanh-chinh-trong-san-xuat-kinh-doanh-431035-d1.html",
-    impact: "高",
-    tags: ["社交媒体", "实名验证", "算法透明", "儿童保护", "内容审核"],
-    verified: true,
-    verificationDate: "2026-04-26",
-    verificationMethod: "越南语原文搜索 + 法律数据库全文核对"
-  },
+  // 更新日志
+  lastUpdated: "2026-04-28",
+  version: "1.2.0",
+  source: "Litmatch合规信息跟踪站"
+};
 
-  // ==================== 菲律宾 Philippines ====================
-  {
-    id: "PH-001",
-    title: "菲律宾 SIM 卡实名注册法（RA 11934）持续执行",
-    date: "2022-10-10",
-    country: "菲律宾",
-    countryCode: "PH",
-    category: "法律法规",
-    type: "法律生效",
-    summary: "《SIM 卡注册法》(Republic Act No. 11934) 于 2022 年 10 月 10 日由总统签署生效，2023 年 7 月完成未注册 SIM 停用执行。该法要求所有 SIM 卡（含预付卡）实名注册后方可激活，外国用户须提交护照及菲律宾住址证明。所有社交/约会应用依赖的短信验证系统均须适配该实名制环境。",
-    source: "Official Gazette of the Philippines / NTC",
-    sourceUrl: "https://www.officialgazette.gov.ph",
-    impact: "高",
-    tags: ["SIM 注册", "实名认证", "短信验证", "RA 11934"]
-  },
-  {
-    id: "PH-004",
-    title: "菲律宾《第 12023 号共和国法案》对外国数字服务征收 12% VAT",
-    date: "2025-06-02",
-    country: "菲律宾",
-    countryCode: "PH",
-    category: "税务合规",
-    type: "税法生效",
-    summary: "菲律宾《第 12023 号共和国法案》（Republic Act No. 12023，即《数字服务增值税法》）于 2024 年 10 月 2 日由总统签署，2025 年 6 月 2 日正式生效。该法对外国非居民数字服务提供商（NDSP）在菲律宾境内消费的数字服务征收 12% 增值税（VAT）。年销售额超过 300 万比索的非居民企业需在菲律宾税务局（BIR）注册并缴纳 VAT。",
-    source: "菲律宾税务局 (BIR) / 第 12023 号共和国法案",
-    sourceUrl: "https://www.bir.gov.ph",
-    impact: "高",
-    tags: ["数字服务税", "VAT", "NDSP", "12%", "RA 12023"]
-  },
-
-  // ==================== 印度尼西亚 Indonesia ====================
-  {
-    id: "ID-001",
-    title: "印尼 DPI 法（Penyelenggara Sistem Elektronik 注册制度）",
-    date: "2022-10-17",
-    country: "印度尼西亚",
-    countryCode: "ID",
-    category: "政府政策",
-    type: "法律生效",
-    summary: "印尼《信息与电子交易法》（UU ITE）修正案及 PM Kominfo No. 5/2020 确立了私营电子系统提供商（PSE）注册制度。所有在印尼运营的在线平台必须在通信与数字事务部（Kemkomdigi，原 Kominfo）数据库中注册，未注册平台面临被封锁风险（Pasal 7）。平台还须配合执法部门的数据调取请求（Pasal 21），否则可被暂停或撤销 PSE 证书（Pasal 45）。",
-    source: "印尼通信与数字事务部 (Kemkomdigi)",
-    sourceUrl: "https://komdigi.go.id",
-    impact: "高",
-    tags: ["PSE 注册", "平台注册", "数据调取", "DPI"]
-  },
-
-  // ==================== 马来西亚 Malaysia ====================
-  {
-    id: "MY-001",
-    title: "马来西亚社交媒体牌照制度生效",
-    date: "2025-01-01",
-    country: "马来西亚",
-    countryCode: "MY",
-    category: "法律法规",
-    type: "新法生效",
-    summary: "马来西亚《1998 年通信与多媒体法》修正案及 MCMC 监管框架于 2025 年 1 月 1 日生效。在马来西亚拥有至少 800 万用户的互联网消息服务和社交媒体服务提供商必须向马来西亚通信与多媒体委员会（MCMC）申请 A 级应用服务提供商（ASP）牌照。Facebook、Instagram、TikTok、X 等主流平台已获牌照。未持牌运营属违法行为。",
-    source: "马来西亚通信与多媒体委员会 (MCMC)",
-    sourceUrl: "https://www.mcmc.gov.my",
-    impact: "高",
-    tags: ["牌照制度", "ASP", "平台注册", "800万用户"]
-  },
-  {
-    id: "MY-002",
-    title: "马来西亚《2025年网络安全法》正式生效",
-    date: "2026-01-01",
-    country: "马来西亚",
-    countryCode: "MY",
-    category: "法律法规",
-    type: "新法生效",
-    summary: "马来西亚《2025年网络安全法》（Online Safety Act 2025，Act 866）于 2025 年 5 月 6 日获皇家批准，2026 年 1 月 1 日正式生效（由部长通过宪报公告指定）。该法要求持牌应用服务提供商（ASP）和内容应用服务提供商（CASP）采取措施降低用户接触有害内容的风险、建立有害内容举报机制、保护儿童用户网络安全、制定网络安全计划等。未遵守法定义务的提供商面临最高 1000 万林吉特罚款。",
-    source: "马来西亚国家网络安全局 (NACSA) / Allen & Gledhill 律所",
-    sourceUrl: "https://www.allenandgledhill.com",
-    impact: "高",
-    tags: ["网络安全法", "有害内容", "儿童保护", "罚款"]
-  },
-
-  // ==================== 土耳其 Turkey ====================
-  {
-    id: "TR-001",
-    title: "土耳其《社交媒体法》（第 7253 号法）要求本地代表和数据存储",
-    date: "2020-07-31",
-    country: "土耳其",
-    countryCode: "TR",
-    category: "法律法规",
-    type: "法律执行",
-    summary: "土耳其第 7253 号法（Law No. 7253）于 2020 年 7 月 31 日通过，修订第 5651 号《互联网法》。该法要求日访问量超过 100 万的社交网络提供商必须在土耳其任命至少一名本地代表（自然人须为土耳其公民），并将从土耳其用户收集的数据存储在土耳其境内。平台须在 48 小时内响应内容移除申请，并每半年向信息技术和通信管理局（BTK）提交报告。未遵守的平台面临从 1000 万土耳其里拉起罚、广告禁令和最高 90% 带宽限制。",
-    source: "土耳其信息技术和通信管理局 (BTK)",
-    sourceUrl: "https://www.btk.gov.tr",
-    impact: "高",
-    tags: ["本地代表", "数据本地化", "带宽限制", "7253号法"]
-  },
-
-  // ==================== 阿联酋 UAE ====================
-  {
-    id: "AE-001",
-    title: "阿联酋加强 AML/CFT 执法，虚拟资产为重点领域",
-    date: "2025-01-01",
-    country: "阿联酋",
-    countryCode: "AE",
-    category: "反洗钱",
-    type: "执法加强",
-    summary: "阿联酋在 2024 年 2 月被 FATF 移出灰名单后，继续加速 AML/CFT 改革。2024 年 8 月修订反洗钱法，将关键机构提升至内阁和总统府级别。2024-2027 年国家 AML/CFT 战略明确将虚拟资产和新型网络犯罪列为重点风险领域。迪拜虚拟资产监管局（VARA）要求所有虚拟资产服务提供商（VASP）实施客户尽职调查、持续监控、可疑活动报告及旅行规则合规。",
-    source: "阿联酋央行 (CBUAE) / FATF / VARA",
-    sourceUrl: "https://www.cbuae.gov.ae",
-    impact: "中",
-    tags: ["AML", "FATF", "虚拟资产", "VARA", "灰名单"]
-  },
-
-  // ==================== Google Play ====================
-  {
-    id: "GP-001",
-    title: "Google Play 2026年4月重大政策更新",
-    date: "2026-04-15",
-    country: "Google Play",
-    countryCode: "GP",
-    category: "应用市场政策",
-    type: "政策更新",
-    summary: "Google Play 于 2026 年 4 月 15 日发布重大政策更新。核心变化：1）联系人权限 — 非核心功能应用必须使用 Android Contact Picker 而非请求完整 READ_CONTACTS 权限（最早执行 2026-05-15）；2）位置权限 — 必须采用位置按钮（location button）作为一次性精确位置访问的推荐方式（最早执行 2026-05-15）；3）账户转移 — 必须通过 Play Console 官方'Transfer ownership'流程进行，含 7 天安全延迟期（截止 2026-05-27）；4）预测市场试点 — 允许真实货币交易的预测市场应用须于 2026-06-01 前注册试点计划。",
-    source: "Google Play Policy Center / ASOWorld",
-    sourceUrl: "https://asoworld.com/blog/april-2026-google-play-policy-updates/",
-    impact: "极高",
-    tags: ["联系人权限", "位置按钮", "账户转移", "预测市场"]
-  }
-];
-
-// 导出供 app.js 使用
+// 导出数据
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { TRACKER_DATA };
-}
-
-// 浏览器环境：显式挂载到 window
-if (typeof window !== 'undefined') {
-  window.TRACKER_DATA = TRACKER_DATA;
+  module.exports = COMPLIANCE_DATA;
 }

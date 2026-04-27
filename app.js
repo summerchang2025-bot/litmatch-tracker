@@ -15,11 +15,16 @@
     { code: 'TH', name: '🇹🇭 泰国' },
     { code: 'MY', name: '🇲🇾 马来西亚' },
     { code: 'VN', name: '🇻🇳 越南' },
-    { code: 'BR', name: '🇧🇷 巴西' },
+    { code: 'SG', name: '🇸🇬 新加坡' },
+    { code: 'TR', name: '🇹🇷 土耳其' },
+    { code: 'AE', name: '🇦🇪 阿联酋' },
+    { code: 'IN', name: '🇮🇳 印度' },
+    { code: 'HK', name: '🇭🇰 香港' },
     { code: 'GP', name: '🤖 Google Play' },
     { code: 'AS', name: '🍎 App Store' },
     { code: 'GL', name: '🌍 全球' },
-    { code: 'SEA', name: '🌏 东南亚' }
+    { code: 'SEA', name: '🌏 东南亚' },
+    { code: 'FATF', name: '🌍 国际组织' }
   ];
 
   // ============ 状态 ============
