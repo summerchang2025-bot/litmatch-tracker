@@ -298,6 +298,28 @@ const COMPLIANCE_DATA = {
           url: "https://www.icisleri.gov.tr",
           tags: ["非法赌博", "执法行动", "729次", "2996人被捕", "2000万美元"],
           verified: true
+        },
+        {
+          id: "tr-13",
+          type: "policy",
+          date: "2025-10-01",
+          title: "Diyanet（宗教事务局）推动社交媒体伊斯兰伦理审查：可审查古兰经翻译",
+          description: "土耳其宗教事务局(Diyanet)获得审查古兰经翻译的权力，可禁止\"不符合伊斯兰原则\"的译本，已出版的\"问题译本\"可被收回销毁，包括互联网上的数字文本、音视频内容。Diyanet深度参与社交媒体伦理对话，支持政府对数字空间实施更严格的伊斯兰价值观审查。",
+          source: "Diyanet / FAZ / bpb.de",
+          url: "https://www.diyanet.gov.tr",
+          tags: ["Diyanet", "宗教事务局", "伊斯兰伦理", "古兰经审查", "社交媒体"],
+          verified: true
+        },
+        {
+          id: "tr-14",
+          type: "enforcement",
+          date: "2026-04-01",
+          title: "土耳其政府要求社媒平台实施强制身份证号登录",
+          description: "土耳其正推动新立法，要求所有社交媒体用户通过国家身份证号(e-Devlet)登录。官方称2026年前4个月已封锁27,300个社交媒体账号和近7,000个URL。TikTok、Google已向议会委员会表示将配合内容删除要求。",
+          source: "Ministry of Interior / Nordic Monitor",
+          url: "https://www.icisleri.gov.tr",
+          tags: ["身份证号登录", "e-Devlet", "社媒封锁", "TikTok", "Google"],
+          verified: true
         }
       ]
     },
@@ -556,6 +578,28 @@ const COMPLIANCE_DATA = {
           url: "https://www.scmreg.gov.eg",
           tags: ["网站许可", "SCMR", "第180号法律", "新闻网站"],
           verified: true
+        },
+        {
+          id: "eg-11",
+          type: "enforcement",
+          date: "2025-08-01",
+          title: "内政部道德警察大规模扫荡TikTok创作者：29人被捕，Suzy被判1年",
+          description: "内政部网络安全局联合检察院展开\"数字空间净化行动\"，至少29名内容创作者被逮捕或判刑。YouTuber Suzy El-Urduneya因\"违反社会价值观\"被判1年监禁。 comedian Mohamed Abdelaty（50万粉丝）因喜剧视频被捕，检方追加洗钱指控——将内容犯罪重构为金融犯罪。四名肚皮舞演员Badiaa、Noura Denial、Boosi al Asad和Doosa被捕。",
+          source: "Ministry of Interior / Al Masry Al Youm / Mimeta",
+          url: "https://www.almasryalyoum.com",
+          tags: ["道德警察", "TikTok", "网红被捕", "Suzy", "肚皮舞", "洗钱"],
+          verified: true
+        },
+        {
+          id: "eg-12",
+          type: "enforcement",
+          date: "2026-01-01",
+          title: "埃及道德警察持续执法：多名女网红因\"破坏家庭价值观\"被判刑",
+          description: "2025-2026年埃及道德警察持续扩大执法。2025年11月29日，视频博主Mohamed Abdel Aaty被判2年监禁+EGP 100,000罚款；同日\"Qamar El-Wekala\"被判6个月劳改。2025年10月29日Suzy El-Ordonia被判1年。2025年9月13日Marwa Yousry(\"Ibnat Mubarak\")被判2年。11月30日\"Sultangi\"和\"El-Ekilans\"以EGP 50,000保释。",
+          source: "Ministry of Interior / Law and Democracy Support Foundation",
+          url: "https://ldsf.info",
+          tags: ["道德警察", "女网红", "破坏家庭价值观", "判刑", "监禁"],
+          verified: true
         }
       ]
     },
@@ -673,6 +717,50 @@ const COMPLIANCE_DATA = {
           source: "Ministry of Commerce / Saudi Gazette",
           url: "https://www.saudigazette.com.sa",
           tags: ["非法抽奖", "商务部", "彩票", "促销"],
+          verified: true
+        },
+        {
+          id: "sa-11",
+          type: "enforcement",
+          date: "2026-05-04",
+          title: "Nazaha（国家反腐败委员会）：4月逮捕97名官员，259人被调查",
+          description: "沙特监督与反腐败局(Nazaha)公布4月执法数据：通过3,041次检查行动，对259人启动调查，逮捕97名官员。涉案部门包括内政部、市政住房部、教育部和卫生部。Nazaha在X平台（原Twitter）定期发布执法通报。",
+          source: "Nazaha / Lexis Middle East",
+          url: "https://www.nazaha.gov.sa",
+          tags: ["Nazaha", "反腐败", "逮捕", "内政部", "X平台"],
+          verified: true
+        },
+        {
+          id: "sa-12",
+          type: "enforcement",
+          date: "2026-01-01",
+          title: "Nazaha 12月数据：1,440次检查，466人被调查，116人被捕",
+          description: "Nazaha公布2025年12月执法统计：1,440次检查行动，466名嫌疑人被调查，116人被捕（部分保释）。2025年上半年Nazaha调查行动达2,330起，为四年最高。",
+          source: "Nazaha / Argaam",
+          url: "https://www.nazaha.gov.sa",
+          tags: ["Nazaha", "执法统计", "调查", "逮捕", "上半年"],
+          verified: true
+        },
+        {
+          id: "sa-13",
+          type: "enforcement",
+          date: "2025-07-01",
+          title: "内政部社区安全部队打击\"不道德行为\"：逮捕50余人，包括性工作者和乞讨团伙",
+          description: "内政部成立社区安全和人贩运专门单位，以\"打击不道德行为\"名义逮捕50余名嫌疑人，包括11名性工作者（沙特十余年来首次公开承认存在卖淫）和多名按摩院外籍人员。行动被部分民众视为2016年被削权的\"劝善惩恶委员会\"（宗教警察）的变相回归。",
+          source: "Ministry of Interior / Financial Times / Okaz",
+          url: "https://www.moi.gov.sa",
+          tags: ["道德警察", "社区安全", "不道德行为", "性工作者", "宗教警察"],
+          verified: true
+        },
+        {
+          id: "sa-14",
+          type: "regulation",
+          date: "2025-10-01",
+          title: "GAMR/GCAM发布2025年媒体规则：禁止炫富、暴露着装、家庭纠纷公开",
+          description: "视听媒体总管理局(GAMR/GCAM)发布2025年社交媒体内容新规，禁止：使用不当语言；展示奢侈生活方式（豪车、金钱）；暴露或紧身着装；拍摄儿童或家政工；公开家庭纠纷；贬损王室或高级官员；未经同意拍摄他人。违者面临罚款至账号封禁。",
+          source: "GAMR / Hotelier Middle East / Lexis Middle East",
+          url: "https://www.gamr.gov.sa",
+          tags: ["GAMR", "媒体规则", "炫富", "着装", "家庭纠纷", "内容标准"],
           verified: true
         }
       ]
@@ -852,4 +940,36 @@ const COMPLIANCE_DATA = {
 // 导出数据
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = COMPLIANCE_DATA;
+
+// Also export TRACKER_DATA for direct browser use
+const COUNTRY_CODE_MAP = {
+  'vietnam': 'VN',
+  'thailand': 'TH',
+  'malaysia': 'MY',
+  'indonesia': 'ID',
+  'philippines': 'PH',
+  'turkey': 'TR',
+  'uae': 'AE',
+  'egypt': 'EG',
+  'saudi-arabia': 'SA',
+  'singapore': 'SG',
+  'hong-kong': 'HK',
+  'india': 'IN',
+  'fatf': 'FATF'
+};
+const TRACKER_DATA = [];
+COMPLIANCE_DATA.countries.forEach(function(country) {
+  country.items.forEach(function(item) {
+    var mappedItem = Object.assign({}, item);
+    mappedItem.country = country.name;
+    mappedItem.countryCode = COUNTRY_CODE_MAP[country.id] || country.id.substring(0, 2).toUpperCase();
+    TRACKER_DATA.push(mappedItem);
+  });
+});
+if (typeof window !== 'undefined') {
+  window.TRACKER_DATA = TRACKER_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports.TRACKER_DATA = TRACKER_DATA;
+}
 }

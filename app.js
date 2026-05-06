@@ -18,6 +18,8 @@
     { code: 'SG', name: '🇸🇬 新加坡' },
     { code: 'TR', name: '🇹🇷 土耳其' },
     { code: 'AE', name: '🇦🇪 阿联酋' },
+    { code: 'EG', name: '🇪🇬 埃及' },
+    { code: 'SA', name: '🇸🇦 沙特阿拉伯' },
     { code: 'IN', name: '🇮🇳 印度' },
     { code: 'HK', name: '🇭🇰 香港' },
     { code: 'GP', name: '🤖 Google Play' },
