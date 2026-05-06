@@ -49,62 +49,62 @@
       tags: ["Decree 147", "10万门槛", "实名认证", "本地公司", "MIC通知"]
     },
 
-    // ===== 泰国补充（4条 → 共8条） =====
+    // ===== 泰国补充（8条） =====
     {
       id: "TH-005",
-      title: "泰国ETDA发布社交媒体'安全港'规则草案：第二轮公众咨询",
-      date: "2026-01-16",
-      country: "泰国",
-      countryCode: "TH",
-      category: "法律法规",
-      type: "规则草案",
-      summary: "泰国电子交易发展局(ETDA)发布《数字平台服务法》下的社交媒体'安全港'规则草案，进入第二轮公众咨询期。草案明确平台对用户侵权内容承担有限责任的条件：平台必须在收到权利人通知后48小时内移除侵权内容、建立有效的申诉机制、每半年向ETDA提交透明度报告。",
-      source: "ETDA / Baker McKenzie",
-      sourceUrl: "https://www.etda.or.th",
-      impact: "中",
-      tags: ["ETDA", "安全港", "48小时移除", "透明度报告", "公众咨询"]
-    },
-    {
-      id: "TH-006",
-      title: "泰国商务部要求OTT平台缴纳7%增值税：Netflix、Disney+等受影响",
-      date: "2026-01-20",
+      title: "泰国NBTC宣布2026-2030总体规划将纳入OTT平台监管",
+      date: "2026-04-14",
       country: "泰国",
       countryCode: "TH",
       category: "政府政策",
-      type: "税务新规",
-      summary: "泰国商务部发布新规，要求所有在泰国提供OTT流媒体服务的平台(包括Netflix、Disney+、YouTube Premium和本地平台)自2026年4月起缴纳7%的增值税(VAT)。此前，部分外国OTT平台利用税务漏洞未在泰国注册纳税。新规要求所有OTT平台必须在泰国税务局登记并按月申报缴纳VAT。",
-      source: "泰国商务部 / 税务局",
-      sourceUrl: "https://www.rd.go.th",
-      impact: "中",
-      tags: ["OTT", "增值税", "7%", "Netflix", "税务局登记"]
+      type: "监管框架",
+      summary: "泰国国家广播电信委员会(NBTC)在4月14日透露，即将发布的《广播电视总体规划(2026-2030)》将包含监管OTT(Over-The-Top)平台和内容的条款。NBTC董事会已达成共识，认定其有权监管OTT服务。此举旨在平衡传统数字电视运营商(面临严格许可条件和合规成本)与OTT平台(目前监管较轻)之间的竞争环境。NBTC专员Pirongrong Ramasoota表示，OTT监管将聚焦于平台而非直接针对内容创作者或网红，具体标准将在总体规划最终确定后制定。该计划需与电子交易发展局(ETDA)协调，后者执行2022年数字平台服务皇家法令。",
+      source: "SAMENA Daily News / Bangkok Post",
+      sourceUrl: "https://www.samenacouncil.org/samena_daily_news.php?news=110259",
+      impact: "高",
+      tags: ["NBTC", "OTT", "广播电视总体规划", "平台监管", "2026-2030", "ETDA"]
     },
     {
-      id: "TH-007",
-      title: "泰国通过《平台经济法》草案：平台按规模分级履行不同义务",
-      date: "2026-02-15",
+      id: "TH-006",
+      title: "泰国建立社交媒体24小时下架义务，草案要求所有用户强制手机号身份验证",
+      date: "2025-07-15",
       country: "泰国",
       countryCode: "TH",
       category: "法律法规",
-      type: "法案通过",
-      summary: "泰国内阁通过《平台经济法》草案，将数字平台按用户规模和收入分为三个等级，实施差异化监管。大型平台(年收入超10亿泰铢或用户超100万)必须：任命泰国本地代表、建立用户投诉处理机制、向商务部提交季度运营报告、对价格欺诈和虚假宣传承担连带责任。草案预计2026年下半年提交国会。",
-      source: "泰国商务部 / ETDA",
-      sourceUrl: "https://www.etda.or.th",
+      type: "草案",
+      summary: "泰国Tilleke & Gibbins律所2025年7月发布分析：泰国建立了新的安全港规则，要求社交媒体平台在收到政府通知后24小时内删除指定内容。更重要的是，泰国技术犯罪法令草案要求所有社交媒体服务提供商强制收集用户身份文件和电话号码——每个账户必须通过短信OTP验证电话号码；广告商必须完成KYC验证（个人需提供姓名、联系方式、身份证明；企业需提供注册号等）。草案还要求平台在收到反技术犯罪部门通知后，必须实施搜索词过滤和相关内容群组暂停传播机制，以及高风险广告预审机制。平台一旦在泰国政府公报发布后将有90天合规窗口。",
+      source: "Tilleke & Gibbins / Lexology (Thomson Reuters)",
+      sourceUrl: "https://www.tilleke.com/insights/thailand-establishes-24-hour-takedown-obligation-for-social-media-platforms/7/",
+      impact: "高",
+      tags: ["24小时下架", "手机号验证", "OTP", "KYC", "广告商验证", "技术犯罪法令", "内容过滤"]
+    },
+    {
+      id: "TH-007",
+      title: "泰国SEC发布数字资产Travel Rule咨询文件，强化反洗钱追溯",
+      date: "2026-03-10",
+      country: "泰国",
+      countryCode: "TH",
+      category: "政府政策",
+      type: "咨询文件",
+      summary: "泰国证券交易委员会(SEC)于2026年3月10日发布SEC News No. 54/2026咨询文件，提议对持牌数字资产运营商的转账实施正式的Travel Rule要求。该规则源自FATF建议16，要求数字资产转账必须附带发起人和受益人的身份信息，包括交易数据、客户详情和对手方信息，且必须保留至少5年。发起运营商必须在转账时向接收运营商传输完整的发起人和受益人数据。SEC表示，此举是与反洗钱办公室(AMLO)在2026年1月金融数据互联互通小组委员会决议后的联合行动，旨在加强中介机构的预防性监管措施，提升技术相关犯罪调查中的资产追踪和追回效率。",
+      source: "Silk Legal / SEC Thailand",
+      sourceUrl: "https://silklegal.com/thailand-sec-tightens-digital-asset-oversight-across-three-fronts/",
       impact: "中",
-      tags: ["平台经济法", "分级监管", "10亿泰铢", "本地代表", "连带责任"]
+      tags: ["SEC", "Travel Rule", "FATF", "反洗钱", "数字资产", "转账追溯", "AMLO"]
     },
     {
       id: "TH-008",
-      title: "泰国选举委员会加强选举期间社交媒体监控：禁止AI深度伪造竞选内容",
-      date: "2026-01-15",
+      title: "泰国NBTC拟将数据中心许可证从Type 1升至Type 3，引入外资持股限制",
+      date: "2026-03-25",
       country: "泰国",
       countryCode: "TH",
-      category: "执法行动",
-      type: "监管指引",
-      summary: "泰国选举委员会(EC)发布2026年地方选举期间社交媒体监管指引，明确禁止使用AI生成的深度伪造(deepfake)视频或音频进行竞选宣传。EC将与平台合作建立快速举报通道，要求平台在收到举报后12小时内删除违规内容。违反规定的候选人将面临取消参选资格和刑事处罚。",
-      source: "泰国选举委员会 / Bangkok Post",
-      sourceUrl: "https://www.ect.go.th",
+      category: "政府政策",
+      type: "监管收紧",
+      summary: "泰国NBTC代理秘书长Trairat Viriyasirikul在3月25日接受Bangkok Post采访时宣布，NBTC计划将数据中心运营许可证从Type 1（无自有网络基础设施）重新分类为Type 3（有自有网络基础设施）。Type 3许可证将面临更严格的审查和更高的年度监管费用。更重要的是，根据2001年电信业务法，Type 3许可证运营商将受到外资持股限制，包括要求外国股东持有总发行股份的比例低于50%，且面临外资主导限制（禁止任何允许外国人主导业务的安排）。NBTC计划在2026年底前实施新许可制度，现有运营商需重新申请变更。目前泰国有超过20家持证数据中心运营商，2025年BOI已批准超过10个数据中心项目。",
+      source: "Bangkok Post / Developing Telecoms",
+      sourceUrl: "https://developingtelecoms.com/telecom-business/telecom-regulation/20013-thailands-nbtc-to-reclassify-data-centre-licences-for-tighter-oversight.html",
       impact: "中",
-      tags: ["选举委员会", "深度伪造", "AI竞选", "12小时删除", "参选资格"]
+      tags: ["NBTC", "数据中心", "Type 3许可证", "外资持股限制", "50%", "电信业务法"]
     },
 
     // ===== 马来西亚补充（4条 → 共8条） =====
