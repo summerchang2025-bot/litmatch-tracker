@@ -1048,10 +1048,6 @@ const COMPLIANCE_DATA = {
 };
 
 // 导出数据
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = COMPLIANCE_DATA;
-
-// Also export TRACKER_DATA for direct browser use
 const COUNTRY_CODE_MAP = {
   'vietnam': 'VN',
   'thailand': 'TH',
@@ -1076,10 +1072,14 @@ COMPLIANCE_DATA.countries.forEach(function(country) {
     TRACKER_DATA.push(mappedItem);
   });
 });
+
+// 浏览器环境：直接挂载到 window
 if (typeof window !== 'undefined') {
   window.TRACKER_DATA = TRACKER_DATA;
 }
+
+// Node.js 环境：通过 module.exports 导出
 if (typeof module !== 'undefined' && module.exports) {
+  module.exports = COMPLIANCE_DATA;
   module.exports.TRACKER_DATA = TRACKER_DATA;
-}
 }
