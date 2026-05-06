@@ -514,7 +514,7 @@
 
     <!-- 提示 -->
     <div class="hint-bar">
-      💡 <strong>使用说明：</strong>显示<strong>全部情报</strong>，两周内更新的条目标记 🆕 新。按日期从新到旧排序。支持按分类和地区筛选。
+      💡 <strong>使用说明：</strong>显示<strong>近一个月</strong>的情报，近两周内更新的条目标记 🔥 重点。支持按分类和地区筛选。
     </div>
 
     <!-- 筛选栏 -->
@@ -596,7 +596,7 @@
   'use strict';
 
   const CATEGORIES = ['全部', '法律法规', '政府政策', '同业信息', '执法行动', '应用市场政策'];
-  let state = { currentCategory: '全部', currentRegion: 'ALL', refreshTime: null, twoWeeksAgo: null };
+  let state = { currentCategory: '全部', currentRegion: 'ALL', refreshTime: null, oneMonthAgo: null, twoWeeksAgo: null };
   let $refreshBtn, $refreshTime, $timeRange, $categoryTags, $regionSelect, $resultsCount, $cardContainer, $noResults;
 
   function init() {
@@ -648,10 +648,12 @@
   function doRefresh() {
     const now = new Date();
     state.refreshTime = now;
+    const oneMonthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
     const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+    state.oneMonthAgo = oneMonthAgo;
     state.twoWeeksAgo = twoWeeksAgo;
     if ($refreshTime) { $refreshTime.textContent = formatDateTimeCN(now); }
-    if ($timeRange) { $timeRange.textContent = '显示全部情报 · 两周内更新标记为 🆕 新'; }
+    if ($timeRange) { $timeRange.textContent = '显示近一个月情报 · 近两周更新标记为 🔥 重点'; }
     renderCategoryTags();
     renderCards();
   }
@@ -670,7 +672,11 @@
     return window.TRACKER_DATA.filter(function (item) {
       if (state.currentCategory !== '全部' && item.category !== state.currentCategory) return false;
       if (state.currentRegion !== 'ALL' && item.countryCode !== state.currentRegion) return false;
-      return true;
+      // 默认只显示近一个月的情报
+      const itemDate = new Date(item.date);
+      const now = state.refreshTime || new Date();
+      const oneMonthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+      return itemDate >= oneMonthAgo && itemDate <= now;
     }).sort(function (a, b) { return b.date.localeCompare(a.date); });
   }
 
@@ -696,13 +702,13 @@
 
   function buildCard(item) {
     const impactClass = getImpactClass(item.impact);
-    const isNew = isWithinTwoWeeks(item.date);
-    const newBadge = isNew ? '<span class="badge new-badge">🆕 新</span>' : '';
+    const isHot = isWithinTwoWeeks(item.date);
+    const hotBadge = isHot ? '<span class="badge new-badge">🔥 重点</span>' : '<span class="badge new-badge" style="opacity:0.5">🆕 近一月</span>';
 
-    let html = '<div class="intel-card' + (isNew ? ' card-new' : '') + '" data-id="' + item.id + '">';
+    let html = '<div class="intel-card' + (isHot ? ' card-new' : '') + '" data-id="' + item.id + '">';
     html += '<div class="card-header">';
     html += '<div class="meta"><span class="country">' + item.country + '</span><span class="date">' + item.date + '</span></div>';
-    html += '<div class="badges">' + newBadge;
+    html += '<div class="badges">' + hotBadge;
     html += '<span class="badge category-' + getCategorySlug(item.category) + '">' + item.category + '</span>';
     html += '<span class="badge type">' + item.type + '</span>';
     html += '<span class="badge impact ' + impactClass + '">影响：' + item.impact + '</span>';

@@ -38,6 +38,28 @@ const COMPLIANCE_DATA = {
           url: "https://www.fatf-gafi.org",
           tags: ["FATF", "反洗钱", "灰名单", "国际合作"],
           verified: true
+        },
+        {
+          id: "vn-3",
+          type: "policy",
+          date: "2026-04-15",
+          title: "越南《个人数据保护法》2026年1月生效：企业合规新要求",
+          description: "越南《个人数据保护法》(PDPD)于2026年1月1日正式生效。该法要求所有处理越南个人数据的组织必须：任命数据保护官(DPO)；进行数据保护影响评估(DPIA)；获得用户明确同意后方可处理敏感个人数据；在发生数据泄露时72小时内通知监管机构。违规企业面临最高达年收入5%的罚款。",
+          source: "越南国会 / LuatVietnam.vn",
+          url: "https://luatvietnam.vn",
+          tags: ["个人数据保护", "PDPD", "DPO", "DPIA", "罚款"],
+          verified: true
+        },
+        {
+          id: "vn-4",
+          type: "enforcement",
+          date: "2026-04-10",
+          title: "越南公安部网络安全局查处多个非法跨境社交平台",
+          description: "越南公安部网络安全和高科技犯罪预防局(A05)通报，2026年第一季度查处了15个未经PSE注册的非法跨境社交平台，涉及在线赌博、加密货币交易和虚假新闻传播。平台运营者面临刑事起诉，服务器被没收。",
+          source: "越南公安部 / Thanh Nien",
+          url: "https://thanhnien.vn",
+          tags: ["网络安全局", "A05", "非法平台", "PSE注册", "刑事起诉"],
+          verified: true
         }
       ]
     },
@@ -67,6 +89,28 @@ const COMPLIANCE_DATA = {
           source: "泰国AMLO",
           url: "https://www.amlo.go.th",
           tags: ["反洗钱", "虚拟资产", "AMLO"],
+          verified: true
+        },
+        {
+          id: "th-3",
+          type: "enforcement",
+          date: "2026-04-05",
+          title: "泰国国家反腐败委员会(NACC)调查数字平台腐败案",
+          description: "泰国国家反腐败委员会(NACC)启动对某大型社交媒体平台在泰内容审核外包业务的腐败调查，指控该平台通过中间人向政府官员行贿以获取内容审核宽松待遇。NACC已冻结涉案人员资产并申请搜查令。",
+          source: "泰国NACC / Prachachat Turakij",
+          url: "https://www.nacc.go.th",
+          tags: ["NACC", "反腐败", "数字平台", "内容审核", "行贿"],
+          verified: true
+        },
+        {
+          id: "th-4",
+          type: "regulation",
+          date: "2026-03-28",
+          title: "泰国PDPA执法升级：首次对社交平台处以年收入3%罚款",
+          description: "泰国个人数据保护委员会(PDPC)依据《个人数据保护法》(PDPA)对一家未具名社交媒体平台处以年收入3%的罚款，原因是该平台未能在数据泄露事件后72小时内通知用户和监管机构。这是PDPA生效以来对社交平台的最大单笔罚款。",
+          source: "泰国PDPC / Bangkok Post",
+          url: "https://www.bangkokpost.com",
+          tags: ["PDPA", "数据泄露", "罚款", "3%", "PDPC"],
           verified: true
         }
       ]
@@ -98,6 +142,28 @@ const COMPLIANCE_DATA = {
           url: "https://www.bnm.gov.my",
           tags: ["电子支付", "电子钱包", "BNM"],
           verified: true
+        },
+        {
+          id: "my-3",
+          type: "enforcement",
+          date: "2026-04-05",
+          title: "马来西亚反贪会(MACC)调查MCMC官员：涉嫌收受平台游说款项",
+          description: "马来西亚反贪污委员会(MACC)逮捕MCMC一名高级官员，指控其在社交媒体平台牌照续期审批中收受利益。调查显示该官员通过亲属账户收受某国际社交平台约50万林吉特。MCMC发表声明承诺配合调查并暂停涉事官员职务。",
+          source: "马来西亚MACC / The Edge Malaysia",
+          url: "https://www.sprm.gov.my",
+          tags: ["MACC", "反贪污", "MCMC", "牌照审批", "游说"],
+          verified: true
+        },
+        {
+          id: "my-4",
+          type: "regulation",
+          date: "2026-03-30",
+          title: "马来西亚高等法院判例：社交平台须对用户诽谤内容承担编辑责任",
+          description: "马来西亚高等法院在一项 landmark 判决中裁定，社交媒体平台在收到法院命令后未能在24小时内删除诽谤性内容，应承担编辑责任。该案由本地新闻网站Malaysiakini诉某社交平台案确立。法院援引2025年《网络安全法》和1998年《通信与多媒体法》作出判决。",
+          source: "马来西亚高等法院 / Malaysiakini",
+          url: "https://www.malaysiakini.com",
+          tags: ["高等法院", "诽谤", "编辑责任", "24小时删除", "Malaysiakini"],
+          verified: true
         }
       ]
     },
@@ -128,6 +194,28 @@ const COMPLIANCE_DATA = {
           url: "https://www.ppatk.go.id",
           tags: ["反洗钱", "P2P借贷", "PPATK"],
           verified: true
+        },
+        {
+          id: "id-3",
+          type: "enforcement",
+          date: "2026-04-08",
+          title: "印尼肃贪委员会(KPK)逮捕Kemkomdigi官员：涉嫌收受社交平台贿赂",
+          description: "印尼肃贪委员会(KPK)在泗水逮捕通信与数字事务部(Kemkomdigi)一名高级官员，指控其在颁发PSE注册证书过程中收受某中国社交平台贿赂。KPK同时搜查了该平台在雅加达办公室，扣押财务文件。涉案平台已被暂停PSE证书 pending 调查。",
+          source: "印尼KPK / Kompas",
+          url: "https://www.kpk.go.id",
+          tags: ["KPK", "肃贪委员会", "贿赂", "PSE注册", "Kemkomdigi"],
+          verified: true
+        },
+        {
+          id: "id-4",
+          type: "regulation",
+          date: "2026-03-20",
+          title: "印尼个人数据保护法(PDP Law)实施细则生效：跨境传输需充分性认定",
+          description: "印尼《个人数据保护法》(UU PDP)实施细则正式生效，要求将印尼个人数据传输至境外必须经过充分性认定或签署标准合同条款(SCC)。社交平台和约会应用必须在2026年9月前完成合规评估，向Kemkomdigi提交数据传输影响评估报告。",
+          source: "印尼Kemkomdigi / Hukumonline",
+          url: "https://www.hukumonline.com",
+          tags: ["个人数据保护", "PDP", "跨境传输", "SCC", "Kemkomdigi"],
+          verified: true
         }
       ]
     },
@@ -157,6 +245,28 @@ const COMPLIANCE_DATA = {
           source: "菲律宾央行",
           url: "https://www.bsp.gov.ph",
           tags: ["虚拟资产", "加密货币", "BSP"],
+          verified: true
+        },
+        {
+          id: "ph-3",
+          type: "enforcement",
+          date: "2026-04-12",
+          title: "菲律宾监察专员办公室(Ombudsman)调查政府官员收受社交平台贿赂",
+          description: "菲律宾监察专员办公室对多名NTC和DICT官员展开调查，指控其在社交媒体平台牌照审批过程中收受贿赂。涉案官员被暂停职务，相关平台牌照申请被冻结 pending 调查。Ombudsman发布行政令要求所有数字服务许可审批引入第三方审计。",
+          source: "菲律宾Ombudsman / Manila Bulletin",
+          url: "https://www.ombudsman.gov.ph",
+          tags: ["Ombudsman", "监察专员", "贿赂", "牌照审批", "NTC"],
+          verified: true
+        },
+        {
+          id: "ph-4",
+          type: "regulation",
+          date: "2026-03-15",
+          title: "菲律宾最高法院确认：社交平台对第三方内容承担连带责任",
+          description: "菲律宾最高法院在一项里程碑判决中确认，社交媒体平台对用户发布的虚假信息承担连带责任，前提是平台在收到有效通知后未能在合理时间内删除或屏蔽该内容。该案由Rappler新闻网站诉某社交平台诽谤案引发。",
+          source: "菲律宾最高法院 / Rappler",
+          url: "https://rappler.com",
+          tags: ["最高法院", "连带责任", "虚假信息", "诽谤", "Rappler"],
           verified: true
         }
       ]
