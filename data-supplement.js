@@ -738,6 +738,20 @@
       sourceUrl: "https://www.antaranews.com/berita/5546104/kemkomdigi-6-juni-batas-akhir-pse-lapor-evaluasi-mandiri-pp-tunas",
       impact: "高",
       tags: ["PP Tunas", "6月6日截止日", "PSE", "自评估", "渐进式制裁", "Komdigi"]
+    },
+    {
+      id: "ID-012",
+      title: "Bigo Live印尼区修改用户协议：最低年龄从13岁提至18岁，实施AI+人工多层审核",
+      date: "2026-03-28",
+      country: "印尼",
+      countryCode: "ID",
+      category: "同业信息",
+      type: "平台政策变更",
+      summary: "Bigo Live在印尼PP Tunas法规生效当日（3月28日）正式修改用户内容和隐私政策协议，将最低用户年龄从13岁提升至18岁，并向App Store申请同步更新年龄限制。平台同时实施AI+人工多层审核系统，专门检测和复核18岁以下用户账户。印尼通信与数字部长Meutya Hafid在3月28日记者会上将Bigo Live与X并列为首批'完全合规'平台，点名表扬其'不仅承诺，而是已落实到系统和政策调整'。值得注意的是，Bigo Live英文版用户协议早在2024年即已设定18岁门槛，本次修改主要是将印尼本地化条款统一提升至18岁并正式向Komdigi报备确认。",
+      source: "Tempo.co / Jakarta Globe / The Star",
+      sourceUrl: "https://en.tempo.co/read/2094964/indonesia-enforces-new-rules-on-electronic-systems-for-child-protection",
+      impact: "高",
+      tags: ["Bigo Live", "用户协议", "18岁", "13岁", "年龄验证", "AI审核", "PP Tunas", "Komdigi"]
     }
   ];
 
