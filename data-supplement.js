@@ -752,6 +752,34 @@
       sourceUrl: "https://en.tempo.co/read/2094964/indonesia-enforces-new-rules-on-electronic-systems-for-child-protection",
       impact: "高",
       tags: ["Bigo Live", "用户协议", "18岁", "13岁", "年龄验证", "AI审核", "PP Tunas", "Komdigi"]
+    },
+    {
+      id: "ID-013",
+      title: "印尼Komdigi传唤Meta和Google：PP Tunas生效两天后仍未合规",
+      date: "2026-03-31",
+      country: "印尼",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "监管传唤",
+      summary: "印尼通信与数字部长Meutya Hafid于3月31日正式宣布，已向Meta(Facebook/Instagram/Threads)和Google(YouTube)发出传唤函(summons letters)，指控两家公司在PP Tunas法规于3月28日生效后仍未完全合规。部长声明：'我们已向两家公司发出传唤函，作为执行行政制裁的一部分。'这是PP Tunas生效后首次对头部平台采取正式执法行动。相比之下，X和Bigo Live被列为'完全合规'。TikTok和Roblox当时被列为'尚未完全合规'。",
+      source: "Jakarta Globe / Komdigi",
+      sourceUrl: "https://jakartaglobe.id/tech/indonesia-summons-meta-google-over-noncompliance-with-child-protection-rules",
+      impact: "高",
+      tags: ["PP Tunas", "Meta", "Google", "YouTube", "Facebook", "Instagram", "传唤", "Komdigi"]
+    },
+    {
+      id: "ID-014",
+      title: "印尼Komdigi启动全平台映射：排查年龄门槛虚设、验证机制不足的App",
+      date: "2026-05-05",
+      country: "印尼",
+      countryCode: "ID",
+      category: "政府政策",
+      type: "监管排查",
+      summary: "印尼通信与数字部秘书长Mediodecci Lustarini在5月5日雅加达论坛上宣布，政府已启动系统性映射(mapping)行动，排查所有在印尼运营、设有年龄限制(如18+或21+)但缺乏有效年龄验证机制的数字平台。Lustarini指出：'平台设定最低年龄要求是一回事，实施有效验证系统确保儿童无法访问是另一回事。'排查不限于PP Tunas初始点名的8家高风险平台，覆盖所有PSE。被认定验证机制不足的平台将收到Komdigi警告信，限期整改。",
+      source: "ANTARA / Komdigi",
+      sourceUrl: "https://en.antaranews.com/amp/news/414639/govt-tightens-oversight-of-digital-platforms-to-protect-minors",
+      impact: "高",
+      tags: ["PP Tunas", "年龄验证", "平台映射", "PSE", "Komdigi", "Lustarini", "18+", "21+"]
     }
   ];
 
