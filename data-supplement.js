@@ -754,6 +754,48 @@
       tags: ["Bigo Live", "用户协议", "18岁", "13岁", "年龄验证", "AI审核", "PP Tunas", "Komdigi"]
     },
     {
+      id: "MY-009",
+      title: "马来西亚证券委员会与MCMC签署MoU：联合打击投资诈骗和非法金融活动",
+      date: "2026-04-03",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "执法行动",
+      type: "跨机构合作",
+      summary: "马来西亚证券委员会(SC)主席Dato' Mohammad Faiz Azmi与MCMC主席Tan Sri Mohamad Salim Fateh Din于4月3日签署谅解备忘录(MoU)，正式建立跨机构合作机制，联合打击利用数字平台和通信技术进行的投资诈骗及非法金融活动。通信部长Fahmi Fadzil和财政部副部长刘镇东见证签署。合作内容包括：情报共享、加速执法、利用AI技术检测和移除诈骗内容、制定标准作业程序(SOP)。数据显示，2024-2025年SC在MCMC协助下已封锁328个诈骗网站、388个Telegram账号和60个电话号码。此次MoU是2025年3月首次合作会议的延续，标志着马来西亚监管机构在数字金融安全领域的深度协同。",
+      source: "SC Malaysia / MCMC",
+      sourceUrl: "https://www.sc.com.my/resources/media/media-release/sc-mcmc-to-strengthen-scams-prevention-and-enforcement",
+      impact: "高",
+      tags: ["SC", "MCMC", "MoU", "投资诈骗", "跨机构合作", "AI检测", "Telegram", "非法金融"]
+    },
+    {
+      id: "SG-009",
+      title: "新加坡IMDA发警告信给X和TikTok：X上儿童性剥削内容增120%，TikTok首现恐怖主义内容",
+      date: "2026-03-31",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "执法行动",
+      type: "警告信",
+      summary: "新加坡信息媒体发展局(IMDA)于3月31日正式向X(原Twitter)和TikTok发出警告信(Letters of Caution)，并将两家平台列入'加强监管'(Enhanced Supervision)。根据IMDA第二份在线安全评估报告：X平台上与新加坡用户相关的儿童性剥削和虐待材料(CSEM)案件在2025年激增120%，从2024年的33起增至73起，所有案件均与新加坡有关联（内容分享或链接指向CSEM）；TikTok在2025年首次发现新加坡用户账户分享恐怖主义内容，共17起，主要为已知跨国恐怖组织的剪辑视频和音频。更严重的是，部分内容由用户通过应用内举报机制报告后，TikTok误判为'不违反社区准则'，仅在被IMDA直接标记后才删除。两家平台已接受IMDA调查结果并承诺整改，必须在2026年6月30日前提交年度在线安全报告证明整改效果。",
+      source: "IMDA Official / CNA / Straits Times",
+      sourceUrl: "https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/press-releases/2026/imda-issues-letters-of-caution-to-x-and-tiktok",
+      impact: "高",
+      tags: ["IMDA", "X", "TikTok", "CSEM", "恐怖主义内容", "加强监管", "警告信", "6月30日"]
+    },
+    {
+      id: "SG-010",
+      title: "新加坡IMDA App Store年龄验证新规生效：5家应用商店必须实施年龄确认措施",
+      date: "2026-04-01",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "政府政策",
+      type: "应用商店监管",
+      summary: "新加坡IMDA《应用分发服务在线安全行为准则》(ADS CoP)于2026年4月1日正式生效。5家指定的应用商店运营商——Apple App Store、Google Play Store、Huawei AppGallery、Samsung Galaxy Store和Microsoft Store——必须实施适当的年龄确认措施(age assurance)，确保18岁以下用户无法访问或下载年龄不适当的应用程序。验证方式包括：(1)通过官方身份证件检查进行年龄验证；(2)通过面部或声音分析进行年龄估算；(3)通过账户历史和使用模式分析进行年龄推断。该准则与2023年《社交媒体服务在线安全行为准则》(SMS CoP)形成双层监管——SMS CoP直接监管Facebook、YouTube、Instagram、TikTok、X和HardwareZone等社交媒体平台；ADS CoP则向上游监管应用商店本身。IMDA已明确表示，未来将把年龄确认要求扩展至指定的社交媒体服务。",
+      source: "IMDA / Eversheds Sutherland",
+      sourceUrl: "https://www.eversheds-sutherland.com/en/asia/insights/singapore-update-on-online-safety-measures-for-app-stores",
+      impact: "高",
+      tags: ["IMDA", "ADS CoP", "应用商店", "年龄验证", "Apple", "Google", "Huawei", "Samsung", "Microsoft", "18岁以下"]
+    },
+    {
       id: "ID-013",
       title: "印尼Komdigi传唤Meta和Google：PP Tunas生效两天后仍未合规",
       date: "2026-03-31",
