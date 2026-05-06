@@ -740,7 +740,7 @@
     html += '<span class="badge impact ' + impactClass + '">影响：' + item.impact + '</span>';
     html += '</div></div>';
     html += '<h3 class="card-title">' + escapeHtml(item.title) + '</h3>';
-    html += '<p class="card-summary">' + escapeHtml(item.summary) + '</p>';
+    html += '<p class="card-summary">' + escapeHtml(item.summary || item.description) + '</p>';
     html += '<div class="card-footer">';
     html += '<div class="keywords">';
     html += (item.tags || []).map(function (k) {
@@ -748,8 +748,9 @@
     }).join('');
     html += '</div>';
     html += '<div class="source"><span>来源：' + escapeHtml(item.source) + '</span>';
-    if (item.sourceUrl) {
-      html += '<a href="' + escapeHtml(item.sourceUrl) + '" target="_blank" rel="noopener" class="source-link">查看原文 ↗</a>';
+    var linkUrl = item.sourceUrl || item.url;
+    if (linkUrl) {
+      html += '<a href="' + escapeHtml(linkUrl) + '" target="_blank" rel="noopener" class="source-link">查看原文 ↗</a>';
     }
     html += '</div></div></div>';
     return html;
