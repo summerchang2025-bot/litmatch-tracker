@@ -28,13 +28,15 @@
     { code: 'SEA', name: '🌏 东南亚' },
     { code: 'FATF', name: '🌍 国际组织' }
   ];
+  const ROTATION_BATCH_SIZE = 8;
 
   // ============ 状态 ============
   let state = {
     currentCategory: '全部',
     currentRegion: 'ALL',
     refreshTime: null,
-    twoWeeksAgo: null
+    twoWeeksAgo: null,
+    rotation: {}  // { countryCode: roundIndex }
   };
 
   // ============ DOM 元素缓存 ============
@@ -97,9 +99,23 @@
     const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
     state.twoWeeksAgo = twoWeeksAgo;
 
+    advanceRotation();
     updateTimeDisplay(now, twoWeeksAgo);
     renderCategoryTags();
     renderCards();
+  }
+
+  function advanceRotation() {
+    if (!window.TRACKER_DATA) return;
+    const allCountryCodes = [...new Set(window.TRACKER_DATA.map(function(item) { return item.countryCode; }))];
+    allCountryCodes.forEach(function(code) {
+      const countryItems = window.TRACKER_DATA.filter(function(item) { return item.countryCode === code; });
+      const maxRounds = Math.max(1, Math.ceil(countryItems.length / ROTATION_BATCH_SIZE));
+      state.rotation[code] = (state.rotation[code] || 0) + 1;
+      if (state.rotation[code] >= maxRounds) {
+        state.rotation[code] = 0;
+      }
+    });
   }
 
   function updateTimeDisplay(now, twoWeeksAgo) {
@@ -107,7 +123,7 @@
       $refreshTime.textContent = formatDateTimeCN(now);
     }
     if ($timeRange) {
-      $timeRange.textContent = '显示全部情报 · 两周内更新标记为 🆕 新';
+      $timeRange.textContent = '显示近一个月情报 · 近两周更新标记为 🔥 重点 · 点击刷新轮换批次';
     }
   }
 
@@ -115,7 +131,7 @@
   function getFilteredData() {
     if (!window.TRACKER_DATA) return [];
 
-    return window.TRACKER_DATA.filter(function (item) {
+    let filtered = window.TRACKER_DATA.filter(function (item) {
       if (state.currentCategory !== '全部' && item.category !== state.currentCategory) {
         return false;
       }
@@ -126,6 +142,47 @@
     }).sort(function (a, b) {
       return b.date.localeCompare(a.date);
     });
+
+    // 按国家分组，做轮换切片
+    const byCountry = {};
+    filtered.forEach(function(item) {
+      if (!byCountry[item.countryCode]) byCountry[item.countryCode] = [];
+      byCountry[item.countryCode].push(item);
+    });
+
+    let result = [];
+    Object.keys(byCountry).forEach(function(code) {
+      const items = byCountry[code];
+      const round = state.rotation[code] || 0;
+      const start = round * ROTATION_BATCH_SIZE;
+      const end = start + ROTATION_BATCH_SIZE;
+      const batch = items.slice(start, end);
+
+      if (batch.length === 0 && items.length > 0) {
+        // 轮次越界，回退到第一批
+        state.rotation[code] = 0;
+        result = result.concat(items.slice(0, ROTATION_BATCH_SIZE));
+      } else {
+        result = result.concat(batch);
+      }
+    });
+
+    return result.sort(function(a, b) {
+      return b.date.localeCompare(a.date);
+    });
+  }
+
+  function getRotationInfo(item) {
+    const code = item.countryCode;
+    const allItems = window.TRACKER_DATA.filter(function(i) {
+      return i.countryCode === code;
+    }).sort(function(a, b) { return b.date.localeCompare(a.date); });
+    const total = allItems.length;
+    const round = state.rotation[code] || 0;
+    const maxRounds = Math.max(1, Math.ceil(total / ROTATION_BATCH_SIZE));
+    const currentStart = round * ROTATION_BATCH_SIZE + 1;
+    const currentEnd = Math.min((round + 1) * ROTATION_BATCH_SIZE, total);
+    return { total: total, round: round + 1, maxRounds: maxRounds, range: currentStart + '-' + currentEnd };
   }
 
   // ============ 渲染 ============
@@ -140,8 +197,18 @@
   function renderCards() {
     const data = getFilteredData();
 
+    // 计算总数据量（不考虑切片）
+    let totalRaw = 0;
+    if (window.TRACKER_DATA) {
+      totalRaw = window.TRACKER_DATA.filter(function (item) {
+        if (state.currentCategory !== '全部' && item.category !== state.currentCategory) return false;
+        if (state.currentRegion !== 'ALL' && item.countryCode !== state.currentRegion) return false;
+        return true;
+      }).length;
+    }
+
     if ($resultsCount) {
-      $resultsCount.textContent = '共 ' + data.length + ' 条情报';
+      $resultsCount.textContent = '当前显示 ' + data.length + ' 条 · 该地区共 ' + totalRaw + ' 条 · 点击刷新查看更多';
     }
 
     if (data.length === 0) {
@@ -159,10 +226,21 @@
   function buildCard(item) {
     const impactClass = getImpactClass(item.impact);
     const isNew = isWithinTwoWeeks(item.date);
-    const newBadge = isNew ? '<span class="badge new-badge">🆕 新</span>' : '';
+    const isHot = isWithinOneMonth(item.date) && isNew;
+    const isRecent = isWithinOneMonth(item.date) && !isNew;
+
+    let newBadge = '';
+    if (isHot) {
+      newBadge = '<span class="badge hot-badge">🔥 重点</span>';
+    } else if (isRecent) {
+      newBadge = '<span class="badge recent-badge">🆕 近一月</span>';
+    }
+
+    const rot = getRotationInfo(item);
+    const batchBadge = '<span class="badge batch-badge">第 ' + rot.round + '/' + rot.maxRounds + ' 批 (' + rot.range + '/' + rot.total + ')</span>';
 
     const parts = [];
-    parts.push('<div class="intel-card' + (isNew ? ' card-new' : '') + '" data-id="' + item.id + '">');
+    parts.push('<div class="intel-card' + (isHot ? ' card-hot' : (isRecent ? ' card-recent' : '')) + '" data-id="' + item.id + '">');
     parts.push('  <div class="card-header">');
     parts.push('    <div class="meta">');
     parts.push('      <span class="country">' + item.country + '</span>');
@@ -170,6 +248,7 @@
     parts.push('    </div>');
     parts.push('    <div class="badges">');
     parts.push('      ' + newBadge);
+    parts.push('      ' + batchBadge);
     parts.push('      <span class="badge category-' + getCategorySlug(item.category) + '">' + item.category + '</span>');
     parts.push('      <span class="badge type">' + item.type + '</span>');
     parts.push('      <span class="badge impact ' + impactClass + '">影响：' + item.impact + '</span>');
@@ -242,8 +321,16 @@
   function isWithinTwoWeeks(dateStr) {
     const target = new Date(dateStr);
     const now = state.refreshTime || new Date();
+    const oneMonthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
     const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
     return target >= twoWeeksAgo && target <= now;
+  }
+
+  function isWithinOneMonth(dateStr) {
+    const target = new Date(dateStr);
+    const now = state.refreshTime || new Date();
+    const oneMonthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+    return target >= oneMonthAgo && target <= now;
   }
 
   function escapeHtml(text) {
