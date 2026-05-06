@@ -666,6 +666,64 @@
       sourceUrl: "https://www.charltonslaw.com",
       impact: "高",
       tags: ["SFC", "虚拟资产", "Saxo Capital", "EFG Bank", "尽职调查"]
+    },
+    // ===== 菲律宾非法务工执法（用户提供+验证） =====
+    {
+      id: "PH-010",
+      title: "菲律宾移民局2026年3-4月持续机场拦截：打击超期滞留与非法务工",
+      date: "2026-04-17",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "执法行动",
+      type: "机场拦截/遣返",
+      summary: "菲律宾移民局(BI)在2026年3月至4月持续强化机场拦截行动，重点筛查离境和入境外国公民的签证状态。4月17日BI通报，一名35岁中国籍女子徐某于3月7日在马卡蒂市被捕，因涉嫌洗钱犯罪将被遣返。移民局同时加大对超期滞留人员的执法力度，在尼诺伊·阿基诺国际机场(NAIA)多次拦截签证状态异常的中国公民（包括工签造假、超期滞留等案例）。移民局长Joel Anthony Viado重申：无论受雇企业规模大小，只要没有9G工签和AEP就业许可即属非法务工。",
+      source: "菲律宾移民局(BI) / 菲华吧 / 网易号 / 搜狐",
+      sourceUrl: "https://www.163.com/dy/article/KQOD9F9B05568W0A.html",
+      impact: "高",
+      tags: ["BI", "机场拦截", "非法务工", "9G工签", "AEP", "遣返", "超期滞留"]
+    },
+    {
+      id: "PH-009",
+      title: "中菲执法部门2026年3月合作遣返涉嫌组织偷越国境嫌犯",
+      date: "2026-03-26",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "执法行动",
+      type: "跨境执法合作",
+      summary: "据中国驻菲律宾大使馆3月25日通报，中国与菲律宾执法部门近日合作抓获并遣返一名涉嫌组织他人偷越国(边)境罪的嫌犯郑某某。经查，该嫌疑人组织菲律宾等国公民通过偷渡、骗取签证等手段非法入境中国从事家政服务，引发非法居留、非法就业等问题。使馆提醒中介机构和个人务必规范从业和雇佣行为。",
+      source: "中国驻菲律宾大使馆 / 中国新闻网 / 中国外交部",
+      sourceUrl: "https://www.chinanews.com.cn/gn/2026/03-26/10592896.shtml",
+      impact: "中",
+      tags: ["中菲合作", "偷越国境", "非法就业", "家政服务", "遣返"]
+    },
+    // ===== 印尼PP Tunas未成年保护执法（用户提供+验证） =====
+    {
+      id: "ID-009",
+      title: "印尼PP Tunas生效：TikTok停用170万未成年账户，7家平台承诺合规",
+      date: "2026-04-28",
+      country: "印尼",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "平台合规",
+      summary: "印尼《儿童电子系统保护治理条例》(PP Tunas，政府条例第17/2025号)于2026年3月28日生效，禁止16岁以下儿童访问8个高风险数字平台(YouTube、TikTok、Facebook、Instagram、Threads、X、Bigo Live、Roblox)。4月28日，印尼通信与数字部长Meutya Hafid通报，TikTok已停用170万个16岁以下账户(4月10日仅78万)，是首家公布具体数字的平台。截至4月23日，七家平台已承诺合规：X、Bigo Live、Meta(IG/FB/Threads)、TikTok、YouTube。YouTube/Google曾因未及时合规被政府给予'红色标记'警告，4月23日才提交合规函。Roblox截至4月底尚未同意。",
+      source: "AP News / Tempo.co / ANTARA / Komdigi",
+      sourceUrl: "https://en.tempo.co/read/2100862/tiktok-shuts-down-1-7-million-underage-accounts-in-indonesia",
+      impact: "高",
+      tags: ["PP Tunas", "TikTok", "170万账户", "未成年保护", "平台合规", "Meutya Hafid"]
+    },
+    {
+      id: "ID-010",
+      title: "印尼PP Tunas监管范围扩大：电商、金融科技、银行、搜索引擎纳入",
+      date: "2026-05-06",
+      country: "印尼",
+      countryCode: "ID",
+      category: "政府政策",
+      type: "监管扩大",
+      summary: "印尼通信与数字事务部(Komdigi)宣布，PP Tunas法规的监管范围已从最初的8家社交媒体/视频平台，进一步扩大至电商平台(如Shopee、Tokopedia)、金融科技服务、银行及搜索引擎。Komdigi要求所有电子系统提供商(PSE)进行自查和风险评估，确保16岁以下用户无法访问高风险数字服务。部长Meutya Hafid强调：'PP Tunas适用于所有在印尼运营的电子系统提供商，不限于社交媒体。'",
+      source: "AP News / Komdigi / Tempo",
+      sourceUrl: "https://www.wsls.com/tech/2026/04/29/indonesia-urges-social-media-platforms-to-disclose-the-number-of-accounts-closed-for-users-under-16/",
+      impact: "高",
+      tags: ["PP Tunas", "监管扩大", "电商", "金融科技", "银行", "搜索引擎", "PSE"]
     }
   ];
 
