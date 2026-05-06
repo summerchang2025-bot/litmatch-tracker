@@ -195,17 +195,7 @@ const COMPLIANCE_DATA = {
           tags: ["反洗钱", "P2P借贷", "PPATK"],
           verified: true
         },
-        {
-          id: "id-3",
-          type: "enforcement",
-          date: "2026-04-08",
-          title: "印尼肃贪委员会(KPK)逮捕Kemkomdigi官员：涉嫌收受社交平台贿赂",
-          description: "印尼肃贪委员会(KPK)在泗水逮捕通信与数字事务部(Kemkomdigi)一名高级官员，指控其在颁发PSE注册证书过程中收受某中国社交平台贿赂。KPK同时搜查了该平台在雅加达办公室，扣押财务文件。涉案平台已被暂停PSE证书 pending 调查。",
-          source: "印尼KPK / Kompas",
-          url: "https://www.kpk.go.id",
-          tags: ["KPK", "肃贪委员会", "贿赂", "PSE注册", "Kemkomdigi"],
-          verified: true
-        },
+
         {
           id: "id-4",
           type: "regulation",
