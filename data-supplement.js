@@ -724,6 +724,20 @@
       sourceUrl: "https://www.wsls.com/tech/2026/04/29/indonesia-urges-social-media-platforms-to-disclose-the-number-of-accounts-closed-for-users-under-16/",
       impact: "高",
       tags: ["PP Tunas", "监管扩大", "电商", "金融科技", "银行", "搜索引擎", "PSE"]
+    },
+    {
+      id: "ID-011",
+      title: "印尼Komdigi设6月6日截止日：所有PSE必须提交PP Tunas自评估报告",
+      date: "2026-04-28",
+      country: "印尼",
+      countryCode: "ID",
+      category: "政府政策",
+      type: "合规截止日",
+      summary: "印尼通信与数字部长Meutya Hafid在4月28日官方记者会上宣布：2026年6月6日是所有电子系统提供商(PSE)提交PP Tunas自评估报告(self-assessment)的截止日期，适用于所有在印尼运营的PSE，不限于此前点名的8家高风险平台。未按时提交的PSE将面临渐进式制裁：警告信→暂停访问→永久断网。自评报告须涵盖儿童可访问服务识别、保护机制、年龄验证系统等内容，由Komdigi专门团队逐家评估风险等级。部长强调'不要拖到最后一刻，不要试探底线'。",
+      source: "ANTARA / Komdigi",
+      sourceUrl: "https://www.antaranews.com/berita/5546104/kemkomdigi-6-juni-batas-akhir-pse-lapor-evaluasi-mandiri-pp-tunas",
+      impact: "高",
+      tags: ["PP Tunas", "6月6日截止日", "PSE", "自评估", "渐进式制裁", "Komdigi"]
     }
   ];
 
