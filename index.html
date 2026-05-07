@@ -299,6 +299,7 @@
     .badge.category-minor { background: rgba(26, 188, 156, 0.15); color: #1abc9c; }
     .badge.category-aml { background: rgba(231, 76, 60, 0.15); color: #c0392b; }
     .badge.category-tax { background: rgba(52, 73, 94, 0.15); color: #3498db; }
+    .badge.category-agreement { background: rgba(142, 68, 173, 0.15); color: #8e44ad; }
     .badge.type { background: rgba(255, 255, 255, 0.06); color: var(--text-dim); border: 1px solid var(--border); }
 
     .badge.impact-critical { background: rgba(255, 71, 87, 0.15); color: var(--impact-critical); }
@@ -493,7 +494,107 @@
       background: #3a3a6a;
     }
 
-    /* 小提示 */
+    /* 同业协议监控板块 */
+    .agreement-section {
+      margin-top: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .section-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.25rem;
+      color: var(--text);
+    }
+    .section-desc {
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      margin-bottom: 1rem;
+    }
+    .agreement-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .agreement-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      transition: all 0.2s;
+    }
+    .agreement-card:hover {
+      background: var(--bg-card-hover);
+      border-color: #3a3a6a;
+    }
+    .agreement-card.updated {
+      border-color: rgba(142, 68, 173, 0.4);
+      box-shadow: 0 0 0 1px rgba(142, 68, 173, 0.15);
+    }
+    .agreement-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.75rem;
+    }
+    .agreement-product {
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--text);
+    }
+    .agreement-status {
+      font-size: 0.75rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .agreement-status.current {
+      background: rgba(123, 237, 159, 0.15);
+      color: var(--impact-low);
+    }
+    .agreement-status.updated {
+      background: rgba(142, 68, 173, 0.2);
+      color: #8e44ad;
+      animation: pulse 2s infinite;
+    }
+    .agreement-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+      margin-bottom: 0.75rem;
+    }
+    .agreement-link {
+      font-size: 0.8rem;
+      color: var(--accent2);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .agreement-link:hover {
+      text-decoration: underline;
+    }
+    .agreement-date {
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      padding-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+    .agreement-date .date-label {
+      color: var(--text-dim);
+    }
+    .agreement-date .date-value {
+      color: var(--text);
+      font-weight: 600;
+    }
+    .agreement-note {
+      margin-top: 0.75rem;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 0.5rem 0.75rem;
+      border-radius: 6px;
+      border-left: 3px solid var(--text-dim);
+    }
     .hint-bar {
       background: rgba(78, 205, 196, 0.08);
       border: 1px solid rgba(78, 205, 196, 0.2);
@@ -557,6 +658,7 @@
           <span class="tag" data-category="未成年合规">未成年合规</span>
           <span class="tag" data-category="反洗钱">反洗钱</span>
           <span class="tag" data-category="税务合规">税务合规</span>
+          <span class="tag" data-category="同业协议">同业协议</span>
         </div>
       </div>
       <div class="filter-section">
@@ -603,11 +705,21 @@
       <p>请尝试点击「手动刷新」或调整筛选条件</p>
     </div>
 
+    <!-- 同业协议监控 -->
+    <div class="agreement-section" id="agreement-section">
+      <h2 class="section-title">📋 同业协议更新监控</h2>
+      <p class="section-desc">追踪出海社交/直播产品用户协议与隐私政策的最新更新。检测到日期变化时自动标记 🔔</p>
+      <div class="agreement-grid" id="agreement-grid"></div>
+      <div class="agreement-note">
+        💡 监控范围：Bigo Live / Likee / MICO / SUGO / TopTop / TikTok。Web版协议页面抓取，App内更新可能存在滞后。
+      </div>
+    </div>
+
   </div>
 
   <!-- 页脚 -->
   <footer class="footer">
-    <p>Litmatch 情报跟踪站 · 数据来源：各国政府官网、监管机构公报、央行/金融监管部门、反洗钱组织、本地头部律所、主流新闻媒体、应用市场政策中心、国内出海自媒体（白鲸出海/扬帆出海）、国内头部律所（中伦/君合/汉坤/元合）</p>
+    <p>Litmatch 情报跟踪站 · 数据来源：各国政府官网、监管机构公报、央行/金融监管部门、反洗钱组织、本地头部律所、主流新闻媒体、应用市场政策中心、国内出海自媒体（白鲸出海/扬帆出海）、国内头部律所（中伦/君合/汉坤/元合）、同业产品公开协议页面</p>
     <p style="margin-top:0.3rem;">⚠️ 本页信息基于公开资料整理，仅供参考，不构成法律意见</p>
   </footer>
 
@@ -621,9 +733,74 @@
 (function () {
   'use strict';
 
-  const CATEGORIES = ['全部', '法律法规', '政府政策', '同业信息', '执法行动', '应用市场政策'];
+  const CATEGORIES = ['全部', '法律法规', '政府政策', '同业信息', '执法行动', '应用市场政策', '内容合规', '未成年合规', '反洗钱', '税务合规'];
   let state = { currentCategory: '全部', currentRegion: 'ALL', refreshTime: null, oneMonthAgo: null, twoWeeksAgo: null };
   let $refreshBtn, $refreshTime, $timeRange, $categoryTags, $regionSelect, $resultsCount, $cardContainer, $noResults;
+
+  // 同业协议监控数据
+  const AGREEMENT_DATA = [
+    {
+      product: 'Bigo Live',
+      company: '欢聚集团 (JOYY)',
+      privacyUrl: 'https://www.bigo.tv/privacyPolicy.html',
+      termsUrl: 'https://www.bigo.tv/agreement.html',
+      privacyDate: '2025-06-16',
+      termsDate: '2024-12-07',
+      region: '东南亚/全球',
+      status: 'current'
+    },
+    {
+      product: 'Likee',
+      company: '欢聚集团 (JOYY)',
+      privacyUrl: 'https://mobile.like.video/live/page-about/policy.html',
+      termsUrl: null,
+      privacyDate: '2025-10-15',
+      termsDate: null,
+      region: '东南亚/全球',
+      status: 'current'
+    },
+    {
+      product: 'MICO',
+      company: 'Mico World Limited',
+      privacyUrl: 'http://m.micoworld.net/terms/privacy.html',
+      termsUrl: 'https://m.micoworld.net/terms/terms.html',
+      privacyDate: '2024-11-27',
+      termsDate: '2025-10-27',
+      region: '东南亚/全球',
+      status: 'current'
+    },
+    {
+      product: 'SUGO',
+      company: 'Mobile Alpha Limited',
+      privacyUrl: 'https://sugo.com/privacy.html',
+      termsUrl: 'https://sugo.com/terms.html',
+      privacyDate: '2024-12-30',
+      termsDate: '2024-12-30',
+      region: '全球',
+      status: 'current'
+    },
+    {
+      product: 'TopTop',
+      company: 'MICO World Limited',
+      privacyUrl: 'https://www.toptop.net/privacy.html',
+      termsUrl: 'https://www.toptop.net/terms.html',
+      privacyDate: '未标注',
+      termsDate: '未标注',
+      region: '全球',
+      status: 'current'
+    },
+    {
+      product: 'TikTok',
+      company: 'ByteDance',
+      privacyUrl: 'https://www.tiktok.com/legal/privacy-policy',
+      termsUrl: 'https://www.tiktok.com/legal/terms-of-use',
+      privacyDate: '需手动确认',
+      termsDate: '需手动确认',
+      region: '全球',
+      status: 'current',
+      note: 'Web版访问受限，建议通过App内查看'
+    }
+  ];
 
   function init() {
     cacheElements();
@@ -682,6 +859,7 @@
     if ($timeRange) { $timeRange.textContent = '显示近一个月情报 · 近两周更新标记为 🔥 重点'; }
     renderCategoryTags();
     renderCards();
+    renderAgreements();
   }
 
   function formatDateTimeCN(date) {
@@ -778,6 +956,51 @@
   function escapeHtml(text) {
     if (!text) return '';
     return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // ===== 同业协议监控渲染 =====
+  function renderAgreements() {
+    var grid = document.getElementById('agreement-grid');
+    if (!grid) return;
+    grid.innerHTML = AGREEMENT_DATA.map(buildAgreementCard).join('');
+  }
+
+  function buildAgreementCard(item) {
+    var isUpdated = item.status === 'updated';
+    var statusClass = isUpdated ? 'updated' : 'current';
+    var statusText = isUpdated ? '🔔 检测到更新' : '✓ 当前版本';
+    var cardClass = isUpdated ? 'agreement-card updated' : 'agreement-card';
+
+    var html = '<div class="' + cardClass + '">';
+    html += '<div class="agreement-card-header">';
+    html += '<span class="agreement-product">' + escapeHtml(item.product) + '</span>';
+    html += '<span class="agreement-status ' + statusClass + '">' + statusText + '</span>';
+    html += '</div>';
+
+    html += '<div class="agreement-links">';
+    if (item.privacyUrl) {
+      html += '<a href="' + escapeHtml(item.privacyUrl) + '" target="_blank" rel="noopener" class="agreement-link">🔒 隐私政策 ↗</a>';
+    }
+    if (item.termsUrl) {
+      html += '<a href="' + escapeHtml(item.termsUrl) + '" target="_blank" rel="noopener" class="agreement-link">📄 用户协议 ↗</a>';
+    }
+    html += '</div>';
+
+    html += '<div class="agreement-date">';
+    if (item.privacyDate) {
+      html += '<div><span class="date-label">隐私政策：</span><span class="date-value">' + escapeHtml(item.privacyDate) + '</span></div>';
+    }
+    if (item.termsDate) {
+      html += '<div><span class="date-label">用户协议：</span><span class="date-value">' + escapeHtml(item.termsDate) + '</span></div>';
+    }
+    html += '</div>';
+
+    if (item.note) {
+      html += '<div class="agreement-note">' + escapeHtml(item.note) + '</div>';
+    }
+
+    html += '</div>';
+    return html;
   }
 
   if (document.readyState === 'loading') {
