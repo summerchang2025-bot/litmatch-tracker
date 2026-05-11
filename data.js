@@ -93,6 +93,17 @@ const COMPLIANCE_DATA = {
           url: "https://vovworld.vn",
           tags: ["社交网络", "行为规范", "MIC", "内容管理"],
           verified: true
+        },
+        {
+          id: "vn-8",
+          type: "regulation",
+          date: "2025-04-11",
+          title: "越南第147/2024/ND-CP号法令：跨境平台强制实名认证与代表处要求",
+          description: "越南政府颁布第147/2024/ND-CP号法令，要求所有向越南提供跨境信息的外国组织和社交平台对越南境内活跃账户进行身份认证，首选方式为越南手机号码。同时，采用越南域名、显示越南语或每年在越南获得超10万笔交易的跨境电商平台，必须在越南设立代表处或指定授权代表，并向工贸部注册。",
+          source: "越南政府 / YUAN姐",
+          url: "http://mp.weixin.qq.com",
+          tags: ["147号令", "实名认证", "跨境平台", "代表处", "工贸部"],
+          verified: true
         }
       ]
     },
