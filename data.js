@@ -1381,6 +1381,17 @@ const COMPLIANCE_DATA = {
           url: "https://www.sebi.gov.in",
           tags: ["SEBI", "finfluencers", "投资咨询", "社交媒体", "非法经营"],
           verified: true
+        },
+        {
+          id: "in-9",
+          type: "regulation",
+          date: "2026-05-07",
+          title: "印度《在线游戏促进与监管规则2026》生效：RMG全面禁止",
+          description: "印度《在线游戏促进与监管规则，2026》正式生效，明确支持电子竞技和在线社交游戏的发展，同时对涉及资金投注的RMG(Real Money Game)实施全面禁止，适用于所有形式的本地RMG游戏，包括基于运气、技巧或两者结合的游戏。法案禁止RMG的广告、推广和协助运营行为，银行和支付系统不得处理相关交易。违法平台最高可处三年监禁或一亿卢比罚款，重复违法最低三年监禁。",
+          source: "印度MeitY / 白鲸出海",
+          url: "https://www.baijing.cn",
+          tags: ["在线游戏", "RMG", "全面禁止", "电子竞技", "罚款"],
+          verified: true
         }
       ]
     },
