@@ -640,7 +640,7 @@
 
     <!-- 提示 -->
     <div class="hint-bar">
-      💡 <strong>使用说明：</strong>显示<strong>近一个月</strong>的情报，近两周内更新的条目标记 🔥 重点。点击<strong>刷新按钮</strong>轮换批次，每次显示新的一批情报。支持按分类和地区筛选。
+      💡 <strong>使用说明：</strong>全部市场视图下每个国家显示<strong>最近2条</strong>，选择具体国家后显示<strong>最近8条</strong>（不限时间）。近两周内更新的条目标记 🔥 重点，近一月内标记 🆕 近一月，历史条目标记 📋 历史。
     </div>
 
     <!-- 筛选栏 -->
@@ -856,7 +856,7 @@
     state.oneMonthAgo = oneMonthAgo;
     state.twoWeeksAgo = twoWeeksAgo;
     if ($refreshTime) { $refreshTime.textContent = formatDateTimeCN(now); }
-    if ($timeRange) { $timeRange.textContent = '显示近一个月情报 · 近两周更新标记为 🔥 重点'; }
+    if ($timeRange) { $timeRange.textContent = '全部市场各显最近2条 · 选单国显示最近8条 · 近两周标🔥重点'; }
     renderCategoryTags();
     renderCards();
     renderAgreements();
@@ -873,15 +873,36 @@
 
   function getFilteredData() {
     if (!window.TRACKER_DATA) return [];
-    return window.TRACKER_DATA.filter(function (item) {
+
+    // 先按分类和地区过滤
+    let filtered = window.TRACKER_DATA.filter(function (item) {
       if (state.currentCategory !== '全部' && item.category !== state.currentCategory) return false;
       if (state.currentRegion !== 'ALL' && item.countryCode !== state.currentRegion) return false;
-      // 默认只显示近一个月的情报
-      const itemDate = new Date(item.date);
-      const now = state.refreshTime || new Date();
-      const oneMonthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
-      return itemDate >= oneMonthAgo && itemDate <= now;
-    }).sort(function (a, b) { return b.date.localeCompare(a.date); });
+      return true;
+    });
+
+    // 按日期排序（最新的在前）
+    filtered.sort(function (a, b) { return b.date.localeCompare(a.date); });
+
+    if (state.currentRegion === 'ALL') {
+      // 全部地区：每个国家取最近2条，保证每个国家都有展示
+      const countryMap = {};
+      filtered.forEach(function (item) {
+        if (!countryMap[item.countryCode]) countryMap[item.countryCode] = [];
+        if (countryMap[item.countryCode].length < 2) {
+          countryMap[item.countryCode].push(item);
+        }
+      });
+      // 合并所有国家的条目，再按日期排序
+      let result = [];
+      Object.values(countryMap).forEach(function (arr) {
+        result = result.concat(arr);
+      });
+      return result.sort(function (a, b) { return b.date.localeCompare(a.date); });
+    } else {
+      // 具体国家/地区：取最近8条，不限时间范围
+      return filtered.slice(0, 8);
+    }
   }
 
   function renderCategoryTags() {
@@ -906,10 +927,17 @@
 
   function buildCard(item) {
     const impactClass = getImpactClass(item.impact);
-    const isHot = isWithinTwoWeeks(item.date);
-    const hotBadge = isHot ? '<span class="badge new-badge">🔥 重点</span>' : '<span class="badge new-badge" style="opacity:0.5">🆕 近一月</span>';
+    const dateStatus = getDateStatus(item.date);
+    let hotBadge;
+    if (dateStatus === 'hot') {
+      hotBadge = '<span class="badge new-badge">🔥 重点</span>';
+    } else if (dateStatus === 'recent') {
+      hotBadge = '<span class="badge new-badge" style="background:rgba(255,230,109,0.15);color:var(--accent3)">🆕 近一月</span>';
+    } else {
+      hotBadge = '<span class="badge new-badge" style="background:rgba(138,138,181,0.15);color:var(--text-dim)">📋 历史</span>';
+    }
 
-    let html = '<div class="intel-card' + (isHot ? ' card-new' : '') + '" data-id="' + item.id + '">';
+    let html = '<div class="intel-card' + (dateStatus === 'hot' ? ' card-new' : '') + '" data-id="' + item.id + '">';
     html += '<div class="card-header">';
     html += '<div class="meta"><span class="country">' + item.country + '</span><span class="date">' + item.date + '</span></div>';
     html += '<div class="badges">' + hotBadge;
@@ -944,6 +972,16 @@
   function getCategorySlug(cat) {
     var map = { '法律法规': 'law', '政府政策': 'policy', '同业信息': 'industry', '执法行动': 'enforcement', '应用市场政策': 'store', '内容合规': 'content', '未成年合规': 'minor', '反洗钱': 'aml', '税务合规': 'tax' };
     return map[cat] || 'other';
+  }
+
+  function getDateStatus(dateStr) {
+    const target = new Date(dateStr);
+    const now = state.refreshTime || new Date();
+    const twoWeeksAgo = new Date(now.getTime() - 14 * 24 * 60 * 60 * 1000);
+    const oneMonthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+    if (target >= twoWeeksAgo && target <= now) return 'hot';
+    if (target >= oneMonthAgo && target < twoWeeksAgo) return 'recent';
+    return 'history';
   }
 
   function isWithinTwoWeeks(dateStr) {
