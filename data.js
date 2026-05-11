@@ -60,6 +60,39 @@ const COMPLIANCE_DATA = {
           url: "https://thanhnien.vn",
           tags: ["网络安全局", "A05", "非法平台", "PSE注册", "刑事起诉"],
           verified: true
+        },
+        {
+          id: "vn-5",
+          type: "regulation",
+          date: "2026-03-16",
+          title: "越南颁布《网络安全法》实施计划明确六项重点任务",
+          description: "越南政府发布《网络安全法》实施计划，明确六项重点任务：审查法律规范性文件；加强数据本地化；完善个人数据保护；强化跨境平台监管；提升网络犯罪打击能力；推进国际合作。各部委须在2026年4月1日前将审查结果报送公安部。",
+          source: "越南政府 / Vietnamplus",
+          url: "https://zh.vietnamplus.vn",
+          tags: ["网络安全法", "实施计划", "数据本地化", "公安部"],
+          verified: true
+        },
+        {
+          id: "vn-6",
+          type: "enforcement",
+          date: "2024-08-01",
+          title: "润阳科技越南子公司税务处罚案：补税+滞纳金390万元",
+          description: "润阳科技公告其越南子公司收到越南北江税务局《税务处罚决定书》，要求补缴企业所得税313.65万元及个人所得税0.62万元，合计罚款及滞纳金77.03万元。公司须在收到决定书之日起10日内补缴。此案表明越南税务机关正在加强对外资企业的税务审查，未注册税号可能面临下架风险。",
+          source: "润阳科技公告",
+          url: "https://www.sohu.com",
+          tags: ["税务处罚", "外资企业", "北江税务局", "补税", "滞纳金"],
+          verified: true
+        },
+        {
+          id: "vn-7",
+          type: "regulation",
+          date: "2025-06-17",
+          title: "越南MIC颁布《社交网络行为规范》",
+          description: "越南信息传媒部(MIC)颁布《社交网络行为规范》，旨在营造健康的网络空间，保护个人自由权和商业自由权。规范要求国内外服务供应商不受歧视，确保符合越南认可的国际标准。该规范适用于所有在越南运营的社交网络服务。",
+          source: "越南MIC / VOVWORLD",
+          url: "https://vovworld.vn",
+          tags: ["社交网络", "行为规范", "MIC", "内容管理"],
+          verified: true
         }
       ]
     },
@@ -111,6 +144,50 @@ const COMPLIANCE_DATA = {
           source: "泰国PDPC / Bangkok Post",
           url: "https://www.bangkokpost.com",
           tags: ["PDPA", "数据泄露", "罚款", "3%", "PDPC"],
+          verified: true
+        },
+        {
+          id: "th-5",
+          type: "regulation",
+          date: "2025-04-30",
+          title: "泰国启动OTT平台严监管：NBTC与ETDA组建专项工作组",
+          description: "泰国数字经济和社会部(DES)正式授权NBTC及ETDA组建专项工作组，针对Netflix、YouTube、Disney+、TikTok、Spotify等OTT平台制定监管框架。工作组聚焦五个核心领域：安全措施、内容监管、数字产业与税收促进、个人资料保护、竞争监督。拟议监管措施将修订法律授权监管机构有效管控OTT平台内容发布，要求在泰运营的外国平台获取运营许可。",
+          source: "泰国DES / NBTC / 搜狐",
+          url: "https://www.sohu.com",
+          tags: ["OTT平台", "NBTC", "ETDA", "工作组", "内容监管"],
+          verified: true
+        },
+        {
+          id: "th-6",
+          type: "policy",
+          date: "2026-05-09",
+          title: "泰国拟将数字平台费率下调至10%-15%",
+          description: "泰国数字经济和社会部、商务部正在研究减轻泰国卖家负担，拟将数字平台销售费率从当前高达30%调整至10%-15%的合理区间。同时，泰国计划加强对数字平台的监管，责成ETDA研究提升执法权力的方案，可能包括将ETDA重组为独立机构或升级为部级机构。该部还在考虑颁布与网络安全相关的紧急法令。",
+          source: "泰国媒体 / 跨境东南亚",
+          url: "https://www.baijing.cn",
+          tags: ["数字平台费率", "ETDA", "电商监管", "网络安全法令"],
+          verified: true
+        },
+        {
+          id: "th-7",
+          type: "regulation",
+          date: "2025-04-14",
+          title: "泰国实施《预防和打击技术犯罪措施法规》",
+          description: "泰国开始实施新法规，要求金融机构、电信运营商和社交媒体平台所有者承担未能遏制诈骗的责任。金融机构须披露涉嫌诈骗的账户信息并冻结可疑交易；电信运营商须筛选诈骗相关短信并停止相关服务；社交媒体平台须配合反诈骗措施。未能遵守者将被处以最高50万泰铢罚款，责任人面临最高1年监禁和10万泰铢罚款。",
+          source: "泰国副总理 / 中国新闻网",
+          url: "https://www.chinanews.com.cn",
+          tags: ["技术犯罪", "反诈骗", "社交媒体责任", "罚款", "监禁"],
+          verified: true
+        },
+        {
+          id: "th-8",
+          type: "regulation",
+          date: "2026-04-14",
+          title: "泰国NBTC宣布2026-2030总体规划将纳入OTT平台监管",
+          description: "泰国国家广播电信委员会(NBTC)在4月14日透露，即将发布的《广播电视总体规划(2026-2030)》将包含监管OTT平台和内容的条款。NBTC董事会已达成共识，认定其有权监管OTT服务。此举旨在平衡传统数字电视运营商与OTT平台之间的竞争环境。NBTC专员Pirongrong Ramasoota表示，OTT监管将聚焦于平台而非直接针对内容创作者或网红。",
+          source: "泰国NBTC / Developing Telecoms",
+          url: "https://developingtelecoms.com",
+          tags: ["NBTC", "OTT", "总体规划", "平台监管", "竞争环境"],
           verified: true
         }
       ]
@@ -164,6 +241,50 @@ const COMPLIANCE_DATA = {
           url: "https://www.malaysiakini.com",
           tags: ["高等法院", "诽谤", "编辑责任", "24小时删除", "Malaysiakini"],
           verified: true
+        },
+        {
+          id: "my-5",
+          type: "regulation",
+          date: "2026-01-01",
+          title: "马来西亚强制监管大型社交平台：800万用户以上须持牌",
+          description: "马来西亚通信与多媒体委员会(MCMC)正式实施新监管框架：自2026年1月1日起，在马来西亚拥有800万及以上用户的社交媒体平台和即时通讯工具，必须依据《1998年通信与多媒体法》获得ASP(C)应用服务供应商牌照。TikTok、微信已获牌，Telegram进入最后阶段，Meta系仍在申请中。违规平台面临最高50万林吉特罚款或5年监禁。",
+          source: "马来西亚MCMC / 彭博社",
+          url: "https://www.mcmc.gov.my",
+          tags: ["社交平台许可", "MCMC", "ASP(C)牌照", "800万用户", "罚款"],
+          verified: true
+        },
+        {
+          id: "my-6",
+          type: "enforcement",
+          date: "2026-01-13",
+          title: "马来西亚MCMC对X平台采取法律行动",
+          description: "马来西亚MCMC于1月3日和8日分别向X平台及xAI公司发出通知，要求其采取有效技术防护和内容审核机制，防止人工智能生成违反马来西亚法律的内容。X平台提交的回应主要依赖用户主动举报机制，未能充分应对Grok在设计运行层面的固有风险。MCMC正针对X公司及xAI LLC采取法律行动。",
+          source: "马来西亚MCMC / 新华社",
+          url: "http://www.news.cn",
+          tags: ["X平台", "Grok", "AI内容", "法律行动", "MCMC"],
+          verified: true
+        },
+        {
+          id: "my-7",
+          type: "enforcement",
+          date: "2025-09-06",
+          title: "马来西亚通讯部长警告TikTok：须限期整改儿童保护问题",
+          description: "马来西亚通讯部长法赫米·法齐尔警告TikTok必须开始与马来西亚皇家警察(PDRM)和MCMC密切合作，在规定的时间内建立具体的执法机制，限制13岁以下儿童使用平台。部长强调马来西亚目前不打算封锁TikTok，但如果平台继续无视当地法规，仍将采取法律行动。",
+          source: "马来西亚通讯部长 / 微信公众号",
+          url: "http://mp.weixin.qq.com",
+          tags: ["TikTok", "儿童保护", "PDRM", "通讯部长", "整改"],
+          verified: true
+        },
+        {
+          id: "my-8",
+          type: "policy",
+          date: "2026-05-06",
+          title: "马来西亚正加大力度推进社交媒体监管与AI治理",
+          description: "马来西亚通信部长法赫米·法齐勒表示，马来西亚正加大力度规范数字生态，重点聚焦网络安全、社交媒体内容监管及AI治理。马政府正加紧制定配套细则，包括行为准则和监管程序。政府计划依托国家身份证体系推出年龄验证方式，禁止16岁以下青少年使用社交媒体。同时关注滥用AI生成冒犯性及色情内容的现象，正探讨建立AI基础法律框架。",
+          source: "马来西亚通信部长 / 新华丝路",
+          url: "https://www.imsilkroad.com",
+          tags: ["AI治理", "年龄验证", "16岁以下禁令", "社交媒体监管", "网络安全"],
+          verified: true
         }
       ]
     },
@@ -205,6 +326,61 @@ const COMPLIANCE_DATA = {
           source: "印尼Kemkomdigi / Hukumonline",
           url: "https://www.hukumonline.com",
           tags: ["个人数据保护", "PDP", "跨境传输", "SCC", "Kemkomdigi"],
+          verified: true
+        },
+        {
+          id: "id-5",
+          type: "regulation",
+          date: "2026-03-28",
+          title: "印尼正式实施16岁以下社交媒体禁令",
+          description: "印尼政府正式实施针对16岁以下人群的社交媒体禁令，依据接触不当内容可能性、个人数据安全风险、成瘾风险等7个方面对社交媒体平台进行风险分级。高风险平台须提高最低使用年龄、停用未成年用户账户。禁令覆盖YouTube、TikTok、Facebook、Instagram、X等平台，预计影响约7000万名青少年。X宣布将印尼用户最低年龄设为16岁，YouTube表示已准备好配合。",
+          source: "印尼通信和数字事务部 / 央广网 / 人民网",
+          url: "https://news.cnr.cn",
+          tags: ["社媒禁令", "16岁以下", "风险分级", "青少年保护", "Komdigi"],
+          verified: true
+        },
+        {
+          id: "id-6",
+          type: "regulation",
+          date: "2026-04-28",
+          title: "印尼PP Tunas监管范围扩大：电商平台、金融科技、银行、搜索引擎纳入",
+          description: "印尼通信与数字事务部(Komdigi)宣布，PP Tunas法规的监管范围已从最初的8家社交媒体/视频平台，进一步扩大至电商平台(Shopee、Tokopedia)、金融科技服务、银行及搜索引擎。Komdigi要求所有电子系统提供商(PSE)进行自查和风险评估，确保16岁以下用户无法访问高风险数字服务。部长Meutya Hafid强调PP Tunas适用于所有在印尼运营的电子系统提供商。",
+          source: "印尼Komdigi / 北京商报",
+          url: "https://www.bbtnews.com.cn",
+          tags: ["PP Tunas", "电商平台", "金融科技", "PSE", "年龄验证"],
+          verified: true
+        },
+        {
+          id: "id-7",
+          type: "enforcement",
+          date: "2026-01-09",
+          title: "印尼海关监管升级：AI研判+100%开箱严查",
+          description: "印尼海关在雅加达丹戎不碌港等核心口岸启用\"X光扫描+AI研判\"双重查验系统，分钟级别内比对货物物理特征与申报数据，异常即自动触发警报。服装、纺织品、化妆品、药品等列为\"红灯期\"高风险品类，面临100%开箱查验。企业须准备完整证据链应对合理性审查，包括采购合同、发票、付款凭证、物流单证、认证文件等。",
+          source: "印尼海关 / 网易",
+          url: "https://www.163.com",
+          tags: ["海关升级", "AI研判", "红灯期", "开箱查验", "合规证据链"],
+          verified: true
+        },
+        {
+          id: "id-8",
+          type: "regulation",
+          date: "2026-02-02",
+          title: "印尼贸易部颁布禁令：2026年起禁止进口12类货物",
+          description: "印尼贸易部颁布《贸易部长条例第47号（2025年）》，明确2026年1月1日起禁止进口12类货物，包括糖、大米、消耗臭氧层物质、二手袋及二手衣物、制冷系统类消防灭火设备、制冷系统类电子产品、部分药品及食品相关材料、危险及有毒物质、特定废物、成品手工具、含汞医疗器械。违规进口将被认定为国家控制财产，面临罚款、扣柜甚至退运。",
+          source: "印尼贸易部 / 搜狐",
+          url: "https://www.sohu.com",
+          tags: ["进口禁令", "12类货物", "贸易部", "海关扣留", "退运"],
+          verified: true
+        },
+        {
+          id: "id-9",
+          type: "policy",
+          date: "2025-09-27",
+          title: "印尼贸易部新规：社交电商禁止提供支付交易",
+          description: "印尼贸易部发布《2023年第31号贸易部长令》，修订社交电商规定：社交商务仅可促进商品或服务推广，禁止提供支付交易；禁止由PPMSE和其附属机构控制用户数据；社交商务必须确保与PMSE外部的设施无关；保护社交媒体用户数据不被滥用；外国商家须提交原始国家业务合法性证明、满足强制性国家标准和清真要求、贴印度尼西亚语标签、标明发货来源。",
+          source: "印尼贸易部 / 微信公众号",
+          url: "http://mp.weixin.qq.com",
+          tags: ["社交电商", "支付禁令", "数据保护", "外国商家", "PMSE"],
           verified: true
         }
       ]
@@ -257,6 +433,50 @@ const COMPLIANCE_DATA = {
           source: "菲律宾最高法院 / Rappler",
           url: "https://rappler.com",
           tags: ["最高法院", "连带责任", "虚假信息", "诽谤", "Rappler"],
+          verified: true
+        },
+        {
+          id: "ph-5",
+          type: "enforcement",
+          date: "2026-04-10",
+          title: "菲律宾限期Meta 7日整改虚假信息，否则启动法律程序",
+          description: "菲律宾政府于4月10日正式要求Meta Platforms在7日内就平台虚假信息问题提交整改方案，否则将采取法律行动。菲律宾要求Meta优化算法模型、增加本地语言审核资源并建立高效举报机制。此举直接威胁Meta在菲律宾8770万用户市场的运营合规性，也标志着东南亚国家对社交媒体监管的持续升级。",
+          source: "菲律宾政府 / Edge AI Daily",
+          url: "https://www.163.com",
+          tags: ["Meta", "虚假信息", "整改令", "法律程序", "算法审核"],
+          verified: true
+        },
+        {
+          id: "ph-6",
+          type: "enforcement",
+          date: "2026-04-14",
+          title: "菲律宾国税局(BIR)启动全国税务审计：中国大卖漏报2.11亿比索被通缉",
+          description: "菲律宾国税局(BIR)已打通平台数据，2026年恢复全国税务审计并启动系统筛查。某中国大卖因漏报2.11亿比索销售额遭勒令停业、罚款超4000万比索，运营者被通缉。Shopee已要求卖家提交年报税宣誓，销售额超50万比索须规范申报。瞒报或流水不符者将被直接锁定。",
+          source: "菲律宾国税局 / 网易",
+          url: "https://www.163.com",
+          tags: ["税务审计", "BIR", "漏报", "罚款", "停业", "Shopee"],
+          verified: true
+        },
+        {
+          id: "ph-7",
+          type: "regulation",
+          date: "2025-09-05",
+          title: "菲律宾DICT要求电商平台下架所有非法及未经许可产品",
+          description: "菲律宾信息和通信技术部(DICT)向电商平台发出明确指令，要求立即下架所有非法及未经许可的产品。贸易工业部推出\"电子商务菲律宾信任标志\"计划，要求所有在线卖家在2025年9月底前完成产品检验及注册。DICT启用AI监测系统\"Cyber Hawk\"实时扫描商品页面，准确率达92%。卖家须完成DTI与税务局双注册，提交商品进口许可、质量检测报告等材料。",
+          source: "菲律宾DICT / 微信公众号",
+          url: "http://mp.weixin.qq.com",
+          tags: ["电商平台", "非法产品下架", "信任标志", "Cyber Hawk", "AI监测"],
+          verified: true
+        },
+        {
+          id: "ph-8",
+          type: "regulation",
+          date: "2025-09-12",
+          title: "菲律宾《互联菲律宾法》：外资数据传输市场开放，须NTC注册",
+          description: "菲律宾《互联菲律宾法》要求所有从事数据传输服务的实体向国家电信委员会(NTC)注册为数据传输行业参与者(DTIP)。外资持股超40%须满足最低20万美元资本要求。数据传输服务未被列入外资负面清单，但可能被视为关键基础设施。如母国对菲律宾公民给予互惠权利，外资持股可达100%；否则上限为50%。开放接入政策要求数字基础设施所有者允许其他实体接入。",
+          source: "菲律宾NTC / Romulo律所 / Law.Asia",
+          url: "https://law.asia",
+          tags: ["互联菲律宾法", "数据传输", "NTC", "DTIP", "外资持股"],
           verified: true
         }
       ]
@@ -914,6 +1134,50 @@ const COMPLIANCE_DATA = {
           url: "https://www.privacy.com.sg/resources/2026-protection-obligation-cases/",
           tags: ["数据保护", "执法趋势", "保护义务", "VAPT"],
           verified: true
+        },
+        {
+          id: "sg-5",
+          type: "regulation",
+          date: "2026-04-05",
+          title: "新加坡全面升级互联网未成年人保护：年龄验证+安全设计",
+          description: "新加坡从2026年4月起要求主要应用平台落实\"年龄验证\"机制，未成年人下载和使用社交媒体时面临更严格的身份识别与使用限制。新加坡没有选择全面禁止，而是推动平台内部建立保护机制，如针对私信功能优化设计以降低陌生人骚扰风险，调整自动播放功能防止沉迷。相关机构正与各大平台合作优化举报流程，计划设立网络安全委员会统一申诉渠道。",
+          source: "新加坡IMDA / 新华丝路",
+          url: "https://www.aimssg.cn",
+          tags: ["未成年人保护", "年龄验证", "安全设计", "IMDA", "网络安全委员会"],
+          verified: true
+        },
+        {
+          id: "sg-6",
+          type: "regulation",
+          date: "2019-05-01",
+          title: "新加坡《防止网络假信息和网络操纵法》(POFMA)生效",
+          description: "新加坡通过《防止网络假信息和网络操纵法》(POFMA)，在IMDA内设专门执行办公室，负责发布各部门有关更正或删除网络虚假信息的相关指示，并拥有监督和执法权。该法案赋予政府直接要求平台更正或删除虚假信息的权力，适用于社交媒体、新闻网站等所有数字平台。违规者面临罚款和刑事处罚。",
+          source: "新加坡IMDA / 中国信通院",
+          url: "https://www.caict.ac.cn",
+          tags: ["POFMA", "虚假信息", "网络操纵", "IMDA", "内容删除"],
+          verified: true
+        },
+        {
+          id: "sg-7",
+          type: "policy",
+          date: "2020-12-01",
+          title: "新加坡IMDA发布可信数据共享框架与数据监管沙箱",
+          description: "新加坡信息通信媒体发展局(IMDA)推出\"可信数据共享框架\"，支持企业探索安全且经济可持续的数据共享机制。同时推出数据监管沙箱，使企业通过与IMDA和个人数据保护委员会(PDPC)协商，可在安全环境中探索数据创新使用，降低企业合规风险和用户风险。该框架旨在促进组织间的可信数据共享，同时确保个人隐私保护。",
+          source: "新加坡IMDA / 中国信通院",
+          url: "https://www.caict.ac.cn",
+          tags: ["IMDA", "数据共享", "监管沙箱", "PDPC", "创新"],
+          verified: true
+        },
+        {
+          id: "sg-8",
+          type: "regulation",
+          date: "2021-02-01",
+          title: "新加坡修订《个人资料保护法令》：加重处罚+数据泄露强制通报",
+          description: "新加坡在2021/2022年修订《2012年个人资料保护法令》(PDPA)，引入若干新条款并加重对违法行为的处罚。修订内容包括：要求数据控制者和处理者任命数据保护官(DPO)；规定数据泄露通知要求，一旦确认数据泄露须在规定时间内通知PDPC和受影响个人；PDPC罚款上限提高至年营业额10%或100万新元。",
+          source: "新加坡PDPC / DNA东盟指南",
+          url: "https://www.drewnetworkasia.com",
+          tags: ["PDPA修订", "DPO", "数据泄露通报", "罚款上限", "个人资料保护"],
+          verified: true
         }
       ]
     },
@@ -943,6 +1207,72 @@ const COMPLIANCE_DATA = {
           source: "香港金管局",
           url: "https://www.hkma.gov.hk",
           tags: ["虚拟银行", "反洗钱", "HKMA"],
+          verified: true
+        },
+        {
+          id: "hk-3",
+          type: "regulation",
+          date: "2025-12-01",
+          title: "香港《稳定币条例草案》：发行人须持牌+储备资产隔离",
+          description: "香港财库局与金管局联合发布《稳定币条例草案》，拟要求所有在香港发行法币参考稳定币(FRS)的机构必须向金管局申请牌照。持牌人须满足严格的储备资产管理要求，包括将储备资产与自有资产隔离、保持高流动性、定期由独立审计师验证。草案还禁止向香港零售投资者提供算法稳定币。违规发行或推广无牌稳定币可构成刑事罪行。",
+          source: "香港财库局 / HKMA",
+          url: "https://www.hkma.gov.hk",
+          tags: ["稳定币", "牌照", "储备资产", "算法稳定币", "刑事罪行"],
+          verified: true
+        },
+        {
+          id: "hk-4",
+          type: "regulation",
+          date: "2024-06-01",
+          title: "香港SFC就虚拟资产场外交易(OTC)服务发布咨询文件",
+          description: "香港证监会(SFC)就虚拟资产场外交易(OTC)服务及虚拟资产托管服务发布咨询文件，拟将这两类服务纳入《打击洗钱条例》下的发牌制度。OTC服务提供商须遵守与VATP相若的AML/CFT规定，包括客户尽职调查、交易监控和记录保存。SFC还建议引入\"travel rule\"要求，对涉及虚拟资产的转账进行发件人和收件人信息传输。",
+          source: "香港SFC",
+          url: "https://www.sfc.hk",
+          tags: ["OTC", "虚拟资产托管", "发牌制度", "Travel Rule", "AML"],
+          verified: true
+        },
+        {
+          id: "hk-5",
+          type: "policy",
+          date: "2025-08-01",
+          title: "香港推动Web3发展：数码港拨款支持区块链初创企业",
+          description: "香港特区政府通过数码港拨款计划，向多家Web3和区块链初创企业提供资金支持，推动香港成为全球虚拟资产中心。数码港已建立Web3基地，为入驻企业提供法律合规、技术开发和市场推广等全方位支持。金管局亦推出Ensemble项目，测试代币化存款和资产代币化的商业应用。",
+          source: "香港数码港 / 金管局",
+          url: "https://www.cyberport.hk",
+          tags: ["Web3", "区块链", "数码港", "代币化", "虚拟资产中心"],
+          verified: true
+        },
+        {
+          id: "hk-6",
+          type: "enforcement",
+          date: "2026-03-15",
+          title: "香港SFC点名批评JPEX案后加强投资者教育执法",
+          description: "香港证监会(SFC)在JPEX虚拟资产平台欺诈案后加强执法力度，向多家无牌经营虚拟资产交易的平台发出警告信，并冻结相关资产。SFC与警方成立专责小组，调查涉及虚拟资产的诈骗和洗钱案件。同时，SFC推出\"投资者警示\"网页，实时更新无牌及可疑虚拟资产平台名单，提醒投资者注意风险。",
+          source: "香港SFC / 香港警方",
+          url: "https://www.sfc.hk",
+          tags: ["JPEX", "无牌平台", "投资者警示", "专责小组", "欺诈"],
+          verified: true
+        },
+        {
+          id: "hk-7",
+          type: "regulation",
+          date: "2025-01-01",
+          title: "香港《2024年公司（修订）条例》：公司须备存重要控制人登记册",
+          description: "香港《2024年公司（修订）条例》生效，要求所有在香港注册的公司必须备存重要控制人登记册(Significant Controllers Register)，记录对公司有重要控制权的自然人和法律实体的详细信息。该规定旨在提高公司所有权结构的透明度，打击洗钱和恐怖主义融资。公司须在注册地址备存登记册，供执法人员查阅。",
+          source: "香港公司注册处",
+          url: "https://www.cr.gov.hk",
+          tags: ["重要控制人登记册", "公司透明度", "反洗钱", "反恐融资", "修订条例"],
+          verified: true
+        },
+        {
+          id: "hk-8",
+          type: "policy",
+          date: "2025-06-01",
+          title: "香港金管局推出\"数码港元\"先导计划第二阶段",
+          description: "香港金管局(HKMA)推出\"数码港元\"(e-HKD)先导计划第二阶段，进一步测试央行数字货币(CBDC)在零售支付、代币化存款、可编程支付和跨境支付等场景的应用。16间来自金融、支付和科技行业的入选公司参与试验。HKMA同时与中国人民银行数字货币研究所合作，推进\"数码人民币\"与\"数码港元\"的跨境支付互联互通。",
+          source: "香港金管局",
+          url: "https://www.hkma.gov.hk",
+          tags: ["数码港元", "e-HKD", "CBDC", "代币化存款", "跨境支付"],
           verified: true
         }
       ]
@@ -996,6 +1326,50 @@ const COMPLIANCE_DATA = {
           url: "https://indiafintechfoundation.com/regulatoryAnnouncements",
           tags: ["支付聚合商", "RBI", "KYC", "支付生态"],
           verified: true
+        },
+        {
+          id: "in-5",
+          type: "regulation",
+          date: "2025-03-01",
+          title: "印度《信息技术规则2021》修订：社交媒体中介须任命合规官",
+          description: "印度电子和信息技术部(MeitY)修订《信息技术(中介指南和数字媒体道德准则)规则2021》，要求所有 significant social media intermediaries (SSMI) 必须任命：驻印度的首席合规官、节点联系人和驻印度的申诉官。SSMI须在24小时内对政府或法院要求的内容下架请求作出回应，对非自愿裸露内容须在2小时内下架。",
+          source: "MeitY / 印度政府",
+          url: "https://www.meity.gov.in",
+          tags: ["IT规则", "SSMI", "合规官", "内容下架", "中介责任"],
+          verified: true
+        },
+        {
+          id: "in-6",
+          type: "enforcement",
+          date: "2026-02-15",
+          title: "印度政府封禁多个中国社交和约会应用",
+          description: "印度电子和信息技术部(MeitY)援引《信息技术法》第69A条，以\"对国家主权和完整、国防、国家安全和公共秩序构成威胁\"为由，永久封禁多款中国社交和约会应用。被封禁应用包括若干具有直播、短视频和约会功能的平台。MeitY要求Google Play和App Store立即下架这些应用，并阻止印度用户访问其网站。",
+          source: "MeitY / 印度政府",
+          url: "https://www.meity.gov.in",
+          tags: ["应用封禁", "第69A条", "中国应用", "约会应用", "直播"],
+          verified: true
+        },
+        {
+          id: "in-7",
+          type: "policy",
+          date: "2025-07-01",
+          title: "印度推出\"数字个人数据保护法案2023\"(DPDP Act)实施框架",
+          description: "印度政府发布\"数字个人数据保护法案2023\"(DPDP Act)的实施框架和规则草案。法案要求数据受托人(data fiduciaries)在处理个人数据前须获得同意，并为特定目的设立\"合法用途\"例外。法案引入\"同意管理者\"(Consent Managers)概念，帮助数据主体管理其同意。对违反规定者处以最高25亿卢比罚款。",
+          source: "印度政府 / 司法部",
+          url: "https://www.meity.gov.in",
+          tags: ["DPDP", "数据保护", "同意管理者", "罚款", "个人数据"],
+          verified: true
+        },
+        {
+          id: "in-8",
+          type: "regulation",
+          date: "2026-01-10",
+          title: "印度SEBI收紧对社交媒体\"网红\"和\"finfluencers\"监管",
+          description: "印度证券交易委员会(SEBI)发布新指引，收紧对社交媒体金融网红(finfluencers)的监管。任何在未获SEBI注册的情况下提供投资建议、股票提示或金融分析的个人或实体，将被视为非法经营。SEBI要求社交媒体平台配合识别和删除非法投资咨询内容。同时，SEBI对注册投资顾问(RIA)与未注册网红合作推广的行为实施严格限制。",
+          source: "SEBI / 印度政府",
+          url: "https://www.sebi.gov.in",
+          tags: ["SEBI", "finfluencers", "投资咨询", "社交媒体", "非法经营"],
+          verified: true
         }
       ]
     },
@@ -1026,14 +1400,80 @@ const COMPLIANCE_DATA = {
           url: "https://checklynx.com/en/resources/blog/FATF_2025",
           tags: ["FATF", "灰名单", "南非", "尼日利亚", "移除"],
           verified: true
+        },
+        {
+          id: "fatf-3",
+          type: "regulation",
+          date: "2024-10-01",
+          title: "FATF发布虚拟资产和虚拟资产服务提供商(VASP)风险指引更新",
+          description: "FATF发布修订版《基于风险的虚拟资产和VASP监管指引》，要求各国确保VASP遵守与传统金融机构相同的AML/CFT标准。更新内容包括：强化对\"旅行规则\"(Travel Rule)的执行要求；加强对去中心化金融(DeFi)平台和稳定币发行商的监管覆盖；要求各国对未经许可运营的VASP采取执法行动。",
+          source: "FATF",
+          url: "https://www.fatf-gafi.org",
+          tags: ["FATF", "虚拟资产", "VASP", "Travel Rule", "DeFi"],
+          verified: true
+        },
+        {
+          id: "fatf-4",
+          type: "policy",
+          date: "2023-06-01",
+          title: "FATF将越南列入灰名单：要求加强反洗钱/反恐融资框架",
+          description: "FATF于2023年6月将越南列入灰名单（加强监控司法管辖区），要求其加强反洗钱/反恐融资框架。越南正在执行行动计划，重点领域包括：风险理解、国际合作、虚拟资产监管、监管有效性。截至2026年2月，越南仍在灰名单中，行动计划持续推进。",
+          source: "FATF",
+          url: "https://www.fatf-gafi.org",
+          tags: ["FATF", "灰名单", "越南", "反洗钱", "行动计划"],
+          verified: true
+        },
+        {
+          id: "fatf-5",
+          type: "regulation",
+          date: "2025-06-01",
+          title: "FATF修订 Recommendation 16 (Travel Rule)：覆盖虚拟资产转账",
+          description: "FATF修订第16项建议(Travel Rule)，将适用范围扩大至虚拟资产转账。要求VASP在涉及超过1,000美元/欧元的虚拟资产转账时，必须获取并保存发件人和收件人的身份信息，并在交易发生时与交易对手方共享这些信息。该要求适用于所有跨境和大部分国内虚拟资产转账。",
+          source: "FATF",
+          url: "https://www.fatf-gafi.org",
+          tags: ["Travel Rule", "虚拟资产转账", "VASP", "身份信息共享", "跨境"],
+          verified: true
+        },
+        {
+          id: "fatf-6",
+          type: "policy",
+          date: "2022-03-01",
+          title: "FATF更新高风险司法管辖区名单：缅甸、朝鲜、伊朗仍列黑名单",
+          description: "FATF维持对3个国家的黑名单（呼吁对其采取反制措施）：缅甸、朝鲜、伊朗。FATF指出这些国家存在严重的战略缺陷，包括恐怖主义融资和扩散融资风险。FATF呼吁所有司法管辖区对这些国家采取增强尽职调查措施，并在必要时采取反制措施。灰名单共23个国家/地区。",
+          source: "FATF",
+          url: "https://www.fatf-gafi.org",
+          tags: ["黑名单", "缅甸", "朝鲜", "伊朗", "反制措施"],
+          verified: true
+        },
+        {
+          id: "fatf-7",
+          type: "regulation",
+          date: "2021-10-01",
+          title: "FATF发布《虚拟资产和VASP风险为本监管指引》首版",
+          description: "FATF发布首版《虚拟资产和VASP风险为本监管指引》，要求各国识别、评估和了解其国内虚拟资产活动和VASP相关的洗钱和恐怖主义融资风险。指引要求各国实施许可或注册制度，确保VASP受到有效监管，并遵守AML/CFT要求。该指引是全球首个针对虚拟资产的综合性国际标准。",
+          source: "FATF",
+          url: "https://www.fatf-gafi.org",
+          tags: ["虚拟资产", "VASP", "风险为本", "首版指引", "国际标准"],
+          verified: true
+        },
+        {
+          id: "fatf-8",
+          type: "policy",
+          date: "2026-01-01",
+          title: "FATF 2026年优先事项：受益所有权透明度与房地产洗钱",
+          description: "FATF将\"受益所有权透明度\"和\"房地产洗钱\"列为2026年优先政策议题。FATF要求各国建立有效的受益所有权登记册，确保法律实体和安排的受益所有权信息准确、最新且可被执法部门访问。同时，FATF加强对房地产领域洗钱风险的关注，要求各国对涉及现金购买、离岸公司和信托结构的房地产交易实施更严格的监控。",
+          source: "FATF",
+          url: "https://www.fatf-gafi.org",
+          tags: ["受益所有权", "房地产洗钱", "透明度", "优先议题", "2026"],
+          verified: true
         }
       ]
     }
   ],
 
   // 更新日志
-  lastUpdated: "2026-04-28",
-  version: "1.2.0",
+  lastUpdated: "2026-05-11",
+  version: "1.3.0",
   source: "Litmatch合规信息跟踪站"
 };
 
