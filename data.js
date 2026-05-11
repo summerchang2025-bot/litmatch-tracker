@@ -95,6 +95,17 @@ const COMPLIANCE_DATA = {
           verified: true
         },
         {
+          id: "vn-9",
+          type: "regulation",
+          date: "2026-04-06",
+          title: "越南颁布第129/2026/NĐ-CP号法令：规范多层次经营活动（直销/传销）",
+          description: "越南政府颁布第129/2026/NĐ-CP号法令，规范多层次经营活动（即直销/传销）。法令要求所有多层次经营企业在越南设立代表处或指定授权代表，向工贸部注册并缴纳保证金。禁止以拉人头、发展下线为主要盈利模式的经营活动。该法令将于2026年7月1日生效，对社交直播打赏应用的裂变拉新、现金奖励机制有直接合规影响。",
+          source: "越南政府公报 / Chinhphu.vn",
+          url: "https://congbao.chinhphu.vn",
+          tags: ["多层次经营", "直销", "129号令", "裂变拉新", "工贸部"],
+          verified: true
+        },
+        {
           id: "vn-8",
           type: "regulation",
           date: "2025-04-11",
@@ -477,6 +488,28 @@ const COMPLIANCE_DATA = {
           source: "菲律宾DICT / 微信公众号",
           url: "http://mp.weixin.qq.com",
           tags: ["电商平台", "非法产品下架", "信任标志", "Cyber Hawk", "AI监测"],
+          verified: true
+        },
+        {
+          id: "ph-9",
+          type: "regulation",
+          date: "2026-02-14",
+          title: "菲律宾参议院审议HB06080《社交媒体未成年人保护法案》",
+          description: "菲律宾参议院审议HB06080《Social Media Regulation and Protection Act》草案，拟对社交媒体平台实施严格的未成年人保护措施：禁止13岁以下用户注册；要求13-17岁用户启用年龄限制功能；限制每日使用时长至30分钟；要求平台在发现有害内容后24小时内移除。该法案将适用于所有在菲律宾运营的社交媒体和约会应用。",
+          source: "菲律宾参议院 / Rappler",
+          url: "https://www.congress.gov.ph",
+          tags: ["未成年人保护", "HB06080", "年龄限制", "30分钟限制", "参议院"],
+          verified: true
+        },
+        {
+          id: "ph-10",
+          type: "regulation",
+          date: "2026-04-14",
+          title: "菲律宾BIR发布RMC No. 14-2026：税务审计系统全面改革",
+          description: "菲律宾国税局(BIR)发布RMC No. 14-2026，宣布2026年启动全国税务审计系统改革。新规打通电商平台数据接口，对卖家销售额进行系统筛查。销售额超50万比索须规范申报，瞒报或流水不符者将被直接锁定。Shopee已要求卖家提交年报税宣誓。",
+          source: "菲律宾BIR / Rappler",
+          url: "https://www.bir.gov.ph",
+          tags: ["税务审计", "BIR", "RMC 14-2026", "电商平台", "申报"],
           verified: true
         },
         {
@@ -1404,7 +1437,7 @@ const COMPLIANCE_DATA = {
         {
           id: "fatf-1",
           type: "regulation",
-          date: "2026-02-01",
+          date: "2026-02-13",
           title: "FATF 2026年2月更新灰名单：科威特、巴布亚新几内亚新增",
           description: "金融行动特别工作组(FATF)在2026年2月全体会议上更新灰名单（加强监控司法管辖区）。新增科威特（因金融制裁实施缺陷、资产冻结延迟、现金交易监控不足）和巴布亚新几内亚（因跨机构AML/CFT协调失败、腐败和非法伐木收益追回不足）。灰名单共23个国家/地区。黑名单仍为3个：伊朗、朝鲜、缅甸。",
           source: "FATF / Sanctions Lawyers",
@@ -1495,7 +1528,7 @@ const COMPLIANCE_DATA = {
 
   // 更新日志
   lastUpdated: "2026-05-11",
-  version: "1.3.0",
+  version: "1.3.1",
   source: "Litmatch合规信息跟踪站"
 };
 
