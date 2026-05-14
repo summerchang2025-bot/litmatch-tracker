@@ -404,28 +404,6 @@ const COMPLIANCE_DATA = {
           url: "http://mp.weixin.qq.com",
           tags: ["社交电商", "支付禁令", "数据保护", "外国商家", "PMSE"],
           verified: true
-        },
-        {
-          id: "id-10",
-          type: "policy",
-          date: "2026-05-13",
-          title: "印尼Komdigi启动数字平台风险评级评估",
-          description: "印尼通信和数字事务部(Komdigi)正在对各类数字平台进行风险评级评估，依据接触不当内容可能性、个人数据安全风险、成瘾风险等维度对社交媒体、约会应用、视频平台进行分类管理。该评估结果将直接影响平台在印尼的运营合规要求。",
-          source: "beritajejakfakta.id",
-          url: "https://beritajejakfakta.id",
-          tags: ["Komdigi", "风险评级", "数字平台", "社交媒体", "约会应用"],
-          verified: true
-        },
-        {
-          id: "id-11",
-          type: "enforcement",
-          date: "2026-05-13",
-          title: "印尼Kemkomdigi加强反网络赌博运动",
-          description: "印尼通信和数字事务部(Kemkomdigi)联合执法部门开展加强反网络赌博运动，重点清理社交媒体和约会应用中涉及的赌博推广内容。该行动要求平台加强内容审核，对违规账号采取封禁措施。",
-          source: "antaranews.com",
-          url: "https://www.antaranews.com",
-          tags: ["Kemkomdigi", "反赌博", "内容审核", "社交媒体", "约会应用"],
-          verified: true
         }
       ]
     },
