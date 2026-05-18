@@ -115,6 +115,39 @@ const COMPLIANCE_DATA = {
           url: "http://mp.weixin.qq.com",
           tags: ["147号令", "实名认证", "跨境平台", "代表处", "工贸部"],
           verified: true
+        },
+        {
+          id: "vn-10",
+          type: "regulation",
+          date: "2026-05-08",
+          title: "越南《网络安全法》2025将于7月1日生效：企业合规新要求",
+          description: "越南《网络安全法》2025(Luat An ninh mang 2025)将于2026年7月1日正式生效。该法要求所有在越南运营的数字平台必须：任命网络安全负责人；进行网络安全风险评估；实施数据本地化存储；在发生安全事件时24小时内通知主管部门。对社交网络和约会应用有特殊合规要求，包括用户实名认证和内容审核机制。违规企业面临最高年收入3%的罚款。",
+          source: "LuatVietnam.vn / 越南国会",
+          url: "https://luatvietnam.vn",
+          tags: ["网络安全法", "7月生效", "数据本地化", "实名认证", "内容审核"],
+          verified: true
+        },
+        {
+          id: "vn-11",
+          type: "policy",
+          date: "2026-05-11",
+          title: "越南科技部部署4层网络安全防护模型",
+          description: "越南科技部(Bo Khoa hoc va Cong nghe)正式部署4层网络安全防护模型(4-layer cybersecurity model)，包括：感知层(威胁情报收集)、网络层(流量监控与过滤)、应用层(平台安全加固)和数据层(加密与备份)。该模型将应用于所有在越南运营的社交网络和数字平台，要求平台在2026年12月前完成技术对接。",
+          source: "Thanh Nien / 越南科技部",
+          url: "https://thanhnien.vn",
+          tags: ["网络安全", "4层模型", "科技部", "平台对接", "威胁情报"],
+          verified: true
+        },
+        {
+          id: "vn-12",
+          type: "policy",
+          date: "2026-05-12",
+          title: "越南财政部发布首部《2026年越南税收白皮书》：税务现代化路线图",
+          description: "越南财政部(Ministry of Finance)正式发布首部《2026年越南税收白皮书》(Vietnam Tax White Paper 2026)，这是越南首次发布系统性税收白皮书。白皮书聚焦2026-2030年税务发展方向，核心包括：1) 完善税收制度体系——涵盖直接税、间接税和专项税类；2) 推动数字化转型与简化行政程序——税务管理从传统模式转向数据驱动和风险导向模式，2025年通过稽查征收的税款较2021年翻倍；3) 以纳税人为服务中心；4) 提高税收治理质量。数据显示2021-2025年税收部门征管收入约8,569万亿越南盾，占国家预算总收入86.4%。白皮书还强调税务系统不仅作为财政工具，更承担宏观经济调节、促进社会公平和支持弱势群体的职能。",
+          source: "越南财政部 / Vietnam.vn / VGP",
+          url: "https://www.vietnam.vn/en/ra-mat-sach-trang-thue-2026",
+          tags: ["税收白皮书", "税务现代化", "财政部", "数字化转型", "税收征管", "2026-2030"],
+          verified: true
         }
       ]
     },
@@ -307,6 +340,17 @@ const COMPLIANCE_DATA = {
           url: "https://www.imsilkroad.com",
           tags: ["AI治理", "年龄验证", "16岁以下禁令", "社交媒体监管", "网络安全"],
           verified: true
+        },
+        {
+          id: "my-9",
+          type: "policy",
+          date: "2026-05-10",
+          title: "马来西亚推进16岁以下社交媒体禁令：试点项目即将启动",
+          description: "马来西亚通信部长法赫米·法齐尔确认，政府正在推进16岁以下青少年社交媒体使用禁令。MCMC正在与Meta、Google、TikTok等主要平台讨论年龄验证机制，计划通过监管沙盒测试多种验证方案。试点项目即将推出，预计年中(mid-year)前完成平台年龄验证功能部署。目前WhatsApp、Telegram、Facebook、Instagram、TikTok、YouTube均已达到800万用户门槛，须遵守MCMC许可框架。",
+          source: "The Edge Malaysia / MCMC",
+          url: "https://theedgemalaysia.com/node/802743",
+          tags: ["16岁以下禁令", "年龄验证", "MCMC", "试点项目", "监管沙盒"],
+          verified: true
         }
       ]
     },
@@ -403,6 +447,39 @@ const COMPLIANCE_DATA = {
           source: "印尼贸易部 / 微信公众号",
           url: "http://mp.weixin.qq.com",
           tags: ["社交电商", "支付禁令", "数据保护", "外国商家", "PMSE"],
+          verified: true
+        },
+        {
+          id: "id-10",
+          type: "regulation",
+          date: "2026-04-28",
+          title: "印尼Komdigi设定PSE注册最终截止日期：6月6日",
+          description: "印尼通信与数字部(Komdigi)设定私人电子系统运营商(PSE)注册的最终截止日期为2026年6月6日。届时仍未完成注册的数字平台将面临服务限制或封锁风险。目前TikTok、Meta、X等平台已完成注册，但仍有部分中小型社交和约会应用尚未合规。",
+          source: "Detik.com / Komdigi",
+          url: "https://www.detik.com",
+          tags: ["PSE注册", "Komdigi", "截止日期", "平台合规", "6月6日"],
+          verified: true
+        },
+        {
+          id: "id-11",
+          type: "policy",
+          date: "2026-04-14",
+          title: "印尼Komdigi确认TikTok已遵守PP Tunas儿童保护规定",
+          description: "印尼通信与数字部(Komdigi)正式确认TikTok已全面遵守《儿童在线保护政府条例》(PP Tunas)的各项要求，包括：13-16岁用户社交媒体使用时长限制；家长控制功能；内容过滤机制。Komdigi表示将继续监督其他平台(包括Bigo Live、Likee等)的合规进度。",
+          source: "Detik.com / Komdigi",
+          url: "https://www.detik.com",
+          tags: ["PP Tunas", "TikTok", "儿童保护", "Komdigi", "合规确认"],
+          verified: true
+        },
+        {
+          id: "id-12",
+          type: "policy",
+          date: "2026-04-15",
+          title: "印尼更新数字平台PP Tunas合规名单：新增Meta、YouTube",
+          description: "印尼通信与数字部(Komdigi)更新已遵守《儿童在线保护政府条例》(PP Tunas)的数字平台名单，新增Meta(Instagram/Facebook)、YouTube、Telegram等大型平台。目前仍有部分约会类应用和社交直播平台尚未完成合规整改，Komdigi表示将在6月6日PSE注册截止前完成全面核查。",
+          source: "Detik.com / Komdigi",
+          url: "https://www.detik.com",
+          tags: ["PP Tunas", "Meta", "YouTube", "合规名单", "Komdigi"],
           verified: true
         }
       ]
@@ -824,6 +901,17 @@ const COMPLIANCE_DATA = {
           url: "https://gcgra.gov.ae",
           tags: ["GCGRA", "博彩", "自由区", "ADGM", "DIFC"],
           verified: true
+        },
+        {
+          id: "ae-13",
+          type: "regulation",
+          date: "2026-05-08",
+          title: "阿联酋TDRA发布2026年出站呼叫新规：AI语音必须披露身份",
+          description: "阿联酋电信与数字政府监管局(TDRA)发布2026年出站营销呼叫新规。所有出站销售电话须获得TDRA预先批准，使用本地注册号码，明确披露呼叫者身份和目的，且仅限09:00-18:00时段。AI语音代理须遵守与人类代理相同规则，每次呼叫开头必须披露AI身份。TDRA不呼叫登记册(Do Not Call Registry)须每日更新，违规罚款最高15万迪拉姆。",
+          source: "CallSphere.ai / TDRA",
+          url: "https://callsphere.ai/blog/vw9d-ai-voice-uae-tdra-2026",
+          tags: ["TDRA", "出站呼叫", "AI披露", "营销电话", "罚款"],
+          verified: true
         }
       ]
     },
@@ -1126,6 +1214,28 @@ const COMPLIANCE_DATA = {
           url: "https://www.gamr.gov.sa",
           tags: ["GAMR", "媒体规则", "炫富", "着装", "家庭纠纷", "内容标准"],
           verified: true
+        },
+        {
+          id: "sa-15",
+          type: "enforcement",
+          date: "2026-05-05",
+          title: "沙特加大打击网络儿童剥削：成立专门工作组",
+          description: "沙特阿拉伯正式启动专项工作组打击网络儿童剥削和性虐待内容。内政部与通信与信息技术部(MCIT)联合行动，要求所有在沙特运营的社交平台必须在30天内提交儿童保护合规报告，包括内容审核机制、举报渠道和与执法部门的协作协议。未按时提交的平台将面临服务限制。",
+          source: "MENAFN / Saudi Ministry of Interior",
+          url: "https://menafn.com",
+          tags: ["儿童剥削", "网络性虐待", "内政部", "MCIT", "合规报告"],
+          verified: true
+        },
+        {
+          id: "sa-16",
+          type: "enforcement",
+          date: "2026-05-09",
+          title: "沙特持续打击在线儿童剥削：查封多个违规社交账号",
+          description: "沙特阿拉伯继续推进在线儿童剥削打击行动，已查封多个涉嫌传播儿童性虐待材料(CSAM)的社交媒体账号。沙特视听媒体总管理局(GCAM)同时发布新指引，要求所有社交媒体平台在内容上传时实施实时AI审核，对涉及未成年人的内容进行自动标记和人工复核。",
+          source: "Gulf News / GCAM",
+          url: "https://gulfnews.com",
+          tags: ["CSAM", "GCAM", "AI审核", "账号查封", "实时审核"],
+          verified: true
         }
       ]
     },
@@ -1424,6 +1534,28 @@ const COMPLIANCE_DATA = {
           source: "印度MeitY / 白鲸出海",
           url: "https://www.baijing.cn",
           tags: ["在线游戏", "RMG", "全面禁止", "电子竞技", "罚款"],
+          verified: true
+        },
+        {
+          id: "in-10",
+          type: "regulation",
+          date: "2026-05-09",
+          title: "印度PROG规则2026生效：在线游戏管理局(OGAI)开始运作",
+          description: "印度《在线游戏促进与监管规则2026》(PROG Rules 2026)于2026年5月1日正式生效。在线游戏管理局(OGAI)作为MeitY下属机构开始全面运作。新规则将游戏分为三类：电子竞技(需10年注册)、在线社交游戏(自愿注册)、在线金钱游戏(全面禁止)。平台必须实施年龄验证、家长控制、数据本地化和咨询支持等强制用户安全功能。",
+          source: "Lyfsmile.com / MeitY",
+          url: "https://lyfsmile.com/news/online-gaming-rules-may-1-india-child-impact",
+          tags: ["PROG规则", "OGAI", "在线游戏", "5月生效", "数据本地化"],
+          verified: true
+        },
+        {
+          id: "in-11",
+          type: "analysis",
+          date: "2026-05-10",
+          title: "印度PROGA法律深度分析：RMG全面禁止，最高罚款1亿卢比",
+          description: "深度分析印度《在线游戏促进与监管法2025》(PROGA)及2026年配套规则的影响。在线金钱游戏(RMG)被定义为任何用户支付费用并期望获得金钱回报的游戏，无论基于技巧还是运气，全部被禁止。首犯最高罚款1亿卢比(~11.5万美元)加3年监禁；累犯1-2亿卢比加3-5年。广告违规：5000万卢比加2年。银行和支付网关不得处理RMG交易。",
+          source: "RedClawey / MeitY Official Act",
+          url: "https://redclawey.com/en/blog/india-igaming-seo-playbook-post-proga-2026/",
+          tags: ["PROGA", "RMG禁止", "罚款", "监禁", "支付网关"],
           verified: true
         }
       ]
