@@ -342,14 +342,25 @@ const COMPLIANCE_DATA = {
           verified: true
         },
         {
-          id: "my-9",
+          id: "my-10",
           type: "policy",
-          date: "2026-05-10",
-          title: "马来西亚推进16岁以下社交媒体禁令：试点项目即将启动",
-          description: "马来西亚通信部长法赫米·法齐尔确认，政府正在推进16岁以下青少年社交媒体使用禁令。MCMC正在与Meta、Google、TikTok等主要平台讨论年龄验证机制，计划通过监管沙盒测试多种验证方案。试点项目即将推出，预计年中(mid-year)前完成平台年龄验证功能部署。目前WhatsApp、Telegram、Facebook、Instagram、TikTok、YouTube均已达到800万用户门槛，须遵守MCMC许可框架。",
-          source: "The Edge Malaysia / MCMC",
-          url: "https://theedgemalaysia.com/node/802743",
-          tags: ["16岁以下禁令", "年龄验证", "MCMC", "试点项目", "监管沙盒"],
+          date: "2026-04-16",
+          title: "马来西亚政府确认6月前限制16岁以下用户访问社交媒体",
+          description: "马来西亚政府正式宣布计划在2026年6月前实施新规定，限制16岁以下儿童访问社交媒体账户。通信部长Fahmi Fadzil确认政府正在推进年龄验证机制，通过监管沙盒测试多种验证方案。该计划参考澳大利亚等国的做法，旨在保护青少年免受网络霸凌和不当内容侵害。WhatsApp、Telegram、Facebook、Instagram、TikTok、YouTube均已达到800万用户门槛，须遵守MCMC许可框架。",
+          source: "The Star Malaysia / MCMC",
+          url: "https://www.thestar.com.my/news/nation/2026/04/16/govt-to-restrict-social-media-access-for-children-under-16-by-june",
+          tags: ["16岁以下", "社交媒体限制", "年龄验证", "Fahmi Fadzil", "6月", "MCMC"],
+          verified: true
+        },
+        {
+          id: "my-11",
+          type: "policy",
+          date: "2026-04-16",
+          title: "马来西亚政府确认6月前限制16岁以下用户访问社交媒体",
+          description: "马来西亚政府正式宣布计划在2026年6月前实施新规定，限制16岁以下儿童访问社交媒体账户。通信部长Fahmi Fadzil确认政府正在推进年龄验证机制，通过监管沙盒测试多种验证方案。该计划参考澳大利亚等国的做法，旨在保护青少年免受网络霸凌和不当内容侵害。WhatsApp、Telegram、Facebook、Instagram、TikTok、YouTube均已达到800万用户门槛，须遵守MCMC许可框架。",
+          source: "The Star Malaysia / MCMC",
+          url: "https://www.thestar.com.my/news/nation/2026/04/16/govt-to-restrict-social-media-access-for-children-under-16-by-june",
+          tags: ["16岁以下", "社交媒体限制", "年龄验证", "Fahmi Fadzil", "6月", "MCMC"],
           verified: true
         }
       ]
