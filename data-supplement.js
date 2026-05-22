@@ -936,6 +936,78 @@
       sourceUrl: "https://developer.android.com/blog/posts/i-o-2026-what-s-new-in-google-play",
       impact: "中",
       tags: ["Google I/O", "Play商店", "预审核", "并行发布", "SDK合规", "后量子密码"]
+    },
+
+    // ===== 2026年5月22日更新 — 5条新情报 =====
+    {
+      id: "VN-013",
+      title: "越南颁布Decree 174/2026：社交媒体虚假信息最高罚5000万越盾，7月1日生效",
+      date: "2026-05-21",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "法令发布",
+      summary: "越南政府颁布第174/2026号法令(Decree 174/2026/ND-CP)，规定邮政、电信、无线电频率、电子商务和信息技术领域的行政处罚。社交媒体违规罚款分两档：(1)2000万-3000万越盾(约5150-7730元人民币)——提供虚假信息、诽谤、宣扬社会丑恶、淫秽内容、详细描述砍杀恐怖行为、未经许可传播版权作品、广告违禁商品、地图主权标识缺失、利用社交网络制作新闻调查内容、新闻机构未按规定通知、未按要求删除违法信息等10类行为；(2)3000万-5000万越盾(约7730-12880元人民币)——歪曲历史、否定革命成就、泄露国家秘密或个人隐私、传播引起公众恐慌或损害经济社会活动的不实信息等3类行为。违规者将被强制删除相关内容。法令覆盖社交网络账户所有者、内容频道所有者、社区页面所有者和群组管理员，2026年7月1日生效，与新《网络安全法》同日施行。",
+      source: "越南通讯社(VNA) / SGGP / 越南政府",
+      sourceUrl: "https://vietnam.vnanet.vn/chinese/tin-van/越南新规：社交网络传播虚假信息最高罚款5000万越盾-447247.html",
+      impact: "高",
+      tags: ["Decree 174", "虚假信息", "罚款", "7月1日", "社交媒体", "内容审核"]
+    },
+    {
+      id: "MY-010",
+      title: "马来西亚MCMC首次援引ONSA第39条对TikTok发出法定要求：AI换脸辱王内容罚款最高1000万林吉特",
+      date: "2026-05-21",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "执法行动",
+      type: "首次执法",
+      summary: "马来西亚通信与多媒体委员会(MCMC)于2026年5月21日向TikTok发出法定要求(Statutory Demand)，这是马来西亚2025年《在线安全法》(ONSA)生效以来的首次正式执法行动。MCMC援引ONSA第39条和《1998年通信与多媒体法》第233条，指控TikTok未能及时有效处理针对马来西亚国家元首苏丹依布拉欣陛下的冒犯性虚假内容。涉事内容包括：冒充国王的虚假账号发布的AI换脸视频、将国王面孔合成至动物身体的篡改图片、伪造国王食用猪肉的虚假视频(触及穆斯林禁忌和3R红线)。MCMC此前已多次通知TikTok，但平台回应'令人不满意'。法定要求TikTok立即加强内容审核机制、提供审核失职的正式解释、出具整改方案。若拒不配合，最高可被处以1000万林吉特(约1540万元人民币)罚款。",
+      source: "The Star / NST / MCMC / 腾讯新闻",
+      sourceUrl: "https://www.thestar.com.my/tech/tech-news/2026/05/21/mcmc-tiktok-served-statutory-demand-for-failing-to-moderate-offensive-content-directed-at-malaysian-royal-institution",
+      impact: "高",
+      tags: ["MCMC", "ONSA", "第39条", "TikTok", "AI换脸", "首次执法", "1000万林吉特", "3R"]
+    },
+    {
+      id: "EG-013",
+      title: "埃及SCMR正式封禁Roblox：因儿童安全风险，与NTRA协调实施技术封锁",
+      date: "2026-02-02",
+      country: "埃及",
+      countryCode: "EG",
+      category: "执法行动",
+      type: "平台封禁",
+      summary: "埃及最高媒体监管委员会(SCMR)正式宣布封锁在线游戏平台Roblox在埃及的访问，理由是儿童安全风险和对未成年人的不当内容。SCMR主席Khaled Abdel Aziz确认已决定封禁该平台，并已与国家电信监管局(NTRA)协调实施技术层面的封锁措施。此举是埃及持续加强对数字内容平台监管的一部分，此前SCMR已要求所有数字平台完成注册并获得运营许可。封禁Roblox的决定反映出埃及监管机构对游戏和社交平台中儿童保护问题的高度关注，该平台因用户生成内容(UUGC)模式被认为存在难以控制的风险。",
+      source: "Ahram Online / Egypt Independent / SCMR",
+      sourceUrl: "https://english.ahram.org.eg/NewsContent/1/2/561592/Egypt/Society/Egypt-blocks-online-platform-Roblox-over-concerns-.aspx",
+      impact: "高",
+      tags: ["SCMR", "Roblox", "平台封禁", "儿童安全", "NTRA", "UUGC"]
+    },
+    {
+      id: "TH-010",
+      title: "泰国ETDC发布社交媒体广告商强制身份验证新规：11月1日生效",
+      date: "2026-05-05",
+      country: "泰国",
+      countryCode: "TH",
+      category: "法律法规",
+      type: "监管更新",
+      summary: "泰国电子交易委员会(ETDC)于2026年5月5日在《皇家公报》发布《关于预防网络社交媒体技术犯罪措施的通知(第2号)》，要求所有在线社交媒体服务提供商在发布广告前必须验证广告主身份。验证方式二选一：(1)文件验证——审核政府颁发的身份证明文件(国民身份证、护照或法人登记证)，交叉比对广告主与证件之间的关联；(2)数字身份验证——使用保证等级(LoA)不低于ETDC标准的身份验证系统。验证有效期最长一年，过期需重新验证。平台须收集并保留广告主姓名、身份证号和联系方式，从广告服务开始起至服务结束后至少90天。若存在第三方付款方(如广告代理)，同样适用。该通知在公布后180天即2026年11月1日生效。收集身份证等敏感个人数据还会触发PDPA项下的义务。",
+      source: "ETDC / Mondaq / Government Gazette",
+      sourceUrl: "https://www.mondaq.com/social-media/1786294/thailand-mandates-advertiser-identity-verification-for-social-media-platforms",
+      impact: "中",
+      tags: ["ETDC", "广告商验证", "KYC", "身份验证", "11月1日", "PDPA", "180天"]
+    },
+    {
+      id: "ID-016",
+      title: "印尼PP Tunas监管扩至电商全链条：Shopee/Tokopedia/TikTok Shop须设儿童交易家长同意功能",
+      date: "2026-05-14",
+      country: "印尼",
+      countryCode: "ID",
+      category: "政府政策",
+      type: "监管扩大",
+      summary: "印尼通信与数字部(Komdigi)秘书长Mediodecci Lustarini于5月14日宣布，PP Tunas(政府条例第17/2025号)的监管范围已从社交媒体正式扩展至电商平台和数字交易领域，明确覆盖Shopee、Tokopedia、TikTok Shop等所有电子系统运营商(PSE)。新规要求：(1)所有电商平台必须实施年龄验证系统，识别并区分儿童用户；(2)当儿童进行商品购买、数字钱包充值、游戏内虚拟物品消费等交易活动时，平台必须提供家长同意功能(parental consent)，父母须知情并给予明确批准；(3)限制儿童购买烟草和酒精饮料等不适宜商品(酒精仅限21岁以上)；(4)若应用涉及位置追踪，必须向用户(尤其是儿童监护人)发出高隐私级别通知；(5)收紧电子钱包充值管控，防止未成年人不当消费。此外，Komdigi已公布比例制罚款方案框架：大型/全球企业最高可被处以全球营收的6%罚款，但具体细则仍在与财政部讨论中。",
+      source: "ANTARA / Komdigi / Bisnis.com / 可比科技",
+      sourceUrl: "https://en.antaranews.com/news/415052/indonesia-tightens-child-safety-rules-for-e-commerce-platforms",
+      impact: "高",
+      tags: ["PP Tunas", "电商", "Shopee", "Tokopedia", "TikTok Shop", "家长同意", "6%全球营收", "数字钱包"]
     }
   ];
 
