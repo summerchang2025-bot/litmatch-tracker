@@ -1093,6 +1093,78 @@
       sourceUrl: "https://developer.android.com/blog/posts/i-o-2026-what-s-new-in-google-play",
       impact: "中",
       tags: ["Google I/O", "Play商店", "预审核", "并行发布", "SDK合规", "后量子密码"]
+    },
+
+    // ===== 2026年5月22日更新 — 新增条目 =====
+    {
+      id: "VN-013",
+      title: "越南颁布Nghị định 174/2026：社交媒体假新闻罚款最高5000万盾，7月1日生效",
+      date: "2026-05-22",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "新法令",
+      summary: "越南政府颁布第174/2026/NĐ-CP号法令，大幅提高社交媒体违规行为的行政处罚标准。该法令共8章117条，涵盖邮政、电信、无线电频率、电子交易、信息技术和民用密码学等领域。核心罚款标准：第一档(2000万-3000万VND)适用于分享虚假诽谤内容、传播淫秽材料、发布歪曲主权地图、模仿新闻报道、未按主管部门要求删除违法内容(含影响儿童内容)等行为；第二档(3000万-5000万VND)适用于散布造成公众恐慌或损害社会经济活动的虚假信息、泄露国家秘密或个人隐私、煽动歧视等严重行为。所有罚款以不触发刑事责任为前提。法令将于2026年7月1日生效。这标志着越南数字内容监管进入更严格的执法阶段，社交/约会平台需加强内容审核机制。",
+      source: "VietnamPlus / Vietnam News / SGGP",
+      sourceUrl: "https://en.vietnamplus.vn/vietnam-sets-fines-up-to-50-million-vnd-for-fake-news-on-social-media-post343194.vnp",
+      impact: "高",
+      tags: ["越南", "Nghị định 174/2026", "假新闻", "5000万VND", "7月1日生效", "社交媒体", "内容审核"]
+    },
+    {
+      id: "MY-012",
+      title: "马来西亚通讯部长确认：使用MyKad进行16岁以下社交媒体年龄验证不存在政策冲突",
+      date: "2026-05-20",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "政府政策",
+      type: "政策确认",
+      summary: "马来西亚通讯部长Datuk Fahmi Fadzil在5月20日内阁会议后记者会上明确表示，使用MyKad等官方政府文件进行社交媒体年龄验证'不存在任何政策矛盾'。部长指出：马来西亚其他行业（特别是电子钱包服务）已在广泛使用MyKad进行身份验证；《个人数据保护法》(PDPA)已适用于个人数据处理。政府计划在2026年第二季度末前要求所有社交媒体平台实施数字用户身份验证(eKYC)，以执行16岁以下账户访问限制。这一表态是继5月18日MCMC确认安全准则制定进展、5月15日ISIS发布监管分析后的又一政策推进信号。",
+      source: "The Star / NST / Yahoo News Malaysia",
+      sourceUrl: "https://www.thestar.com.my/news/nation/2026/05/20/fahmi-no-issue-with-using-mykad-for-social-media-age-verification",
+      impact: "高",
+      tags: ["马来西亚", "Fahmi Fadzil", "MyKad", "eKYC", "16岁以下", "Q2 2026", "年龄验证", "PDPA"]
+    },
+    {
+      id: "TH-010",
+      title: "泰国PDPA进入第二阶段：跨境BCR条例生效，AI个人数据指南二次听证",
+      date: "2026-05-15",
+      country: "泰国",
+      countryCode: "TH",
+      category: "法律法规",
+      type: "监管升级",
+      summary: "泰国《个人数据保护法》(PDPA)正式进入第二阶段——从'文件合规'转向'运营治理'。Formichella & Sritawat律所于2026年5月15日发布深度分析，总结关键发展：(1)跨境传输——具有约束力的公司规则(BCR)条例于2026年2月17日生效，跨境数据转移从'合同充分性'转向'治理连贯性'，BCR需经PDPC认证；(2)AI监管——PDPC发布《AI开发与使用中的个人数据保护指南（草案）》，2026年3月13-19日进行第二次公开听证，尚未正式发布但明确了AI处理个人数据须遵守全部PDPA原则；(3)儿童数据——监管审视趋严，即使服务非针对未成年人设计也须评估接触可能；(4)执法——PDPC于2025年8月首次批量行政罚款(5案8笔)。社交/约会平台需全面校准数据治理框架。",
+      source: "Formichella & Sritawat / PDPC / ETDA",
+      sourceUrl: "https://fosrlaw.com/2026/pdpa-phase-2/",
+      impact: "高",
+      tags: ["泰国", "PDPA第二阶段", "BCR", "跨境传输", "AI指南", "儿童数据", "PDPC", "运营治理"]
+    },
+    {
+      id: "GP-006",
+      title: "Google Play 4月政策包进入执行期：联系人/位置/账号转移等整改5月15日起强制",
+      date: "2026-05-15",
+      country: "应用市场",
+      countryCode: "GP",
+      category: "应用市场政策",
+      type: "执行期限",
+      summary: "Google Play于2026年4月15日发布的政策更新进入30天整改窗口期结束节点。5月15日起，以下政策进入强制执行：(1)联系人权限——新增限制要求，广泛通讯录读取需整改；(2)账号转移——5月27日起非官方流程转移账号将被审查，须使用官方功能；(3)定位权限——地理围栏不再作为前台服务批准用例；(4)照片与视频权限——使用范围进一步限制和澄清；(5)健康与健身数据——支持更细粒度权限，增加高敏感健康数据使用场景限制；(6)年龄限制内容——功能说明要求更新。社交/约会类应用需优先排查：广泛通讯录读取、前台服务跑地理围栏、非官方流程转移账号三项高风险违规。",
+      source: "Google Android Developers Blog / ASO World",
+      sourceUrl: "https://android-developers.googleblog.com/2026/04/giving-users-clearer-choice-and-everyone-a-safer-more-trusted-app-ecosystem.html",
+      impact: "高",
+      tags: ["Google Play", "4月政策包", "5月15日", "联系人权限", "定位", "账号转移", "前台服务", "整改"]
+    },
+    {
+      id: "AP-004",
+      title: "Apple上线12个月承诺订阅模式并启动AI Agent审核框架重做",
+      date: "2026-05-19",
+      country: "应用市场",
+      countryCode: "AP",
+      category: "应用市场政策",
+      type: "产品政策",
+      summary: "Apple于2026年5月19日宣布两项重大App Store政策更新：(1)12个月承诺订阅——全新自动续订模式，用户按月付款但在12个月周期内承诺订阅，可随时取消（完成后不再续订），除美国和新加坡外全球可用。适合会员、内容订阅和工具类应用的产品包装创新。(2)AI Agent审核框架重做——Apple正在设计新体系以容纳具备AI代理和编程能力(如vibe coding)的应用，现有规则曾因此类应用的动态代码执行特性而阻止上架更新。Apple明确承认AI Agent给App Store审核体系带来新压力（恶意软件、隐私泄露、越权操作、绕开内购风险），预计WWDC 2026(6月8-12日)前后公布具体方案。",
+      source: "The Information / Enjoy Global / MacRumors",
+      sourceUrl: "https://enjoyglobal.net/detail/news/2026051901",
+      impact: "中",
+      tags: ["Apple", "App Store", "12个月订阅", "AI Agent", "vibe coding", "WWDC 2026", "审核框架"]
     }
   ];
 
