@@ -1165,6 +1165,36 @@
       sourceUrl: "https://en.antaranews.com/news/415052/indonesia-tightens-child-safety-rules-for-e-commerce-platforms",
       impact: "高",
       tags: ["PP Tunas", "电商", "Shopee", "Tokopedia", "TikTok Shop", "家长同意", "6%全球营收", "数字钱包"]
+    },
+
+    // ===== 2026年5月25日更新 — 2条新情报 =====
+    {
+      id: "MY-012",
+      title: "马来西亚MCMC发布ONSA配套守则：CPC儿童保护守则+RMC风险缓解守则，6月1日生效",
+      date: "2026-05-22",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "法律法规",
+      type: "配套守则",
+      summary: "马来西亚通信与多媒体委员会(MCMC)于2026年5月22日发布《2025年在线安全法》(ONSA)下的两项配套行为守则，均于6月1日生效：(1)儿童保护守则(CPC)——要求平台采用「安全设计」(Safety by Design)理念，限制16岁以下用户账户注册和所有权，引入适龄保护措施，限制可能危害儿童的功能，减少儿童接触剥削性和有害内容；(2)风险缓解守则(RMC)——要求平台实施风险评估、强化内容治理、建立有效的举报和响应机制、实施广告商身份验证、对AI/篡改内容进行标注。两项守则采用「基于结果」(outcomes-based)的实施方法，给予平台灵活性选择合规路径，但须达到明确的安全目标。守则经2026年2月12日至3月31日公开咨询后定稿，涉及行业参与者、公民社会组织和多方利益相关方。MCMC将为平台提供合理的过渡期以便有序完成验证。这是马来西亚继AFSL自动许可和年龄限制要求后，在线安全监管框架的重大实质性落地。",
+      source: "Bernama (马新社) / MCMC / The Sun Malaysia",
+      sourceUrl: "https://www.bernama.com/en/news.php?id=2560276",
+      impact: "高",
+      tags: ["MCMC", "ONSA", "CPC", "RMC", "儿童保护守则", "风险缓解守则", "6月1日", "16岁以下", "安全设计", "内容标注"]
+    },
+    {
+      id: "SG-011",
+      title: "新加坡在线安全委员会6月29日启动：专员有权发下架令、强制平台披露匿名用户身份",
+      date: "2026-05-14",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "法律法规",
+      type: "机构成立",
+      summary: "新加坡律政部(MinLaw)于2026年5月14日正式宣布，《在线安全(救济与问责)法案》(OSRAA，2025年11月国会通过)将于2026年6月29日生效，在线安全委员会(Online Safety Commission, OSC)同日正式运作。关键信息：(1)首任在线安全专员为黄永吉(Francis Ng，5月28日候任)，拥有向传播者、群组管理员和平台发出下架或限制令的行政权力；(2)法案覆盖13类在线伤害，首批优先处理5类——私密影像滥用、儿童性剥削图片、人肉搜索、网络骚扰(含性骚扰)和网络跟踪；(3)专员有权要求平台披露匿名加害人的终端用户身份信息(姓名、联系方式)，受害者可申请获取以用于民事诉讼；(4)法案建立法定侵权责任框架：传播者、管理者和平台在收到伤害通知后须采取合理措施，具有较大影响力的平台还有额外回复时限要求，受害者可向法院索赔和申请禁制令。这是新加坡在线安全监管从行业自律准则(CoP)向法定行政救济的重大升级，对在坡运营的社交和约会平台有直接影响。",
+      source: "MinLaw / Gov.sg / Straits Times",
+      sourceUrl: "https://www.mlaw.gov.sg/online-safety-commission-and-online-safety-relief-and-accountability-act-2025-to-start-on-29-june-2026/",
+      impact: "高",
+      tags: ["MinLaw", "OSC", "OSRAA", "在线安全专员", "下架令", "身份披露", "匿名用户", "6月29日", "13类伤害", "法定侵权"]
     }
   ];
 
