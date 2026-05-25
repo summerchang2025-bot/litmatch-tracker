@@ -1165,6 +1165,78 @@
       sourceUrl: "https://enjoyglobal.net/detail/news/2026051901",
       impact: "中",
       tags: ["Apple", "App Store", "12个月订阅", "AI Agent", "vibe coding", "WWDC 2026", "审核框架"]
+    },
+
+    // ===== 2026年5月25日更新 — 新增5条情报 =====
+    {
+      id: "MY-013",
+      title: "马来西亚MCMC正式发布儿童保护守则(CPC)与风险缓解守则(RMC)：6月1日强制年龄验证",
+      date: "2026-05-22",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "法律法规",
+      type: "守则发布",
+      summary: "马来西亚通信与多媒体委员会(MCMC)于5月22日正式发布《在线安全法》(ONSA)下的两项核心守则——儿童保护守则(Child Protection Code, CPC)和风险缓解守则(Risk Mitigation Code, RMC)，6月1日正式生效。CPC核心义务：(1)Safety by Design——将儿童安全嵌入平台设计；(2)限制16岁以下用户账户注册和持有；(3)提供年龄适当保护；(4)对高风险功能进行限制；(5)减少儿童接触剥削性互动和有害内容。RMC核心义务：(1)进行风险评估识别和防范有害内容；(2)加强内容审核与治理；(3)维护举报和响应系统；(4)核实平台广告商身份；(5)对被操纵内容进行标注。两项守则采用'以结果为导向'(outcome-based)实施方式，允许平台灵活选择合规方案。用户须使用MyKad、护照等政府签发证件完成年龄验证，自我声明年龄方式将不被接受。新注册账户6月1日起必须验证，存量账户给予合理过渡期。TikTok、Facebook、Instagram等主要平台已参与MCMC磋商。逾70个公民社会组织联名反对，担忧隐私泄露和监控风险。",
+      source: "MCMC / The Star / SoyaCincau / Scoop / NST",
+      sourceUrl: "https://www.mcmc.gov.my/skmmgovmy/media/General/pdf2/MEDIA-STATEMENT_MCMC-INTRODUCES-NEW-ONLINE-SAFETY-CODES-220526.pdf",
+      impact: "高",
+      tags: ["MCMC", "CPC", "RMC", "ONSA", "16岁以下", "年龄验证", "MyKad", "6月1日", "Safety by Design", "广告商验证"]
+    },
+    {
+      id: "SG-011",
+      title: "新加坡OSRA法案6月29日生效：在线安全委员会成立，首批规管五类在线伤害",
+      date: "2026-05-14",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "法律法规",
+      type: "法律生效预告",
+      summary: "新加坡律政部于5月14日宣布，《在线安全(救济与问责)法2025》(OSRAA)将于2026年6月29日正式生效。核心机制：(1)在线安全委员会(OSC)开始运作，由在线安全专员领导——黄永吉(50岁，25年公共部门法律经验)被任命为首位专员，6月1日起担任候任专员；(2)法定侵权条款生效——明确传播者、管理员和平台三类主体的法定职责，违规者受害者可向法院申请损害赔偿和禁令；(3)专员可要求平台下架有害内容、限制施害者账户，并要求平台披露匿名施害者身份信息。首批重点规管五类在线伤害(共13类中的最普遍和最严重者)：亲密影像滥用、基于影像的儿童虐待、人肉搜索(doxing)、在线骚扰(含在线性骚扰)、在线跟踪。其余类别将逐步实施。影响力较大的平台须遵守更严格的响应时限。此法案与IMDA现有《社交媒体服务在线安全行为准则》(SMS CoP)和《应用分发服务在线安全行为准则》(ADS CoP)形成三层监管体系。",
+      source: "新加坡律政部 / Gov.sg / SAL Practitioner",
+      sourceUrl: "https://www.mlaw.gov.sg/online-safety-commission-and-online-safety-relief-and-accountability-act-2025-to-start-on-29-june-2026/",
+      impact: "高",
+      tags: ["OSRAA", "在线安全委员会", "OSC", "黄永吉", "6月29日", "法定侵权", "亲密影像滥用", "doxxing", "匿名者披露"]
+    },
+    {
+      id: "VN-014",
+      title: "越南总理签发第437号决定：发布网络安全法实施行动计划，7月1日前完成法规配套",
+      date: "2026-03-16",
+      country: "越南",
+      countryCode: "VN",
+      category: "政府政策",
+      type: "实施计划",
+      summary: "越南总理范明政于2026年3月16日签发第437/QD-TTg号决定，发布新《网络安全法》(No.116/2025/QH15)的全国实施行动计划。计划设定7月1日前的三个硬性截止日期：(1)4月1日前——各部委及地方政府完成现有法律文件和行政程序审查，确保与新法一致，审查结果提交公安部；(2)6月15日前——公安部汇总整理综合报告呈交总理；(3)7月1日前——公安部牵头发布详细指导性法规，覆盖网络犯罪预防调查、信息系统保护、网络安全产品与服务监管、行政处罚规定和个人数据保护要求。计划还要求年底前完成关键信息基础设施认定，以及开展全国信息宣传运动和专业能力培训。公安部为核心牵头部门，司法部、教育部、文化部及各省市协同执行。该计划为7月1日新网络安全法生效提供了系统性倒排时间表。",
+      source: "越南政府 / OpenGovAsia / VnEconomy",
+      sourceUrl: "https://opengovasia.com/vietnam-cybersecurity-enforcement-plan-enhances-digital-security/",
+      impact: "高",
+      tags: ["越南", "第437号决定", "网络安全法", "实施计划", "7月1日", "公安部", "指导性法规", "关键信息基础设施"]
+    },
+    {
+      id: "ID-016",
+      title: "印尼Roblox正式合规PP Tunas：实施年龄验证并限制儿童游戏访问",
+      date: "2026-04-30",
+      country: "印尼",
+      countryCode: "ID",
+      category: "同业信息",
+      type: "平台合规",
+      summary: "印尼通信与数字部长Meutya Hafid于4月30日宣布，Roblox已正式全面合规PP Tunas法规。此前Roblox是8家被点名高风险平台中唯一未同意合规的平台。Roblox全球公共政策副总裁Nicky Jackson Colaco发表声明称PP Tunas是'保护印尼家庭的重要法规'，公司已开始实施多项核心合规功能，包括：(1)实施年龄验证系统；(2)限制儿童访问不适当游戏内容；(3)删除/限制儿童用户的通讯功能。Hafid表示这是'全球首例——Roblox首次在世界上针对一个国家的法规做出此类合规调整'。至此，PP Tunas初始点名的8家高风险平台全部合规。距6月6日所有PSE提交自评估报告截止日仅剩5周。",
+      source: "ANTARA / Komdigi / Jakarta Globe",
+      sourceUrl: "https://en.antaranews.com/news/414211/roblox-complies-with-pp-tunas-sets-rules-for-childrens-game-access",
+      impact: "高",
+      tags: ["印尼", "PP Tunas", "Roblox", "年龄验证", "儿童游戏限制", "通讯功能删除", "全球首例", "全部合规"]
+    },
+    {
+      id: "AP-005",
+      title: "Apple正式宣布WWDC 2026定档6月9日：预计公布AI Agent应用审核新规与全新Siri",
+      date: "2026-05-20",
+      country: "应用市场",
+      countryCode: "AP",
+      category: "应用市场政策",
+      type: "政策预告",
+      summary: "Apple于5月20日正式宣布WWDC 2026将于北京时间6月9日凌晨1点(太平洋夏令时间6月8日上午10点)开幕，6月8-12日举行。核心看点：(1)AI Agent审核新规——此前The Information于5月14日独家披露Apple正在设计新体系，让AI Agent类应用和vibe coding类应用可合规进入App Store，现有规则因动态代码执行特性阻止此类应用上架和更新；Apple已承认AI Agent给审核体系带来新压力(恶意软件、隐私泄露、越权操作、绕开内购风险)；(2)全新AI版Siri——MacRumors报道新Siri预计在6月8日主题演讲上亮相；(3)开发者工具更新。社交/约会类应用若集成AI Agent功能(如AI聊天匹配、AI约会建议等)，将直接受新审核框架影响。Apple此前已在5月19日上线12个月承诺订阅模式。",
+      source: "Apple / The Information / WinBuzzer / MacRumors",
+      sourceUrl: "https://winbuzzer.com/2026/05/15/apple-weighs-app-store-rules-for-ai-agent-apps-xcxwbn/",
+      impact: "高",
+      tags: ["Apple", "WWDC 2026", "6月9日", "AI Agent", "Siri", "App Store审核", "vibe coding", "动态代码执行"]
     }
   ];
 
