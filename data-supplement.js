@@ -1195,6 +1195,36 @@
       sourceUrl: "https://www.mlaw.gov.sg/online-safety-commission-and-online-safety-relief-and-accountability-act-2025-to-start-on-29-june-2026/",
       impact: "高",
       tags: ["MinLaw", "OSC", "OSRAA", "在线安全专员", "下架令", "身份披露", "匿名用户", "6月29日", "13类伤害", "法定侵权"]
+    },
+
+    // ===== 2026年5月26日更新 — 2条新情报 =====
+    {
+      id: "ID-017",
+      title: "印尼PP Tunas首见重大执法成果：TikTok关闭170万16岁以下儿童账户，其他平台仍被催促",
+      date: "2026-04-28",
+      country: "印尼",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "执法报告",
+      summary: "印尼通信与数字部(Komdigi)于4月28日召开PP Tunas合规进展新闻发布会，部长Meutya Hafid宣布TikTok成为首个报告可衡量合规成果的平台：截至当日已关闭170万个16岁以下儿童账户，较4月14日的约78万个在两周内增长超过一倍。此前4月9日Komdigi已对Google/YouTube发出书面警告信(红牌警告)指控其不合规，TikTok和Roblox也被给予至4月10日提交合规行动计划的最后期限。Komdigi同时重申所有数字平台的自我评估报告截止日期为2026年6月6日，敦促所有PSE尽快提交。此次执法标志着PP Tunas从立法阶段正式进入实质执行阶段，TikTok的大规模合规行动可能对其他平台形成示范效应和压力。部长表示对平台最终会遵守法律持乐观态度，但6月6日截止日后将评估进一步措施。",
+      source: "ANTARA / Komdigi官方门户 / Jawawa.id",
+      sourceUrl: "https://portal.komdigi.go.id/kanal-publik/berita-kini/10185",
+      impact: "高",
+      tags: ["PP Tunas", "TikTok", "170万账户", "Google警告", "6月6日", "合规进展", "执法报告"]
+    },
+    {
+      id: "GP-006",
+      title: "Google Play 4月政策更新：联系人/位置权限收紧+账户转让新规+开发者验证扩展至四国",
+      date: "2026-04-16",
+      country: "全球",
+      countryCode: "GP",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Google于2026年4月16日发布Google Play政策更新，核心变更包括：(1)联系人权限收紧——引入Android Contact Picker作为默认联系人访问方式，用户可选择分享特定联系人而非授权整个通讯录，READ_CONTACTS等广泛权限将仅允许有明确功能必要性的应用使用，2026年10月28日执行；(2)位置权限新增系统级「位置按钮」——支持一次性精确位置临时授权，需持续或后台位置跟踪的应用须通过开发者声明流程(Developer Declaration)证明必要性，同样10月28日执行；(3)账户转让功能——Play Console新增官方「转让所有权」工作流，含7天强制安全延迟以防未授权转移，2026年5月27日成为唯一允许的账户所有权转移方式；(4)Android开发者验证扩展——2026年9月在巴西、印尼、新加坡和泰国生效，这些地区认证设备上的所有应用须由已验证开发者注册；(5)Android Studio集成Policy Insights，Play Console新增预审检查功能，在提交审核前识别权限相关违规。此次更新延续Google Play收紧敏感权限和加强开发者身份验证的监管方向，对依赖联系人或位置数据的应用开发者有直接影响。",
+      source: "Google Android Developers Blog / Mobile Marketing Reads",
+      sourceUrl: "https://android-developers.googleblog.com/2026/04/giving-users-clearer-choice-and-everyone-a-safer-more-trusted-app-ecosystem.html",
+      impact: "中",
+      tags: ["Google Play", "联系人权限", "位置权限", "Contact Picker", "账户转让", "开发者验证", "10月28日", "5月27日"]
     }
   ];
 
