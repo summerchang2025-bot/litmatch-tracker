@@ -1237,6 +1237,92 @@
       sourceUrl: "https://winbuzzer.com/2026/05/15/apple-weighs-app-store-rules-for-ai-agent-apps-xcxwbn/",
       impact: "高",
       tags: ["Apple", "WWDC 2026", "6月9日", "AI Agent", "Siri", "App Store审核", "vibe coding", "动态代码执行"]
+    },
+
+    // ===== 2026年5月27日更新 — 新增6条情报 =====
+    {
+      id: "VN-015",
+      title: "越南Decree 174/2026新增知识产权条款：未经授权分享新闻/媒体内容罚款2000-3000万VND",
+      date: "2026-05-27",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "法令细化",
+      summary: "越南政府第174/2026/NĐ-CP号法令于5月15日颁布、7月1日生效。5月27日新披露的Article 95条款聚焦知识产权保护：在社交媒体上未经知识产权所有者同意提供或分享新闻作品、文学艺术创作、出版物，罚款2000万-3000万VND(约790-1180美元)；分发未获流通许可、已被禁止或被没收的内容，同等罚款；滥用社交媒体以新闻报道/调查/采访形式制作内容但未获授权，同等罚款。此外，新闻机构在社交媒体建立账户/页面/频道时须通知主管部门；社交媒体管理员在主管部门要求时未删除违法内容也将受罚。无适当许可证提供社交网络服务则罚款5000万-7000万VND。该条款与此前已知的假新闻罚款(3000万-5000万VND)形成梯度处罚体系，标志着越南对社交媒体内容管控从'有害信息'延伸到'知识产权侵权'领域。",
+      source: "VietNamNet / DTI News / Vietnam Government Portal",
+      sourceUrl: "https://vietnamnet.vn/en/sharing-press-articles-without-permission-could-trigger-1-200-fines-in-vietnam-2519686.html",
+      impact: "高",
+      tags: ["越南", "Decree 174/2026", "知识产权", "新闻分享", "2000-3000万VND", "7月1日", "Article 95", "社交媒体管理员"]
+    },
+    {
+      id: "MY-014",
+      title: "马来西亚副部长Teo确认CPC/RMC实施细节：6月1日起须用MyKad/护照验证年龄，自我声明不再接受",
+      date: "2026-05-22",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "政府政策",
+      type: "实施细节",
+      summary: "马来西亚通讯部副部长张念群(Teo Nie Ching)于5月22日确认CPC和RMC两项守则的具体实施细节，6月1日正式生效。年龄验证方面：用户必须使用政府签发证件(MyKad身份证、护照或其他官方文件)完成验证，自我声明年龄的方式将不再被接受。新注册账户6月1日起必须验证，存量账户给予合理过渡期。验证流程将通过第三方服务提供商进行，确保平台不直接存储用户证件信息。CPC核心义务包括Safety by Design、限制16岁以下用户账户、高风险功能限制等；RMC核心义务包括风险评估、内容审核、举报系统、广告商身份核实、被操纵内容标注等。两项守则采用'以结果为导向'实施方式，允许平台灵活选择合规方案。MCMC此前已与主要平台进行37场接触会议(6场法律生效前、31场生效后)，并在新加坡开展技术访问。",
+      source: "NST / The Star / Scoop / Sinar Daily / Bernama",
+      sourceUrl: "https://www.nst.com.my/news/nation/2026/05/1446024/social-media-users-verify-age-using-official-docs-june-1",
+      impact: "高",
+      tags: ["马来西亚", "CPC", "RMC", "Teo Nie Ching", "MyKad", "护照", "6月1日", "自我声明不接受", "16岁以下", "37场会议"]
+    },
+    {
+      id: "INT-010",
+      title: "欧盟冯德莱恩宣布'社交媒体延迟'计划：7月专家报告后可能今夏立法限制儿童访问",
+      date: "2026-05-12",
+      country: "国际组织",
+      countryCode: "EU",
+      category: "政府政策",
+      type: "政策声明",
+      summary: "欧盟委员会主席冯德莱恩(Ursula von der Leyen)于5月12日在哥本哈根AI与儿童峰会上宣布，欧盟正在考虑限制儿童访问社交媒体，提出'社交媒体延迟'(social media delay)概念。冯德莱恩表示：'问题不在于年轻人是否应该接触社交媒体，而在于社交媒体网络是否应该接触年轻人。'她批评社交媒体公司'从儿童的脆弱性中获利'的商业模式，并呼吁对AI在社交媒体中的使用实施严格限制。她已委托一个专家小组在2026年7月前提交报告，说明欧盟应采取的措施，包括潜在的社交媒体禁令。根据报告结果，可能在2026年夏天提出法律提案。此举与澳大利亚(2025年12月立法)、挪威(拟16岁限制)、土耳其(15岁以下禁令)等国的趋势一致，标志着全球未成年人社交媒体限制浪潮向欧盟层面扩展。",
+      source: "RTÉ / AFP / The Journal / US News / The Star",
+      sourceUrl: "https://www.rte.ie/news/europe/2026/0512/1572909-eu-social-media/",
+      impact: "高",
+      tags: ["欧盟", "冯德莱恩", "社交媒体延迟", "儿童保护", "专家小组", "7月报告", "今夏立法", "AI限制"]
+    },
+    {
+      id: "AE-013",
+      title: "阿联酋《儿童数字安全法》(Federal Decree-Law No. 26/2025)正式生效：一年宽限期至2027年1月",
+      date: "2026-01-01",
+      country: "阿联酋",
+      countryCode: "AE",
+      category: "法律法规",
+      type: "法律生效",
+      summary: "阿联酋《儿童数字安全联邦法令》(Federal Decree-Law No. 26/2025)于2026年1月1日正式生效，给予一年宽限期至2027年1月全面执行。法律适用三类主体：ISP(仅du和Etisalat)、数字平台(社交媒体、流媒体、电商、游戏、搜索等，含境外面向阿联酋用户的实体)和监护人。数字平台核心义务：(1)禁止儿童访问在线商业游戏；(2)未满13岁儿童个人数据禁止处理(除非监护人同意+隐私说明+限制访问+不得用于定向广告)；(3)实施与风险等级匹配的年龄验证机制；(4)提供屏蔽/过滤工具和内容分类；(5)监护人控制工具(每日使用时长限制、账户管理、使用监控)；(6)建立通知和删除机制(CSAM举报等)；(7)定期向主管机构报告合规情况。ISP须实施内容过滤和监护人控制。监管执法由电信与数字政府监管局(TDRA)负责，儿童数字安全委员会协调全国工作。违规可导致屏蔽、关闭或其他行政制裁，具体处罚细则将在后续立法中出台。风险分类制度将根据平台类型、内容、使用规模和影响分级。",
+      source: "Baker McKenzie / Clyde & Co / Bird & Bird / BSA Ahmad Bin Hezeem",
+      sourceUrl: "https://connectontech.bakermckenzie.com/uae-issues-new-child-digital-safety-law/",
+      impact: "高",
+      tags: ["阿联酋", "儿童数字安全法", "Decree-Law 26/2025", "TDRA", "13岁以下", "年龄验证", "监护人控制", "2027年1月", "CSAM"]
+    },
+    {
+      id: "INT-011",
+      title: "挪威政府公布16岁以下社交媒体禁令立法计划：2027年1月实施，平台承担验证责任",
+      date: "2026-04-24",
+      country: "国际组织",
+      countryCode: "NO",
+      category: "法律法规",
+      type: "立法计划",
+      summary: "挪威政府于4月24日正式公布社交媒体年龄限制立法计划，拟禁止16岁以下儿童使用社交媒体(含TikTok、Instagram等)。关键设计：(1)年龄限制从2027年1月起适用；(2)责任归于平台——社交媒体平台必须验证用户年龄并阻止16岁以下用户访问，而非将监管责任推给家长；(3)政府将在2026年内向议会(Stortinget)提交法案。首相Jonas Gahr Støre领导的工党政府表示，此举旨在保护儿童心理健康，应对社交媒体的'成瘾性设计'。该立法与澳大利亚(2025年12月立法，16岁以下禁令)、土耳其(15岁以下禁令)形成北欧-大洋洲-中东三地联动趋势。挪威此前已禁止针对13岁以下儿童的定向广告，新法将进一步收紧。",
+      source: "挪威政府 / Nordic Times / Global Banking and Finance",
+      sourceUrl: "https://www.regjeringen.no/en/whats-new/norwegian-social-media-age-restrictions-law-on-track-to-be-introduced-this-year-this-is-how-the-age-limit-for-social-media-will-work/id3157276/",
+      impact: "高",
+      tags: ["挪威", "16岁以下", "社交媒体禁令", "Støre", "2027年1月", "平台验证", "TikTok", "Instagram", "北欧"]
+    },
+    {
+      id: "GP-007",
+      title: "Google Play账号转移政策5月27日强制执行：非官方转移将被审查，联系人权限整改同步生效",
+      date: "2026-05-27",
+      country: "应用市场",
+      countryCode: "GP",
+      category: "应用市场政策",
+      type: "政策执行",
+      summary: "Google Play 4月15日发布的政策更新于5月27日进入第二阶段强制执行。核心变更：(1)账号转移政策——5月27日起，开发者账号所有权变更必须使用Play Console内的官方'Transfer ownership'工作流，非官方转移(如共享登录凭据、在第三方平台买卖账号)将被审查和限制。官方功能支持销售和并购场景下的所有权转移，同时保护账号安全；(2)联系人权限——5月15日已开始强制执行，广泛通讯录读取需整改，仅限核心通话/短信功能使用；(3)定位权限——地理围栏不再作为前台服务批准用例；(4)照片与视频权限——使用范围进一步限制。社交/约会类应用需优先排查：广泛通讯录读取、前台服务跑地理围栏、非官方流程转移账号三项高风险违规。此前Google I/O 2026宣布的预审核检查和并行发布架构也在推进中。",
+      source: "Google Android Developers Blog / ASO World / HelpNetSecurity",
+      sourceUrl: "https://android-developers.googleblog.com/2026/04/giving-users-clearer-choice-and-everyone-a-safer-more-trusted-app-ecosystem.html",
+      impact: "中",
+      tags: ["Google Play", "账号转移", "5月27日", "联系人权限", "定位权限", "Transfer ownership", "非官方转移审查"]
     }
   ];
 
