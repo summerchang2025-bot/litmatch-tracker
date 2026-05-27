@@ -1225,6 +1225,22 @@
       sourceUrl: "https://android-developers.googleblog.com/2026/04/giving-users-clearer-choice-and-everyone-a-safer-more-trusted-app-ecosystem.html",
       impact: "中",
       tags: ["Google Play", "联系人权限", "位置权限", "Contact Picker", "账户转让", "开发者验证", "10月28日", "5月27日"]
+    },
+
+    // ===== 2026年5月27日更新 — 1条新情报 =====
+    {
+      id: "IN-010",
+      title: "印度《在线游戏促进与监管规则》5月1日正式生效：OGAI成立，金钱游戏禁令+强制注册",
+      date: "2026-05-01",
+      country: "印度",
+      countryCode: "IN",
+      category: "法律法规",
+      type: "规则生效",
+      summary: "印度《在线游戏促进与监管规则(2026)》(PROG Rules 2026)于2026年4月22日公告，5月1日正式生效，与《2025年在线游戏促进与监管法案》配套实施。核心内容：(1)成立印度在线游戏管理局(OGAI)，隶属MeitY，统筹全国在线游戏监管；(2)游戏强制分类——在线金钱游戏(money games)被列为禁止类，电子竞技和社交游戏为允许类，分类须在90天内完成，判定标准包括入场费、赌注、现金奖励和游戏内资产变现能力；(3)提供在线游戏服务的运营商须向OGAI完成数字注册，获批后获10年有效期注册证书，外国运营商同样须遵守注册和合规要求；(4)强制实施用户安全功能——年龄验证、家长控制、使用时间限制、举报与申诉工具、公平竞技监控；(5)建立三级申诉机制：平台内部申诉→OGAI(30天内)→MeitY秘书(上诉机构)；(6)违规处罚采用比例原则，考量违规严重程度、所获收益、用户伤害等因素，严重违规可暂停或吊销注册。该规则是印度迄今最全面的在线游戏监管框架，对Litmatch等含社交游戏功能的平台有直接合规影响。",
+      source: "India Briefing / PIB / TaxGuru / LegalKart",
+      sourceUrl: "https://www.india-briefing.com/news/india-online-gaming-regulation-2026-what-operators-must-know-44355.html/",
+      impact: "高",
+      tags: ["OGAI", "PROG Rules", "在线游戏", "金钱游戏", "强制注册", "年龄验证", "MeitY", "5月1日"]
     }
   ];
 
