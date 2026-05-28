@@ -1241,6 +1241,35 @@
       sourceUrl: "https://www.india-briefing.com/news/india-online-gaming-regulation-2026-what-operators-must-know-44355.html/",
       impact: "高",
       tags: ["OGAI", "PROG Rules", "在线游戏", "金钱游戏", "强制注册", "年龄验证", "MeitY", "5月1日"]
+    },
+    // ===== 2026年5月28日更新 — 2条新情报 =====
+    {
+      id: "AP-002",
+      title: "Apple App Store 6月18日更新越南/澳大利亚年龄评级：越南引入00+/12+/16+/18+四级制",
+      date: "2026-05-21",
+      country: "全球",
+      countryCode: "AP",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Apple于2026年5月21日向开发者发出通知，将于6月18日更新App Store在越南和澳大利亚的年龄评级体系。越南方面，根据Decree 147第38条要求，引入全新四级本地评级体系——00+(所有年龄段)、12+、16+、18+，直接显示在越南App Store每个应用的产品页面上，取代此前的通用评级。澳大利亚方面，完全取消现有的15+评级类别，原15+应用将自动重新分类至16+，触发重新分类的内容类型包括不受限制网络访问、频繁医疗健康内容、以及战利品箱(loot box)机制。Apple警告称不准确的分类可能影响应用可见性甚至导致分发问题。开发者须在App Store Connect更新年龄评级问卷的回答。",
+      source: "9to5Mac / TechTimes / Apple Developer",
+      sourceUrl: "https://9to5mac.com/2026/05/21/apple-to-update-app-store-age-ratings-in-australia-and-vietnam-next-month/",
+      impact: "中",
+      tags: ["Apple", "App Store", "年龄评级", "越南", "Decree 147", "6月18日", "00+", "12+", "16+", "18+", "澳大利亚"]
+    },
+    {
+      id: "MY-013",
+      title: "马来西亚MCMC明确6月1日年龄验证方案：须用MyKad/护照，不接受自我声明",
+      date: "2026-05-22",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "政府政策",
+      type: "执行方案明确",
+      summary: "马来西亚副通讯部长张念群(Teo Nie Ching)于5月22日在古晋透露，配合CPC儿童保护守则和RMC风险缓解守则6月1日生效，社交媒体平台必须实施严格的年龄验证——须使用政府颁发的官方身份证明文件(MyKad国民身份证或护照)，不接受用户自行声明年龄。张念群明确指出'仅靠用户自行声明年龄，任何人只需点击一下就可以声称自己已满18岁'。具体技术方案尚未最终确定，MyDigital ID被认为是可能的电子实名认证(eKYC)平台。政府已与TikTok、Facebook、Instagram等平台进行沟通。但该方案引发ARTICLE 19等70多个公民社会团体的强烈反对，担忧强制提交身份证件将损害隐私和言论自由，增加数据泄露和监控风险。政府表示将给予现有用户合理时间完成验证，未验证用户账户可能面临关闭。",
+      source: "SoyaCincau / NST / The Borneo Post / Marketing Interactive",
+      sourceUrl: "https://soyacincau.com/2026/05/23/mcmc-teo-nie-ching-under-16-social-media-age-verification-1-june-2026/",
+      impact: "高",
+      tags: ["MCMC", "Teo Nie Ching", "6月1日", "MyKad", "护照", "年龄验证", "MyDigital ID", "CPC", "RMC", "隐私争议", "70团体"]
     }
   ];
 
