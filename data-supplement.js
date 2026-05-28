@@ -1381,6 +1381,20 @@
       sourceUrl: "https://portal.komdigi.go.id/kanal-publik/berita-kini/10185",
       impact: "高",
       tags: ["PP Tunas", "TikTok", "170万账户", "Google警告", "6月6日", "自评估", "合规进展", "执法报告"]
+    },
+    {
+      id: "AP-002",
+      title: "Apple App Store 6月18日更新越南/澳大利亚年龄评级：越南引入00+/12+/16+/18+四级制",
+      date: "2026-05-21",
+      country: "全球",
+      countryCode: "AP",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Apple于2026年5月21日向开发者发出通知，将于6月18日更新App Store在越南和澳大利亚的年龄评级体系。越南方面，根据Decree 147第38条要求，引入全新四级本地评级体系——00+(所有年龄段)、12+、16+、18+，直接显示在越南App Store每个应用的产品页面上，取代此前的通用评级。澳大利亚方面，完全取消现有的15+评级类别，原15+应用将自动重新分类至16+，触发重新分类的内容类型包括不受限制网络访问、频繁医疗健康内容、以及战利品箱(loot box)机制。Apple警告称不准确的分类可能影响应用可见性甚至导致分发问题。开发者须在App Store Connect更新年龄评级问卷的回答。",
+      source: "9to5Mac / TechTimes / Apple Developer",
+      sourceUrl: "https://9to5mac.com/2026/05/21/apple-to-update-app-store-age-ratings-in-australia-and-vietnam-next-month/",
+      impact: "中",
+      tags: ["Apple", "App Store", "年龄评级", "越南", "Decree 147", "6月18日", "00+", "12+", "16+", "18+", "澳大利亚"]
     }
   ];
 
