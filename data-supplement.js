@@ -1323,6 +1323,64 @@
       sourceUrl: "https://android-developers.googleblog.com/2026/04/giving-users-clearer-choice-and-everyone-a-safer-more-trusted-app-ecosystem.html",
       impact: "中",
       tags: ["Google Play", "账号转移", "5月27日", "联系人权限", "定位权限", "Transfer ownership", "非官方转移审查"]
+    },
+
+    // ===== 2026年5月28日更新 — 新增5条情报 =====
+    {
+      id: "TH-011",
+      title: "泰国数字部长威胁收紧社交媒体监管：Facebook色情直播持续8小时引爆全国愤怒，拟修订24小时删除时限",
+      date: "2026-05-25",
+      country: "泰国",
+      countryCode: "TH",
+      category: "执法行动",
+      type: "监管威胁/立法预告",
+      summary: "泰国数字经济与社会部部长Chaichanok Chidchob于5月25日召开紧急会议，就Facebook平台上出现的露骨性直播内容对Meta发出严厉警告。事件发生于5月23日，两场露骨直播在Facebook上持续存在7-8小时，吸引数万名观众，片段迅速在社交和色情网站传播。部长公开拒绝Meta关于'AI未能检测到混合良性内容'的解释，称其'不可接受'。核心监管措施：(1)准备修订《部级条例第15条》——现行24小时删除非法内容的时限被认为已不适合紧急情况，拟缩短响应时间；(2)要求Meta披露内容审核算法和推荐系统信息；(3)援引即将出台的'马账户法'条款，警告平台可能因疏忽承担连带刑事责任；(4)网络犯罪调查局已启动刑事调查，内容创作者、传播者及其犯将面临《计算机犯罪法》追责。Meta已删除5个关联账号并优化AI检测标准。此事件标志着泰国对社交媒体实时内容审核的监管态度显著强硬化，社交/约会平台需关注24小时删除时限可能缩短的立法动向。",
+      source: "Thai Examiner / Bangkok Post / ThaiRath / Brickinfo",
+      sourceUrl: "https://www.thaiexaminer.com/thai-news-foreigners/2026/05/25/digital-minister-threatens-crackdown-on-social-media-platforms-with-tighter-regulation-over-sex-stream/",
+      impact: "高",
+      tags: ["泰国", "Facebook", "色情直播", "Chaichanok", "24小时删除", "部级条例第15条", "Meta", "马账户法", "算法披露", "刑事责任"]
+    },
+    {
+      id: "INT-012",
+      title: "欧盟冯德莱恩宣布打击社交媒体'成瘾性设计'：无尽滚动、自动播放、推送通知将受限",
+      date: "2026-05-12",
+      country: "国际组织",
+      countryCode: "EU",
+      category: "政府政策",
+      type: "政策声明/立法预告",
+      summary: "欧盟委员会主席冯德莱恩于5月12日在哥本哈根AI与儿童峰会上宣布，欧盟将针对社交媒体的'成瘾性设计'(addictive design)采取立法行动。三类功能被明确点名限制：(1)无尽滚动(infinite scroll)——让用户无法停止浏览；(2)自动播放(autoplay)——视频自动连播降低主动选择权；(3)推送通知(push notifications)——持续吸引用户回到平台。同时调查平台允许儿童陷入有害内容'兔子洞'的行为（如饮食失调、自残内容）。配套措施方面，欧盟已开发自有年龄验证应用（据称'世界最高隐私标准'），可集成至成员国数字钱包，冯德莱恩明确表态'没有更多借口——年龄验证技术已经可用'。时间表：专家小组7月提交报告，可能在2026年夏季/年底提出法律提案。背景：欧盟委员会已于2月初步裁定TikTok的成瘾性设计违反《数字服务法》(DSA)——这是DSA框架下首次针对成瘾性设计的执法行动；Meta也因未能阻止13岁以下儿童访问其平台被初步裁定违反DSA。此举与澳大利亚(16岁以下禁令)、挪威、土耳其等国趋势一致，标志着全球未成年人社交媒体保护从'年龄限制'扩展到'产品设计层面'的范式转变。",
+      source: "CNBC / EU News / TechSpot / Harro / CE Report",
+      sourceUrl: "https://www.cnbc.com/2026/05/12/tiktok-instagram-social-media-addictive-eu-crack-down.html",
+      impact: "高",
+      tags: ["欧盟", "冯德莱恩", "成瘾性设计", "无尽滚动", "自动播放", "推送通知", "DSA", "年龄验证", "TikTok", "Meta", "儿童保护"]
+    },
+    {
+      id: "IN-010",
+      title: "印度《在线游戏促进与监管规则》5月1日正式生效：OGAI成立，金钱游戏禁令+强制注册",
+      date: "2026-05-01",
+      country: "印度",
+      countryCode: "IN",
+      category: "法律法规",
+      type: "规则生效",
+      summary: "印度《在线游戏促进与监管规则(2026)》(PROG Rules 2026)于2026年4月22日公告，5月1日正式生效，与《2025年在线游戏促进与监管法案》配套实施。核心内容：(1)成立印度在线游戏管理局(OGAI)，隶属MeitY，统筹全国在线游戏监管；(2)游戏强制分类——在线金钱游戏(money games)被列为禁止类，电子竞技和社交游戏为允许类，分类须在90天内完成，判定标准包括入场费、赌注、现金奖励和游戏内资产变现能力；(3)提供在线游戏服务的运营商须向OGAI完成数字注册，获批后获10年有效期注册证书，外国运营商同样须遵守注册和合规要求；(4)强制实施用户安全功能——年龄验证、家长控制、使用时间限制、举报与申诉工具、公平竞技监控；(5)建立三级申诉机制：平台内部申诉→OGAI(30天内)→MeitY秘书(上诉机构)；(6)违规处罚采用比例原则，考量违规严重程度、所获收益、用户伤害等因素，严重违规可暂停或吊销注册。该规则是印度迄今最全面的在线游戏监管框架，对Litmatch等含社交游戏功能的平台有直接合规影响。",
+      source: "India Briefing / PIB / TaxGuru / LegalKart",
+      sourceUrl: "https://www.india-briefing.com/news/india-online-gaming-regulation-2026-what-operators-must-know-44355.html/",
+      impact: "高",
+      tags: ["OGAI", "PROG Rules", "在线游戏", "金钱游戏", "强制注册", "年龄验证", "MeitY", "5月1日"]
+    },
+    {
+      id: "ID-017",
+      title: "印尼PP Tunas首见重大执法成果：TikTok关闭170万16岁以下儿童账户，6月6日自评估截止在即",
+      date: "2026-04-28",
+      country: "印尼",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "执法报告",
+      summary: "印尼通信与数字部(Komdigi)于4月28日召开PP Tunas合规进展新闻发布会，部长Meutya Hafid宣布TikTok成为首个报告可衡量合规成果的平台：截至当日已关闭170万个16岁以下儿童账户，较4月14日的约78万个在两周内增长超过一倍。此前4月9日Komdigi已对Google/YouTube发出书面警告信(红牌警告)指控其不合规，TikTok和Roblox也被给予至4月10日提交合规行动计划的最后期限。Komdigi同时重申所有数字平台的自我评估报告截止日期为2026年6月6日，敦促所有PSE尽快提交。此次执法标志着PP Tunas从立法阶段正式进入实质执行阶段，TikTok的大规模合规行动可能对其他平台形成示范效应和压力。部长表示对平台最终会遵守法律持乐观态度，但6月6日截止日后将评估进一步措施。此前5月21日Bisnis.com报道，部分PSE可能忽视自评估义务，Komdigi警告不提交报告的PSE将面临制裁。",
+      source: "ANTARA / Komdigi官方门户 / Jawawa.id / Bisnis.com",
+      sourceUrl: "https://portal.komdigi.go.id/kanal-publik/berita-kini/10185",
+      impact: "高",
+      tags: ["PP Tunas", "TikTok", "170万账户", "Google警告", "6月6日", "自评估", "合规进展", "执法报告"]
     }
   ];
 
