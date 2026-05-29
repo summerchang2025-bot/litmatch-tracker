@@ -1395,6 +1395,36 @@
       sourceUrl: "https://9to5mac.com/2026/05/21/apple-to-update-app-store-age-ratings-in-australia-and-vietnam-next-month/",
       impact: "中",
       tags: ["Apple", "App Store", "年龄评级", "越南", "Decree 147", "6月18日", "00+", "12+", "16+", "18+", "澳大利亚"]
+    },
+
+    // ===== 2026年5月29日更新 — 新增2条情报 =====
+    {
+      id: "VN-016",
+      title: "越南Decree 174/2026引发\"分享新闻链接是否罚款\"全民争议，官方承诺7月召开澄清说明会",
+      date: "2026-05-29",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "政策澄清/争议",
+      summary: "越南第174/2026/NĐ-CP号法令（7月1日生效）中关于未经授权分享媒体内容的条款引发全国性争议。核心争议点在第95条第1款d项——该条款规定社交媒体平台未经知识产权权利人许可分享新闻作品、文学艺术作品或出版物可被处以2000万-3000万越南盾（约770-1150美元）罚款。大量用户和从业者质疑：单纯分享官方媒体新闻文章链接是否构成违规？引用部分内容并附上链接是否落入管辖范围？社交媒体账号转载/改编独家报道如何处理？文化体育旅游部下属广播电视与电子信息局已表态将于2026年7月联合越南版权局召开专题说明会进行正式澄清。此前VN-015已记录了该法令的知识产权罚款条款，本条目聚焦持续发酵的'分享链接'争议及即将到来的官方澄清。该不确定性对在越运营的社交/内容平台构成短期合规风险——平台需等待7月说明会后调整内容审核策略。此外，该法令还将传播虚假信息的罚款上限从2000万提升至5000万VND（约1930美元），Fan Page和群组发布违法内容可被关闭账号。",
+      source: "VietnamNet / Vietnam News / Dan Tri / AsiaNews / Examiner",
+      sourceUrl: "https://vietnamnet.vn/en/will-sharing-news-links-on-facebook-lead-to-fines-in-vietnam-2520294.html",
+      impact: "高",
+      tags: ["Decree 174", "分享新闻链接", "版权处罚", "2000-3000万VND", "7月澄清", "假新闻5000万VND", "Fan Page关闭", "争议"]
+    },
+    {
+      id: "PH-014",
+      title: "菲律宾国会推进11项深度伪造监管法案：域外管辖权+最高1000万比索罚款+ISP阻断义务",
+      date: "2026-05-20",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "立法进展",
+      type: "法案审议",
+      summary: "菲律宾第20届国会正在积极推进深度伪造(deepfake/AI合成媒体)监管立法，截至目前已提出11项众议院法案和2项参议院法案。核心监管框架：(1)同意权机制——创建/分发涉及可识别个人的deepfake必须获得书面知情同意，且须注明具体用途，部分法案(HB 6632)允许随时撤销同意；(2)强制披露要求——视觉媒体需水印/文字叠加，音频需口头免责声明(超2分钟每2分钟重复)，三重标识(口头+文字+图标)；(3)恶意deepfake定义——非自愿亲密deepfake、选举前60天政治虚假信息、骚扰/跟踪/勒索用途均被列为恶意；(4)平台责任——24-28小时下架时限、维护匿名化公开透明度日志、便捷举报机制；(5)处罚措施——HB 7903提出最严厉方案：未披露有害deepfine处₱200-500万+6-12年监禁，恶意使用最高₱1000万(约17万美元)+20年监禁；(6)创新条款——HB 3425设立域外管辖权(境外违法者针对菲律宾公民即可追诉)、HB 6632规定死后50年肖像权延续、HB 6539要求ISP安装技术阻断非法deepfake网站、HB 8773引入电影电视审查分级委员会(MTRCB)协助监测数字平台、HB 3214允许在IPOPHL注册面部/声音为商标。执法机构为DICT(主导)、DOJ(域外协调)、NPC(协调)。背景驱动力包括总统小马科斯faceswap视频、诺贝尔奖得主Maria Ressa比特币deepfake诈骗等多起高受害案例。《安全空间法》修正案已于2025年1月通过专门针对AI性虐待材料。",
+      source: "Rappler / PNA / Manila Times / FMA Digital Rights Round-up",
+      sourceUrl: "https://www.rappler.com/technology/features/congress-bills-deepfake-ai-regulation-philippines/",
+      impact: "中高",
+      tags: ["Deepfake", "AI合成媒体", "11项法案", "域外管辖权", "1000万比索", "平台责任", "ISP阻断", "HB 3425", "HB 7903", "DICT", "死后肖像权"]
     }
   ];
 
