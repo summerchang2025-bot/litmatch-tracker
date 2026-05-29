@@ -1395,6 +1395,36 @@
       sourceUrl: "https://9to5mac.com/2026/05/21/apple-to-update-app-store-age-ratings-in-australia-and-vietnam-next-month/",
       impact: "中",
       tags: ["Apple", "App Store", "年龄评级", "越南", "Decree 147", "6月18日", "00+", "12+", "16+", "18+", "澳大利亚"]
+    },
+
+    // ===== 2026年5月29日更新 — 新增2条情报 =====
+    {
+      id: "VN-016",
+      title: "越南Decree 174引发新闻链接分享争议：政府计划7月召开专项澄清会议",
+      date: "2026-05-28",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "政策解读/执法预告",
+      summary: "越南第174/2026/NĐ-CP号法令第95条关于知识产权的罚款条款(2000-3000万VND)引发广泛争议：公众和媒体质疑'提供或分享'新闻作品的措辞是否意味着在Facebook等社交平台分享新闻文章链接也可能被罚款。越南文化体育旅游部下属广播与电子信息局回应称，计划在2026年7月组织专门会议解读该法令电子信息相关条款，越南版权局将共同主持。政府承诺届时将详细回答公众疑问。法令将于7月1日生效，而澄清会议安排在同一月份。社交媒体/内容平台需密切关注7月澄清结果，提前评估内容分享策略的合规边界。该争议也反映出Decree 174条款表述的宽泛性可能带来的执法不确定性。",
+      source: "VietnamNet / Vietnam Plus / VOV",
+      sourceUrl: "https://vietnamnet.vn/en/will-sharing-news-links-on-facebook-lead-to-fines-in-vietnam-2520294.html",
+      impact: "中",
+      tags: ["越南", "Decree 174", "新闻链接", "知识产权", "第95条", "7月澄清", "Facebook", "内容分享"]
+    },
+    {
+      id: "EG-015",
+      title: "埃及议会拟大幅修正网络犯罪法：在线赌博最高终身监禁，谣言传播入罪",
+      date: "2026-05-27",
+      country: "埃及",
+      countryCode: "EG",
+      category: "法律法规",
+      type: "立法预告",
+      summary: "埃及众议院通信和信息技术委员会主席Ahmed Badawi议员于5月27日向媒体披露，政府将在开斋节后提交网络犯罪法修正案草案，涵盖四大方向：(1)在线赌博入罪——现有网络犯罪法未明确提及在线赌博，修正案拟将在线赌博应用程序明确入罪，涉及有组织犯罪网络和大规模欺诈的重大案件最高可判处终身监禁；(2)网络勒索——扩大现行法律适用范围以应对新型数字犯罪；(3)谣言/虚假信息——蓄意传播虚假信息或制造'社会绝望氛围'的个人，发布或转发均可能受罚；(4)儿童社交媒体——议会已完成7轮听证，政府正在最终定稿专项立法。SCMR已于2月封禁Roblox、4月要求所有数字平台获许可，此次修法是埃及互联网监管持续升级的最新信号。社交平台需关注谣言传播条款对UGC内容审核的影响。",
+      source: "Ahram Online / Egyptian Streets / Egypt Today",
+      sourceUrl: "https://egyptianstreets.com/2026/05/27/egypt-considers-new-laws-on-online-betting-rumours-and-childrens-social-media-use/",
+      impact: "中",
+      tags: ["埃及", "网络犯罪法", "在线赌博", "终身监禁", "网络勒索", "谣言", "儿童社交媒体", "SCMR", "开斋节"]
     }
   ];
 
