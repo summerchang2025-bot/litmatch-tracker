@@ -1425,6 +1425,50 @@
       sourceUrl: "https://egyptianstreets.com/2026/05/27/egypt-considers-new-laws-on-online-betting-rumours-and-childrens-social-media-use/",
       impact: "中",
       tags: ["埃及", "网络犯罪法", "在线赌博", "终身监禁", "网络勒索", "谣言", "儿童社交媒体", "SCMR", "开斋节"]
+    },
+
+    // ===== 2026年6月2日更新 — 新增3条情报 =====
+    {
+      id: "MY-015",
+      title: "马来西亚6月1日正式实施16岁以下社交媒体禁令：MyKad强制年龄验证，罚款最高1000万令吉",
+      date: "2026-06-01",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "法律法规",
+      type: "执法启动",
+      summary: "马来西亚通讯与多媒体委员会(MCMC)于2026年6月1日正式执行《2025年在线安全法》(ONSA)下的《儿童保护守则》(CPC)和《风险缓解守则》(RMC)。核心规定：(1)16岁以下用户不得注册Facebook、Instagram、TikTok、YouTube等社交媒体账户；(2)新注册用户须使用MyKad（身份证）、护照或MyDigital ID进行年龄验证；(3)现有用户将在6个月内逐步实施年龄验证，被确认为未满16岁的用户有1个月缓冲期下载数据，之后账户将被限制或停用；(4)平台须实施'儿童安全优先设计'、风险评估、加强内容审核等；(5)违反RMC最高罚款1000万令吉。马来西亚是继澳大利亚、印尼后亚洲率先正式执行全面未成年人社交媒体禁令的国家之一，MCMC表示将密切监督平台合规情况。社交/内容平台须立即落实年龄验证基础设施。",
+      source: "MCMC / Bernama / SAYS / Media Selangor / 中新社",
+      sourceUrl: "https://says.com/my/tech/under-16-social-media-ban-enforcement",
+      impact: "高",
+      tags: ["MCMC", "ONSA", "CPC", "RMC", "年龄验证", "16岁", "MyKad", "社交媒体禁令", "6月1日", "1000万令吉", "MyDigital ID"]
+    },
+    {
+      id: "ID-018",
+      title: "印尼Komdigi扩大PP Tunas监管范围至电商平台：Shopee/Tokopedia/TikTok Shop须实施儿童交易管控",
+      date: "2026-05-14",
+      country: "印尼",
+      countryCode: "ID",
+      category: "政府政策",
+      type: "政策扩展",
+      summary: "印尼通信与数字部(Komdigi)数字空间监管总司秘书长Mediodecci Lustarini于5月中旬宣布，PP Tunas(2025年第17号政府条例)监管范围从此前的8个高风险社交媒体/视频平台正式扩大至全部电子系统运营商，明确点名电商平台Shopee、Tokopedia和TikTok Shop。新增合规要求包括：(1)儿童类别产品每笔交易须获得家长同意；(2)对16岁以下和13岁以下用户的交易行为实施年龄验证和重点监控；(3)儿童个人数据须提供高等级隐私保护；(4)限制儿童购买烟草/香烟、酒精饮料等成人产品；(5)对数字钱包充值和游戏内购实行严格管控。Komdigi强调'all PSE must comply, no exceptions'（所有电子系统运营商无一例外均须遵守）。此次扩展标志着印尼在儿童数字保护领域从'局部试验'转向'全品类覆盖'的重大升级。与6月6日自评估截止日叠加，电商和游戏平台面临紧迫的合规窗口。",
+      source: "Fakta.co / chaoyuexpo.com / Bisnis.com / Komdigi",
+      sourceUrl: "https://www.fakta.co/id/komdigi-perluas-aturan-tunas-ecommerce",
+      impact: "高",
+      tags: ["PP Tunas", "Komdigi", "电商", "Shopee", "Tokopedia", "TikTok Shop", "家长同意", "儿童交易", "年龄验证", "游戏内购", "全品类覆盖"]
+    },
+    {
+      id: "PH-014",
+      title: "菲律宾参议员Villanueva提交SB 2071'智慧儿童法案'：禁止15岁以下用社交媒体，罚款最高2000万比索",
+      date: "2026-05-07",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "法律法规",
+      type: "法案提交",
+      summary: "菲律宾参议员Joel Villanueva于2026年5月7日正式向参议院提交第2071号法案(SB 2071)，全称《数字空间儿童安全媒体访问与负责任技术法》，又称'智慧儿童法案'(SMART KIDS Act)。这是菲律宾参议院提出的第4项未成年人社交媒体监管法案（此前已有Legarda的SB 1955、Gatchalian的SB 2066等）。核心条款：(1)禁止15岁及以下用户注册社交媒体账户——有别于其他法案的16岁门槛；(2)平台须建立账户检测、年龄验证、暂停及注销机制；(3)必须识别并限制算法推荐、过度推送等'成瘾性设计'；(4)须部署家长控制、内容过滤、使用时间管理等功能；(5)定期更新防规避机制；(6)违规平台最高罚款2000万比索。Villanueva强调法案针对的是平台而非未成年人本身，体现'平衡监管'思路。菲律宾参议院已形成多线并进的立法态势，未成年人社交媒体禁令通过概率持续上升。",
+      source: "The Manila Times / Bole.ph / Senate of the Philippines",
+      sourceUrl: "https://www.manilatimes.net/2026/05/07/news/national/villanueva-bill-targets-platforms-in-online-safety-push/2337442",
+      impact: "中",
+      tags: ["SB 2071", "Villanueva", "SMART KIDS Act", "15岁", "2000万比索", "成瘾性设计", "算法推荐", "家长控制", "菲律宾"]
     }
   ];
 
