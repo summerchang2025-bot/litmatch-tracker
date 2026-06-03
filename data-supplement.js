@@ -1485,6 +1485,50 @@
       sourceUrl: "https://news.qq.com/rain/a/20260529A06Z6000",
       impact: "高",
       tags: ["DSA罚款", "Temu", "2亿欧元", "史上最大", "系统性风险", "非法产品", "65%不合格", "成瘾式设计", "砍一刀", "8月28日整改", "跨境电商", "拼多多"]
+    },
+
+    // ===== 2026年6月3日更新 — 新增3条情报 =====
+    {
+      id: "INT-014",
+      title: "G7通过首个未成年人网络安全共同原则：七项原则覆盖年龄验证、AI材料打击及成瘾性设计管控",
+      date: "2026-05-29",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "国际标准",
+      type: "共同原则通过",
+      summary: "G7数字与技术部长于2026年5月29日通过《为未成年人营造更安全、更可靠数字空间的共同原则》(Common Set of Principles for a Safer and More Secure Digital Space for Minors)，为G7历史上首次就未成年人网络安全达成共同原则。七大核心原则包括：(1)有效的风险管理与评估——实施\"安全设计\"理念的风险管理、评估和缓解措施，在数字服务设计和开发全过程保持透明；(2)可靠的年龄验证方案——采用稳健、保护隐私的年龄验证方法，为未成年人提供适龄网络体验并防止其访问受年龄限制服务；(3)高水平的隐私与安全保障——未成年人账户享有高隐私和安全保护，推荐系统应减少过度上网沉迷；(4)打击儿童性虐待材料——采取强有力措施防范通过AI等方式生成和传播CSAM及未经同意私密图像；(5)简单有效的家长工具——提供简便、有效和可互操作的家长控制工具；(6)全面的数字素养教育——为家长、教师和未成年人提供数字素养项目以识别风险包括生成式AI风险；(7)与研究人员的数据共享——促进数字服务与研究人员合作共享数据以改善对风险的理解。G7部长呼吁数字服务提供商将原则转化为行动，并将通过具体行动计划落实。UNICEF于6月1日发表声明欢迎此协议。该原则直接借鉴了欧盟DSA、AI法案和BIK+战略的经验。",
+      source: "欧盟委员会 / G7 / UNICEF / 法国总统府",
+      sourceUrl: "https://digital-strategy.ec.europa.eu/en/news/commission-welcomes-g7-agreement-common-principles-protecting-minors-online",
+      impact: "高",
+      tags: ["G7", "未成年人保护", "年龄验证", "CSAM", "AI材料", "数字素养", "安全设计", "家长控制", "UNICEF", "DSA"]
+    },
+    {
+      id: "INT-015",
+      title: "欧盟AI法案第50条AI系统透明度义务实施指南公众咨询截止",
+      date: "2026-06-03",
+      country: "欧盟",
+      countryCode: "EU",
+      category: "法律法规",
+      type: "咨询截止",
+      summary: "欧盟委员会于2026年5月8日发布《AI法案》第50条透明度义务实施指南草案并公开征求意见，6月3日为公众咨询截止日。第50条要求：(1)与自然人直接交互的AI系统须向用户披露其为AI系统（除非对合理知情的自然人显而易见）；(2)生成合成音频、图像、视频或文本内容的AI系统须以机器可读格式标注为AI生成/操纵；(3)情绪识别或生物特征分类系统须告知暴露于其下的自然人；(4)深度伪造(deeepfake)内容的发布者须披露其为人工生成/操纵。指南草案涵盖适用范围、豁免条件、标注方式、透明度声明内容与格式等实施细则。该指南对Litmatch等使用AI进行内容推荐、内容审核、虚拟形象生成的社交平台有直接合规影响——平台需确保AI生成内容（如滤镜、虚拟头像）以适当方式标注。",
+      source: "欧盟委员会 / Hogan Lovells / Global Policy Watch",
+      sourceUrl: "https://digital-strategy.ec.europa.eu/en/consultations/consultation-draft-guidelines-transparency-obligations-under-ai-act",
+      impact: "中",
+      tags: ["AI法案", "第50条", "透明度义务", "AI标注", "深度伪造", "合成内容", "公众咨询", "欧盟委员会", "6月3日"]
+    },
+    {
+      id: "VN-017",
+      title: "越南科技部就《信息系统网络安全国家标准（含基本技术要求）》征求意见截止",
+      date: "2026-06-02",
+      country: "越南",
+      countryCode: "VN",
+      category: "技术标准",
+      type: "征求意见截止",
+      summary: "越南科学技术部就《信息系统网络安全国家标准》草案公开征求意见于2026年6月2日截止。该标准涉及信息系统的网络安全基本技术要求，是新《网络安全法》(No.116/2025/QH15，7月1日生效)框架下的配套技术标准制定工作之一。标准旨在为各类信息系统建立统一的网络安全基线要求，包括但不限于：访问控制、数据加密、安全审计、事件响应、漏洞管理等技术规范。该标准是越南构建全面网络安全法规体系（新网络安全法+Decree 147+Decree 174）在技术标准层面的重要补充，最终发布后将适用于在越运营的国内外数字平台和技术企业。",
+      source: "Digital Policy Alert / 越南科学技术部",
+      sourceUrl: "https://digitalpolicyalert.org/event/43119/vietnam-closes-consultation-on-national-standards-on-cybersecurity-for-information-systems-including-general-technical-requirements",
+      impact: "中",
+      tags: ["网络安全标准", "信息系统", "技术规范", "科技部", "征求意见", "7月1日", "配套标准"]
     }
   ];
 
