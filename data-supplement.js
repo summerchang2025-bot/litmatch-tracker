@@ -1469,7 +1469,7 @@
       sourceUrl: "https://www.manilatimes.net/2026/05/07/news/national/villanueva-bill-targets-platforms-in-online-safety-push/2337442",
       impact: "中",
       tags: ["SB 2071", "Villanueva", "SMART KIDS Act", "15岁", "2000万比索", "成瘾性设计", "算法推荐", "家长控制", "菲律宾"]
-    // ===== 2026年6月4日更新 — 新增2条情报 =====
+// ===== 2026年6月4日更新 — 新增2条情报 =====
     {
       id: "TR-001",
       title: "土耳其议会通过15岁以下社交媒体禁令：BTK强制年龄验证，分级处罚最高断网90%",
@@ -1497,34 +1497,22 @@
       sourceUrl: "https://en.sggp.org.vn/vietnam-to-hike-fines-for-social-media-violations-under-new-decree-post126480.html",
       impact: "高",
       tags: ["越南", "Decree 174", "第174/2026/NĐ-CP号法令", "7月1日生效", "虚假新闻", "5000万越南盾", "新闻链接分享", "第95条", "版权侵权", "7月澄清会议"]
-    // ===== 2026年6月4日更新 — 新增2条情报 =====
-    {
-      id: "TR-001",
-      title: "土耳其议会通过15岁以下社交媒体禁令：BTK强制年龄验证，分级处罚最高断网90%",
-      date: "2026-04-23",
-      country: "土耳其",
-      countryCode: "TR",
-      category: "法律法规",
-      type: "立法通过",
-      summary: "土耳其大国民议会于2026年4月22日晚通过《数字安全法》修正案，禁止15岁以下儿童注册社交媒体账户，成为欧洲主要国家中首个实施全面未成年人社交媒体禁令的国家之一。核心规定：(1)15岁以下禁止注册——平台必须实施有效年龄验证系统；(2)15岁及以上用户须获得适龄服务；(3)家长控制工具——平台须提供管理账户设置、批准应用内购买、监控屏幕使用时间等工具；(4)广告限制——防止针对未成年人的欺骗性或有害广告；(5)紧急内容删除——涉及国家安全或公共安全时，大型平台须在1小时内删除内容；(6)数据提供——平台须在不延迟情况下向当局提供数据，最长不超过15天。适用门槛：日活用户超1000万的社交媒体平台、日活超10万的海外游戏平台须指定当地法律代表。处罚机制：第一阶段（罚款后30天未合规）→ 禁止在该平台投放新广告；第二阶段 → 法院批准带宽削减50%；第三阶段 → 带宽削减最高90%，实质上在全土耳其限制访问。法令在《官方公报》公布6个月后生效（预计2026年10月）。",
-      source: "Türkiye Today / Bianet / Internet for Kids / The Next Web",
-      sourceUrl: "https://www.turkiyetoday.com/nation/turkiye-bans-under-15s-from-social-media-as-sweeping-digital-safety-rules-take-effect-3218630",
-      impact: "高",
-      tags: ["土耳其", "BTK", "15岁", "社交媒体禁令", "年龄验证", "家长控制", "带宽削减", "数字安全法", "4月22日", "1000万日活"]
     },
+
+    // ===== 2026年6月4日更新 — 新增1条情报 =====
     {
-      id: "VN-017",
-      title: "越南第174号法令7月1日生效在即：虚假新闻最高罚款5000万越南盾，新闻链接分享引发争议",
-      date: "2026-05-28",
-      country: "越南",
-      countryCode: "VN",
-      category: "法律法规",
-      type: "政策解读/执法预告",
-      summary: "越南第174/2026/NĐ-CP号法令将于2026年7月1日正式生效，取代旧的第15/2020/NĐ-CP号法令。核心罚款规定：(1)一级违规（2000-3000万越南盾，约780-1176美元）——提供或分享虚假/歪曲信息、分享新闻/文学/艺术作品未经授权、提供受限在线内容链接等；(2)二级违规（3000-5000万越南盾，约1176-1960美元）——歪曲历史、破坏民族团结、侮辱宗教、歧视、泄露国家机密等。争议焦点：第95条关于'提供或分享'新闻作品的措辞模糊，引发公众担忧在Facebook等平台分享新闻链接也可能被罚款。越南文化体育旅游部回应称，计划在2026年7月组织专门会议解读该法令电子信息相关条款。社交媒体/内容平台须密切关注7月澄清结果，提前评估内容分享策略的合规边界。",
-      source: "SGGP / Vietnam.vn / Dantri / Licas.news / VO Vietnamese",
-      sourceUrl: "https://en.sggp.org.vn/vietnam-to-hike-fines-for-social-media-violations-under-new-decree-post126480.html",
+      id: "ID-019",
+      title: "印尼PP Tunas自评估6月6日截止倒计时：8大高风险平台尚在准备，Komdigi将组建核验团队，违规最高面临永久封禁",
+      date: "2026-06-04",
+      country: "印尼",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "截止日催促",
+      summary: "距离印尼PP Tunas(2025年第17号政府条例)自评估报告提交截止日仅剩2天(2026年6月6日)。根据Komdigi最新声明，8大高风险平台(TikTok、Facebook、Instagram、Threads、X、Bigo Live、Roblox、YouTube)须完成50+问题的风险自评估问卷，将平台分为低/中/高三个风险等级。高风险平台若未能降至中低风险等级，将被强制要求停用16岁以下用户账户。根据Permen Komdigi No.9/2026规定的三级处罚机制：(1)警告信——首次违规提醒；(2)临时封禁——对仍不整改的平台限制服务访问；(3)永久封禁——持续拒不合规者永久切断访问权限。Komdigi将组建专门核验团队对提交的评估报告进行二次评估，确认报告内容与实际运营情况一致，防止瞒报虚报。Komdigi政策分析师Nanci Laura Sitinjak确认8家平台均在积极准备、无一退出。社交/约会平台须关注：如Litmatch等含社交功能的应用若在印尼有用户，同样受PP Tunas覆盖，须考虑提交自评估。",
+      source: "SinergiaNews / topmedia.id / ANTARA / Bisnis.com / Komdigi",
+      sourceUrl: "https://www.sinergianews.com/read/4068/komdigi-wajibkan-platform-digital-selesaikan-penilaian-mandiri-pp-tunas",
       impact: "高",
-      tags: ["越南", "Decree 174", "第174/2026/NĐ-CP号法令", "7月1日生效", "虚假新闻", "5000万越南盾", "新闻链接分享", "第95条", "版权侵权", "7月澄清会议"]
+      tags: ["PP Tunas", "Komdigi", "6月6日截止", "自评估", "50+问题", "风险等级", "永久封禁", "8大高风险平台", "Permen 9/2026", "核验团队", "截止日倒计时"]
     }
   ];
 
