@@ -1529,6 +1529,77 @@
       sourceUrl: "https://digitalpolicyalert.org/event/43119/vietnam-closes-consultation-on-national-standards-on-cybersecurity-for-information-systems-including-general-technical-requirements",
       impact: "中",
       tags: ["网络安全标准", "信息系统", "技术规范", "科技部", "征求意见", "7月1日", "配套标准"]
+    },
+    // ===== 2026年6月4日更新 — 新增5条情报 =====
+    {
+      id: "GP-008",
+      title: "Google Play × Epic Games全球和解：佣金降至20%、开放第三方计费与应用商店",
+      date: "2026-03-04",
+      country: "国际平台",
+      countryCode: "GP",
+      category: "平台政策",
+      type: "政策变革",
+      summary: "Google与Epic Games于2026年3月4日达成全球和解，宣布Android生态重大改革：(1)佣金重组——新安装用户内购20%、已有安装用户25%、自动续费订阅10%、Google Apps Experience计划新安装15%；(2)第三方计费——开发者可使用自有计费系统与Google Play Billing并行，美国暂可不付平台费；(3)应用内链接外跳——允许引导用户至外部网页完成购买，24小时内交易收20%服务费；(4)Registered App Stores计划——第三方应用商店可向Google注册，通过简化流程安装，预计随2026年晚些时候Android主要版本推出。实施时间表：美/英/EU于6月30日、澳大利亚9月、日韩12月、2027年全球推广。Fortnite全球重返Google Play。此次和解标志着Android从封闭向开放生态的根本性转变，对社交/游戏应用的变现模式产生深远影响。",
+      source: "TechCrunch / Engadget / AP News / Coda",
+      sourceUrl: "https://techcrunch.com/2026/03/04/google-settles-with-epic-games-drops-its-play-store-commissions-to-20/",
+      impact: "高",
+      tags: ["Google Play", "Epic Games", "佣金改革", "第三方计费", "替代支付", "应用商店", "Android开放", "20%佣金", "6月30日实施"]
+    },
+    {
+      id: "SA-017",
+      title: "沙特SDAIA发布48项PDPL执法决定：数据保护法进入活跃执法阶段",
+      date: "2026-05-15",
+      country: "沙特阿拉伯",
+      countryCode: "SA",
+      category: "执法行动",
+      type: "执法动态",
+      summary: "沙特数据与人工智能管理局(SDAIA)于2026年初通过官方渠道宣布，自PDPL合规宽限期(2024年9月14日截止)以来，已累计发布48项执法决定。据Latham & Watkins于5月15日发布的分析，执法要点包括：(1)执法机构——由SDAIA主席任命的'PDPL违规审查委员会'独立运作，含法律和技术成员；(2)处罚权限——警告、最高500万沙特里亚尔罚款(约133万美元)、重复违规罚款翻倍、可命令公布处罚决定；(3)程序——收到通知后5天内回应、委员会批准后15天内通知各方、60天内上诉；(4)域外管辖——PDPL具有域外效力，适用于任何处理沙特境内个人数据的实体，无论该实体位于何处；(5)数据泄露通知——72小时内通知SDAIA(含周末节假日)。SDAIA正积极关注处理沙特个人数据的国际公司。这是中东地区数据保护执法的重大信号，对跨境社交/数字平台有直接合规影响。",
+      source: "Latham & Watkins / JD Supra / Fyntralink / Out2Sol",
+      sourceUrl: "https://www.jdsupra.com/legalnews/active-enforcement-of-saudi-arabia-3202525/",
+      impact: "高",
+      tags: ["SDAIA", "PDPL", "执法决定", "48项", "500万里亚尔", "域外管辖", "72小时通知", "数据保护", "沙特"]
+    },
+    {
+      id: "EG-015",
+      title: "埃及PDPL行政条例正式发布：2026年11月执法截止日确定，跨境传输须额外批准",
+      date: "2026-01-12",
+      country: "埃及",
+      countryCode: "EG",
+      category: "法律法规",
+      type: "条例发布",
+      summary: "埃及政府于2026年1月发布《个人数据保护法》(PDPL, Law No. 151/2020)行政条例(Executive Decree 816/2025)，使该法正式进入可执行阶段。关键要点：(1)执法截止日——2026年11月，所有处理埃及个人数据的组织须在此之前完成合规；(2)许可与注册——DPA(数据保护局)开始接受数据控制者注册、数据处理者许可申请；(3)跨境传输——向境外传输个人数据须获DPA额外批准，未获批前不得传输；(4)同意要求——处理敏感数据须获明确同意，数据处理须告知数据主体；(5)违规响应——数据泄露72小时内通知DPA；(6)处罚——最高200万埃及镑罚款，重复违规可加倍。Baker McKenzie、Access Partnership等多家律所发布合规分析。埃及PDPL对标GDPR原则但对跨境传输要求更严，对在中东北非运营的数字平台具有重大合规影响。",
+      source: "Baker McKenzie / Lex Africa / Access Partnership / Shehata Partners",
+      sourceUrl: "https://lexafrica.com/2026/05/egypt-data-protection-law/",
+      impact: "高",
+      tags: ["埃及PDPL", "行政条例", "Decree 816", "11月执法", "跨境传输", "DPA注册", "200万EGP罚款", "GDPR对标"]
+    },
+    {
+      id: "VN-018",
+      title: "越南《电子商务法》7月1日生效：跨境平台须设法律代表、直播带货入法、平台分级管理",
+      date: "2026-06-04",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "即将生效",
+      summary: "越南《电子商务法》(E-Commerce Law 2025)将于2026年7月1日正式生效，取代Decree 52/2013框架。核心条款：(1)跨境平台义务——外国电商平台若在越南有业务活动(使用越南域名/越南语/年交易超10万笔)，须在越南设立法律代表或授权代表，并向工贸部注册；(2)直播带货入法——首次将直播带货(livestream e-commerce)纳入法律框架，主播须实名注册、须申报收入、平台须设直播内容审核机制；(3)平台分级——按用户规模分为大型/中型/小型平台，大型平台承担更高合规义务；(4)卖家验证——平台须验证卖家身份及商品合规性；(5)处罚——违规平台面临服务限制、罚款及运营许可撤销。该法与同日生效的新《网络安全法》(No.116/2025)和Decree 147构成越南7月1日'数字法规三重奏'，对跨境社交+电商双轨平台(Litmatch类社交平台若有内购/虚拟礼物即可能被归类)产生重大合规影响。",
+      source: "Baker McKenzie / Viet An Law / DSDC Law / Lexology",
+      sourceUrl: "https://vietanlaw.com/vietnam-e-commerce-law-2025-key-regulations-taking-effect-in-2026/",
+      impact: "高",
+      tags: ["电子商务法", "7月1日生效", "跨境平台", "法律代表", "直播带货", "平台分级", "卖家验证", "数字法规三重奏"]
+    },
+    {
+      id: "INT-016",
+      title: "FATF 6月全体会议将于6月15-19日举行：预计更新灰名单，越南等国可能受影响",
+      date: "2026-06-04",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "国际标准",
+      type: "会议预告",
+      summary: "FATF(金融行动特别工作组)将于2026年6月15-19日在巴黎举行全体会议(Plenary and Working Group Meetings)，届时将审议并更新灰名单(加强监控司法管辖区)和黑名单。当前灰名单(2026年2月更新)包括越南、阿尔及利亚、安哥拉、玻利维亚、保加利亚、克罗地亚、肯尼亚等23个司法管辖区。本次全体会议重点关注：(1)越南灰名单状态——越南自2023年6月被列入灰名单，一直在执行行动计划，FATF可能评估其进展并决定是否移除或维持；(2)潜在新增——根据互评估结果，可能有新司法管辖区被加入灰名单；(3)灰名单移除——部分已完成行动计划的国家可能被移除。FATF每年2月、6月、10月三次更新名单，6月更新对下半年跨境支付和反洗钱合规有直接影响。对中国香港FATF互评估结果也将关注。",
+      source: "FATF / Eurasian Group / ComplyAdvantage",
+      sourceUrl: "https://www.fatf-gafi.org/en/calendars/events.html",
+      impact: "中",
+      tags: ["FATF", "6月全体会议", "灰名单", "越南", "反洗钱", "6月15-19日", "巴黎"]
     }
   ];
 
