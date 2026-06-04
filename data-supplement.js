@@ -1469,7 +1469,8 @@
       sourceUrl: "https://www.manilatimes.net/2026/05/07/news/national/villanueva-bill-targets-platforms-in-online-safety-push/2337442",
       impact: "中",
       tags: ["SB 2071", "Villanueva", "SMART KIDS Act", "15岁", "2000万比索", "成瘾性设计", "算法推荐", "家长控制", "菲律宾"]
-// ===== 2026年6月4日更新 — 新增2条情报 =====
+    },
+    // ===== 2026年6月4日更新 — 新增2条情报 =====
     {
       id: "TR-001",
       title: "土耳其议会通过15岁以下社交媒体禁令：BTK强制年龄验证，分级处罚最高断网90%",
