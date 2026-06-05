@@ -1600,6 +1600,94 @@
       sourceUrl: "https://www.fatf-gafi.org/en/calendars/events.html",
       impact: "中",
       tags: ["FATF", "6月全体会议", "灰名单", "越南", "反洗钱", "6月15-19日", "巴黎"]
+    },
+
+    // ===== 来自远程分支的补充条目（合并入本地） =====
+    {
+      id: "EG-016",
+      title: "埃及议会拟大幅修正网络犯罪法：在线赌博最高终身监禁，谣言传播入罪",
+      date: "2026-05-27",
+      country: "埃及",
+      countryCode: "EG",
+      category: "法律法规",
+      type: "立法预告",
+      summary: "埃及众议院通信和信息技术委员会主席Ahmed Badawi议员于5月27日向媒体披露，政府将在开斋节后提交网络犯罪法修正案草案，涵盖四大方向：(1)在线赌博入罪——现有网络犯罪法未明确提及在线赌博，修正案拟将在线赌博应用程序明确入罪，涉及有组织犯罪网络和大规模欺诈的重大案件最高可判处终身监禁；(2)网络勒索——扩大现行法律适用范围以应对新型数字犯罪；(3)谣言/虚假信息——蓄意传播虚假信息或制造'社会绝望氛围'的个人，发布或转发均可能受罚；(4)儿童社交媒体——议会已完成7轮听证，政府正在最终定稿专项立法。SCMR已于2月封禁Roblox、4月要求所有数字平台获许可，此次修法是埃及互联网监管持续升级的最新信号。",
+      source: "Ahram Online / Egyptian Streets / Egypt Today",
+      sourceUrl: "https://egyptianstreets.com/2026/05/27/egypt-considers-new-laws-on-online-betting-rumours-and-childrens-social-media-use/",
+      impact: "中",
+      tags: ["埃及", "网络犯罪法", "在线赌博", "终身监禁", "网络勒索", "谣言", "儿童社交媒体", "SCMR", "开斋节"]
+    },
+    {
+      id: "PH-015",
+      title: "菲律宾参议员Villanueva提交SB 2071'智慧儿童法案'：禁止15岁以下用社交媒体，罚款最高2000万比索",
+      date: "2026-05-07",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "法律法规",
+      type: "法案提交",
+      summary: "菲律宾参议员Joel Villanueva于2026年5月7日正式向参议院提交第2071号法案(SB 2071)，全称《数字空间儿童安全媒体访问与负责任技术法》，又称'智慧儿童法案'(SMART KIDS Act)。这是菲律宾参议院提出的第4项未成年人社交媒体监管法案（此前已有Legarda的SB 1955、Gatchalian的SB 2066等）。核心条款：(1)禁止15岁及以下用户注册社交媒体账户——有别于其他法案的16岁门槛；(2)平台须建立账户检测、年龄验证、暂停及注销机制；(3)必须识别并限制算法推荐、过度推送等'成瘾性设计'；(4)须部署家长控制、内容过滤、使用时间管理等功能；(5)违规平台最高罚款2000万比索。菲律宾参议院已形成多线并进的立法态势。",
+      source: "The Manila Times / Bole.ph / Senate of the Philippines",
+      sourceUrl: "https://www.manilatimes.net/2026/05/07/news/national/villanueva-bill-targets-platforms-in-online-safety-push/2337442",
+      impact: "中",
+      tags: ["SB 2071", "Villanueva", "SMART KIDS Act", "15岁", "2000万比索", "成瘾性设计", "算法推荐", "家长控制", "菲律宾"]
+    },
+    {
+      id: "TR-001",
+      title: "土耳其议会通过15岁以下社交媒体禁令：BTK强制年龄验证，分级处罚最高断网90%",
+      date: "2026-04-23",
+      country: "土耳其",
+      countryCode: "TR",
+      category: "法律法规",
+      type: "立法通过",
+      summary: "土耳其大国民议会于2026年4月22日晚通过《数字安全法》修正案，禁止15岁以下儿童注册社交媒体账户，成为欧洲主要国家中首个实施全面未成年人社交媒体禁令的国家之一。核心规定：(1)15岁以下禁止注册——平台必须实施有效年龄验证系统；(2)家长控制工具——平台须提供管理账户设置、批准应用内购买、监控屏幕使用时间等工具；(3)广告限制——防止针对未成年人的欺骗性或有害广告；(4)紧急内容删除——涉及国家安全或公共安全时，大型平台须在1小时内删除内容；(5)数据提供——平台须在不延迟情况下向当局提供数据。适用门槛：日活用户超1000万的社交媒体平台、日活超10万的海外游戏平台须指定当地法律代表。处罚机制：第一阶段→禁止投放新广告；第二阶段→法院批准带宽削减50%；第三阶段→带宽削减最高90%。法令在《官方公报》公布6个月后生效（预计2026年10月）。",
+      source: "Turkiye Today / Bianet / Internet for Kids / The Next Web",
+      sourceUrl: "https://www.turkiyetoday.com/nation/turkiye-bans-under-15s-from-social-media-as-sweeping-digital-safety-rules-take-effect-3218630",
+      impact: "高",
+      tags: ["土耳其", "BTK", "15岁", "社交媒体禁令", "年龄验证", "家长控制", "带宽削减", "数字安全法", "4月22日"]
+    },
+    {
+      id: "ID-019",
+      title: "印尼PP Tunas自评估6月6日截止倒计时：8大高风险平台尚在准备，Komdigi将组建核验团队，违规最高面临永久封禁",
+      date: "2026-06-04",
+      country: "印度尼西亚",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "截止日催促",
+      summary: "距离印尼PP Tunas(2025年第17号政府条例)自评估报告提交截止日仅剩2天(2026年6月6日)。根据Komdigi最新声明，8大高风险平台(TikTok、Facebook、Instagram、Threads、X、Bigo Live、Roblox、YouTube)须完成50+问题的风险自评估问卷，将平台分为低/中/高三个风险等级。根据Permen Komdigi No.9/2026规定的三级处罚机制：(1)警告信——首次违规提醒；(2)临时封禁——对仍不整改的平台限制服务访问；(3)永久封禁——持续拒不合规者永久切断访问权限。Komdigi将组建专门核验团队对提交的评估报告进行二次评估。社交/约会平台须关注：如Litmatch等含社交功能的应用若在印尼有用户，同样受PP Tunas覆盖，须考虑提交自评估。",
+      source: "SinergiaNews / topmedia.id / ANTARA / Bisnis.com / Komdigi",
+      sourceUrl: "https://www.sinergianews.com/read/4068/komdigi-wajibkan-platform-digital-selesaikan-penilaian-mandiri-pp-tunas",
+      impact: "高",
+      tags: ["PP Tunas", "Komdigi", "6月6日截止", "自评估", "风险等级", "永久封禁", "8大高风险平台", "Permen 9/2026", "核验团队", "截止日倒计时"]
+    },
+
+    // ===== 2026年6月5日更新 — 新增2条情报 =====
+    {
+      id: "PH-016",
+      title: "菲律宾众议院全票通过HB 9461《2026年儿童在线安全与保护法》：AI/深度伪造CSAM入罪，最高终身监禁+200万比索",
+      date: "2026-06-03",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "立法进展",
+      type: "法案通过",
+      summary: "菲律宾众议院于2026年6月3日以284票全票赞成（零反对、零弃权）三读通过众议院第9461号法案（HB 9461），即《2026年儿童在线安全与保护法》(Child Online Safety and Protection Act of 2026)，为LEDAC（立法-行政发展咨询委员会）优先立法措施。核心条款：(1)CSAM定义扩展——首次明确将AI生成内容、合成内容、数字篡改内容及深度伪造(deepfake)涉及儿童的内容纳入儿童性虐待/剥削材料(CSAM)定义；(2)新增刑事化行为——在线诱骗(online grooming)、性勒索(sexual extortion)、引诱(luring)、基于图像的性虐待(image-based sexual abuse)、直播剥削(livestreamed exploitation)；(3)处罚措施——制作/分发/直播或促成CSAM：终身监禁(Reclusion Perpetua)+至少200万比索罚款；持有CSAM：最高20年监禁；(4)平台管控——授权对网站、账户和平台实施合法的屏蔽(blocking)、下架(takedown)和中断令(disruption orders)；(5)追踪机制——通过数字平台、金融网络或新兴技术追踪剥削行为人。众议长Bojie Dy声明：「利用儿童者——无论是通过数字平台、金融网络还是新兴技术——都将被追查到底。」该法案现已送交参议院审议。此前菲律宾已有PH-014记录深度伪造监管法案包、PH-015记录SB 2071(15岁以下社交媒体禁令)，本条目记录全票通过的儿童在线安全专门立法。",
+      source: "PNA / Philstar Life / Manila Bulletin / Screencap PH / Business Mirror",
+      sourceUrl: "https://philstarlife.com/news-and-views/839522-house-approves-child-online-safety-bill",
+      impact: "高",
+      tags: ["HB 9461", "儿童在线安全", "CSAM", "AI生成", "深度伪造", "终身监禁", "200万比索", "在线诱骗", "性勒索", "直播剥削", "全票通过", "6月3日"]
+    },
+    {
+      id: "SG-001",
+      title: "新加坡OSRA/OSC将于6月29日启动运作：5类网络危害法定侵权生效，平台须在通知后采取合理措施",
+      date: "2026-05-14",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "法律法规",
+      type: "机构启动/法规生效",
+      summary: "新加坡律政部(MinLaw)和数字发展与信息部(MDDI)于2026年5月14日联合宣布，《2025年在线安全（救济与问责）法》(Online Safety (Relief and Accountability) Act 2025, OSRAA)的指定条款将于2026年6月29日正式生效，在线安全委员会(Online Safety Commission, OSC)同日启动运作。核心机制：(1)在线安全专员——黄永吉先生(Francis Ng)于6月1日被任命为候任专员，6月29日正式上任，有权发出指令要求删除有害内容(content takedown)和限制施害者网络账号(account restriction)；(2)指令对象——可针对发布者(Communicators)、群组管理员(Administrators)及托管平台(Platforms)发出；(3)匿名施害者——专员可要求平台提供终端用户身份信息（姓名/联系方式），受害者可申请披露但仅限特定用途（如法院诉讼），专员会附加条件防止滥用；(4)法定侵权(Statutory Torts)——明确发布者义务（不得传播指定网络危害）、管理员义务（不得以促使/允许危害发生的方式创建或管理在线场所，收到通知后须采取合理措施）、平台义务（收到通知后须采取合理措施，较大影响力平台有响应时间要求）；(5)受害者救济——可向法院寻求损害赔偿(Damages)和禁制令(Injunctions)；(6)第一阶段（6月29日起）聚焦5类最普遍最严重危害——私密影像侵害(Intimate Image Abuse)、基于图像的儿童侵害(Image-Based Child Abuse)、人肉搜索/起底(Doxxing)、网络骚扰含性骚扰(Online Harassment)、网络跟踪(Online Stalking)，共13类危害分阶段实施。此为新加坡首个系统性在线安全专员制度和平台法定侵权框架，对在狮城运营的社交/内容平台构成直接合规义务。Litmatch如在新加坡有用户，须关注OSC发出的内容删除指令和用户信息披露要求。",
+      source: "MinLaw Singapore / MDDI / Gov.sg / SSO",
+      sourceUrl: "https://www.mlaw.gov.sg/online-safety-commission-and-online-safety-relief-and-accountability-act-2025-to-start-on-29-june-2026/",
+      impact: "高",
+      tags: ["新加坡", "OSRA", "OSC", "6月29日", "在线安全委员会", "法定侵权", "内容删除", "身份披露", "私密影像", "儿童侵害", "人肉搜索", "网络骚扰", "网络跟踪", "Francis Ng", "MinLaw"]
     }
   ];
 
