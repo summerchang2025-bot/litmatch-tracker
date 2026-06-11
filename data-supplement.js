@@ -1688,6 +1688,78 @@
       sourceUrl: "https://www.mlaw.gov.sg/online-safety-commission-and-online-safety-relief-and-accountability-act-2025-to-start-on-29-june-2026/",
       impact: "高",
       tags: ["新加坡", "OSRA", "OSC", "6月29日", "在线安全委员会", "法定侵权", "内容删除", "身份披露", "私密影像", "儿童侵害", "人肉搜索", "网络骚扰", "网络跟踪", "Francis Ng", "MinLaw"]
+    },
+
+    // ===== 2026年6月11日更新 — 新增5条情报 =====
+    {
+      id: "MY-001",
+      title: "马来西亚MCMC正式实施16岁以下社交媒体禁令：ONSA+CPC+RMC全面生效，政府身份凭证强制验证",
+      date: "2026-06-01",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "法律法规",
+      type: "法规生效",
+      summary: "马来西亚通讯与多媒体委员会（MCMC）于2026年6月1日正式实施《2025年在线安全法》(ONSA)框架下的16岁以下社交媒体禁令。核心机制：(1)最低注册年龄——所有持牌社交媒体平台须确保only用户年满16岁方可注册账户，须通过政府签发的身份记录或政府认可的其他司法管辖区主管机构签发的等效记录进行验证；(2)适用平台——Facebook、Instagram、TikTok、YouTube等持牌社交媒体服务；(3)现有用户过渡——现有用户年龄验证最长有6个月逐步推进期，未满16岁用户在被限制账户前有1个月数据下载/转移宽限期；(4)儿童保护守则(CPC)——要求平台实施以儿童安全为核心的设计措施，加强适龄保护；(5)风险缓解守则(RMC)——要求平台实施主动防护，包括风险评估、内容审核、用户安全控制及更强问责制；(6)处罚——不合规将面临监管和执法行动。马来西亚成为全球首个在全国范围实施社交媒体最低年龄法定限制的国家。Litmatch在马来西亚有用户，须立即评估是否须申请MCMC牌照及实施年龄验证。",
+      source: "MCMC / The Malaysian Reserve / soyacincau / says.com",
+      sourceUrl: "https://www.mcmc.gov.my/ms/onsa/under-16",
+      impact: "高",
+      tags: ["马来西亚", "MCMC", "ONSA", "CPC", "RMC", "16岁以下", "社交媒体禁令", "年龄验证", "政府身份凭证", "6月1日", "CPC", "RMC", "儿童保护守则", "风险缓解守则"]
+    },
+    {
+      id: "JP-001",
+      title: "日本总务省专家小组公布社交媒体年龄验证草案报告：不全面禁止，强制验证+默认安全功能，今夏最终报告",
+      date: "2026-06-02",
+      country: "日本",
+      countryCode: "JP",
+      category: "政府政策",
+      type: "政策草案",
+      summary: "日本总务省（Ministry of Internal Affairs and Communications）下属专家小组于2026年6月2日发布草案报告，建议社交媒体平台实施更严格的年龄验证检查和功能限制，但明确不采用全面年龄禁令（与英国、澳大利亚不同）。核心提案：(1)更严格的年龄验证——利用移动运营商数据或设备操作系统中的已验证身份信息，减少依赖用户自报年龄；(2)默认激活保护功能——为未成年用户默认启用适龄内容过滤和功能限制（屏幕使用时间、广告曝光、特定互动功能）；(3)风险评估与公开披露义务——平台须评估并公开披露其服务对未成年人构成的风险及缓解措施；(4)「设计即安全」原则——保护措施须内置到服务设计中。时间表：2026年夏季总务省完成最终报告，2026年底前儿童家庭厅评估是否修法，2027年起可能逐步实施监管变更。日本方案利用现有移动运营商身份验证基础设施，对含社交功能的APP（如Litmatch）有参考价值。",
+      source: "总务省 / Biometric Update / academicjobs.com / Nippon.com",
+      sourceUrl: "https://www.academicjobs.com/jp/global-news/japan-eyes-stricter-social-media-age-checks-for-youth-protection-or-academicjobs-22093",
+      impact: "中",
+      tags: ["日本", "总务省", "年龄验证", "移动运营商", "默认安全功能", "设计即安全", "不进行政禁令", "6月2日", "儿童家庭厅", "草案报告"]
+    },
+    {
+      id: "ID-020",
+      title: "印尼PP Tunas截止日后续：19家PSE已提交自评（含Instagram/YouTube/Netflix/PUBG），Komdigi启动核查，违规者面临制裁",
+      date: "2026-06-09",
+      country: "印度尼西亚",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "合规进展",
+      summary: "印尼通信与数字部（Komdigi）通报PP Tunas（2025年第17号政府条例）自评估截止日（6月6日）后续进展：截至6月8日，已有19家PSE运营商提交自评报告，共覆盖68项产品/服务/功能（PLF），其中包括Instagram、Threads、Facebook、BigoLive、X、YouTube、TikTok、Roblox、Netflix、PUBG、Shopee等全球大型平台。Komdigi已组建专门核查团队，将逐份核查自评内容（预计需数月），并结合实地/实际运营验证平台儿童保护功能落地情况，最终形成风险画像。对未按时提交或提交内容不符合要求的PSE，Komdigi呼吁尽快补交，拒不配合者将依法制裁（警告信→临时封禁→永久封禁）。此为PP Tunas进入实质执法阶段的重要标志，在印尼有用户的社交/内容平台须确认是否已提交自评。此前ID-019已记录截止日催促，本条目记录截止日后的实际进展。",
+      source: "Bisnis.com / ANTARA / iNews.id / Komdigi",
+      sourceUrl: "https://teknologi.bisnis.com/read/20260609/101/1979460/patuhi-pp-tunas-19-pse-besar-serahkan-penilaian-mandiri-ke-komdigi",
+      impact: "高",
+      tags: ["PP Tunas", "Komdigi", "6月6日截止", "19家PSE", "68项PLF", "核查团队", "风险画像", "永久封禁", "Netflix", "PUBG", "Instagram", "YouTube", "6月9日"]
+    },
+    {
+      id: "VN-008",
+      title: "越南第174号法令细则公布：社交媒体分享新闻文章最高罚3000万越南盾，传播假新闻最高罚5000万，7月1日生效",
+      date: "2026-06-04",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "法令公布",
+      summary: "越南政府于2026年5月公布第174/2026/ND-CP号法令（Decree 174/2026/ND-CP），修订邮政、电信、无线电频率、信息技术及网络空间领域的行政处罚规定，将于2026年7月1日正式生效。核心条款（与社交/内容平台直接相关）：(1)分享新闻文章处罚——在社交媒体上分享/提供未经授权的新闻文章、文学作品或其他媒体内容，个人最高罚款3000万越南盾（约1150美元），组织最高罚款5000万越南盾（约1920美元）；(2)传播假新闻处罚——提供或分享虚假/误导性信息，最高罚款5000万越南盾；(3)披露国家机密——最高罚款5000万越南盾；(4)适用对象——所有在越南运营的社交媒体平台用户及平台本身。政府明确表示「并非所有分享文章的行为都受处罚」，仅针对滥用社交媒体服务实施违法行为的情况。此为越南新《网络安全法》（2026年7月1日生效）配套行政处罚细则，与VN-006（第57号指示强制身份验证）形成组合拳。在越南有用户的平台须告知用户内容分享法律风险，并建立内容审核机制。",
+      source: "Vietnam.vn / luatvietnam.vn / SGGP / Biometric Update",
+      sourceUrl: "https://luatvietnam.vn/legal-updates/unlawful-sharing-of-press-works-to-be-fined-up-to-vnd-30-million-892-109454-article.html",
+      impact: "高",
+      tags: ["越南", "第174号法令", "Decree 174", "社交媒体罚款", "3000万越南盾", "5000万越南盾", "假新闻", "7月1日", "分享文章", "行政处罚"]
+    },
+    {
+      id: "BR-001",
+      title: "巴西《数字ECA法》（儿童与青少年网上保护监管框架）全面实施：16岁以下账户须关联责任成年人，渐进式年龄验证，平台须落实默认隐私设置",
+      date: "2026-06-05",
+      country: "巴西",
+      countryCode: "BR",
+      category: "法律法规",
+      type: "法律实施",
+      summary: "巴西《数字ECA法》（Lei Digital ECA，对应Bill 2628/2022）于2026年3月正式确立为全国性法律框架，2026年6月进入全面落地实施阶段。核心条款：(1)年龄验证——平台须渐进式实施稳健的年龄验证系统，取代仅依赖用户自声明机制；(2)16岁以下账户关联——社交媒体平台上16岁以下用户的账户须关联一名责任成年人（responsible adult）；(3)默认隐私设置——为未成年用户强制启用默认隐私设置；(4)家长监督工具——平台须提供家长控制、使用时间管理等功能；(5)有害内容限制——限制有害内容推送及基于个人资料的定向广告；(6)算法推荐限制——不得对未成年人进行基于个人资料的定向广告投放。适用平台：社交媒体、在线视频游戏及其他数字服务平台。此系巴西自2025年9月总统Lula签署儿童在线安全法以来，首个全面实施的监管框架，对拉美地区（含巴西有用户的社交平台）构成直接合规义务。Litmatch如在巴西有用户，须评估是否须实施年龄验证及家长关联机制。",
+      source: "Planalto / Global Policy Watch / Courthouse News / Baker McKenzie",
+      sourceUrl: "https://www.gov.br/planalto/en/latest-news/2026/03/brazil-establishes-regulatory-framework-to-protect-children-and-adolescents-online",
+      impact: "高",
+      tags: ["巴西", "数字ECA", "Bill 2628/2022", "Lula", "16岁以下", "责任成年人", "年龄验证", "默认隐私", "家长监督", "定向广告限制", "拉美"]
     }
   ];
 
