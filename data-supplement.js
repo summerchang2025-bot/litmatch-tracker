@@ -1760,6 +1760,50 @@
       sourceUrl: "https://www.gov.br/planalto/en/latest-news/2026/03/brazil-establishes-regulatory-framework-to-protect-children-and-adolescents-online",
       impact: "高",
       tags: ["巴西", "数字ECA", "Bill 2628/2022", "Lula", "16岁以下", "责任成年人", "年龄验证", "默认隐私", "家长监督", "定向广告限制", "拉美"]
+    },
+
+    // ===== 2026年6月18日更新 — 新增3条情报 =====
+    {
+      id: "PH-017",
+      title: "菲律宾DICT力推数字安全法Q3通过：16岁年龄门槛、强制本地实体办公+菲律宾籍内容审核员、虚假信息加速响应",
+      date: "2026-06-17",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "政府政策",
+      type: "立法推进",
+      summary: "菲律宾信息与通信技术部（DICT）部长Henry Aguda于2026年6月17日在Digital Bayanihan Congress上宣布，希望国会在2026年第三季度通过一部综合性数字安全法，目标是在年底（圣诞节前）让法律生效。核心条款：(1)最低年龄——社交媒体最低使用年龄设为16岁，保护青少年免受数字世界复杂风险侵害；(2)本地化运营——要求平台在菲律宾设立实体公司办公场所（physical corporate offices），雇佣菲律宾本地内容审核员（local Filipino moderators），保持与政府机构的直接沟通渠道（direct lines of communication）；(3)虚假信息加速响应——要求平台建立高效追责通道，在数字时代'时机就是一切'，当前平台（如YouTube被点名）对深度伪造、金融诈骗、虚假信息的响应被形容为'冰川般的速度'；(4)数字安全教育——提倡用户每年观看简短数字安全课程才能访问平台。Aguda强调政府不寻求封禁平台或充当'数字审查官'，而是追求'务实的适度监管'（pragmatic moderation），从自愿合作模式（'往好里说是不一致的'）转向法定责任。此前PH-016记录众议院全票通过HB 9461儿童在线安全法（6月3日），本条记录全新综合性社交媒体监管立法推进，标志着菲律宾对全球科技平台的监管从被动呼吁转向主动立法。",
+      source: "BusinessMirror / Bilyonaryo / Context.ph / MSN Philippines",
+      sourceUrl: "https://businessmirror.com.ph/2026/06/17/dict-hopes-for-enactment-of-digital-safety-law-by-3q/",
+      impact: "高",
+      tags: ["DICT", "Henry Aguda", "16岁门槛", "本地办公", "菲律宾审核员", "虚假信息加速响应", "Q3 2026", "务实监管", "YouTube"]
+    },
+    {
+      id: "KR-001",
+      title: "韩国KCC发布大型平台执法令规则草案：百万DAU门槛，10亿韩元重复违规罚款，透明度中心+事实核查标准",
+      date: "2026-05-13",
+      country: "韩国",
+      countryCode: "KR",
+      category: "法律法规",
+      type: "执法令提案",
+      summary: "韩国广播通信委员会（KCC）于2026年5月13日根据修订后的《信息通信网络法》发布执法令（enforcement decree）规则草案，5月27日征集公众意见截止。这是韩国首次针对大型在线平台制定系统性监管细则：(1)适用门槛——过去三个月日均用户数达100万以上的社交网络服务、在线社区、视频分享服务、电商平台、搜索服务；(2)核心义务——处理非法信息和虚假/被操纵信息，规范举报程序，发布透明度报告（含具体发布方式），制定事实核查机构认证标准；(3)透明度中心——设立新的透明度中心明确其角色和运作方式；(4)处罚——对已被最终判决确认为非法或虚假信息的重复传播行为，可处最高10亿韩元（约67万美元/52万港元）罚款。此前修订后的《网络法》修正案将于2026年7月生效，此执法令为其实施细则。韩国由此成为亚太地区对大型数字平台实施专项监管的先行者之一，对在韩有用户的社交/内容平台有重大合规影响。",
+      source: "MLex / KCC / CCIA",
+      sourceUrl: "https://www.mlex.com/mlex/articles/2476955/south-korea-proposes-decree-rules-for-large-platforms-under-revised-law",
+      impact: "高",
+      tags: ["韩国", "KCC", "信息通信网络法", "百万DAU", "10亿韩元", "透明度中心", "事实核查", "虚假信息", "2026年7月", "大型平台"]
+    },
+    {
+      id: "AS-001",
+      title: "Apple App Store审核指南6月更新：低质量/低投入App可被下架，饱和类别清理力度升级",
+      date: "2026-06-09",
+      country: "全球",
+      countryCode: "AS",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Apple于2026年6月9日更新App Store审核指南（App Review Guidelines），同步更新Developer Program License Agreement。主要变更集中在第4.3条（垃圾应用/Spam规则）：此前已禁止在饱和类别中提交过于简单的应用，本次新增语言明确指出——低投入/低质量的应用（low-effort/low-quality apps）在过饱和类别中，如果未进行更新、改进或无法吸引用户，可能被从App Store主动下架。这意味着Apple不仅阻止新低质应用上架，还开始清理已上架的存量低质应用。该条款对工具类、社交类、游戏类等竞争激烈的品类有直接影响。此外，Apple还在3月阻止了'Vibe Coding'应用（如Replit、Vibecode）发布更新，持续收紧审核标准。开发者须确保应用保持持续更新和用户活跃度。",
+      source: "Apple Developer / MacRumors / ConductAtlas",
+      sourceUrl: "https://developer.apple.com/news/?id=a233fmpw",
+      impact: "中",
+      tags: ["Apple", "App Store", "审核指南", "Section 4.3", "Spam", "低质量", "饱和类别", "应用下架", "Vibe Coding", "6月9日"]
     }
   ];
 
