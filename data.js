@@ -148,6 +148,17 @@ const COMPLIANCE_DATA = {
           url: "https://www.vietnam.vn/en/ra-mat-sach-trang-thue-2026",
           tags: ["税收白皮书", "税务现代化", "财政部", "数字化转型", "税收征管", "2026-2030"],
           verified: true
+        },
+        {
+          id: "vn-13",
+          type: "regulation",
+          date: "2026-05-22",
+          title: "越南颁布第174/2026/ND-CP号法令：社交媒体违规罚款最高5000万越南盾",
+          description: "越南政府颁布第174/2026/ND-CP号法令，大幅提高社交媒体违规罚款金额。传播虚假信息最高罚款5000万越南盾（约1960美元）；未经授权分享新闻/文学/艺术作品最高罚款3000万越南盾（约1180美元）。该法令涵盖社交网络、约会应用、直播平台等所有数字平台，将于2026年7月1日起生效。",
+          source: "SGGP / Vietnamnet / LICAS News",
+          url: "https://en.sggp.org.vn/vietnam-to-hike-fines-for-social-media-violations-under-new-decree-post126480.html",
+          tags: ["174号令", "虚假信息", "罚款", "加密货币", "7月生效"],
+          verified: true
         }
       ]
     },
@@ -243,6 +254,28 @@ const COMPLIANCE_DATA = {
           source: "泰国NBTC / Developing Telecoms",
           url: "https://developingtelecoms.com",
           tags: ["NBTC", "OTT", "总体规划", "平台监管", "竞争环境"],
+          verified: true
+        },
+        {
+          id: "th-9",
+          type: "policy",
+          date: "2026-06-09",
+          title: "泰国NBTC发布第三版广播电视总体规划(2026-2030)草案：扩大OTT监管",
+          description: "泰国国家广播电信委员会(NBTC)发布《第三版广播电视总体规划(2026-2030)》草案并启动公开征求意见。草案核心方向：①扩大OTT/流媒体平台监管范围；②加强虚假信息与有害内容治理机制；③促进本土数字平台竞争力；④为2029年数字电视牌照到期制定路线图。律所分析指出该草案虽不直接创设法律义务，但清晰表明NBTC逐步将在线平台纳入监管框架的政策方向。",
+          source: "NBTC / The Legal Co. / Lexology",
+          url: "https://thelegal.co.th/2026/06/09/nbtcs-third-broadcasting-and-television-master-plan-2026-2030-expanded-oversight-of-ott-platforms-and-the-future-of-digital-broadcasting/",
+          tags: ["NBTC", "总体规划", "OTT监管", "虚假信息", "数字平台"],
+          verified: true
+        },
+        {
+          id: "th-10",
+          type: "policy",
+          date: "2026-06-21",
+          title: "泰国传统广播模式崩塌：奈飞/YouTube/TikTok侵蚀市场份额",
+          description: "Thai Examiner报道，泰国传统广播电视行业面临严重衰退，Netflix、YouTube、TikTok等国际数字服务持续侵蚀观众和广告收入。数字电视牌照即将于2029年到期，行业可持续性受到质疑。报道指出泰国现有的广播监管框架难以有效覆盖OTT/流媒体平台，监管改革势在必行。",
+          source: "Thai Examiner",
+          url: "https://www.thaiexaminer.com/thai-news-foreigners/2026/06/21/thailands-media-firmament-faces-a-slow-collapse-as-international-digital-services-eat-up-market-share/",
+          tags: ["OTT", "广播", "Netflix", "YouTube", "TikTok", "市场份额"],
           verified: true
         }
       ]
@@ -610,6 +643,17 @@ const COMPLIANCE_DATA = {
           url: "https://law.asia",
           tags: ["互联菲律宾法", "数据传输", "NTC", "DTIP", "外资持股"],
           verified: true
+        },
+        {
+          id: "ph-11",
+          type: "policy",
+          date: "2026-06-17",
+          title: "菲律宾DICT力推数字安全法Q3通过，拟设社交媒体年龄限制",
+          description: "菲律宾信息和通信技术部(DICT)表示希望在2026年第三季度推动国会通过数字安全法。DICT提出设立社交媒体最低年龄限制、强化平台内容审核义务、建立透明的举报响应机制等核心条款。DICT副部长Jeffrey Ian Dy称计划在圣诞节前让法律生效，多个参议员表示支持加速立法进程。",
+          source: "DICT / context.ph / BusinessMirror",
+          url: "https://context.ph/2026/06/17/dict-targets-digital-safety-law-by-q3-2026-proposes-age-limit-stricter-platform-rules/",
+          tags: ["数字安全法", "DICT", "年龄限制", "平台义务", "立法加速"],
+          verified: true
         }
       ]
     },
@@ -772,6 +816,17 @@ const COMPLIANCE_DATA = {
           url: "https://www.icisleri.gov.tr",
           tags: ["身份证号登录", "e-Devlet", "社媒封锁", "TikTok", "Google"],
           verified: true
+        },
+        {
+          id: "tr-15",
+          type: "enforcement",
+          date: "2026-06-23",
+          title: "土耳其BTK封锁多个LGBTI+团体社交媒体账户",
+          description: "土耳其信息技术与通信管理局(BTK)对X平台(Twitter)上多个LGBTI+权益团体的账户实施全国访问限制。X平台已通知受影响组织，但未公开解释具体封锁依据。此举发生在土耳其通过5651号法修正案（禁止15岁以下儿童使用社交媒体）后，显示BTK在数字内容管控方面持续收紧。",
+          source: "BTK / bianet.org",
+          url: "https://bianet.org/haber/turkey-bans-access-to-lgbti-groups-social-media-accounts-320783",
+          tags: ["BTK", "访问限制", "X平台", "LGBTI+", "5651号法"],
+          verified: true
         }
       ]
     },
@@ -922,6 +977,17 @@ const COMPLIANCE_DATA = {
           source: "CallSphere.ai / TDRA",
           url: "https://callsphere.ai/blog/vw9d-ai-voice-uae-tdra-2026",
           tags: ["TDRA", "出站呼叫", "AI披露", "营销电话", "罚款"],
+          verified: true
+        },
+        {
+          id: "ae-14",
+          type: "regulation",
+          date: "2026-06-18",
+          title: "阿联酋设定社交媒体最低使用年龄15岁，强制年龄验证",
+          description: "阿联酋内阁通过决议，禁止15岁以下儿童创建、使用或运营个人社交媒体账户，包括发布内容、评论、分享和加入公共群组。15-16岁用户须启用强化保护措施（适龄内容控制、陌生用户互动限制、屏幕时间管理、家长监督）。平台须实施数字身份+AI年龄验证，不接受自我声明。12个月内完成合规。成为首个引入社交媒体最低年龄限制的阿拉伯国家。",
+          source: "UAE Cabinet / Reuters / Al Tamimi & Co",
+          url: "https://www.tamimi.com/law_update_articles/too-young-to-scroll-uae-bans-social-media-for-under-15s/",
+          tags: ["社交媒体", "年龄限制", "15岁", "年龄验证", "数字身份", "AI"],
           verified: true
         }
       ]
@@ -1343,6 +1409,17 @@ const COMPLIANCE_DATA = {
           url: "https://www.drewnetworkasia.com",
           tags: ["PDPA修订", "DPO", "数据泄露通报", "罚款上限", "个人资料保护"],
           verified: true
+        },
+        {
+          id: "sg-9",
+          type: "policy",
+          date: "2026-06-23",
+          title: "新加坡在线安全委员会(OSC)6月29日启动：Baker McKenzie发布合规分析",
+          description: "Baker McKenzie发布深度合规分析，重点解读6月29日即将启动的新加坡在线安全委员会(OSC)及《在线安全（救济与问责）法》(OSRAA)。OSC由首任专员Francis Ng领导，覆盖13类在线危害（包括网络欺凌、虚假信息、性骚扰等），有权向平台发出删除/屏蔽指令、要求披露用户身份信息、对不配合平台处以罚款。平台须配合OSC调查并在规定时限内响应。",
+          source: "Baker McKenzie / MLaw Singapore",
+          url: "https://www.bakermckenzie.com/en/insight/publications/2026/06/singapore-new-online-safety-commission-launches-on-29-june-2026",
+          tags: ["OSC", "OSRAA", "在线安全", "平台责任", "Baker McKenzie"],
+          verified: true
         }
       ]
     },
@@ -1670,8 +1747,8 @@ const COMPLIANCE_DATA = {
   ],
 
   // 更新日志
-  lastUpdated: "2026-06-18",
-  version: "1.5.0",
+  lastUpdated: "2026-06-25",
+  version: "1.6.0",
   source: "Litmatch合规信息跟踪站"
 };
 
