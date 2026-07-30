@@ -1820,6 +1820,276 @@
       sourceUrl: "https://complyadvantage.com/insights/fatf-plenary-june-2026-outcomes/",
       impact: "高",
       tags: ["FATF", "6月全体会议", "灰名单", "伊拉克", "波黑", "恐怖融资", "社交平台", "DeFi", "Travel Rule", "英国主席国", "诈骗园区", "2026年6月"]
+    },
+
+    // ===== 2026年7月30日更新 — 新增19条情报 =====
+
+    // --- 东南亚 ---
+    {
+      id: "SG-012",
+      title: "新加坡MDDI部长Josephine Teo：不保护儿童的社交平台可能被禁止18岁以下用户访问",
+      date: "2026-07-17",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "政府政策",
+      type: "政策宣示",
+      summary: "新加坡数字发展与信息部(MDDI)部长Josephine Teo于2026年7月17日在儿童在线安全论坛上发表关键政策声明：积极落实儿童保护措施的社交平台将继续对18岁以下用户开放，但不愿或无法达标者可能被全面禁止18岁以下用户访问。Teo表示新加坡正在研究限制社交平台特定功能（如自动播放autoplay、私信direct messaging），并在5月已将年龄保证要求从应用商店扩展至社交媒体平台。自2026年3月起，Apple/Google/华为/三星/微软应用商店须阻止18岁以下用户下载不适龄应用，12岁以下禁止下载Instagram/TikTok。新加坡采取'逐平台差异化'（differentiated landscape）策略而非全面禁令，与澳大利亚/英国/马来西亚的全面禁令形成对比。此声明标志着新加坡从被动内容审核转向主动平台准入管控，对Litmatch等面向年轻用户的社交平台有直接信号意义。",
+      source: "BusyKidd / MDDI / Gov.sg",
+      sourceUrl: "https://busykidd.com/parenting/social-media",
+      impact: "高",
+      tags: ["Josephine Teo", "MDDI", "18岁以下", "平台封锁", "自动播放", "私信限制", "差异化策略", "7月17日"]
+    },
+    {
+      id: "TH-010",
+      title: "泰国MDES发布紧急法院删除机制通知：扩大可删除内容至14类，涵盖网赌/电子烟/酒精/代孕/高利贷广告",
+      date: "2026-07-17",
+      country: "泰国",
+      countryCode: "TH",
+      category: "法律法规",
+      type: "通知生效",
+      summary: "泰国数字经济与社会部(MDES)于2026年7月17日在皇家公报发布通知，次日（7月18日）生效，依《计算机犯罪法》(CCA)第20条第5款建立加速法院删除机制。定义'紧急必要'情况涵盖4大类内容：(1)CCA罪行；(2)国家安全罪行；(3)知识产权及其他刑事罪行；(4)违背公共秩序或善良风俗的14个子类别——包括诽谤/嘲讽君主制、网赌广告、非法枪支销售、水烟/电子烟销售、大麻花序/加工品销售、招揽卖淫、煽动暴力仇恨/社会分裂、未经授权海外就业广告、煮卡痛叶汁销售、在线酒类广告、嘲讽/贬低佛教、超法定利率放贷、代孕服务广告、伪造文件/证件。操作流程：MDES常务秘书授权官员直接向法院提交请愿书和证据请求删除令。背景：泰国非法URL从数万飙升至数百万，2025年10月至2026年7月13日已封堵883,012个非法URL（网赌超60万条），新机制旨在实现'小时内'而非'数天'的响应速度。对在泰运营的社交/内容平台构成重大合规升级——14个新增子类别远超传统网络犯罪范围，涵盖多种消费品和服务广告审查义务。",
+      source: "Tilleke & Gibbins / KAP / The Star / MDES",
+      sourceUrl: "https://www.tilleke.com/insights/thailand-introduces-expedited-takedown-rules-for-online-content",
+      impact: "高",
+      tags: ["MDES", "计算机犯罪法", "紧急删除", "14个子类别", "皇家公报", "7月18日", "网赌", "电子烟", "代孕", "高利贷", "在线酒类", "��主制"]
+    },
+    {
+      id: "TH-011",
+      title: "泰国DE部推动《数字平台经济法》草案：年收入超180万铢须披露来源，平台须24小时内处理投诉",
+      date: "2026-07-18",
+      country: "泰国",
+      countryCode: "TH",
+      category: "法律法规",
+      type: "立法推进",
+      summary: "泰国数字经济与社会部(DE)副部长Bunthida Somchai于2026年7月18日主持会议，与电子交易发展局(ETDA)讨论《数字平台经济法》(Digital Platform Economy Act)草案。核心条款：(1)强制注册——数字平台（含社交媒体和网约车Ride Sharing）须注册业务信息；(2)收入披露——年收入超180万泰铢（约5万美元）的平台须披露收入来源，特别是在泰国产生的收入；(3)共同责任——平台如接纳欺诈用户的服务提供者，可能承担连带责任；(4)消费者保护——平台须向用户披露服务风险、确保在线卖家仅销售合法商品、24小时内处理投诉；(5)税收——ETDA已获授权与财政部税务局讨论税收比例和基准。时间表：草案将先送国务委员会和内阁审议，预计2026年9月前后进入众议院。此为泰国迄今最全面的数字平台专项立法，填补了此前仅依靠ETDA 2022年数字平台服务皇家法令的监管空白，对在泰运营的跨境社交平台构成系统性合规要求。",
+      source: "Matichon / Thailand Edition / DE Ministry",
+      sourceUrl: "https://thailandedition.com/i/de-pushes-online-platform-law-registration-revenue-00a36a5ae827403bba0acf61",
+      impact: "高",
+      tags: ["DE部", "数字平台经济法", "ETDA", "180万铢", "��入披露", "24小时投诉", "共同责任", "Bunthida Somchai", "2026年9月"]
+    },
+    {
+      id: "ID-021",
+      title: "印尼PP Tunas执法进展：195项PLF自评已提交，16,000平台未注册自动列为高风险，Meta累计封禁18.5万未成年账户",
+      date: "2026-07-05",
+      country: "印度尼西亚",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "合规进展",
+      summary: "印尼通信与数字部(Komdigi)截至2026年7月5日通报PP Tunas执法进展：(1)195项产品/服务/功能(PLF)来自69家PSE已提交自评报告，较6月9日的68项PLF/19家PSE大幅增长;(2)仍有约16,000家平台未注册，将被自动列为高风险(High-Risk)平台;(3)Meta已累计封禁约185,000个16岁以下用户账户;(4)Komdigi警告3/5儿童伪造年龄绕过限制，敦促平台升级年龄验证系统（AI算法追踪异常使用模式），但须遵守数据保护法规;(5)Wamen Nezar Patria强调PP Tunas不取代家长角色，要求家长积极陪同儿童使用技术。本条目记录PP Tunas从截止日后进展到实质执法的过渡阶段——195项自评覆盖娱乐/游戏/电商/社交媒体等多元类别，监管部门正逐项核查并建立风险画像。对在印尼有用户的平台而言，未注册即自动高风险的政策构成迫切的合规压力。",
+      source: "Koran Manado / Komdigi / GovInsider Asia / RCTI+",
+      sourceUrl: "https://www.koranmanado.co.id/komdigi-catat-evaluasi-risiko-platform-digital",
+      impact: "高",
+      tags: ["PP Tunas", "Komdigi", "195 PLF", "69 PSE", "16,000未注册", "自动高风险", "Meta封禁18.5万", "伪造年龄", "7月5日", "Nezar Patria"]
+    },
+    {
+      id: "PH-018",
+      title: "菲律宾总统签署第119号行政令：建立四级政府数据分类与本地化驻留框架，数字主权正式制度化",
+      date: "2026-07-13",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "法律法规",
+      type: "行政令",
+      summary: "菲律宾总统Ferdinand R. Marcos Jr.于2026年7月13日签署第119号行政令(Executive Order No. 119)，彻底改革菲律宾政府数据分类与驻留制度。核心条款：(1)四级分类——Top Secret（国家核心秘密，须存于菲境内或主权管辖范围）、Secret、Confidential、Restricted/Open Access（可存于全球加密云平台）；(2)适用范围——涵盖所有政府机构、国有大学及政府公司控制的数字/混合形式数据，包括由私营承包商管理或存储的政府数据；(3)中央登记册——DICT维护统一分类数据库，杜绝任意加密；(4)联合监督委员会——DICT与国家安委会共同主持，120天内发布实施指南；(5)三年分阶段实施——第1年能力建设/数据盘点，第2年Top Secret/Secret 100%合规，第3年全部数据合规；(6)违规处罚——公职人员不合规将面临行政纪律处分。此为菲律宾数字治理的里程碑，将1964年过时框架更新至现代云计算时代，对在菲律宾运营且接触政府数据的数字平台有间接合规影响。",
+      source: "Inquirer Technology / Malacañang / DICT",
+      sourceUrl: "https://technology.inquirer.net/147931/seven-reasons-why-executive-order-no-119-matters-for-our-digital-future",
+      impact: "中",
+      tags: ["EO 119", "Marcos Jr.", "数据分类", "Top Secret", "数据驻留", "DICT", "NSC", "数字主权", "7月13日", "三年实施"]
+    },
+    {
+      id: "PH-019",
+      title: "菲律宾众议院通过《数字媒体反虚假信息法》，议长Dy推动数字素养入必修课，85%成年人上网、72%视虚假信息为国家重大关切",
+      date: "2026-07-27",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "法律法规",
+      type: "立法通过",
+      summary: "菲律宾众议长Faustino 'Bojie' Dy III于2026年7月27日第20届国会第二常会开幕演讲中宣布，众议院已通过《数字媒体反虚假信息法》(Digital Media Anti-False Information Act)和《2026年儿童在线安全与保护法》(Child Online Safety and Protection Act of 2026)。同时推进HB 9965（儿童社交媒体安全法）：13岁以下禁止社交账号，13-18岁须可验证的家长同意+持续监管，强制数字素养纳入K-12课程。民调显示：85%菲律宾成年人使用互联网（每日多次），72%视虚假信息为国家重大关切，41%倾向仅因广泛传播而相信信息。Dy强调'最大的危险不仅是青少年在社交媒体上看到什么，更是算法反复选择向他们展示什么'。配合此前PH-017的DICT Q3数字安全法推动及PH-016的HB 9461，菲律宾正形成多线并进的数字安全立法矩阵。",
+      source: "SunStar / Philippines News Digest / PNA / Pulse Asia",
+      sourceUrl: "https://www.sunstar.com.ph/manila/dy-pushes-tougher-measures-vs-online-disinformation",
+      impact: "高",
+      tags: ["反虚假信息法", "��童在线安全法", "HB 9965", "13岁禁令", "数字素养", "Dy", "85%网民", "72%虚假信息关切", "7月27日"]
+    },
+
+    // --- 香港 ---
+    {
+      id: "HK-010",
+      title: "香港创科局明确现阶段不立法禁止青少年使用社交媒体，跨部门咨询小组年内发布屏幕健康建议",
+      date: "2026-07-15",
+      country: "中国香港",
+      countryCode: "HK",
+      category: "政府政策",
+      type: "政策声明",
+      summary: "香港创新科技及工业局局长孙东于2026年7月15日在立法会答问中明确表示，香港特区政府现阶段无计划就禁止青少年使用社交媒体平台立法。核心理由：(1)须社会深入讨论并形成清晰共识;(2)实际操作挑战——准确识别用户年龄、跨平台跨境执法可行性、是否过度限制平台进入香港市场从而影响本地创科生态;(3)特区政府对向社交平台提出指引以减少不良内容持开放态度。政府同时通报：(a)部分平台已在港推出AI年龄侦测和内容过滤功能;(b)教育局通过《香港学生资讯素养》学习架构培养中小学生网络安全意识;(c)跨部门'使用电子屏幕及社交媒体对儿童及青少年健康影响咨询小组'（2025年10月成立，含卫生署/教育局/社署/数字政策办公室/学者/NGO）将于2026年内发布更新健康建议;(d)电影报刊办持续巡查网上淫亵不雅内容。此为香港在澳洲/英国/马来西亚等相继实施青少年社交禁令背景下首次明确表态，显示香港采取'指引+教育+健康建议'的软性路径而非立法禁令。",
+      source: "创新科技及工业局 / OpenGov Asia / 点新闻",
+      sourceUrl: "https://www.itib.gov.hk/zh-hk/legislative_council_business/questions/2026/pr_20260715b.html",
+      impact: "中",
+      tags: ["香港", "孙东", "不立法", "青少年社交", "咨询小组", "屏幕健康", "AI侦测", "资讯素养", "7月15日"]
+    },
+
+    // --- 土耳其 ---
+    {
+      id: "TR-016",
+      title: "土耳其根据互联网法第8/A条大规模封锁146个反对派记者和人权组织社交媒体账户",
+      date: "2026-06-26",
+      country: "土耳其",
+      countryCode: "TR",
+      category: "执法行动",
+      type: "大规模封禁",
+      summary: "土耳其安卡拉第4治安刑事法院于2026年6月26日批准大规模访问禁令，封锁146个反对派记者和人权组织的社交媒体账户（主要涉及X平台），由信息通信技术管理局(BTK)根据警方总局请求于6月25日先行实施临时封锁。被封锁的包括：斯德哥尔摩自由中心(SCF)、国际记者协会(IJA)、记者与作家基金会(JWF)等国际组织，记者Adem Yavuz Arslan/Sevinç Özarslan/Said Sefa等个人账户，KHK TV YouTube频道（报道紧急法令解雇人员故事），以及布鲁塞尔人权中心、跨境法学家、欧洲司法倡议等欧洲人权组织。法院四页裁决未指明具体帖子或提供个别理由，统一援引互联网法第8/A条'国家安全和公共秩序'集体批准。此次行动恰逢7月15日十周年前夕，被国际观察组织视为在线审查升级。此前Freedom House 2025年网络自由报告将土耳其评为72个国家中互联网自由长期衰退最严重的五国之一（得分31/100），并将土耳其排在最低类别。",
+      source: "International Journalists Association / Stockholm Center for Freedom / CPJ",
+      sourceUrl: "https://internationaljournalists.org/turkey-blocks-access-to-146-social-media-accounts-belonging-to-opposition-journalists-and-human-rights-organizations/",
+      impact: "高",
+      tags: ["土耳其", "第8/A条", "146账户", "BTK", "安卡拉法院", "国家安全", "记者", "人权组织", "6月26日", "Freedom House"]
+    },
+    {
+      id: "TR-017",
+      title: "土耳其封锁监禁中伊斯坦布尔市长Imamoglu的YouTube频道（78.7万订阅）和竞选X账户（22.2万关注）",
+      date: "2026-07-16",
+      country: "土耳其",
+      countryCode: "TR",
+      category: "执法行动",
+      type: "政治封禁",
+      summary: "土耳其当局援引互联网法第8/A条，以'国家安全和公共秩序'为由下令封锁监禁中的伊斯坦布尔市长Ekrem Imamoglu（主要反对党CHP总统候选人）的YouTube频道（78.7万订阅者）和总统竞选办公室X账户（22.2万关注者）。截至7月16日，YouTube和X尚未在土耳其境内执行可见限制，但命令已发出。此前：(1)2025年4月24日伊斯坦布尔法院已封锁Imamoglu主X账户（970万关注）；(2)2025年5月国际受众账户被下令封锁；(3)2025年11月因竞选团队反复更改X账户handle而再发3道封锁令；(4)2026年3月12日又一替代账户被封锁。Imamoglu自2025年3月起被监禁，因腐败指控受审（其否认），被广泛视为Erdogan最强政治对手。其妻Dilek Kaya Imamoglu在X上称此举为'公开的沉默企图'。此系列封锁在土耳其今年4月通过《数字平台与游戏法》（禁止15岁以下社交/强制身份证验证/外资游戏平台须设本地代表/不合作最高罚款3000万里拉+带宽限流50%）的背景下尤为引人关注。",
+      source: "Stockholm Center for Freedom / EngelliWeb / VoidMob",
+      sourceUrl: "https://stockholmcf.org/turkey-moves-to-block-jailed-istanbul-mayors-youtube-channel-and-campaign-account",
+      impact: "高",
+      tags: ["土耳其", "Imamoglu", "第8/A条", "YouTube封锁", "X封锁", "78.7万订阅", "政治审查", "7月16日", "数字平台与游戏法"]
+    },
+
+    // --- 中东 ---
+    {
+      id: "AE-001",
+      title: "阿联酋内阁通过第106号决议：全球最严之一——15岁以下全面禁止社交媒体账号，强制政府ID级年龄验证，12个月合规期",
+      date: "2026-06-17",
+      country: "阿联酋",
+      countryCode: "AE",
+      category: "法律法规",
+      type: "内阁决议",
+      summary: "阿联酋内阁于2026年6月17日通过第106号决议，依据《儿童数字安全法》(Federal Decree-Law No. 26 of 2025，2026年1月1日生效)，成为首个实施社交媒体年龄禁令的阿拉伯国家。核心条款：(1)15岁以下——全面禁止创建/使用/操作社交媒体账号，家长同意不可豁免，禁止发帖/评论/分享/私信/加入公共群组;(2)15-16岁——允许使用但须强化保护：内容分级过滤、限制公开分享和未知用户互动、使用时间和夜间控制、家长控制、高风险功能（公开直播/密集算法推荐）限制;(3)年龄验证——自我声明无效，须数字政府ID、官方文件扫描+生物特征匹配、AI年龄估算或持证验证服务商，基于数据最小化原则;(4)广告限制——禁止基于追踪或行为画像的定向广告，禁止商业目的处理儿童数据;(5)检测义务——平台须主动检测并暂停现有未成年账户、防绕过机制、定期风险评估和报告;(6)监管——电信与数字政府监管局(TDRA)和新设国家媒体局联合执法，从警告至逐步封锁;(7)12个月过渡期——2027年6月前完成合规;(8)适用范围——所有在阿联酋运营或面向阿联酋用户的平台，明确域外效力。此为海湾地区最全面的儿童数字安全立法，对在阿联酋有用户的社交平台构成重大合规义务。",
+      source: "Baker McKenzie / The National / Muhami.ae / TDRA / Reuters",
+      sourceUrl: "https://www.bakermckenzie.com/en/insight/publications/2026/07/united-arab-emirates-legislation-issued-banning-under-15s-from-social-media",
+      impact: "高",
+      tags: ["阿联酋", "第106号决议", "15岁以下", "全面禁止", "年龄验证", "生物特征", "12个月过渡", "TDRA", "域外效力", "Baker McKenzie"]
+    },
+    {
+      id: "SA-001",
+      title: "沙特协商会议呼吁通信委(CST)对16岁以下用户实施社交媒体年龄验证和访问限制",
+      date: "2026-07-10",
+      country: "沙特阿拉伯",
+      countryCode: "SA",
+      category: "政府政策",
+      type: "立法建议",
+      summary: "沙特协商会议(Shoura Council)在审议通信、空间和技术委员会(CST)2025财年年度报告后，于最新会议中呼吁CST建立监管措施：对16岁以下用户实施社交媒体平台的年龄验证和访问限制。此举是沙特加强数字治理的更广泛努力的一部分。同期，沙特媒体监管总局(GAMR)6月援引《反网络犯罪法》将一名发表针对友邦不当言论的社交媒体用户移送公诉机关，媒体大臣Salman Al-Dosari强调攻击友邦领导人的行为越过了'红线'；5月内政部/公诉机关/GAMR联合警告煽动部落歧视/仇恨/破坏国家统一的行为构成网络犯罪。沙特正从传统的基于《反网络犯罪法》的事后追诉模式，逐步向预防性的年龄验证和平台监管框架过渡，对在沙特及海湾地区运营的社交平台有重要信号意义。",
+      source: "Gulf News / Asharq Al Awsat / Lexis Middle East / Okaz",
+      sourceUrl: "https://gulfnews.com/world/gulf/saudi/saudi-arabia-considers-stricter-social-media-rules-for-users-under-16-1.500595719",
+      impact: "中",
+      tags: ["沙特", "Shoura Council", "CST", "16岁以下", "年龄验证", "GAMR", "反网络犯罪法", "部落歧视"]
+    },
+    {
+      id: "EG-001",
+      title: "埃及提出社交媒体专属监管法案：须任命本地法律代表，删除匿名账户和16岁以下账户，单次违规最高罚10万美元",
+      date: "2026-04-15",
+      country: "埃及",
+      countryCode: "EG",
+      category: "法律法规",
+      type: "立法提案",
+      summary: "埃及国会议员Ahmed Badawi于2026年4月提交社交媒体监管法案，为MENA地区各国起草的DSA模式社交媒体法中最具代表性的案例。核心条款：(1)本地法律代表——平台须在6个月内在埃及任命法律代表；(2)内容管控——须遵守国家安全和网络犯罪法律，依行政当局通知删除违背公共道德或埃及文化传统的内容；(3)账户管理——删除使用化名的匿名账户及16岁以下用户账户；(4)处罚——不合作者面临通信部临时或永久封锁，单次最高罚款10万美元;(5)司法配合——须与司法机关合作。此法案是美国Access Now等组织重点批评的对象，指出MENA各国将欧盟DSA框架移植到缺乏独立监管/司法独立/公民空间保障的环境中，可能将权利保护工具异化为国家审查的精密工具。埃及政府同步推进《儿童社交媒体使用监管法》和《网络犯罪法修正案》（新增在线博彩/网络勒索/谣言条款），6月总理Madbouly指示加速起草，并将在2026年中期推出'儿童SIM卡'（内置安全互联网套餐/家长控制/年龄限制）。对在中东有用户的数字平台而言，埃及模式可能影响其他阿拉伯国家的立法取向。",
+      source: "Access Now / Ahram Online / Daily News Egypt / SIS Egypt",
+      sourceUrl: "https://www.accessnow.org/mena-social-media-censorship/",
+      impact: "高",
+      tags: ["埃及", "社交媒体法", "本地法律代表", "10万美元罚款", "16岁以下", "DSA模式", "Access Now", "MENA"]
+    },
+    {
+      id: "EG-002",
+      title: "埃及总理加速推动儿童数字保护立法：统一年龄分级、强制家长控制、设立高级别国家委员会",
+      date: "2026-06-23",
+      country: "埃及",
+      countryCode: "EG",
+      category: "政府政策",
+      type: "立法推进",
+      summary: "埃及总理Mostafa Madbouly于2026年6月23日在新行政首都主持召开高级别会议，执行总统El-Sisi指令，加速起草综合数字环境保护儿童立法。核心框架：(1)统一年龄分级制度;(2)强制家长控制;(3)对不合规平台实施'威慑性处罚'，罚款收入划拨教育和卫生部门;(4)数字平台须在埃及设立本地法律代表以承担违规责任;(5)'儿童SIM卡'计划——2026年6月30日前推出，内置安全互联网套餐/家长控制/基于年龄的社交媒体限制;(6)固定互联网控制机制——与电信运营商协调，通过终端设备实现内容分类和家长控制;(7)组建高级别国家委员会——涵盖卫生/社会团结/教育/通信/高教/最高媒体监管委员会/国家媒体局/国家儿童与母亲委员会/NTRA，制定统一国家监管框架;(8)立法参照——援引OECD儿童数字环境保护建议和ITU原则。国家儿童与母亲委员会报告大量涉及儿童电子勒索的投诉。此举措使埃及成为MENA地区加速儿童数字保护的先行者，但须与其更广泛的社交媒体管控法案配套理解。",
+      source: "Daily News Egypt / MENAFN / Cairo Governorate Portal / SIS Egypt",
+      sourceUrl: "https://menafn.com/1110684259/Egypt-Fast-Tracks-Legislation-To-Protect-Children-From-Harmful-Online-Content",
+      impact: "高",
+      tags: ["埃及", "Madbouly", "儿童数字保护", "年龄分级", "儿童SIM卡", "家长控制", "威慑性处罚", "6月30日", "OECD", "ITU"]
+    },
+
+    // --- 印度 ---
+    {
+      id: "IN-010",
+      title: "印度政府向议会通报在线安全措施：3小时内删除法院命令内容、2小时删除裸体/深度伪造内容、50个OTT平台已关闭",
+      date: "2026-07-22",
+      country: "印度",
+      countryCode: "IN",
+      category: "执法行动",
+      type: "议会通报",
+      summary: "印度电子与信息技术国务部长Jitin Prasada于2026年7月22日在人民院(Lok Sabha)就在线安全措施提交书面答复，部长Ashwini Vaishnaw同期通报。关键数据与措施：(1)内容删除时限——IT规则修订后，法院命令或政府机构合理告知的内容须3小时内删除；涉及裸体/暴露私处/深度伪造(morphed)图像的特定投诉须2小时内删除/禁止访问;(2)平台清理——过去两年已有50个OTT平台因展示淫秽内容被禁止在印度公众访问（违反IT法67/67A条等）;(3)CSAM调查——政府已注意到社交媒体平台涉嫌传播CSAM广告的报告，要求相关中介提交详细报告，国家儿童权利保护委员会(NCPCR)已向相关平台发出通知;(4)AI生成内容——IT规则修正案要求对许可的AI生成内容进行清晰标注和可追溯元数据，平台须部署自动化工具防止用户创建/修改/发布违法合成信息;(5)重要社交媒体中介(SSMI)——须主动部署技术手段识别强奸/儿童性虐待内容及与先前已删除内容完全相同的信息;(6)数字成瘾——2025-26经济调查将数字成瘾列为影响儿童认知发展/学业表现/心理健康的严重挑战，涵盖网络欺凌/强迫游戏/社交媒体/在线赌博。数据保护方面：DPDP法2023年要求处理儿童个人数据须经家长同意，禁止追踪/行为监控/定向广告，主要条款将于2027年5月13日施行。",
+      source: "PIB India / The Cyber Express / Drishti IAS",
+      sourceUrl: "https://pib.gov.in/PressReleasePage.aspx?PRID=2287646",
+      impact: "高",
+      tags: ["印度", "议会通报", "3小时删除", "2小时删除", "50个OTT关闭", "CSAM", "SSMI", "AI标注", "DPDP法", "数字成瘾", "7月22日"]
+    },
+
+    // --- 马来西亚 ---
+    {
+      id: "MY-010",
+      title: "马来西亚通信部长Fahmi：社交平台配合16岁以下禁令但请求更多时间，不合规最高罚1000万令吉",
+      date: "2026-07-21",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "执法行动",
+      type: "合规进展",
+      summary: "马来西亚通信部长Fahmi Fadzil于2026年7月21日在2026年国际监管会议(IRC 2026)后向媒体表示，社交平台正配合马来西亚6月1日生效的16岁以下社交媒体禁令，但已请求额外时间以完全合规(CPC儿童保护守则和RMC风险缓解守则)。Fahmi称'我们看到平台方面出现了良好的迹象，它们希望确保不会误解要求，这就是为什么它们请求再多一点时间。我们已经批准了'。关于宽限期长度，Fahmi表示将交由MCMC决定，讨论仍在进行中。他强调不合规将导致法院诉讼和高达1000万令吉(RM10 million)罚款或其他重大经济处罚。此更新表明：虽然6月1日截止日已过，但实际执法处于逐步推进阶段（存在6个月渐进验证期和1个月数据下载宽限期），平台与MCMC仍在就具体合规机制进行技术对话，年龄验证基础设施（MyKad/护照/MyDigital ID）正在部署中。Litmatch如在马来西亚有用户须持续关注CPC和RMC的最新实施指南。",
+      source: "New Straits Times / MCMC / Fahmi Fadzil",
+      sourceUrl: "https://www.nst.com.my/news/nation/2026/07/1493939/platforms-cooperate-seek-more-time-under-16-social-media-ban",
+      impact: "高",
+      tags: ["马来西亚", "Fahmi Fadzil", "16岁以下", "IRC 2026", "RM1000万", "MCMC", "CPC", "RMC", "7月21日"]
+    },
+
+    // --- 国际组织 ---
+    {
+      id: "INT-018",
+      title: "FATF发布DeFi专项报告：93%司法辖区未实施DeFi反洗钱标准，朝鲜4月单月盗取超5.7亿美元",
+      date: "2026-07-21",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "国际标准",
+      type: "专项报告",
+      summary: "FATF于2026年7月21日发布《去中心化金融(DeFi)监管挑战专项报告》。核心发现：(1)全球监管严重不足——143个受访司法辖区中93%(132个)未实施FATF标准于合格DeFi安排，仅2个司法辖区实际许可或注册了DeFi安排;(2)DeFi适用R.15标准——当自然人或法人对DeFi安排行使控制或足够影响力时（治理代币集中/管理特权/升级控制/重大经济利益/开发基础设施影响力）即落入虚拟资产标准范围;(3)犯罪滥用规模——仅2026年4月，两起归因于朝鲜(DPRK)的DeFi平台重大网络攻击即占全年虚拟资产黑客事件损失的约76%，合计超过5.7亿美元;(4)技术手法——链跳跃(chain-hopping)/跨链桥/去中心化交易所/混币器/治理操纵被广泛用于混层和混合非法资金;(5)典型案例——SafeMoon代币计划和Forsage案展示犯罪分子利用表面合法的DeFi平台欺诈投资者和挪用资金;(6)建议——风险为本方法（北美欧洲占全球DeFi交易60%+，中东非洲不足10%），金融机构和VASP与DeFi安排交互须遵守R.15/R.10/R.13义务，不达标应拒绝交互。FATF主席Giles Thomson呼吁'在支持负责任金融创新的同时阻止犯罪分子利用新兴技术洗钱'。此报告与FATF 7月16日第7次VA/VASP更新（83%司法辖区完成Travel Rule立法但仅40%实际执法）构成DeFi/虚拟资产监管的完整信号。",
+      source: "FATF / ComplyAdvantage / PANews",
+      sourceUrl: "https://www.fatf-gafi.org/content/fatf-gafi/en/news/targeted-report-decentralised-finance-2026.html",
+      impact: "高",
+      tags: ["FATF", "DeFi", "93%未实施", "朝鲜DPRK", "5.7亿美元", "R.15", "跨链桥", "混币器", "Smart Contract", "Giles Thomson", "7月21日"]
+    },
+    {
+      id: "INT-019",
+      title: "FATF第7次虚拟资产标准实施更新：83%已立Travel Rule法但执法不足，警示稳定币滥用/AI辅助诈骗/P2P非托管钱包风险",
+      date: "2026-07-16",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "国际标准",
+      type: "专项更新",
+      summary: "FATF于2026年7月16日发布第7次虚拟资产和VASP标准实施专项更新(7th Targeted Update)。核心数据：(1)Travel Rule立法——83%受访司法辖区(91/109)已立法，较2025年73%提升10个百分点，另有11个司法辖区正在推进;(2)执法瓶颈——仅有40%已立法的司法辖区实际开展了Travel Rule合规监管或执法行动;(3)VA/VASP风险评估——86%司法辖区完成风险评估，R.15'大致合规'比例升至34%;(4)新兴风险警示——有组织犯罪相关诈骗园区和大规模投资欺诈（'杀猪盘'数十亿美元级）、朝鲜(DPRK)相关网络盗窃和制裁规避、AI辅助诈骗（深度伪造/合成身份/AI招募）、稳定币被非法行为者滥用（含专为抗冻结/扣押设计的'私有稳定币'）、非托管钱包P2P交易、离岸VASP;(5)优先行动——加强风险为本监管与执法、完善Travel Rule实施、加强国际合作、应对稳定币/离岸VASP/非托管钱包/DeFi风险。此为FATF在6月全会（INT-017）和7月DeFi报告（INT-018）之间的关键更新，显示全球虚拟资产监管'立法快于执法'的普遍困境。",
+      source: "FATF / Comsure / PANews / SFC香港",
+      sourceUrl: "https://www.fatf-gafi.org/en/news/targeted-updated-va-vasps-2026.html",
+      impact: "高",
+      tags: ["FATF", "第7次更新", "Travel Rule", "83%立法", "40%执法", "稳定币滥用", "AI诈骗", "杀猪盘", "朝鲜DPRK", "P2P钱包", "7月16日"]
+    },
+
+    // --- 应用市场政策 ---
+    {
+      id: "GP-006",
+      title: "Google Play 7月15日重大政策更新：匿名/随机聊天应用纳入儿童安全标准、年龄限制、Families三大政策管控，8月26日生效",
+      date: "2026-07-15",
+      country: "应用市场",
+      countryCode: "GP",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Google Play于2026年7月15日宣布重大政策更新，将匿名聊天(anonymous chat)和随机聊天(random chat)应用纳入三大儿童保护政策管控范围，2026年8月26日生效：(1)年龄限制内容和功能政策(Age-Restricted Content and Functionality)——匿名/随机聊天应用须使用Play Console功能阻止未成年人访问;(2)Families政策要求——禁止匿名聊天应用开发者将儿童列为目标用户，应用不得出现在面向家庭的分发渠道;(3)儿童安全标准(Child Safety Standards/Child Endangerment)——应用须公开禁止CSAM政策、提供应用内举报入口、对确认违规内容采取处理措施、设置能接收Google Play通知的儿童安全联络人。适用定义：以随机连接陌生人即时交流为核心功能的应用，或以有意隐藏一方或多方身份匿名交流为核心功能的应用。仅附带聊天功能的游戏是否适用须结合聊天功能实际作用判断。同期其他更新：(a)9月30日起Play Console应用注册要求——开发者须在Play Console完成登记以满足Android开发者验证要求，99%+应用已自动注册，未注册者面临全球下架;(b)10月28日敏感权限和联系人权限政策更新。此次更新对Litmatch等以社交/聊天为核心功能的应用构成直接影响——须确保年龄限制机制、Families政策合规和儿童安全标准全部到位方可继续在Google Play分发。",
+      source: "Google Play Developer Policy Center / AuditSocials / Enjoy出海",
+      sourceUrl: "https://support.google.com/googleplay/android-developer/table/12921780",
+      impact: "高",
+      tags: ["Google Play", "匿名聊天", "随机聊天", "年龄限制", "Families政策", "儿童安全标准", "8月26日", "Play Console注册", "9月30日", "7月15日"]
     }
   ];
 
