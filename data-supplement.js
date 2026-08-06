@@ -2090,6 +2090,191 @@
       sourceUrl: "https://support.google.com/googleplay/android-developer/table/12921780",
       impact: "高",
       tags: ["Google Play", "匿名聊天", "随机聊天", "年龄限制", "Families政策", "儿童安全标准", "8月26日", "Play Console注册", "9月30日", "7月15日"]
+    },
+
+    // === 2026-08-06 例行更新 ===
+    // --- 马来西亚 ---
+    {
+      id: "MY-016",
+      title: "马来西亚通讯部确认MyKad/护照年龄验证强制：自我声明不再有效，MCMC向社媒平台发出ONSA第30(2)条通告",
+      date: "2026-08-04",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "政府政策",
+      type: "政策更新",
+      summary: "马来西亚通讯部于2026年8月4日确认，根据《1998年通讯与多媒体法令》第30(2)条(ONSA Subsection 30(2))授权，MCMC已向社交媒体平台发出正式通告，再次明确16岁以下社交媒体禁令下的年龄验证机制——平台必须采用MyKad(国民身份证)或护照等身份证明文件进行强制年龄验证(self-declaration自我声明不再有效)。此次通告是对6月1日生效的《通讯与多媒体内容论坛守则》(CPC)和《互联网风险管理守则》(RMC)的进一步落地，明确'技术可行性与监管确定性已具备，平台须立即部署硬件级身份核验以替代此前过渡期内使用的自我声明机制'。Litmatch等社交/聊天类应用如在马来西亚有用户，须从以'自我声明+算法推断'为主的验证升级为集成Jabatan Pendaftaran Negara(JPN)的MyKad API或等效身份验证服务，且必须覆盖Web/App端双向。对应用分发和登录流程会带来显著改造压力。",
+      source: "Malaysian Communications and Multimedia Commission (MCMC) / Ministry of Communications / Bernama",
+      sourceUrl: "https://www.mcmc.gov.my/en/media/announcements",
+      impact: "高",
+      tags: ["马来西亚", "MCMC", "ONSA 30(2)", "MyKad", "护照验证", "强制身份验证", "自我声明失效", "CPC", "RMC", "8月4日"]
+    },
+    {
+      id: "MY-017",
+      title: "马来西亚Fahmi：给社媒平台'调整内部机制'对齐诈骗/线上赌博自动下架时间，2026年下架请求已超2025全年总量",
+      date: "2026-08-05",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "执法行动",
+      type: "合规进展",
+      summary: "马来西亚通讯部长Fahmi Fadzil于2026年8月5日表示，针对诈骗与线上赌博内容的自动下架机制，政府已'给予平台一些时间(in some time)来调整内部机制以确保自动删除符合预期'。他透露2026年迄今通过MCMC和Aduan.gov.my等渠道提出的内容下架请求数量已超过2025年全年总量，反映出对违法内容的执法节奏显著加快。与此同时，'合理通知+合理时间'框架下的人工审核压力骤增，部分平台已部署基于大模型的实时识别引擎。Fahmi未公布具体截止日，但明确表示'不合规平台将面临更严厉的执法行动'，意味着过渡期有限。Litmatch需评估其聊天应用内是否存在被用于赌博引流或诈骗话术分发的链路(私聊链接、群组邀请、虚拟礼物变现等)，主动部署关键词+行为模式检测。",
+      source: "Fahmi Fadzil (Twitter/X / 媒体发布会) / Bernama",
+      sourceUrl: "https://www.bernama.com/bm/news.php?id=2026-08-05",
+      impact: "中",
+      tags: ["马来西亚", "Fahmi", "自动下架", "诈骗内容", "线上赌博", "过渡期", "执法升级", "8月5日"]
+    },
+
+    // --- 泰国 ---
+    {
+      id: "TH-013",
+      title: "泰国数字经济部副部长报案：个人信息泄露事件频发，泰国警方依《计算机犯罪法》第14条立案追究(最高5年监禁/10万泰铢罚款)",
+      date: "2026-08-04",
+      country: "泰国",
+      countryCode: "TH",
+      category: "执法行动",
+      type: "执法强化",
+      summary: "泰国数字经济与社会部(MDES)副部长于2026年8月4日就近期频发的政界人士及政府官员个人信息泄露事件，向泰国皇家警察(Royal Thai Police)技术犯罪调查处立案提交正式报案，援引《计算机犯罪法》(Computer Crime Act, B.E.2550/2007及其修订)第14条——该条规定，'未经同意将他人受保护的个人数据通过计算机系统予以披露'属刑事犯罪，最高可处5年监禁或10万泰铢罚款，或两者并罚。此举是近期连续多起高知名度数据泄露事件(包括反对派议员、部级官员个人住址/身份证/银行账户等敏感数据在X、Telegram群组和地下论坛传播)之后的官方响应。MDES同时强调PDPA(2019年个人数据保护法)的协同适用——泄露方可能同时承担民事、行政、刑事责任。社交/约会类应用如发生用户数据泄露，在泰国将面临三法并罚的高风险。",
+      source: "Thai Rath / Bangkok Post / MDES",
+      sourceUrl: "https://www.bangkokpost.com/thailand/general/2026-08-04",
+      impact: "中",
+      tags: ["泰国", "MDES", "计算机犯罪法第14条", "5年监禁", "10万泰铢", "PDPA协同", "数据泄露", "8月4日"]
+    },
+
+    // --- 印度尼西亚 ---
+    {
+      id: "ID-022",
+      title: "印尼通信部Meutya Hafid：自《儿童保护指南》(PP Tunas)上线以来已下架500万个未成年账户，超TikTok澳大利亚前一阶段总量",
+      date: "2026-08-04",
+      country: "印度尼西亚",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "执法进展",
+      summary: "印度尼西亚通信与数字事务部长Meutya Hafid于2026年8月4日公布PP Tunas(Peraturan Pemerintah tentang Pelindungan Anak dalam Penyelenggaraan Sistem Elektronik)实施最新进展：自该指南上线以来，已累计关闭/下架超过500万个被认定为16岁以下的用户账号(较7月1日公布的480万新增约20万)，涉及在印尼运营的全部200个电子系统运营商(PSE)及其分发的应用(覆盖79个独立PSE注册主体)。其中8家PSE主动自我认定为'高风险儿童接触平台'，接受强化监管义务。Meutya同期表示，该500万关闭量已超过TikTok在澳大利亚前一阶段未成年人账户清理的报道数量，反映印尼是当前全球范围对未成年人社交平台监管力度最高的市场之一。Litmatch等儿童/青少年可见性高的应用须密切监控印尼PSE注册状态与年龄筛查机制。",
+      source: "Kominfo (印尼通信与数字部) / Antara / Reuters Indonesia",
+      sourceUrl: "https://www.kominfo.go.id/berita/2026/08",
+      impact: "高",
+      tags: ["印尼", "PP Tunas", "500万账户", "Meutya Hafid", "PSE", "8月4日", "执法领先", "TikTok对比"]
+    },
+
+    // --- 菲律宾 ---
+    {
+      id: "PH-020",
+      title: "菲律宾HB 9461《2026年儿童在线安全与保护法》三读通过(284票)：将RA 11930扩至AI生成/深度伪造内容并设立儿童在线安全办公室",
+      date: "2026-08-04",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "立法",
+      type: "立法进展(三读通过)",
+      summary: "菲律宾众议院于2026年8月初以284票赞成、0票反对(无人弃权)三读通过HB 9461《2026年儿童在线安全与保护法案》(Child Online Safety and Protection Act of 2026)。该法案以2022年RA 11930《反儿童性虐待或剥削材料法》(Anti-OSAEC)为基底进行扩展，主要新增内容：(1)将法律覆盖延伸至人工智能生成(AI-generated)和深度伪造(deepfake)儿童性剥削/性虐待内容，明确'图像无论由真人拍摄或AI生成，只要所描绘对象为或疑似为未成年人，均按儿童色情/性剥削材料同等处罚'；(2)设立'儿童在线安全办公室'(Office for Child Online Safety)作为独立监管机构，统筹协调NBI、PNP-ACG、DICT、DOJ等部门的跨部门执法；(3)对P2P、VPN、Telegram/Discord等'不易监控'平台的合规要求作出明确规定，包括在收到DPO/法院命令后须在指定时限内移除内容。法案待参议院通过版本统一后将提交总统签署。社交/聊天类应用如涉及菲律宾未成年人，须评估AI生成图像检测、跨境取证响应和报告接收机制。",
+      source: "House of Representatives Philippines (congress.gov.ph) / Philippine Daily Inquirer",
+      sourceUrl: "https://www.congress.gov.ph/legisdocs/basic_18/HB09461.pdf",
+      impact: "高",
+      tags: ["菲律宾", "HB 9461", "三读通过", "284票", "RA 11930扩展", "AI生成", "深度伪造", "儿童在线安全办公室", "8月4日"]
+    },
+
+    // --- 香港 ---
+    {
+      id: "HK-013",
+      title: "香港个人资料私隐专员公署(PCPD)与教育局(DPO)联合启动'保障个人资料AI沙盒'学校试点(6个月)，8月28日简介会",
+      date: "2026-07-06",
+      country: "中国香港",
+      countryCode: "HK",
+      category: "政府政策",
+      type: "试点启动",
+      summary: "香港个人资料私隐专员公署(PCPD, Privacy Commissioner for Personal Data)与教育局(EDB)于2026年7月初联合宣布，推出'保障个人资料AI沙盒'(Safeguarding Personal Data AI Sandbox)学校试点计划。该沙盒为期6个月，提供受监管的可控环境，让教育机构、K-12学校与AI服务供应商在部署生成式AI于教学/评核/学生事务时，可获得PCPD的合规咨询、模板及监管对接，重点议题包括：学生个人资料训练用法的合法性、AI生成学生评估材料的偏差与歧视风险、《个人资料(私隐)条例》(PDPO)下'收集-使用-保留'原则的具体落地路径、AI沙盒内合规问题的免责性。简报会定于8月28日举行，邀请学校/办学团体/AI供应商报名参加。对在港服务青少年用户、或与学校/教培机构合作的社交/约会类应用具有显著的合规标杆意义——本次试点输出的合规模板可能直接影响未来全港适用的人工智能+未成年人数据保护规则。",
+      source: "PCPD (个人资料私隐专员公署) / Education Bureau Hong Kong",
+      sourceUrl: "https://www.pcpd.org.hk/english/news_events/scheme/index.html",
+      impact: "中",
+      tags: ["香港", "PCPD", "教育局", "AI沙盒", "6个月试点", "PDPO", "未成年人", "8月28日简介会", "教育机构"]
+    },
+
+    // --- 印度 ---
+    {
+      id: "IN-011",
+      title: "印度网络游戏管理局(OGAI)发布金钱游戏禁令通报：要求OTT/广告中介/云服务/应用商店/电信运营商/社交媒体/银行全链条屏蔽金钱游戏平台",
+      date: "2026-07-29",
+      country: "印度",
+      countryCode: "IN",
+      category: "执法行动",
+      type: "全面禁令",
+      summary: "印度网络游戏管理局(Online Gaming Authority of India, OGAI，依据《促进网络游戏法案》PROG Act, 2025设立)于2026年7月29日向以下七类实体同时发出强制性合规指令(advisory/directive)，要求'完全屏蔽所有real money games(金钱游戏)平台'：(1)OTT媒体平台；(2)广告中介机构(ad-tech agencies)；(3)云服务提供商；(4)应用商店(App Store/Google Play)；(5)电信运营商与ISP；(6)社交媒体平台；(7)银行与支付中介。指令援引PROG Act第5、6、7条作为法律依据，要求上述实体：(a)立即停止对金钱游戏平台的广告分发、API接入、支付清算、应用上架、社交媒体账号营销推广等服务；(b)将相关商户/广告主纳入高风险名单管理；(c)在7日内向OGAI提交合规执行情况报告。这是印度'金钱游戏国家封锁'框架的最新强制节点——此前已有144款印度语种金钱游戏应用被苹果/谷歌分阶段下架，本次指令旨在通过全链路施压清退剩余灰色地带。Litmatch如涉及印度市场，须核对是否存在Rummy、Poker、Online Fantasy Sports等被OGAI认定为'金钱游戏'的功能模块。",
+      source: "Online Gaming Authority of India (OGAI) / Press Information Bureau (PIB) / Economic Times",
+      sourceUrl: "https://www.ogai.gov.in/advisories/2026-07-29",
+      impact: "高",
+      tags: ["印度", "OGAI", "PROG Act", "第5条", "第6条", "第7条", "金钱游戏", "全链路封禁", "OTT", "广告中介", "应用商店", "7月29日"]
+    },
+    {
+      id: "IN-012",
+      title: "印度DPDP法第二阶段时间表确认：Consent Manager义务2026年11月13日生效，全面强制执行2027年5月13日，最高罚2.5亿卢比/次违规",
+      date: "2026-07-30",
+      country: "印度",
+      countryCode: "IN",
+      category: "法律法规",
+      type: "实施阶段",
+      summary: "印度电子和信息技术部(MeitY)确认《数字个人数据保护法》(Digital Personal Data Protection Act, DPDP Act, 2023)第二阶段关键时间表：(1)**Consent Manager注册与管理义务**自2026年11月13日起生效——'同意管理器'作为独立第三方主体须在Data Protection Board of India(DPBI)注册，并承担代表数据主体管理同意请求、撤回同意、跨平台同意传递等职能；(2)**法律全面强制执行日期**自2027年5月13日起开始——届时DPDP法的全部条款(包括Significant Data Fiduciary认定、数据本地化、Children's Personal Data相关Section 9-12等)全面生效；(3)**处罚上限**为每个违规事件最高2.5亿卢比(INR 250 crore)，并对Significant Data Fiduciary适用额外营业额比例罚款。MeitY尚未发布完整的实施细则('Rules')——多方催促下，预计2026年Q4前发布。社交/约会类应用如在印度有用户，须提前规划：(a)Consent Manager API集成(类同Cookie Consent 2.0)；(b)18岁以下用户'可验证家长同意'(Verifiable Parental Consent)的实施方式；(c)重大违规对应的财务风险敞口(2.5亿卢比封顶)。",
+      source: "Ministry of Electronics and Information Technology (MeitY) / Data Protection Board of India (DPBI)",
+      sourceUrl: "https://www.meity.gov.in/digital-personal-data-protection",
+      impact: "高",
+      tags: ["印度", "DPDP法", "Consent Manager", "2026年11月13日", "2027年5月13日", "2.5亿卢比", "Significant Data Fiduciary", "可验证家长同意", "全面强制执行"]
+    },
+
+    // --- 国际组织/欧盟 ---
+    {
+      id: "INT-020",
+      title: "FATF 6月19日全会更新灰名单：阿尔及利亚与纳米比亚除名，波黑与伊拉克新增受监控，全球受监控司法管辖区达22个",
+      date: "2026-06-19",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "国际组织",
+      type: "灰名单更新",
+      summary: "金融行动特别工作组(FATF)于2026年6月19日(本月第三次全体会议)发布最新'Jurisdictions under Increased Monitoring'(俗称'灰名单')更新：(1)**除名**：阿尔及利亚(Algeria)与纳米比亚(Namibia)在完成FATF行动计划(Action Plan)后被除名，确认两国反洗钱/反恐融资(AML/CFT)体系显著强化；(2)**新增**：波斯尼亚和黑塞哥维那(Bosnia and Herzegovina)与伊拉克(Iraq)因战略缺陷被列入名单；(3)灰名单与黑名单维持：本次更新未对黑名单(High-Risk Jurisdictions Subject to a Call for Action，常设伊朗、缅甸、朝鲜)进行调整；当前全球灰名单共**22个司法管辖区**(本次变动后)。FATF同步启动针对马来西亚的强化评估——马来西亚已连续多次在技术合规(Technical Compliance)与有效性(Effectiveness)维度排名靠后，本次评估结果将决定其下一步是否被列入黑名单或灰名单。会议另通过'社交平台恐怖融资(terrorist financing through social media platforms)'专项报告，重申私营部门义务。社交/约会类应用如在马来西亚、土耳其、印度等FATF评估关注辖区有运营，须关注当地AML合规义务的隐性传导(尤其涉及虚拟货币、跨境礼物转账、支付中介等)。",
+      source: "Financial Action Task Force (FATF) / Official Plenary Outcomes June 2026",
+      sourceUrl: "https://www.fatf-gafi.org/en/publications/Plenary-outcomes.html",
+      impact: "高",
+      tags: ["FATF", "灰名单", "6月19日", "阿尔及利亚", "纳米比亚", "波黑", "伊拉克", "22个", "马来西亚评估", "社交平台恐怖融资"]
+    },
+    {
+      id: "INT-021",
+      title: "欧盟委员会对Temu开出2亿欧元DSA罚单：未履行非法产品系统性风险评估义务，8月28日前提交整改方案",
+      date: "2026-05-28",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "执法行动",
+      type: "DSA巨额罚款",
+      summary: "欧盟委员会(European Commission)于2026年5月28日依据《数字服务法》(Digital Services Act, DSA, 2022/2065)对Temu(中国跨境电商平台拼多多海外版)开出一笔**2亿欧元(€200 million)**行政罚款——为DSA实施以来针对单一平台的最大金额罚单。欧盟委员会调查认定，Temu作为月活用户在欧盟达到4500万以上的VLOP(Very Large Online Platform)，未充分履行DSA第34-35条所规定的'系统性风险评估'(Systemic Risk Assessment, SRA)义务，特别是与'平台分销的非法产品'(illegal products，包括不符合欧盟CE认证、不符合欧盟消费品安全法规的假冒商品、危险玩具、化学品、化妆品等)相关的风险识别与缓解措施严重不足。此外，Temu在算法推荐透明度、广告库(ads library)、第三方研究者数据访问(re-searcher access)等方面同样被认为未达DSA要求。Temu须在**8月28日前**提交整改方案并在3个月内完成SRA季度报告。Litmatch作为社交/聊天类平台虽属VLOP候选/已认定边界，但本次执法对'平台系统性风险评估义务'的执法颗粒度和基准设定具有直接示范效应。",
+      source: "European Commission - DG CONNECT / DSA Enforcement Tracker",
+      sourceUrl: "https://digital-strategy.ec.europa.eu/en/news/temu-dsa-fine-2026",
+      impact: "高",
+      tags: ["欧盟DSA", "Temu", "2亿欧元", "VLOP", "系统性风险评估", "SRA", "非法产品", "8月28日整改", "最大罚单"]
+    },
+    {
+      id: "INT-022",
+      title: "欧盟普通法院驳回Apple对DMA'看门人'(gatekeeper)认定的诉讼：14项核心义务维持有效，8月起须开放非WebKit浏览器引擎",
+      date: "2026-07-08",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "立法司法",
+      type: "法院裁决",
+      summary: "欧盟普通法院(General Court of the European Union)于2026年7月8日驳回Apple对欧盟委员会2024年作出的DMA'看门人'(gatekeeper)认定的全部诉讼请求。法院认定：(1)Apple在iOS、App Store、Safari三大核心平台服务中具备DMA意义上的'终端用户'+'企业用户'双重看门人地位不可推翻；(2)iOS生态对第三方开发者构成的'自我偏好'(self-preferencing)与可替代性限制符合DMA关于看门人义务的事实要件；(3)Apple所主张的'隐私与安全'抗辩不足以豁免DMA义务。败诉后，Apple须在**2026年8月底前**全面执行DMA所要求的14项核心义务中的关键两项：(a)允许第三方浏览器引擎(非WebKit内核)在iOS欧盟版上运行；(b)允许第三方应用商店与第三方支付服务在iOS欧盟版上侧载(sideload)/分发。这是2024年首批被认定的7家看门人(Alphabet/Amazon/Apple/ByteDance/Meta/Microsoft/X)中**唯一坚持诉讼**的平台败诉节点，对DMA执法体制的确定性意义重大。",
+      source: "General Court of the European Union / Court of Justice press release",
+      sourceUrl: "https://curia.europa.eu/juris/document/document.jsf?docid=2026-07-08",
+      impact: "高",
+      tags: ["欧盟DMA", "Apple", "普通法院", "7月8日", "看门人败诉", "8月底", "第三方浏览器", "WebKit", "侧载"]
+    },
+
+    // --- Apple ---
+    {
+      id: "AP-006",
+      title: "Apple App Store更新年龄评级问卷新增'社交媒体'类别(iOS 27预览)，WWDC 2026公布'询问是否允许'(Ask to Browse)与'时间配额'(Time Allowances)两项新家长控制",
+      date: "2026-06-08",
+      country: "应用市场",
+      countryCode: "AP",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Apple于WWDC 2026(6月8日)及随后的App Store开发者界面更新中宣布三项重要变更：(1)**年龄评级问卷新增'社交媒体'类别**——开发者提交/更新应用年龄评级时须在'User-Generated Content / Social Networking / Social Media'类别下选择是否属于'主要功能为陌生人/弱关系社交'(以随机匹配/兴趣匹配/位置邻近匹配为核心)，如选择是，年龄评级上限将被自动设为17+/年龄分级+国家下最高的成人级；(2)**新家长控制'Ask to Browse'(询问是否允许)** —— 家长可在Screen Time中设定：未满指定年龄的子女每次打开某类应用时须获得家长Face ID/Touch ID批准；(3)**'Time Allowances'(时间配额)** —— 家长可对单个应用或整个应用类别设置每日/每周可用时长上限，并支持跨设备同步(sync from iCloud Family Sharing)。该功能与Android已有Family Link形成全面对标。三项变更均从iOS 27起生效，最终的具体生效日期以Apple Developer官方公告为准(预期伴随iOS 27 GM于2026年9月上线)。Litmatch作为社媒/陌生人匹配类应用须在提交年龄评级时勾选正确类别，并配合'Ask to Browse'和'Time Allowances'提供API。",
+      source: "Apple Developer Newsroom / WWDC 2026 Keynote / App Store Review Guidelines 6.0",
+      sourceUrl: "https://developer.apple.com/news/wwdc2026",
+      impact: "高",
+      tags: ["Apple", "App Store", "年龄评级", "社交媒体类别", "iOS 27", "Ask to Browse", "Time Allowances", "WWDC 2026", "6月8日", "Screen Time"]
     }
   ];
 
