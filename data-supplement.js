@@ -2275,6 +2275,214 @@
       sourceUrl: "https://developer.apple.com/news/wwdc2026",
       impact: "高",
       tags: ["Apple", "App Store", "年龄评级", "社交媒体类别", "iOS 27", "Ask to Browse", "Time Allowances", "WWDC 2026", "6月8日", "Screen Time"]
+    },
+
+    // --- 2026-08-13 新增条目 ---
+
+    // --- 越南 ---
+    {
+      id: "VN-019",
+      title: "越南国会讨论《普法教育法》修正案：数字平台/社交网络须向用户发出违法内容警示",
+      date: "2026-08-09",
+      country: "越南",
+      countryCode: "VN",
+      category: "立法动态",
+      type: "法律修正案讨论",
+      summary: "越南国会(Quốc hội)于2026年8月9日在审议《法律普及与教育法》(Luật Phổ biến, giáo dục pháp luật)修正案期间讨论新增条款，要求数字平台和社交网络运营者在用户发布或传播内容时发出法律违规警示(legal violation warnings)。具体内容：(1)平台须在用户使用过程中以弹窗或提示形式告知相关法律禁止行为(如散布虚假信息、侮辱诽谤、危害国家安全等)；(2)修正案将'利用数字平台和社交网络进行普法教育'列为各级政府、组织的法定义务；(3)国会代表同时讨论是否将平台未履行警示义务纳入行政处罚范围。该修正案尚在审议阶段，预计提交下次国会会议表决。社交/约会类应用在越南运营须关注此项义务的最终条款，提前规划产品内的法律合规提示功能。",
+      source: "Vietnam National Assembly / QQ News (html5.qq.com)",
+      sourceUrl: "https://html5.qq.com/news/vn-na-legal-education-2026-08-09",
+      impact: "中",
+      tags: ["越南", "国会", "普法教育法", "法律违规警示", "数字平台", "社交网络", "8月9日", "修正案讨论"]
+    },
+
+    // --- 泰国 ---
+    {
+      id: "TH-014",
+      title: "泰国PDPC发布《数据主体访问请求通知》：9月14日生效，规定DSAR程序、30日响应期及身份验证要求",
+      date: "2026-07-16",
+      country: "泰国",
+      countryCode: "TH",
+      category: "法律法规",
+      type: "监管通知",
+      summary: "泰国个人数据保护委员会(PDPC)于2026年7月16日发布《数据主体访问请求通知》(Access Request Notification)，自2026年9月14日正式生效。核心内容：(1)**DSAR程序规范化**——数据控制者(Data Controller)须建立并公开数据主体行使PDPA第30-37条权利(访问权、复制权、更正权、删除权、反对处理权、数据可携带权)的申请渠道，包括线上和线下两种方式；(2)**响应时限**——控制者须在收到完整请求后**30日内**予以回复，复杂情形可延长30日但须在原始期限内向数据主体发出书面延期通知；(3)**身份验证**——控制者有权要求请求者提供合理身份证明，但验证方式须与请求目的相称，不得设置不合理的障碍；(4)**记录保存**——控制者须保存所有DSAR请求及处理记录至少**2年**；(5)**拒绝处理**——控制者拒绝请求须在30日内书面说明法律依据和救济途径。社交/约会类应用在泰国运营须在9月14日前完成DSAR流程搭建，包括用户界面内的权利行使入口、内部SOP和记录系统。",
+      source: "Personal Data Protection Committee (PDPC) Thailand / Baker McKenzie / Frank Legal",
+      sourceUrl: "https://www.pdpc.or.th/notifications/access-request-2026",
+      impact: "高",
+      tags: ["泰国", "PDPC", "DSAR", "访问请求", "30日响应", "身份验证", "9月14日生效", "PDPA", "2年记录保存"]
+    },
+
+    // --- 马来西亚 ---
+    {
+      id: "MY-018",
+      title: "马来西亚Fahmi Fadzil 8月8日表态：CPC/RMC给予平台'数月'过渡期后强制执法，TikTok削减人工审核员引发AI审核担忧",
+      date: "2026-08-08",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "执法行动",
+      type: "执法过渡期",
+      summary: "马来西亚通信部长Fahmi Fadzil于2026年8月8日就《行业行为准则》(CPC, Code of Practice for Content Moderation)与《注册媒体准则》(RMC, Registered Media Code)的实施表态：(1)**过渡期安排**——平台不会被立即处罚，Fahmi表示给予'数个月'(several months)过渡期让平台完成技术适配和合规体系建设，但未公布具体截止日期；(2)**AI审核风险**——Fahmi特别提及TikTok近期在全球范围削减人工内容审核员(human moderators)并扩大AI自动化审核比例的举措，表示MCMC对此'高度关注'，认为AI审核在马来语和本地文化语境下的准确性存疑，可能导致有害内容漏检或误删；(3)**跨国协调**——Fahmi透露MCMC目前在新加坡与YouTube进行面对面会谈，讨论内容审核标准与执法配合问题，并计划与Meta、TikTok进行类似磋商；(4)**执法预期**——过渡期结束后，MCMC将依据CPC/RMC对未达标平台启动行政处罚程序，最高可处年营业额6%罚款。社交/约会类应用须利用过渡期完成内容审核SOP马来语能力建设、AI审核效果评估和合规报告框架。",
+      source: "The Sun Daily / The Star / Oriental Daily",
+      sourceUrl: "https://www.thesundaily.my/technology/fahmi-cpc-rmc-transition-2026-08-08",
+      impact: "高",
+      tags: ["马来西亚", "Fahmi Fadzil", "CPC", "RMC", "MCMC", "过渡期", "AI审核", "TikTok", "人工审核员", "YouTube新加坡会谈", "8月8日"]
+    },
+
+    // --- 印度尼西亚 ---
+    {
+      id: "ID-023",
+      title: "印尼宪法法院受理PDP法(第27/2022号法)合宪性审查案(236/PUU-XXIV/2026)，DPA总统条例预计9月底出台",
+      date: "2026-06-19",
+      country: "印度尼西亚",
+      countryCode: "ID",
+      category: "立法司法",
+      type: "宪法审查",
+      summary: "印尼宪法法院(Mahkamah Konstitusi)于2026年6月19日正式登记第236/PUU-XXIV/2026号案件，受理对《个人数据保护法》(UU Perlindungan Data Pribadi, PDP Law No. 27/2022)的合宪性审查(legal material review)。申请人主张PDP法部分条款违宪，核心争议点包括：(1)数据主体权利范围是否充分(特别是删除权和反对自动化决策权)；(2)数据本地化(data localization)要求是否过度限制跨境数据流通；((3)行政罚款上限是否过低不足以形成威慑。宪法法院尚未公布听证日期。与此同时，印尼通信与信息部(Komdigi)于7月22日确认，PDP法实施细则——**数据保护机构(Data Protection Authority, DPA)总统条例**仍在制定中，预计还需约2个月时间(目标9月底前颁布)。DPA条例将设立独立数据保护监管机构、明确执法权限和处罚程序。社交/约会类应用在印尼运营须密切关注DPA条例最终条款，提前规划数据保护官(DPO)任命和数据本地化合规方案。",
+      source: "Constitutional Court of Indonesia / Komdigi / PPC.land",
+      sourceUrl: "https://ppc.land/id-pdp-law-constitutional-review-2026",
+      impact: "高",
+      tags: ["印尼", "宪法法院", "PDP法", "27/2022", "236/PUU-XXIV/2026", "合宪性审查", "DPA", "总统条例", "Komdigi", "9月底", "数据本地化"]
+    },
+
+    // --- 菲律宾 ---
+    {
+      id: "PH-021",
+      title: "菲律宾NPC 8月11日发布警告：使用AI从真人面部/肖像生成照片或视频并传播属违法，违者面临1-3年监禁及50万-200万比索罚款",
+      date: "2026-08-11",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "执法行动",
+      type: "监管警告",
+      summary: "菲律宾国家隐私委员会(National Privacy Commission, NPC)于2026年8月11日发布公开警告(advisory)，明确声明：(1)**AI生成肖像违法性**——未经数据主体同意，使用人工智能(AI)工具从真实人物的面部(face)或肖像(likeness)生成照片或视频并予以分享/传播的行为，构成对《数据隐私法》(Data Privacy Act of 2012, RA 10173)的违反，属于非法处理敏感个人信息的违法行为；(2)**虚假描绘禁止**——NPC特别强调，利用AI生成的虚假内容(false depictions)——包括深度伪造(deepfake)图像和视频——来冒充、诽谤或骚扰他人，同样违法；(3)**公职人员家属全面保护**——NPC明确公职人员(public officials)的家庭成员(family members)享有与普通公民同等的隐私保护，不受'公众人物'例外限制；(4)**处罚标准**——依据DPA第25-36条，违法者面临**1-3年监禁**及**50万至200万比索(PHP 500,000-2,000,000)罚款**，情节严重者可加重。NPC呼吁公众如发现自身面部/肖像被AI滥用，可通过NPC在线投诉平台举报。社交/约会类应用须在菲律宾市场建立AI生成内容的检测与删除机制，并在用户协议中明确禁止AI生成的冒充内容。",
+      source: "National Privacy Commission (NPC) Philippines / Balita / AI Curated",
+      sourceUrl: "https://balita.org/npc-ai-face-likeness-warning-2026-08-11",
+      impact: "高",
+      tags: ["菲律宾", "NPC", "AI生成", "面部", "肖像", "深度伪造", "数据隐私法", "RA 10173", "1-3年监禁", "50万-200万比索", "公职人员家属", "8月11日"]
+    },
+    {
+      id: "PH-022",
+      title: "菲律宾NPC发布隐私影响评估(PIA)草案通知：取消 blanket PIA要求，改为8类高风险场景强制触发，行政罚款上限年毛收入3%最高500万比索",
+      date: "2026-08-10",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "法律法规",
+      type: "草案通知",
+      summary: "菲律宾国家隐私委员会(NPC)于2026年8月发布《隐私影响评估指南》(Privacy Impact Assessment Guidelines)草案通知(draft circular)，对现行的PIA制度进行重大调整：(1)**取消 blanket PIA要求**——此前NPC要求所有数据处理活动均须进行PIA，新草案改为仅8类高风险数据处理场景触发强制PIA义务；(2)**8类高风险场景**——包括：(a)AI系统和自动化决策处理;(b)生物识别数据处理;(c)儿童和未成年人数据;(d)大规模监控或追踪;(e)健康和基因数据;(f)金融和信用数据;(g)位置追踪数据;(h)跨境数据传输;(3)**在线咨询**——NPC定于**8月25日**举行在线公开咨询会，征求利益相关方对草案的意见；(4)**行政罚款**——违反PIA义务的数据处理者面临行政罚款，金额上限为**年毛收入的3%(capped at ₱5,000,000)**；(5)**生效预期**——最终版指南预计2026年Q4正式发布生效。社交/约会类应用如涉及AI匹配、生物识别、位置追踪或儿童数据，须在生效后完成PIA评估并向NPC提交报告。",
+      source: "National Privacy Commission (NPC) Philippines / TechTimes",
+      sourceUrl: "https://techtimes.com/ph-npc-pia-draft-circular-2026",
+      impact: "高",
+      tags: ["菲律宾", "NPC", "PIA", "隐私影响评估", "8类高风险", "AI系统", "生物识别", "儿童数据", "3%年毛收入", "500万比索", "8月25日咨询", "草案"]
+    },
+
+    // --- 新加坡 ---
+    {
+      id: "SG-013",
+      title: "新加坡MDDI研究对指定社交媒体服务实施分层准入框架：13岁以下禁用、13-17岁适龄体验，专家小组建议针对有害功能而非全面禁止",
+      date: "2026-07-30",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "立法动态",
+      type: "政策框架研究",
+      summary: "新加坡数码发展及新闻部(MDDI)于2026年7月持续推进对'指定社交媒体服务'(Designated Social Media Services, DSMS)的分层准入框架(tiered access framework)研究。核心进展：(1)**分层框架设计**——MDDI正在研究的框架包括：13岁以下用户禁止使用社交媒体平台;13-17岁青少年获得'适龄体验'(age-appropriate experience)，平台须限制接触有害内容、限制算法推荐和陌生人联络功能；(2)**部长表态**——MDDI部长Josephine Teo于7月17日论坛活动中表示，新加坡的监管路径将不同于澳大利亚的全面禁令(under-16 ban)，而是采取'针对性限制+平台义务'模式；(3)**专家小组建议**——MDDI委托的独立专家小组于7月30日发布研究报告，建议监管重点应放在'有害功能'(harmful features)而非全面禁止——具体包括：限制无限滚动(infinite scroll)、夜间推送通知、陌生人直接消息(DM)、算法推荐内容流等设计模式，而非禁止青少年使用社交媒体本身；(4)**DSMS范围**——目前被MDDI指定的DSMS包括Meta(Facebook/Instagram)、TikTok、YouTube、X等大型平台。社交/约会类应用如未来被纳入DSMS范围，须关注分层准入框架的最终设计，特别是陌生人匹配功能是否会被列为'有害功能'而受限。",
+      source: "MDDI Singapore / SUTD Expert Panel / Digital Watch Observatory",
+      sourceUrl: "https://dig.watch/sg-mddi-tiered-access-framework-2026",
+      impact: "高",
+      tags: ["新加坡", "MDDI", "DSMS", "分层准入", "13岁以下禁止", "13-17岁适龄体验", "Josephine Teo", "专家小组", "有害功能", "无限滚动", "7月30日"]
+    },
+
+    // --- 中国香港 ---
+    {
+      id: "HK-014",
+      title: "香港PCPD 8月11日拘捕37岁男子：涉在社交媒体公开他人个人资料(起底)，违反PDPO第64(3A)条最高罚100万港元及5年监禁",
+      date: "2026-08-11",
+      country: "中国香港",
+      countryCode: "HK",
+      category: "执法行动",
+      type: "刑事拘捕",
+      summary: "香港个人资料私隐专员公署(PCPD)于2026年8月11日拘捕一名37岁男性，涉嫌违反《个人资料(私隐)条例》(PDPO)第64(3A)条的'起底'(doxxing)罪。案情概要：(1)被捕人因金钱纠纷，在社交媒体平台上公开两名事主(data subjects)的个人资料，包括姓名、电话号码及住址等，意图对事主造成心理伤害或威吓；(2)PCPD经调查后于8月11日执行拘捕令；(3)**法律依据**——PDPO第64(3A)条规定，未经资料当事人同意而披露其个人资料，且意图或罔顾是否会对该当事人或其家人造成威胁、恐吓或心理伤害，即属犯罪，最高处罚为**罚款100万港元(HK$1,000,000)及监禁5年**；(4)PCPD强调此次执法表明'起底'行为不论动机如何(包括民间纠纷)，均会受到刑事追究。社交/约会类应用在香港运营须确保用户举报'起底'内容的渠道畅通，并建立快速下架机制以配合PCPD执法要求。",
+      source: "Office of the Privacy Commissioner for Personal Data (PCPD) Hong Kong",
+      sourceUrl: "https://www.pcpd.org.hk/english/news_centre/press/2026-08-11.html",
+      impact: "中",
+      tags: ["香港", "PCPD", "起底", "doxxing", "PDPO", "64(3A)", "拘捕", "100万港元", "5年监禁", "社交媒体", "8月11日"]
+    },
+
+    // --- 印度 ---
+    {
+      id: "IN-013",
+      title: "印度IT规则修正案草案：违法内容3小时下架(原36小时)、敏感内容2小时下架、强制AI内容标签含可追溯元数据、36小时申诉处理",
+      date: "2026-08-07",
+      country: "印度",
+      countryCode: "IN",
+      category: "法律法规",
+      type: "修正案草案",
+      summary: "印度电子和信息技术部(MeitY)于2026年8月7日发布《信息技术(中介准则和数字媒体道德规范)规则》[IT Rules 2021]修正案草案，对社交媒体中介机构(Social Media Intermediary)和重要社交媒体中介机构(Significant Social Media Intermediary, SSMI)义务作出重大收紧。核心内容：(1)**下架时限大幅缩短**——法院或政府命令要求移除的违法内容，中介机构须在**3小时内**(原为36小时)从平台上移除;涉及 nudity/impersonation 等敏感内容须在**2小时内**移除；(2)**AI内容强制标签**——所有使用AI生成或修改的内容(包括文本、图像、音频、视频)须标注'AI Generated'或'AI Modified'标签，且须嵌入**可追溯元数据**(traceable metadata)，以便验证内容来源和修改历史；(3)**申诉处理时限**——中介机构须在收到用户申诉后**36小时内**(原为15天)作出处理回复；(4)**安全港挂钩**——修正案明确将第79条安全港保护与合规义务直接挂钩，未在规定时限内移除违法内容或未执行AI标签义务的中介机构将丧失安全港保护，对用户发布的违法内容承担连带责任；(5)**咨询期**——草案发布后开放公众咨询，预计30天后定稿。PIB于8月6日发布相关新闻稿确认修正方向。社交/约会类应用如被认定为SSMI须在定稿后立即实施3小时/2小时下架SOP、AI内容标签技术和36小时申诉响应机制。",
+      source: "Ministry of Electronics and Information Technology (MeitY) / Press Information Bureau (PIB) / Business Today",
+      sourceUrl: "https://www.meity.gov.in/it-rules-amendment-draft-2026-08-07",
+      impact: "高",
+      tags: ["印度", "IT规则", "修正案", "3小时下架", "2小时敏感内容", "AI内容标签", "可追溯元数据", "36小时申诉", "安全港挂钩", "MeitY", "8月7日", "草案"]
+    },
+
+    // --- 土耳其 ---
+    {
+      id: "TR-018",
+      title: "土耳其第7590号法律7月31日生效：总统府可下令2小时内屏蔽内容，24小时法院复核、48小时法官裁定，网络安全权限收归总统府",
+      date: "2026-07-31",
+      country: "土耳其",
+      countryCode: "TR",
+      category: "法律法规",
+      type: "法律生效",
+      summary: "土耳其第7590号法律(Law No. 7590)于2026年7月31日正式生效，对网络内容监管和网络安全体制作出重大调整。核心内容：(1)**总统府紧急屏蔽权**——总统府(President's Office)获得直接下令在**2小时内**屏蔽特定网络内容的权力，命令可下达给电信运营商(ISPs)、数据中心(data centers)和在线平台(platforms)；(2)**司法复核**——紧急屏蔽令发出后须在**24小时内**提交法院复核(court review)，法官须在**48小时内**作出最终裁定；如法院/法官未在规定时限内确认，屏蔽令自动失效；(3)**网络安全权限重组**——此前由数字通信总局(BTK)和交通部行使的网络安全监管权限，正式收归总统府直接管理，总统府下设网络安全局(Cybersecurity Authority)统一行使网络安全政策制定和执法权；(4)**适用范围**——紧急屏蔽权适用于'危害国家安全和公共秩序'的网络内容，范围宽泛，被批评者认为可能被用于压制异议。社交/约会类应用在土耳其运营须建立2小时应急响应机制，配合总统府屏蔽令执行，并关注法院复核结果以决定是否恢复内容。",
+      source: "Baudrate.tw / FT Chinese / Official Gazette of Turkey",
+      sourceUrl: "https://baudrate.tw/tr-law-7590-effective-2026-07-31",
+      impact: "高",
+      tags: ["土耳其", "7590号法律", "7月31日生效", "总统府", "2小时屏蔽", "24小时法院复核", "48小时法官裁定", "网络安全", "BTK", "紧急屏蔽权"]
+    },
+
+    // --- 阿联酋 ---
+    {
+      id: "AE-014",
+      title: "阿联酋内阁第106号决议(2026)：禁止15岁以下开设社交媒体账户、15-16岁分级限制、AI年龄估算许可、12个月过渡期",
+      date: "2026-06-30",
+      country: "阿联酋",
+      countryCode: "AE",
+      category: "法律法规",
+      type: "内阁决议",
+      summary: "阿联酋内阁(UAE Cabinet)于2026年6月17日发布第106号决议(Cabinet Resolution No. 106 of 2026)，自6月30日正式生效，对未成年人使用社交媒体实施严格年龄限制。核心内容：(1)**15岁以下禁令**——禁止15岁以下未成年人创建社交媒体账户，平台须在注册环节实施年龄验证；(2)**15-16岁分级限制**——15至16岁未成年人可在家长/监护人同意下创建账户，但平台须对账户施加额外限制(包括限制内容推荐算法、限制陌生人联络、限制使用时间等)；(3)**AI年龄估算许可**——决议允许平台使用AI年龄估算技术(AI age estimation)进行年龄验证，但须确保技术准确性和隐私保护；(4)**12个月过渡期**——平台自决议生效之日起享有**12个月过渡期**(至2027年6月30日)完成技术合规，过渡期结束后正式执法；(5)**执法机构**——由新媒体委员会(NMA)和电信监管局(TDRA)联合执法，违规平台面临行政处罚。该决议与2025年生效的《儿童数字安全法》(Decree-Law 26/2025)形成配套，构成阿联酋未成年人数字保护完整体系。社交/约会类应用须在过渡期内完成年龄验证技术部署和未成年人保护功能开发。",
+      source: "Latham & Watkins LLP / The Leveraged Years / UAE Cabinet",
+      sourceUrl: "https://www.lw.com/en/insights/uae-cabinet-resolution-106-2026",
+      impact: "高",
+      tags: ["阿联酋", "内阁第106号决议", "15岁以下禁止", "15-16岁分级", "AI年龄估算", "12个月过渡期", "NMA", "TDRA", "6月30日生效", "儿童数字安全"]
+    },
+
+    // --- 沙特阿拉伯 ---
+    {
+      id: "SA-018",
+      title: "沙特当局要求X自7月13日起geo-block 65+人权/媒体账号，援引《反网络犯罪法》，Meta/Snapchat/YouTube同步限制",
+      date: "2026-07-13",
+      country: "沙特阿拉伯",
+      countryCode: "SA",
+      category: "执法行动",
+      type: "内容屏蔽",
+      summary: "据国际人权组织报告，自2026年7月13日起，社交平台X(原Twitter)应沙特当局要求，对沙特境内用户geo-block(地理屏蔽)超过65个人权倡导者和独立媒体账号。核心信息：(1)**法律依据**——沙特当局援引《反网络犯罪法》(Anti-Cybercrime Law)要求平台限制被认为'危害公共秩序'的账号内容；(2)**多平台波及**——除X外，Meta(Facebook/Instagram)、Snapchat和YouTube也被要求对类似账号在沙特境内实施访问限制；(3)**政策转向**——此次geo-block标志着X从2026年5月的立场发生重大转变——当时X全球政府事务团队公开表示'不会配合不透明的政府审查要求'，但7月后开始执行沙特屏蔽令；(4)**影响范围**——被屏蔽账号包括沙特国内外的人权组织、记者和评论人士，部分账号仅在沙特境内不可见，在其他地区仍可正常访问。社交/约会类应用在沙特运营须关注政府内容屏蔽要求的合规边界，评估用户生成内容(UGC)被纳入'公共秩序'范畴的风险。",
+      source: "World Organisation Against Torture (OMCT) / WJWC.org",
+      sourceUrl: "https://wjwc.org/saudi-x-geoblock-2026-07",
+      impact: "中",
+      tags: ["沙特", "X", "geo-block", "65个账号", "反网络犯罪法", "Meta", "Snapchat", "YouTube", "7月13日", "人权", "内容屏蔽"]
+    },
+
+    // --- 埃及 ---
+    {
+      id: "EG-017",
+      title: "埃及参议员8月8日澄清：无新社交媒体法计划，仅讨论修订2018年第175号《媒体法》，MCIT强调负责任使用",
+      date: "2026-08-08",
+      country: "埃及",
+      countryCode: "EG",
+      category: "立法动态",
+      type: "立法澄清",
+      summary: "埃及参议员Imad Eddin Hussein于2026年8月8日就社交媒体监管传闻作出澄清：(1)**无新法计划**——Hussein明确表示埃及目前没有制定新的社交媒体专门法的计划，社交媒体监管将继续在现有法律框架下进行；(2)**修订讨论**——目前正在讨论的是对2018年第175号法《媒体法》(Law No. 175/2018 on Media)的修正案，主要涉及社交媒体内容的监管标准、平台义务和违规处罚；(3)**政府表态**——总理Madbouly于7月29日召集相关部长会议讨论社交媒体监管问题；通信和信息技术部(MCIT)于8月6日发表声明，强调'负责任的社交媒体使用'(responsible social media use)的重要性，呼吁平台和用户共同维护数字空间秩序；(4)**用户基数**——截至2026年，埃及活跃社交媒体用户达5430万，是中东和北非(MENA)地区最大社交媒体市场之一。社交/约会类应用在埃及运营须关注《媒体法》修正案的最终条款，特别是UGC内容审核义务和平台责任标准。",
+      source: "Youm7 / Egyptian Parliament / MCIT",
+      sourceUrl: "https://www.youm7.com/story/2026/8/8/eg-social-media-law-clarification",
+      impact: "中",
+      tags: ["埃及", "参议员", "Imad Eddin Hussein", "无新法", "175/2018媒体法", "修订", "MCIT", "Madbouly", "5430万用户", "8月8日"]
     }
   ];
 
