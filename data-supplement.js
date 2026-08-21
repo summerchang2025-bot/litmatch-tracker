@@ -2483,6 +2483,54 @@
       sourceUrl: "https://www.youm7.com/story/2026/8/8/eg-social-media-law-clarification",
       impact: "中",
       tags: ["埃及", "参议员", "Imad Eddin Hussein", "无新法", "175/2018媒体法", "修订", "MCIT", "Madbouly", "5430万用户", "8月8日"]
+    },
+
+    // --- 新加坡 ---
+    {
+      id: "SG-014",
+      title: "新加坡SPF发布OCHA三项新守则：Messaging Code强制WhatsApp/Telegram等七平台防诈骗，Social Media Code替换旧规，E-Commerce Code增强",
+      date: "2026-08-17",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "执法行动",
+      type: "守则发布",
+      summary: "新加坡警察部队(SPF)旗下网络犯罪危害法(OCHA)办公室于2026年8月17日发布三项新/增强守则(Codes of Practice)，2026年8月18日正式公布：(1)**Messaging Code（即时通讯守则）**——首次针对在线消息和视频会议服务，适用于WhatsApp、Telegram、WeChat、Apple iMessage、Apple FaceTime、Google Message、Google Meet共七项服务。要求平台：(a)未知联系人将用户加入聊天组或频道前须获得用户同意；(b)对来自未知/可疑账号的消息/通话显示上下文警告（如账号创建日期、国家/地区）；(c)提供静音、过滤或屏蔽非联系人列表消息的选项；(d)2026年9月30日前实施反政府冒名spoofing措施（因18%政府冒名诈骗发生在WhatsApp）；(e)其他措施2027年1月31日前到位。(2)**Social Media Code（社交媒体守则）**——替换原有的Online Communication Services Code，适用于Facebook、Instagram、TikTok。要求平台：(a)阻止可疑诈骗广告发布（检查URL cloaking等）；(b)验证广告商身份（比对政府签发记录）；(c)未经MAS等许可不得发布金融服务广告；(d)2027年1月31日前到位。(3)**E-Commerce Code（电商守则）**——增强版，适用于Carousell、Facebook Marketplace、Facebook Business Pages，要求加强新/未识别设备登录的同意措施。违规平台可被处以最高100万新元罚款，持续违规每日最高10万新元。2025年WhatsApp和Telegram占新加坡诈骗案约23%，社交媒体平台占约30%。",
+      source: "Singapore Police Force (SPF) / CNA / Channel NewsAsia",
+      sourceUrl: "https://www.police.gov.sg/Media-Hub/News/2026/08/20260818_issuance_of_codes_of_practice_under_the_online_criminal_harms_act",
+      impact: "高",
+      tags: ["新加坡", "SPF", "OCHA", "Messaging Code", "WhatsApp", "Telegram", "WeChat", "Social Media Code", "Facebook", "Instagram", "TikTok", "E-Commerce Code", "防诈骗", "2027年1月31日", "8月17日"]
+    },
+
+    // --- 中国香港 ---
+    {
+      id: "HK-015",
+      title: "香港私隐专员公署与HKIRC签署MoU并推出「数据私隐及网站安全扫描计划」：免费为中小企/学校/非牟利机构扫描网站安全漏洞",
+      date: "2026-08-13",
+      country: "中国香港",
+      countryCode: "HK",
+      category: "数据保护",
+      type: "合作计划",
+      summary: "香港个人资料私隐专员公署(PCPD)与香港互联网注册管理有限公司(HKIRC)于2026年8月13日签署谅解备忘录(MoU)，并联合推出「数据私隐及网站安全扫描计划」(Data Privacy and Web Security Scan Programme)。计划要点：(1)**三方合作框架**——PCPD、HKIRC及香港国际数据私隐学院(PCPD于2026年6月成立)建立策略性合作，涵盖个人资料私隐保障、数据安全、网络安全及AI治理；(2)**免费扫描服务**——采用非入侵式技术为参与机构的公众网站进行安全扫描，识别系统配置漏洞及个人资料外洩隐患，不影响网站日常运作；(3)**专业顾问支援**——完成扫描后提供专属安全评估报告及改善建议；(4)**申请资格**——在港营运并设有公众网站的学校、非牟利机构及中小企均可申请，费用全免；(5)**申请期限**——2026年8月13日至11月16日，名额有限，先到先得。该计划是PCPD成立30周年志庆活动之一，也是三方签署MoU后的首个合作项目。社交/约会类平台在香港运营须持续关注PCPD在网络安全与数据保护方面的执法与合作动向。",
+      source: "PCPD / HKIRC / 大公报",
+      sourceUrl: "https://www.pcpd.org.hk/tc_chi/data_security/index.html",
+      impact: "中",
+      tags: ["香港", "PCPD", "HKIRC", "数据私隐", "网站安全扫描", "MoU", "中小企", "非牟利机构", "学校", "免费", "AI治理", "8月13日"]
+    },
+
+    // --- 土耳其 ---
+    {
+      id: "TR-019",
+      title: "土耳其当局8月15日依据互联网法第8/A条限制Kurdish新闻媒体X账号：JINNEWS、ETHA、Medya Haber等被屏蔽",
+      date: "2026-08-15",
+      country: "土耳其",
+      countryCode: "TR",
+      category: "执法行动",
+      type: "账号限制",
+      summary: "土耳其当局于2026年8月15日依据《互联网法》(Law No. 5651)第8/A条「保护国家安全和公共秩序」条款，对多家Kurdish新闻媒体及记者的社交媒体账号实施访问限制。受影响账号包括：(1)**JINNEWS**——其土耳其语X账号被屏蔽，这是该账号第八次依据第8/A条被封锁；(2)**Etkin News Agency (ETHA)**——X账号被限制，X平台通知称系应BTK要求遵守当地法律；(3)**Medya Haber**——X账号被限制；(4)**记者Öznur Değer**——个人X账号被限制。此外，Dicle Fırat记者协会(DFG)于8月13日报告称，NûJINHA的库尔德语Instagram和YouTube账号也被关闭。Mezopotamya Women Journalists Association (MKG)、DFG及DİSK Basın-İş记者工会发表联合声明，批评这些措施是针对女性新闻业的数字审查，侵犯公众知情权。土耳其自2026年初以来已多次大规模封锁Kurdish媒体及反对派账号（如1月封锁JINNEWS、Mezopotamya Agency等，6月26日安卡拉法院批准封锁146个记者/人权组织账号）。社交/约会类平台在土耳其运营须高度关注第8/A条的适用风险，该条款正从「例外措施」转变为常态化审查工具。",
+      source: "Digital Watch Observatory / Dicle Fırat Journalists Association (DFG) / ETHA",
+      sourceUrl: "https://dig.watch/updates/turkiye-restricts-access-to-social-media-accounts-of-kurdish-news-outlets",
+      impact: "中",
+      tags: ["土耳其", "第8/A条", "5651号互联网法", "Kurdish媒体", "JINNEWS", "ETHA", "Medya Haber", "Öznur Değer", "BTK", "数字审查", "8月15日"]
     }
   ];
 
