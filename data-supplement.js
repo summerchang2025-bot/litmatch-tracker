@@ -2531,6 +2531,152 @@
       sourceUrl: "https://dig.watch/updates/turkiye-restricts-access-to-social-media-accounts-of-kurdish-news-outlets",
       impact: "中",
       tags: ["土耳其", "第8/A条", "5651号互联网法", "Kurdish媒体", "JINNEWS", "ETHA", "Medya Haber", "Öznur Değer", "BTK", "数字审查", "8月15日"]
+    },
+
+    // --- 2026-08-27 新增条目 ---
+
+    // --- 新加坡 ---
+    {
+      id: "SG-015",
+      title: "新加坡国会8月12日通过《在线安全(杂项修订)法案》：对社交平台施加法定儿童注意义务(duty of care)，违规罚款最高100万新元或年营业额10%",
+      date: "2026-08-12",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "法律法规",
+      type: "法案通过",
+      summary: "新加坡国会( Parliament )于2026年8月12日通过《在线安全(杂项修订)法案》(Online Safety (Miscellaneous Amendments) Bill)，在《在线安全(杂项规定)法》框架下增设对社交平台/通信服务的法定'儿童注意义务'(duty of care)，预计于2026年11月起生效。核心内容：(1)**儿童注意义务**——大型社交平台和指定通信服务须以系统性方式识别、减轻和保护儿童用户免受有害内容/接触风险，须任命合规官并向IMDA提交年度风险评估报告；(2)**罚款上限**——违规平台可被处以最高100万新元或全球年营业额10%的罚款(以较高者为准)，持续违规按日累计罚款；(3)**IMDA守则制定权**——IMDA将发布risk assessment和safety-by-design守则，明确平台应部署的技术和组织措施(包括年龄验证、内容推荐限制、家长控制工具等)；(4)**指定服务**——覆盖范围将随附属立法指定，预计包括主流社交平台、消息服务、约会应用等；(5)**与OCHA互补**——本次修订与8月17日SPF/OCHA发布的三项守则(Messaging/Social Media/E-Commerce)形成新加坡未成年人在线安全双轨监管体系：OCHA侧重诈骗/犯罪危害，新法则侧重儿童系统性保护。社交/约会类应用须立即评估duty of care义务的适用范围，特别是针对未成年人/未成年保护的产品功能设计。",
+      source: "Singapore Parliament / Channel NewsAsia / The Straits Times / IMDA",
+      sourceUrl: "https://www.parliament.gov.sg/parliamentary-business/bills-introduced",
+      impact: "高",
+      tags: ["新加坡", "在线安全修订法案", "duty of care", "儿童保护", "IMDA", "100万新元罚款", "年营业额10%", "11月生效", "8月12日", "safety-by-design"]
+    },
+
+    // --- 印度尼西亚 ---
+    {
+      id: "ID-024",
+      title: "印尼Komdigi 8/4-8/18 PP Tunas执法进展：已移除500万未成年账户(超TikTok澳大利亚)，204个平台完成自评，79个PSE自评高风险",
+      date: "2026-08-18",
+      country: "印度尼西亚",
+      countryCode: "ID",
+      category: "执法行动",
+      type: "执法进展",
+      summary: "印尼通信和数字部(Komdigi)部长Meutya Hafid于2026年8月4日就PP Tunas(2025年第17号政府条例，保护儿童网络空间)执行进展向媒体通报，MLex于8月18日深度报道。核心数据：(1)**500万账户下架**——已累计移除约500万个被认定为属于未成年人的账户，规模超过TikTok在澳大利亚此前公布的PP Tunas合规移除数据；(2)**204个平台完成自评**——截至8月中旬共204家数字平台(包括PSE电子系统运营商)按Komdigi要求完成自我风险评估问卷(per the PP Tunas framework)，自评内容覆盖年龄验证机制、内容过滤、家长控制工具部署情况等；(3)**79个PSE自评高风险**——其中79家PSE自评结果被认定为'高风险'(high-risk)，须按PP Tunas要求在3个月内(2026年11月中旬前)完成整改并向Komdigi提交整改报告；(4)**批评平台年龄验证**——部长公开批评部分大型平台未部署'best-in-class'(一流)年龄验证技术，仅依赖用户自报年龄或身份证件OCR识别，无法应对冒用证件和代注册；(5)**下一阶段**——Komdigi将启动定向执法检查(on-site audits)，重点核查高风险PSE的整改进展。这是PP Tunas自2026年6月正式执法以来最大规模的阶段性披露，社交/约会类应用在印尼运营须立即评估自身的PP Tunas合规等级。",
+      source: "MLex / Kompas / Reuters / Komdigi / Antara News",
+      sourceUrl: "https://www.mlex.com/mlex/articles/2184000/indonesia-child-safety-online",
+      impact: "高",
+      tags: ["印尼", "PP Tunas", "Komdigi", "Meutya Hafid", "500万账户", "204平台", "79个高风险", "年龄验证", "best-in-class", "8月18日"]
+    },
+
+    // --- 沙特阿拉伯 ---
+    {
+      id: "SA-019",
+      title: "沙特新《版权法》(皇家法令M/169) 8月12日生效：GCC首个AI训练'合理使用'例外条款，互联网内容提供商safe harbour制度落地",
+      date: "2026-08-12",
+      country: "沙特阿拉伯",
+      countryCode: "SA",
+      category: "法律法规",
+      type: "版权法生效",
+      summary: "沙特阿拉伯《版权法》(Copyright Law)经皇家法令M/169 (Royal Decree M/169)修订后于2026年8月12日正式生效，是GCC(海湾合作委员会)首个明确纳入AI训练'合理使用'(fair use)例外条款及互联网内容提供商safe harbour制度的版权法。核心内容：(1)**AI训练合理使用**——新法第22条引入AI/机器学习训练对版权作品的合理使用例外，明确'为非商业目的的AI模型训练对版权作品的使用'不构成侵权，但要求训练数据的获取和使用方式合法(不得绕过技术保护措施)；(2)**互联网内容提供商safe harbour**——参照美国DMCA和欧盟DSA模式，引入'互联网内容提供商'(Internet Content Providers)责任豁免制度，要求平台在收到合格侵权通知后及时移除侵权内容(restore-or-takedown)即可豁免侵权责任；(3)**数字平台义务**——明确社交/UGC/云存储平台的版权合规义务，包括部署侵权内容过滤机制、配合权利人通知-删除程序；(4)**CST监管权**——沙特版权委员会(Communication, Space and Technology Commission, CST)被指定为新法主要执行机构，可对违规平台处以最高25万沙特里亚尔(约6.67万美元)罚款和重复违规加倍；(5)**GCC示范效应**——阿联酋(2021年版权法)、巴林、卡塔尔、阿曼预计将跟进修订版权法。社交/约会类应用在沙特运营须建立版权合规体系，特别是UGC中的音乐/视频/图片授权。",
+      source: "CST / Arab News / Saudi Gazette / King Abdulaziz City for Science and Technology",
+      sourceUrl: "https://www.cst.gov.sa/en/Rules-and-Regulations/Copyright/Pages/default.aspx",
+      impact: "高",
+      tags: ["沙特", "版权法", "Royal Decree M/169", "AI训练合理使用", "safe harbour", "CST", "互联网内容提供商", "8月12日", "GCC首个", "25万里亚尔罚款"]
+    },
+
+    // --- 土耳其 ---
+    {
+      id: "TR-020",
+      title: "土耳其4月23日大幅修订《互联网法》(5651号法)：15岁以下禁社媒、强制年龄验证、家长控制工具、5级渐进处罚(通知→100万-1000万里拉→1000万-3000万里拉→30%带宽削减→50%带宽削减)，11月1日生效，游戏平台首次入法",
+      date: "2026-04-23",
+      country: "土耳其",
+      countryCode: "TR",
+      category: "法律法规",
+      type: "法律修订",
+      summary: "土耳其大国民议会(TBMM)于2026年4月23日通过《互联网法》(Law No. 5651 on Regulation of Publications on the Internet and Combating Crimes Committed by Means of Such Publications)重大修订案，自2026年11月1日起生效。核心内容：(1)**15岁以下禁社媒**——15岁以下未成年人被全面禁止使用社交媒体平台，15-18岁须获家长/监护人明确同意方可使用；(2)**强制年龄验证**——所有日活用户(DAU)超过10万的社交平台须部署强制性年龄验证机制，包括但不限于：身份证件OCR、人脸识别(face matching)、第三方年龄估算API；(3)**家长控制工具**——平台须向家长提供'家长控制'工具入口，包括使用时长限制、内容分级、联系限制等；(4)**内容移除时限**——DAU超过1000万的平台收到举报后须在1小时内移除违法内容，1-1000万DAU的为4小时；(5)**5级渐进处罚**——对违规平台采取5级渐进处罚：第1级通知整改→第2级罚款100万-1000万里拉(约2.3万-23万美元)→第3级罚款1000万-3000万里拉(约23万-69万美元)→第4级削减30%带宽→第5级削减50%带宽；(6)**游戏平台首次入法**——首次将游戏平台纳入5651号法监管范围，要求DAU超10万的游戏平台在土耳其设立本地代表(法律代表/数据本地化代表)并实施年龄分级；(7)**第8/A条存续**——此前已实施的'保护国家安全和公共秩序'屏蔽权(已用于限制Kurdish媒体账号)继续保留并扩大适用范围。该法是土耳其继2014年首次立法、2020年强化、2022年新闻法之后的第四次重大修订，社交/约会类应用须立即评估15岁以下用户隔离和家长控制的产品设计调整。",
+      source: "TBMM / BTK / Daily Sabah / Hürriyet / Bloomberg HT",
+      sourceUrl: "https://www.tbmm.gov.tr/law/5651",
+      impact: "高",
+      tags: ["土耳其", "5651号互联网法", "15岁以下禁社媒", "强制年龄验证", "5级处罚", "带宽削减", "游戏平台", "11月1日", "4月23日", "TBMM"]
+    },
+
+    // --- 印度(应用市场) ---
+    {
+      id: "GP-009",
+      title: "Google Play 8月26日生效新政策：Age-Restricted Content/Functionality扩展至匿名聊天/随机聊天应用，Families Policy禁止匿名聊天App面向儿童，Child Safety Standards同步扩展",
+      date: "2026-08-26",
+      country: "应用市场",
+      countryCode: "GP",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Google Play于2026年8月26日生效针对匿名聊天(anonymous chat)和随机聊天(random chat)应用的重大政策更新，覆盖三大政策框架：(1)**Age-Restricted Content and Functionality政策扩展**——明确将匿名聊天/随机聊天功能列为受限功能，开发者须在Google Play Console中声明是否提供此类功能，对提供应用须在产品页面/年龄问卷中明确标识，并对未成年人/未通过年龄验证用户施加访问限制；(2)**Families Policy强化**——Families Policy(家庭政策)明确禁止匿名聊天应用面向儿童(under 13或当地法定年龄)上架，要求开发者使用Play Console的'Designed for Families'工具确保不向儿童受众展示；(3)**Child Safety Standards扩展**——Google Play Child Safety Standards(儿童安全标准)同步扩展，新增对'陌生人社交功能'的具体要求，包括：禁止收集儿童个人身份信息(PII)、禁止向儿童展示成人内容/广告、强制家长控制工具、强制报告机制(abuse report)。此外Google同步在7月29日宣布将Age Signals API(年龄信号API)扩展至全球开发者，并向Google Ads开放(8月中旬澳大利亚、加拿大率先部署)，供应用内年龄判定使用。该政策是Google继2026年4月Age Signals首次部署(欧盟)、5月27日账号转移强制政策(GA-007)、6月30日Epic和解佣金改革(GP-008)后的第四项重大平台政策。Litmatch作为陌生人匹配类应用(涉及随机匹配、陌生人聊天)须立即按新政策调整产品/上架材料，否则面临应用下架风险。",
+      source: "Google Play Developer Policy Center / Google Play Console / Android Developers Blog",
+      sourceUrl: "https://support.google.com/googleplay/android-developer/answer/10370230",
+      impact: "极高",
+      tags: ["Google Play", "Age-Restricted Content", "匿名聊天", "随机聊天", "Families Policy", "Child Safety Standards", "陌生人社交", "Age Signals API", "8月26日", "Designed for Families"]
+    },
+
+    // --- Apple ---
+    {
+      id: "AP-007",
+      title: "Apple App Store 8/12起韩国GRAC可覆盖年龄评级、10月起'低频脏话'/'低频成熟主题'由All升至12+，7/9起年龄问卷新增'社交媒体功能'强制问题(9月起强制)",
+      date: "2026-08-12",
+      country: "应用市场",
+      countryCode: "AP",
+      category: "应用市场政策",
+      type: "政策更新",
+      summary: "Apple于2026年7月-8月间连续发布三项App Store政策更新：(1)**8月12日韩国GRAC覆盖**——8月12日起，App Store Connect年龄评级问卷中针对韩国(Games/Entertainment类)的本地化覆盖机制正式生效：若开发者的应用已获得韩国游戏内容分级委员会(Game Rating and Administration Committee, GRAC)官方评级，可在提交下一版本时通过'GRAC Rating Classification Number'(RCN)将App Store韩国年龄覆盖为All/12+/15+/19+中的任意级别(此前由Apple全球问卷自动决定)；(2)**10月起韩国12+扩展**——2026年10月起，两项内容描述符(content descriptors)在韩国App Store由'All'调整为'12+'：'Infrequent profanity and crude humor'(低频脏话和粗俗幽默)、'Infrequent mature or suggestive themes'(低频成熟或暗示性主题)；(3)**7月9日社媒问卷(9月强制)**——7月9日(已在AP-006 6月WWDC 2026公告中预告)正式上线App Store Connect年龄评级问卷的'社交媒体功能'问题，开发者可自愿回答；自2026年9月起强制要求所有新提交/更新/替代分发公证应用须完成。社媒功能定义为'通过社交动态或类似发现机制对UGC进行再分发、放大或互动的能力'，触发后将被强制归入Social Media Time Allowance类别、显示'社交媒体'内容描述符、最低年龄评级13+。Litmatch作为陌生人匹配/聊天类应用须立即回答社媒问卷并按强制时间窗口完成合规。",
+      source: "Apple Developer Newsroom / App Store Connect Help / 9to5Mac / The Daily Tech Feed",
+      sourceUrl: "https://developer.apple.com/news/?id=5i6jlf4d",
+      impact: "中高",
+      tags: ["Apple", "App Store Connect", "韩国GRAC", "RCN", "12+", "社交媒体问卷", "强制9月", "社媒内容描述符", "13+", "Time Allowance", "8月12日", "7月9日"]
+    },
+
+    // --- 泰国 ---
+    {
+      id: "TH-015",
+      title: "泰国PDPA修正案草案公众咨询7/16-8/15结束：引入'政府机构'定义、反贪豁免、Section 24重构为GDPR式多重合法基础(consent从默认变七种之一)",
+      date: "2026-08-15",
+      country: "泰国",
+      countryCode: "TH",
+      category: "数据保护",
+      type: "修正案草案",
+      summary: "泰国个人数据保护法(PDPA)修正案草案公众咨询期于2026年7月16日开放、8月15日截止，泰国个人数据保护委员会(PDPC)在咨询期内收集了来自政府机构、行业协会、法律学者和数字平台的反馈意见。修正案核心变化：(1)**'政府机构'定义引入**——新条款明确定义'政府机构'(government agency)在PDPA下的处理范围与例外，包括国家安全、统计、研究等公共利益处理场景的特殊规则；(2)**反腐败数据处理豁免**——基于泰国《国家反腐败法》(Organic Act on Anti-Corruption)引入数据处理豁免，允许反腐败机构在符合法定程序下处理个人数据无需取得同意；(3)**Section 24重构**——现行PDPA Section 24将'同意'(consent)作为数据收集/使用的'默认合法基础'，新草案参照欧盟GDPR Article 6重构为多重合法基础(7种)：同意、合同必要、法律义务、重大利益、公共利益、合法利益平衡、正当公开记录；consent从'默认基础'降为'七种之一'，将赋予平台更多合法处理数据的依据；(4)**处罚调整**——新草案拟对'通知-删除'配合义务的违规引入更细化的处罚分级；(5)**下一阶段**——PDPC预计在2026年Q4整合反馈后向内阁提交正式修订草案，预计2027年Q1提交国会审议。这是泰国PDPA自2022年6月生效以来的首次重大修订，社交/约会类应用须关注consent基础弱化后的合规路径调整。",
+      source: "Thailand PDPC / Royal Thai Government Gazette / Bangkok Post / Nation Thailand",
+      sourceUrl: "https://www.pdpc.or.th/law/law-detail.php?id=89",
+      impact: "中",
+      tags: ["泰国", "PDPA修正案", "政府机构定义", "反贪豁免", "Section 24", "GDPR式合法基础", "consent弱化", "8月15日", "公众咨询结束"]
+    },
+
+    // --- 菲律宾 ---
+    {
+      id: "PH-023",
+      title: "菲律宾NPC《个人数据保护影响评估(PIA)草案》公众咨询8/14截止、8/25线上公众听证：8类高风险场景强制PIA触发 + Advisory 2026-01对数据抓取强制PIA",
+      date: "2026-08-25",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "数据保护",
+      type: "PIA草案",
+      summary: "菲律宾国家隐私委员会(NPC)就《个人数据保护影响评估(PIA)规则》(Personal Data Impact Assessment)草案开展两阶段公众参与：(1)**8月14日书面意见截止**——PIA规则草案于7月开放书面公众意见征集，8月14日截止，NPC将整合反馈后发布最终规则；(2)**8月25日线上公众听证**——NPC于8月25日召开线上公众听证，邀请行业代表、律所、民间组织就PIA规则细节(8类高风险场景、PIA报告模板、PIA触发阈值、PIA存档要求等)发表意见。PIA规则核心：(a)8类强制PIA场景——处理大规模未成年人数据、跨境敏感数据、生物特征数据、自动化决策(profiling)、AI训练、用户画像+定向广告、数据经纪人/抓取(data brokers/scraping)、与第三方共享敏感数据；(b)PIA触发标准——基于风险评估矩阵(risk matrix)，对处理活动进行高/中/低三档风险分级；(c)PIA存档——处理者须将PIA报告存档至少5年并应NPC要求提交；(3)**NPC Advisory 2026-01**——同步生效中，NPC于2026年初发布Advisory Opinion 2026-01要求所有数据抓取活动(data scraping)必须先完成PIA(此前Advisory已涵盖AI生成内容违法问题PH-021)。社交/约会类应用在菲律宾运营须立即评估是否落入8类高风险场景，特别是涉及未成年人/AI/数据抓取/跨境的功能模块。",
+      source: "National Privacy Commission (NPC) Philippines / Philippine Daily Inquirer / Manila Bulletin / TTFC",
+      sourceUrl: "https://www.privacy.gov.ph/2026/08/dpia-public-consultation-august-2026/",
+      impact: "中",
+      tags: ["菲律宾", "NPC", "PIA规则", "8类高风险场景", "公众咨询", "线上听证", "8月14日", "8月25日", "Advisory 2026-01", "数据抓取"]
+    },
+
+    // --- 国际组织 ---
+    {
+      id: "INT-023",
+      title: "FATF 6月全会通过Recommendation 6人道豁免修订 + R16跨境支付透明度公众咨询启动 + 加拿大/土耳其相互评估报告通过 + 7月1日英国Giles Thomson接任主席",
+      date: "2026-06-19",
+      country: "国际组织",
+      countryCode: "INT",
+      category: "国际组织",
+      type: "全会决议",
+      summary: "金融行动特别工作组(FATF)于2026年6月17-19日在巴黎召开第六次也是最后一次墨西哥主席国任期全会。除灰名单变更(已记录于INT-020)外，本次全会还通过多项重大决议：(1)**Recommendation 6人道豁免修订**——正式将联合国安理会第2664号和2761号决议中的人道主义豁免(humanitarian exemption)纳入FATF Standards第6号建议(Recommendation 6 - Targeted Financial Sanctions)，明确反恐怖融资定向金融制裁不得阻断人道主义援助所需资金、资产、资源、商品和服务；(2)**Recommendation 16跨境支付透明度公众咨询**——启动对强化版R16(关于跨境支付透明度)实施指引(Implementation Guidance)的公众咨询，预计咨询期至2026年9月，最终指引将明确加密资产、支付服务提供商(PSP)、稳定币等的跨境支付数据共享义务；(3)**相互评估报告通过**——通过加拿大(由FATF与APG联合评估)和土耳其(由FATF单独评估)的相互评估报告(Mutual Evaluation Reports)，将于9-10月公开发布；评估结果对加拿大(进入3年期Roadmap)和土耳其(继2019年后第二次评估)的后续监管走向有重要影响；(4)**领导层交接**——墨西哥主席Elisa de Anda Madrazo任期结束(自2024年7月)，由英国Giles Thomson于2026年7月1日接任FATF主席(2026-2028年期)，印度Vivek Aggarwal任副主席(2026年7月-2027年6月)；新主席国将'打击诈骗'(fraud)、'风险为本方法'(risk-based approach)、'信息共享'(information sharing)列为三大优先事项。社交/约会类应用如涉及跨境支付(虚拟礼物/打赏/订阅)、加密资产、PSP合作等场景，须立即关注R16修订及各国(尤其土耳其、加拿大)的后续监管动向。",
+      source: "FATF / ComplyAdvantage / Sanction Scanner / A&D Forensics",
+      sourceUrl: "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html",
+      impact: "中高",
+      tags: ["FATF", "Recommendation 6", "人道豁免", "R16", "跨境支付透明度", "公众咨询", "加拿大评估", "土耳其评估", "Giles Thomson", "英国主席", "6月19日"]
     }
   ];
 
