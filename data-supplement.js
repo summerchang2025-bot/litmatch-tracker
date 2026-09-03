@@ -2677,6 +2677,222 @@
       sourceUrl: "https://www.fatf-gafi.org/content/fatf-gafi/en/publications/Fatfgeneral/outcomes-fatf-plenary-june-2026.html",
       impact: "中高",
       tags: ["FATF", "Recommendation 6", "人道豁免", "R16", "跨境支付透明度", "公众咨询", "加拿大评估", "土耳其评估", "Giles Thomson", "英国主席", "6月19日"]
+    },
+
+    // ===== 2026-09-03 周四例行更新：新增13条 =====
+
+    // --- 越南 ---
+    {
+      id: "VN-020",
+      title: "越南Decree 333/2026/ND-CP网络安全法实施细则8/19生效：24小时强制提供用户信息，3小时紧急时限，仅认证账号可发帖互动",
+      date: "2026-08-19",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "实施细则",
+      summary: "越南政府8月19日发布Decree No.333/2026/ND-CP，作为2025年7月生效的《网络安全法》配套实施细则，同日生效。共6章32条，对境内外的电信网/互联网/网空增值服务企业提出严苛合规要求：(1)**强制身份认证**——企业必须用越南手机号验证用户账号；无越南手机号用户须用个人身份证号或合法电子身份验证；商业直播带货账号必须用身份证号认证；只有通过验证的账号才可发帖、分享信息和使用互动功能；(2)**24小时强制配合**——接到公安部网安部门合法请求后，企业须在24小时内提供用户信息；涉国家安全/人身安全的紧急情况缩短至3小时；请求限制访问/删除违法信息/下架违规服务的期限为24小时(紧急情况6小时)；(3)**账号分级处罚**——30天内违法3次可限制/暂停账号60天，90天内10次可限制/暂停180天，严重违法或3次临时封禁后再犯的可永久封禁；(4)**系统日志保留**——必须保留用户账号信息、登录登出时间、IP地址、源端口、发帖处理记录，至少保留12个月；(5)**特别影响**——这是越南继2025年12月通过新《网络安全法》(实施日期为2026年7月1日)及第57号指示(强制身份验证)后的最关键实施细则，对所有在越南运营的社交/约会/通讯/UGC平台都有直接的合规改造压力。",
+      source: "Tuoi Tre News / VNA / Vietnam Plus / IPSIP Vietnam",
+      sourceUrl: "https://tuoitrenews.vn/vietnam-issues-new-cybersecurity-rules-for-domestic-foreign-businesses-103260822170615952.htm",
+      impact: "极高",
+      tags: ["越南", "Decree 333", "网络安全法", "身份验证", "24小时", "紧急3小时", "8月19日", "公安部", "实施细则", "认证账号"]
+    },
+    {
+      id: "VN-021",
+      title: "越南Decree 330/2026/ND-CP数据保护行政处罚8/19生效：公开他人个人信息最高罚5000万越南盾(企业)/2500万(个人)",
+      date: "2026-08-19",
+      country: "越南",
+      countryCode: "VN",
+      category: "法律法规",
+      type: "行政处罚细则",
+      summary: "越南政府8月19日同步发布Decree No.330/2026/ND-CP，作为《网络安全法》和《个人数据保护法》配套的行政处罚细则，同日生效。共4章82条，覆盖两大领域——网络安全和个人数据保护。关键条文：(1)**第50条——公开他人个人信息**——组织未经同意公开他人数据(常见于社媒'扒皮'、曝光、网络声讨)，罚款3000-5000万越南盾(约人民币9000-15000元)；个人违法罚款减半(1500-2500万越南盾)；超额公开、超范围公开、未控制数据用途、未采取安全措施等情形额外罚款2000-3000万越南盾；违规者还须撤删除违法公开内容；(2)**第43条——同意机制**——组织数据收集后无同意处理、设置默认同意、混淆同意/不同意选项等罚款3000-5000万越南盾；(3)**第39条——超出必要期限存储数据**——组织超期保留员工数据/超出目的范围处理/不确保准确性/不更新错误数据，罚款2000-4000万越南盾；(4)**数据生命周期全链条追责**——覆盖数据收集、处理、存储、提供、公开、删除、转移、交易及跨境转移全流程；严重违法可按收入百分比罚款或数亿越南盾。继承Decree 13/2023和2026年生效的PDPD法律框架。",
+      source: "VietnamNet / VnNow / VnExpress / Vietnam.vn",
+      sourceUrl: "https://www.vietnam.vn/en/het-thoi-boc-phot-tren-mang-xa-hoi",
+      impact: "高",
+      tags: ["越南", "Decree 330", "PDPD", "数据保护", "行政处罚", "扒皮罚款", "5000万越南盾", "8月19日", "员工数据", "同意机制"]
+    },
+
+    // --- 新加坡 ---
+    {
+      id: "SG-016",
+      title: "新加坡警察部队8/17发布三套OCHA业务守则：Messaging/Social Media/E-Commerce Code，新增iMessage/FaceTime/Google Messages/Google Meet指定服务，1/31/2027完成合规",
+      date: "2026-08-17",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "法律法规",
+      type: "业务守则更新",
+      summary: "新加坡警察部队(SPF)依据《在线刑事危害法》(OCHA)于2026年8月17日发布三套新/经修订的业务守则(COPs)，要求指定在线服务主动中断诈骗和恶意网络活动：(1)**Messaging Code(新增)**——涵盖7项指定服务：原3项(WhatsApp/Telegram/WeChat)+ 新增4项(Apple iMessage/Apple FaceTime/Google Messages/Google Meet)；要求主动检测恶意账号、强制陌生人拉群前用户同意、显示未知联系人的上下文警告、阻止仿冒新加坡政府头像/名称(9月30日截止)、禁止无牌金融广告；2027年1月31日完成大部分合规；(2)**Social Media Code(新增)**——覆盖Facebook/Instagram/TikTok等；要求广告主身份与政府备案核验、禁止URL伪装广告、强制移除用户举报的可疑广告、限制无牌金融服务广告；2027年1月31日合规；(3)**E-Commerce Code(强化)**——覆盖Carousell/Facebook Marketplace/Facebook Business Pages；新增新设备登录二次验证、广告控制要求；2027年1月31日合规；(4)**处罚升级**——内政部同期提交OCHA修正案，单次违规最高罚款1000万新元(约783万美元)，无合理理由拒不整改构成刑事犯罪，每日追加最高30万新元罚款；(5)**背景**——2024年6月首批COPs发布后，2024-2025年指定服务诈骗案件下降37%。社交/约会/通讯/电商类应用如在新加坡运营，须立即评估是否落入指定服务范围并启动合规改造。",
+      source: "SPF Singapore / Rajah & Tann / Scam.SG / AsiaOne / The Straits Times",
+      sourceUrl: "https://sg.rajahtannasia.com/viewpoints/spf-issues-new-and-enhanced-codes-of-practice-under-the-online-criminal-harms-act",
+      impact: "极高",
+      tags: ["新加坡", "OCHA", "业务守则", "Messaging Code", "Social Media Code", "E-Commerce Code", "iMessage", "Google Meet", "1000万新元", "1月31日2027", "8月17日"]
+    },
+    {
+      id: "SG-017",
+      title: "新加坡拟将社媒最低年龄从13升至18：9/1部长声明，2027年初立法赋予IMDA更强执法权",
+      date: "2026-09-01",
+      country: "新加坡",
+      countryCode: "SG",
+      category: "政府政策",
+      type: "立法计划",
+      summary: "新加坡信息与数字发展部长Josephine Teo于2026年9月1日发表重大政策声明：政府正准备收紧年龄验证和在线安全要求，社媒平台若未能有效保护青少年用户，可能被禁止向18岁以下用户开放服务——远高于现行13岁最低年龄。关键内容：(1)**自主验证机制**——平台可先自行提出年龄验证方案，由IMDA评估有效性；(2)**覆盖范围**——初步年龄验证制度将覆盖6项《在线安全业务守则》指定的在线服务(Facebook/Instagram/TikTok/HardwareZone/X/YouTube)；后续可扩展至视频游戏平台、通讯服务、AI聊天机器人服务；(3)**保护措施升级**——平台还须加强autoplay/无限滚动(infinite scrolling)等功能的保护、改进青少年与陌生人互动的控制；(4)**立法时间表**——政府计划于2027年初向国会提交法律修正案，赋予IMDA更清晰执法权；(5)**背景**——总理Lawrence Wong指出10-24岁的新加坡人中有1/6出现社交媒体问题使用迹象；部长表示'若平台不愿引入验证机制，其服务可能不再对18岁以下用户开放，而非仅对13岁以下用户开放'。这是新加坡继8/17 OCHA业务守则后的又一重磅监管动作，社交/约会类App须立即评估合规路径。",
+      source: "The Vibes Singapore / CNA / Channel News Asia / Mothership",
+      sourceUrl: "https://www.thevibes.com/articles/news/126813/singapore-could-bar-under-18s-from-social-media-platforms-that-fail-safety-test",
+      impact: "极高",
+      tags: ["新加坡", "社媒年龄", "18岁以下", "IMDA", "年龄验证", "Josephine Teo", "9月1日", "2027年立法", "autoplay", "无限滚动"]
+    },
+
+    // --- 马来西亚 ---
+    {
+      id: "MY-018",
+      title: "马来西亚MCMC 8/22-23启动Safe Internet Campaign第4系列至柔佛，9月推广至Sabah/10月Sarawak，5,946所国小+2,416所国中纳入",
+      date: "2026-08-22",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "政府政策",
+      type: "执法宣传",
+      summary: "马来西亚通讯及多媒体委员会(MCMC)8月22-23日在柔佛Sri Tebrau礼堂启动Safe Internet Campaign第4系列——家长教师协会(PTA)专场，由副通讯部长Teo Nie Ching主持。核心信息：(1)**强化家长教育**——政府将通过Safe Internet Campaign加强家长对16岁以下儿童社媒禁令的认知，强调家长在数字设备监督中的关键角色——'MADANI政府政策是16岁以下儿童不应有社媒账号，不仅是禁止，更要教育和引导'；(2)**MCMC执法机制**——MCMC接到涉及未成年人账号滥用举报后，将案件转介至数字平台服务商以移除账号；(3)**推广时间表**——柔佛后9月Sabah、10月Sarawak；(4)**覆盖规模**——累计覆盖5,946所国小(Sekolah Kebangsaan)、2,416所国中(SMK)、1,285所华文小学(SJKC)、524所泰米尔小学(SJKT)、67所预科/职教学院、68所高等学府、6所师范学院；Terengganu办公室已扩展至510所学校/教育机构；(5)**法律依据**——马来西亚6月1日起依据《2025年在线安全法》开始执行社媒账号注册年龄验证要求，未满16岁禁止开户，须用MyKad/护照/MyDigital ID验证身份。Litmatch等社交/约会类App须立即评估是否触发马来西亚的在线安全法要求。",
+      source: "BERNAMA / New Straits Times (NST) / Scoop.my / Malaysia Feed",
+      sourceUrl: "https://www.nst.com.my/amp/news/nation/2026/08/1516449/safe-internet-campaign-highlights-parental-role-social-media-ban-under",
+      impact: "中高",
+      tags: ["马来西亚", "MCMC", "Safe Internet Campaign", "16岁以下", "社媒禁令", "年龄验证", "8月22日", "PTA", "Online Safety Act 2025", "柔佛"]
+    },
+    {
+      id: "MY-019",
+      title: "MCMC与Selangor州政府合作8/23扩展过滤网络服务至公共场所和私立高教学院，35,073起网络诈骗损失RM9.517亿",
+      date: "2026-08-23",
+      country: "马来西亚",
+      countryCode: "MY",
+      category: "政府政策",
+      type: "网络安全",
+      summary: "马来西亚通讯及多媒体委员会(MCMC)与Selangor州政府合作，计划将过滤网络服务(filtered internet service)扩展至全州公共场所和私立高教学院(IPTS)。Selangor州伊斯兰事务与创新文化委员会主席Dr Mohammad Fahmi Ngah 8月23日在八打灵再也(Petaling Jaya)Safe Internet Campaign社区嘉年华上宣布：(1)**试点扩展**——基于清真寺试点项目成功(防止儿童在礼拜时间玩网游)，扩展至IPTS和公共住宅区；(2)**诈骗数据**——截至6月已报告35,073起网络诈骗案件，损失RM9.517亿(约2亿美元)，投资诈骗占RM4.138亿；(3)**AI反诈建议**——Mohammad Fahmi建议使用AI技术帮助当局检测有害关键词、虚假账号和潜在的欺凌/极端主义内容，'而不应仅依赖公众举报'；(4)**2024新调研**——家庭监督仍是关键，但'屏蔽孩子接触在线内容的能力有限，子女可通过家庭共享设备(如智能电视YouTube)绕过限制'；(5)**合规意义**——社交/约会/游戏类应用在马来西亚Selangor州IPTS区域推广时，须考虑网络过滤服务可能对应用功能的影响。",
+      source: "Scoop.my / BERNAMA / Selangor State Government",
+      sourceUrl: "https://www.scoop.my/news/296754/filtered-internet-access-to-be-expanded-to-public-premises-ipts-in-selangor",
+      impact: "中",
+      tags: ["马来西亚", "MCMC", "Selangor", "过滤网络", "IPTS", "网络诈骗", "35,073起", "RM9.517亿", "8月23日", "AI反诈", "清真寺试点"]
+    },
+
+    // --- 印尼 ---
+    {
+      id: "ID-025",
+      title: "印尼PP Tunas成为全球标杆：Meta 8月底向29州付US$16.7B和解费，承诺青少年每日2小时使用上限+夜间封禁+严格年龄验证",
+      date: "2026-08-31",
+      country: "印度尼西亚",
+      countryCode: "ID",
+      category: "国际影响",
+      type: "司法判决",
+      summary: "印度尼西亚通信与数字部长Meutya Hafid 8月发表评论，称约19个国家正监控印尼PP Tunas实施情况——这一儿童保护监管框架已成为全球标杆。最具说服力的证据：2026年8月底美国科技巨头Meta同意向29个美国州支付US$167亿美元(约Rp 2,960万亿/2,960,000亿印尼盾)和解金，以解决针对其故意设计让儿童上瘾、掩盖对青少年心理健康(包括抑郁、身体形象障碍、自杀念头)有害影响的诉讼。和解核心义务与PP Tunas方向完全一致：(1)**每日使用时长上限**——青少年用户每日使用时长限制(默认2小时上限)；(2)**夜间封禁**——禁止青少年夜间打开应用；(3)**严格年龄验证**——防止未成年人访问；(4)**家长监督工具**——监控和限制儿童使用；(5)**条件式付款**——Meta仅在YouTube/TikTok等其他平台实施同等限制时才支付部分和解金。全球影响：澳大利亚自2025年12月起实施16岁以下社媒禁令；新加坡正在准备类似规则；马来西亚已宣布16岁以下限制计划；法国成为欧洲首个批准15岁以下社媒禁令的国家(9/1-2027/1/1分阶段生效)；英国计划2027年春季实施16岁以下限制；西班牙、葡萄牙、意大利、希腊、瑞典等多国均在立法中；欧盟正考虑统一框架。Litmatch作为全球社交/约会类应用须密切关注这些司法管辖区变化。",
+      source: "jawawa.id / CNBC / The Verge / Reuters / Bloomberg",
+      sourceUrl: "https://jawawa.id/newsitem/america-follows-indonesias-rules-the-whole-world-changes-completely-1787907061",
+      impact: "高",
+      tags: ["印尼", "PP Tunas", "全球标杆", "Meta和解", "167亿美元", "29州", "每日2小时", "夜间封禁", "8月底", "Meutya Hafid"]
+    },
+
+    // --- 菲律宾 ---
+    {
+      id: "PH-024",
+      title: "菲律宾参议员Tulfo法案草案8月底成型：对不删除暴力内容的平台处以千万比索罚款+高管监禁，18名参议员支持",
+      date: "2026-08-31",
+      country: "菲律宾",
+      countryCode: "PH",
+      category: "立法提案",
+      type: "法案草案",
+      summary: "菲律宾参议员Erwin Tulfo正在最终敲定一项法案，对未删除暴力内容的社媒平台施加累计千万比索罚款+高管监禁处罚。触发事件：8月18日Ateneo de Zamboanga University枪和San Jose National High School (Tacloban市)枪击事件的暴力画面在社媒广泛传播，平台删除不及时。法案要点：(1)**累进罚款**——对违反自家内容标准的平台，第一次/第二次违法处以'数百万比索'罚款(Tulfo原话：'对这些规模的公司，罚款必须以百万比索计');(2)**高管监禁**——重复违法时追究平台高管刑事责任；(3)**严格目标**——法案针对的是'侵犯受害者尊严和隐私的内容'(如死伤学生画面)，不针对政治言论；(4)**法律钩子**——处罚依据是平台未执行已发布的社区标准；(5)**本地实体要求**——讨论中还包括要求社媒公司在菲律宾设立法律实体以便问责；(6)**强力支持**——18名参议员公开支持，包括参议院议长Win Gatchalian、副多数党领袖Juan Miguel Zubiri(已转交公共信息委员会)、参议员Vicente Sotto III/Joel Rmanosa/Risa Hontiveros/Raffy Tulfo等。配套行动：参议院正审议Senate Bill 2424(16岁社媒最低年龄)；CICC正研究是否建议封禁Facebook；Meta在菲律宾开设首个办事处。这是东南亚2026年最激进的平台问责立法之一。",
+      source: "GMA News / Manila Bulletin / Inquirer / Clunat / PTV News",
+      sourceUrl: "https://clurky.com/article/tulfo-bill-would-fine-social-platforms-millions-and-jail-executives-over-graphic-content",
+      impact: "中高",
+      tags: ["菲律宾", "Tulfo法案", "暴力内容", "高管监禁", "千万比索罚款", "18名参议员", "8月18日", "Ateneo de Zamboanga", "平台问责", "8月底"]
+    },
+
+    // --- 泰国 ---
+    {
+      id: "TH-016",
+      title: "泰国ETDA 8/25 + 9/2举行Digital平台服务监管措施第二次公开咨询，DSA/DMA框架本地化：AI内容标注+暗模式禁令+大型平台算法审计",
+      date: "2026-08-25",
+      country: "泰国",
+      countryCode: "TH",
+      category: "立法咨询",
+      type: "监管措施咨询",
+      summary: "泰国电子交易发展机构(ETDA)正就《2022年数字平台服务皇家法令》下五类平台服务的拟议监管措施举行多轮公开咨询。第二轮咨询于2026年8月25日和9月2日召开。监管措施明显借鉴欧盟DSA/DMA框架：(1)**所有平台通用基础义务(7项)**——透明度报告(统计内容移除数量及申诉结果)、通知和行动机制(投诉渠道+逐案审核+解释义务+内部申诉)、自动化决策权利(用户可申请解释、人工审查、质疑决策)、服务水平协议(SLA，响应时间、处理时间、进度通知、补救措施)、AI生成内容标注(可见标签+机读元数据)、暗模式禁令(禁止欺骗/强迫/扭曲用户决策的UI设计)、商业用户公平(提前通知条款变更、解释账号暂停/降权、人工审查内部申诉)；(2)**电商平台**——反自我优待、收费变更提前通知、排名参数披露、广告标注、大型平台外部算法审计、非画像推荐选项、卖家身份验证、违法商品下架、与TIS/FDA产品数据库对接、支付托管系统、可信举报者项目、个性化定价透明、画像退出权；(4)**共享经济**——最广泛的义务，包括工人公平措施(佣金标准、费用扣除、任务分配)、工作和薪酬透明、反歧视、与劳动部门进行薪酬审计、动态定价透明、紧急价格上限、影响收入的自动化决策人工审查、位置和生物特征数据限制、暗模式禁令；(5)**音视频/音乐共享**——版权下架SLA、可访问的版权匹配工具、人工审查的争议渠道、创作者公平(货币化和收入分成)、广告量控制、禁止基于画像的广告投给未成年人、推荐系统透明；(6)**虚拟助手**——答案选择透明、赞助响应标注、高高风险部门(健康/金融)指南、语音数据控制、禁止类人人格商业说服、儿童保护、合成内容水印、语音克隆限制；(7)**长期政策议题**——平台经济法(定义守门人平台+反自我优待+禁止使用非公开卖家数据竞争)、条件平台责任(安全港+合理延迟责任)、平台工人雇佣推定、虚拟助手反自我优待、系统性风险评估+独立审计。社交/约会/通讯/电商类应用在泰国运营须立即评估是否落入任何平台类型。",
+      source: "Mondaq / ETDA Thailand / Thailand Law Journal",
+      sourceUrl: "https://www.mondaq.com/it-and-internet/1835020/thailand-seeking-feedback-on-proposed-measures-for-digital-platform-services",
+      impact: "高",
+      tags: ["泰国", "ETDA", "数字平台服务", "DSA/DMA框架", "AI内容标注", "暗模式禁令", "算法审计", "公开咨询", "8月25日", "9月2日"]
+    },
+
+    // --- 香港 ---
+    {
+      id: "HK-009",
+      title: "香港PCPD 8/25发布《代理式人工智能篇：保障个人资料私隐》指引，9项合规建议对照PDPO六大原则",
+      date: "2026-08-25",
+      country: "中国香港",
+      countryCode: "HK",
+      category: "政府指引",
+      type: "AI合规指引",
+      summary: "香港个人资料私隐专员公署(PCPD)8月25日发布《人工智能·AI·：个人资料保障模式框架——在代理式人工智能的使用中保障个人资料私隐》(Guidance)，补充2024年《AI：个人资料保障模式框架》，为部署或考虑部署代理式AI的机构提供实务建议。指引核心：(1)**代理式AI定义**——具备自主感知、记忆、决策、互动和执行能力的系统，建立在集成工具、数据库、记忆和操作系统的基础模型之上；可执行多步骤任务(管理电邮、预约、付款等)；与大陆TC260 2026年7月《AI代理部署和使用安全指南》保持一致；(2)**法律定性**——AI代理不是法人，部署代理式AI的机构仍作为PDPO下的'资料使用者'承担全部责任；(3)**9项合规建议**——对照PDPO六大资料保护原则(DPP 1-6)，覆盖数据最小化、用途限制、存储限制、安全性、透明度、个体权利等；(4)**主要风险**——广泛访问(代理可能访问文件/电邮/凭证/浏览器存储)、系统漏洞(高级访问多系统)、脆弱插件(第三方插件未经安全审查)、功能蔓延(数据聚合重组用于新目的未经同意)、多代理风险(幻觉信息跨代理传递)、复杂数据流(难以识别/检索/更正数据)；(5)**国际协调**——PCPD与欧洲数据保护监督员(EDPS)、英国ICO、新加坡IMDA、大陆NDRC/CAC/MIIT的AI代理指引保持一致；(6)**支持机构**——数字政策办公室(DHKO)和香港应用科技研究院(ASTRI)担任支持机构。代理式AI合规需求对Litmatch等社交/约会应用未来集成AI功能有直接参考价值。",
+      source: "PCPD Hong Kong / Dentons Hong Kong / South China Morning Post",
+      sourceUrl: "https://hongkong.dentons.com/en/insights/articles/2026/september/1/agents-of-change-hong-kong-new-data-privacy-guidance-for-agentic-ai",
+      impact: "高",
+      tags: ["香港", "PCPD", "代理式AI", "PDPO", "AI合规指引", "9项建议", "六大原则", "8月25日", "TC260", "ASTRI"]
+    },
+    {
+      id: "HK-010",
+      title: "香港PCPD 8/27逮捕29岁男子涉嫌拳击比赛对手'起底'，违反私隐条例第64(3A)条最高罚款100万+监禁5年",
+      date: "2026-08-27",
+      country: "中国香港",
+      countryCode: "HK",
+      category: "执法行动",
+      type: "刑事逮捕",
+      summary: "香港个人资料私隐专员公署(PCPD)8月27日在九龙区拘捕一名29岁中国籍男子，涉嫌在2025年3月及2026年8月先后两次在两个社媒平台的个人账户发帖披露2025年初与其参加同一拳击比赛对手的个人资料(包括英文姓名、中文别名、社媒账号名、现职公司社媒账号名、照片)，并作出负面评论。法律依据：(1)**违反《个人资料(私隐)条例》第64(3A)条**——未经资料当事人相关同意披露其个人资料，且披露者意图导致或罔顾是否会导致当事人或其家人蒙受任何指明伤害——一经定罪可处罚款10万港币+监禁2年；(2)**第64(3C)条**——若披露导致指明伤害——一经循公诉程序定罪可处罚款100万港币+监禁5年；(3)**指明伤害范围(第64(6)条)**——滋扰/骚扰/缠扰/威胁/恐吓/身体伤害/心理伤害/合理担心安全或福祉/财产受损。被捕者获准保释，PCPD继续调查。PCPD钟丽玲专员提醒：'不要因为私纠纷而将他人起底。起底属严重罪行，违例者一经定罪，最高可被处罚款港币100万元及监禁五年。'此案延续香港近年加强'起底'刑事化的执法趋势。",
+      source: "PCPD Hong Kong / HKET / RTHK / Apple Daily HK",
+      sourceUrl: "https://www.pcpd.org.hk/tc_chi/news_events/media_statements/press_20260827.html",
+      impact: "中",
+      tags: ["香港", "PCPD", "起底", "拳击比赛", "29岁", "私隐条例", "第64(3A)条", "100万港币", "监禁5年", "8月27日"]
+    },
+
+    // --- 印度 ---
+    {
+      id: "IN-008",
+      title: "印度数据保护委员会(DPB)8月全面运作 + WhatsApp 8月初开始测试年龄验证 + DPDP Act合规18个月倒计时至2027年5月13日",
+      date: "2026-08-28",
+      country: "印度",
+      countryCode: "IN",
+      category: "合规执法",
+      type: "合规时间表",
+      summary: "印度《DPDP法》合规框架2026年下半年进入实质性推进阶段，多项关键动态：(1)**DPDP Rules 2025已通知**——13/11/2025生效；Consent Manager注册条款自2026年11月13日生效；主要运营条款自2027年5月13日生效(距今仅262天)；(2)**Data Protection Board of India (DPB) 全面运作**——2026年8月起完全投入运营，企业合规不再'sub judice'而是强制；(3)**Supreme Court 2/16不暂停DPDP Act**——同时将宪法挑战(包括RTI稀释争议)转交更大合议庭；(4)**3/12 Supreme Court发出通知**——审查Section 3(c)(ii)的'公开数据'豁免是否可被AI公司网络抓取训练数据所滥用；(5)**WhatsApp 8月初开始测试年龄验证**——弹窗'印度即将法律要求我们询问年龄'，触发用户填生日(可选)，与DPDP Act合规路径一致；WhatsApp 5亿用户为关键市场；(6)**MeitY关注username功能**——8月通知WhatsApp/Telegram/Signal，质疑username功能可能增加网络钓鱼/冒充攻击；可能推出跨平台标准；(7)**DPDP Act严苛要求**——处理18岁以下儿童数据须获得可验证家长同意、禁止追踪/行为监控/定向广告；未合规最高罚款₹250 crore；(8)**SDF(Significant Data Fiduciary) 8月评估**——Section 10义务在2027年5月13日生效；大型企业应在2026-27期间完成DPO任命+独立数据审计员+年度DPIA+算法尽职调查+潜在印度本地化要求。社交/约会类应用在印度运营须立即评估DPDP合规路径，特别是儿童数据条款。",
+      source: "Anrak Legal / SecureDApp.io / CSII India / Fastrack Legal / Mondaq / Sourcing.com",
+      sourceUrl: "https://blog.secureapp.io/dpdp-act-compliance-timeline-2026-2027/",
+      impact: "高",
+      tags: ["印度", "DPDP Act", "DPB", "2027年5月13日", "WhatsApp", "年龄验证", "Consent Manager", "SDF", "Section 10", "8月28日"]
+    },
+
+    // --- 应用市场 ---
+    {
+      id: "AP-008",
+      title: "Apple 9月起强制App Store Connect提交时声明'社交媒体功能'：未禁用13岁以下访问将获Social Media内容描述符和13+最低年龄门槛",
+      date: "2026-09-01",
+      country: "应用市场",
+      countryCode: "AP",
+      category: "应用市场政策",
+      type: "年龄分级强制",
+      summary: "Apple于2026年7月9日发布App Store Connect年龄分级问卷更新，2026年9月起强制要求开发者在提交新App/更新/Notarization时声明是否包含'社交媒体功能'(social media capabilities)。9月7日为部分分析师总结的关键截止日。核心要点：(1)**'社交媒体功能'定义**——通过feed/社区/搜索/推荐/类似发现机制重分发/放大/与UGC互动的能力——'并非社交网络'，而是feed概念；(2)**覆盖广**——包括健身app的锻炼排行榜、食谱app的社区提交、带玩家创作滚动墙的游戏等；(3)**唯一豁免**——若App完全禁用13岁以下用户的社媒功能(通过Declared Age Range API查询年龄区间后才解锁功能)，则不进入Screen Time Social Media类别；(4)**Time Allowances系统**——iOS 27/iPadOS 27/macOS 27+新增按类别时间限额(娱乐/游戏/社媒)；社媒功能触发13+最小年龄门槛；(5)**Meta和解背景**——Meta与29美国州US$18B和解，承诺青少年每日2小时使用上限+夜间封禁+严格年龄验证；App Store框架与Meta和解义务形成生态联动；(6)**开发者义务**——所有UGC/feed/聊天/动态/推荐功能的App须在9月起提交前回答两个新问题；(7)**合规升级成本**——业内估算社媒/通讯/游戏类App合规成本$30,000-50,000(含内容审核基础设施)；不达标App将在儿童账户App Store搜索中被移除/降权/全面下架(2027年3月)。Litmatch等社交/约会类App须立即评估。",
+      source: "Apple Developer / ASO World / AppleMagazine / The Daily Edit",
+      sourceUrl: "https://asoworld.com/en/blog/apple-s-new-social-media-age-rating-questions-how-to-answer-them-before-september-7-2026",
+      impact: "极高",
+      tags: ["应用市场", "Apple", "App Store", "社交媒体功能", "9月起", "9月7日", "Declared Age Range API", "13+", "Time Allowances", "Meta和解", "强制声明"]
+    },
+    {
+      id: "GP-010",
+      title: "Google Play Age Signals API 8月中扩展至澳/加，年底前覆盖全球；返回四档年龄段(0-12/13-15/16-17/18+)且禁止用于广告",
+      date: "2026-08-15",
+      country: "应用市场",
+      countryCode: "GP",
+      category: "应用市场政策",
+      type: "年龄信号API",
+      summary: "Google继2026年7月29日宣布Play Signal (Age Signals API) 全球推广计划后，按既定路线于2026年8月15日左右将API扩展至澳大利亚和加拿大。继2025年巴西首发后的关键里程碑：(1)**API两步请求机制**——App先调用requestAgeSignalsAccess()获取三状态：SHARED(用户/监护人已同意分享)、NOT_SHARED(未分享)、VERIFICATION_REQUIRED(用户需回到Play商店完成验证或监护设置)；仅SHARED状态可调用checkAgeSignals()获取具体信号；(2)**四档年龄段**——0-12/13-15/16-17/18+；不返回精确生日；(3)**数据用途严格限制**——仅可用于提供适龄内容和体验；**禁止**用于广告/营销/个性化商业定向/用户画像/数据分析/商业智能/第三方共享；违规使用可能导致API访问终止+App暂停/下架；(4)**适用场景**——陌生人社交/随机聊天/短视频/直播/UGC社区/AI陪伴产品通常需要按年龄分级功能分支(如关闭13-15岁的陌生人私信、成人频道)；(5)**全球时间表**——巴西(已上线)/澳大利亚+加拿大(8月中)/所有市场(2026年底前)；(6)**对Apple的回应**——Apple 2月推出全球年龄验证工具，Play Signal是Google对Android生态的等价响应。两家应用商店同时收紧年龄合规要求，对Litmatch等社交/约会类App构成全球统一的合规压力。",
+      source: "Google Play Developer / TechCrunch / Konfabula / Droid-Life",
+      sourceUrl: "https://konfabula.pl/jak-zaprosic-na-przyjecie-komunijne?live-blog-19406939-2026-07-29-sredu-kompania-google-soobsila-cto-k-koncu-2026-goda-vyvedet-na-mirovoj-rynok-sv",
+      impact: "极高",
+      tags: ["应用市场", "Google Play", "Age Signals API", "Play Signal", "8月15日", "澳大利亚", "加拿大", "0-12/13-15/16-17/18+", "广告禁用", "年底全球"]
     }
   ];
 
