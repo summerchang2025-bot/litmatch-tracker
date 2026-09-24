@@ -1747,8 +1747,8 @@ const COMPLIANCE_DATA = {
   ],
 
   // 更新日志
-  lastUpdated: "2026-09-17",
-  version: "1.6.8",
+  lastUpdated: "2026-09-24",
+  version: "1.6.9",
   source: "Litmatch合规信息跟踪站"
 };
 
